@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<script src="./jquery/dist/jquery.min.js"></script>
+<script src="./d3/d3.min.js"></script>
+<script src="./ad.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./ad.css" />
+<script>
+	$(document).ready(function(){
+
+		var sankeyChart = new AD.CHARTS.sankeyChart();
+
+		sankeyChart
+			.nodePadding(20)
+			.layout(0)
+			// .select('.sankey-chart')
+			// .width($(window).width())
+			// .height($(window).height())
+			.xFormat({siPrefixed:true,separateThousands:false,units:{before:"$"},precision:4});
+
+		data = {
+						labels:{source:"Income",destination:"Expenditures"},
+						columnHeaders:["Source of Funds","Total Budget = $2.58B", "Use of Funds"],
+						links:[
+							{source:10, target:17, value:282900000, colorBy:"source"},
+							{source:3, target:17, value:11471300, colorBy:"source"},
+							{source:1, target:12, value:165798900, colorBy:"source"},
+							{source:0, target:12, value:341117100, colorBy:"source"},
+							{source:9, target:14, value:291500000, colorBy:"source"},
+							{source:5, target:14, value:39985000, colorBy:"source"},
+							{source:3, target:14, value:2755100, colorBy:"source"},
+							{source:8, target:14, value:33960700, colorBy:"source"},
+							{source:6, target:14, value:63700000, colorBy:"source"},
+							{source:2, target:14, value:37026000, colorBy:"source"},
+							{source:0, target:14, value:44546400, colorBy:"source"},
+							{source:10, target:16, value:26800000, colorBy:"source"},
+							{source:5, target:16, value:8222100, colorBy:"source"},
+							{source:8, target:16, value:4200000, colorBy:"source"},
+							{source:1, target:16, value:25013000, colorBy:"source"},
+							{source:0, target:16, value:32928900, colorBy:"source"},
+							{source:7, target:13, value:456000000, colorBy:"source"},
+							{source:0, target:11, value:209600000, colorBy:"source"},
+							{source:4, target:11, value:56800000, colorBy:"source"},
+							{source:1, target:11, value:2729400, colorBy:"source"},
+							{source:10, target:15, value:13500000, colorBy:"source"},
+							{source:9, target:15, value:9200000, colorBy:"source"},
+							{source:5, target:15, value:55792900, colorBy:"source"},
+							{source:3, target:15, value:30649600, colorBy:"source"},
+							{source:8, target:15, value:27339300, colorBy:"source"},
+							{source:1, target:15, value:99165700, colorBy:"source"},
+							{source:0, target:15, value:204024600, colorBy:"source"}
+						],
+
+						nodes:[
+							//Level One Nodes
+							{id:0,name:"Tuition and Fees",shortName:"Tuition and Fees",colorKey:"Tuition and Fees"},
+							{id:1,name:"State General Fund Appropriation",shortName:"State General Fund Appropriation",colorKey:"State General Fund Appropriation"},
+							{id:2,name:"Summer/Winter",shortName:"Summer/Winter",colorKey:"Summer/Winter"},
+							{id:3,name:"Mandatory Fees",shortName:"Mandatory Fees",colorKey:"Mandatory Fees"},
+							{id:4,name:"Financial Aid Grants",shortName:"Financial Aid Grants",colorKey:"Financial Aid Grants"},
+							{id:5,name:"F&A on Sponsored Grants & Contracts",shortName:"F&A on Sponsored Grants & Contracts",colorKey:"F&A on Sponsored Grants & Contracts"},
+							{id:6,name:"Restricted Gifts",shortName:"Restricted Gifts",colorKey:"Restricted Gifts"},
+							{id:7,name:"Sponsored Grants & Contracts",shortName:"Sponsored Grants & Contracts",colorKey:"Sponsored Grants & Contracts"},
+							{id:8,name:"Other Revenue",shortName:"Other Revenue",colorKey:"Other Revenue"},
+             	{id:9,name:"Departmental Sales & Service",shortName:"Departmental Sales & Service",colorKey:"Departmental Sales & Service"},
+							{id:10,name:"Auxiliaries",shortName:"Auxiliaries",colorKey:"Auxiliaries"},
+
+              //Level Two Nodes
+							{id:11,name:"Student Financial Aid",shortName:"Student Financial Aid",colorKey:"Student Financial Aid"},
+							{id:14,name:"Colleges 'State Line' PS, ERE & Ops",shortName:"Colleges 'State Line' PS, ERE, & Ops",colorKey:"Colleges 'State Line' PS, ERE, & Ops"},
+							{id:16,name:"Grant & Contract Soft Funding PS, ERE & Ops",shortName:"Grant & Contract Soft Funding PS & ERE",colorKey:"Grant & Contract Soft Funding PS & ERE"},
+							{id:15,name:"Colleges Other Revenues Salaries & Operations",shortName:"Colleges Other Revenues Salaries & Operations",colorKey:"Colleges Other Revenues Salaries & Operations"},
+							{id:12,name:"Support Unit & Institution PS, ERE & Ops",shortName:"Support Unit & Institution PS ERE & Ops",colorKey:"Support Unit & Institution PS ERE & Ops"},
+							{id:13,name:"Debt Service & Capital Infrastructure",shortName:"Debt Service & Capital Infrastructure",colorKey:"Debt Service & Capital Infrastructure"},
+							{id:17,name:"Auxiliaries",shortName:"Auxiliaries",colorKey:""}
+						]
+				};
+
+		var chartLayoutData = {
+			chartLayout:{
+				title:"University of Arizona - Flow of Funds"
+			},
+			// chartData:{data:data}
+		}
+		sankeyChart.data({data:data})
+		var chartLayout = new AD.UTILS.CHARTPAGE.chartLayout();
+
+		chartLayout
+			.select('.sankey-chart')
+			//.width($(window).width())
+			// .height($(window).height())
+			.height(1000)
+			.width(1500)
+			.data({data:chartLayoutData})
+			.chart(sankeyChart);
+
+
+		chartLayout.update();
+
+		// $(window).resize(function(){
+		// 	chartLayout.height($(window).height()).width($(window).width()).update();
+		// });
+
+	})
+</script>
+<style>
+	.ad-general-tooltip{
+		/*display:none !important;*/
+	}
+</style>
+<body style='margin:0px;'>
+<div class = 'sankey-chart'></div>
+
+</body>
+</html>

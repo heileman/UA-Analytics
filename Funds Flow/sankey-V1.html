@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<script src="./jquery/dist/jquery.min.js"></script>
+<script src="./d3/d3.min.js"></script>
+<script src="./ad.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./ad.css" />
+<script>
+	$(document).ready(function(){
+
+		var sankeyChart = new AD.CHARTS.sankeyChart();
+
+		sankeyChart
+			.nodePadding(20)
+			.layout(0)
+			// .select('.sankey-chart')
+			// .width($(window).width())
+			// .height($(window).height())
+			.xFormat({siPrefixed:true,separateThousands:false,units:{before:"$"},precision:4});
+
+		data = {
+						labels:{source:"Income",destination:"Expenditures"},
+						columnHeaders:["Source of Funds","Total Budget = $2.58B", "Use of Funds"],
+						links:[
+							{source:14, target:24, value:282900000, colorBy:"source"},
+							{source:14, target:15, value:13500000, colorBy:"source"},
+              {source:14, target:16, value:26800000, colorBy:"source"},
+              {source:1, target:20, value:25013000, colorBy:"source"},
+              {source:2, target:17, value:124349200, colorBy:"source"},
+              {source:2, target:18, value:41449700, colorBy:"source"},
+              {source:2, target:15, value:99165700, colorBy:"source"},
+              {source:2, target:21, value:2729400, colorBy:"source"},
+              {source:3, target:19, value:37026000, colorBy:"source"},
+              {source:4, target:24, value:11471300, colorBy:"source"},
+              {source:4, target:19, value:2755100, colorBy:"source"},
+              {source:4, target:15, value:30649600, colorBy:"source"},
+							{source:5, target:21, value:56800000, colorBy:"source"},
+							{source:13, target:15, value:9200000, colorBy:"source"},
+							{source:6, target:19, value:61587000, colorBy:"source"},
+							{source:6, target:15, value:34190900, colorBy:"source"},
+							{source:6, target:16, value:8222100, colorBy:"source"},
+							{source:7, target:15, value:15100000, colorBy:"source"},
+							{source:8, target:19, value:13960700, colorBy:"source"},
+							{source:8, target:15, value:12239300, colorBy:"source"},
+							{source:8, target:16, value:4200000, colorBy:"source"},
+							{source:9, target:19, value:63700000, colorBy:"source"},
+							{source:10, target:23, value:210878600, colorBy:"source"},
+							{source:10, target:22, value:72621400, colorBy:"source"},
+							{source:11, target:23, value:78073700, colorBy:"source"},
+							{source:11, target:22, value:94426300, colorBy:"source"},
+							{source:12, target:19, value:20000000, colorBy:"source"},
+							{source:13, target:19, value:291500000, colorBy:"source"},
+							{source:0, target:20, value:4776500, colorBy:"source"},
+							{source:0, target:16, value:28152400, colorBy:"source"},
+							{source:0, target:21, value:209600000, colorBy:"source"},
+							{source:0, target:17, value:255837800, colorBy:"source"},
+							{source:0, target:18, value:85279300, colorBy:"source"},
+							{source:0, target:15, value:248571000, colorBy:"source"}
+						],
+
+						nodes:[
+							//Level One Nodes
+							{id:0,name:"Tuition and Fees",shortName:"Tuition and Fees",colorKey:"Tuition and Fees"},
+							{id:1,name:"State Capital Infrastructure",shortName:"State Capital Infrastructure",colorKey:"State Capital Infrastructure"},
+							{id:2,name:"State General Fund Appropriation",shortName:"State General Fund Appropriation",colorKey:"State General Fund Appropriation"},
+							{id:3,name:"Summer/Winter",shortName:"Summer/Winter",colorKey:"Summer/Winter"},
+							{id:4,name:"Mandatory Fees",shortName:"Mandatory Fees",colorKey:"Mandatory Fees"},
+							{id:5,name:"Financial Aid Grants",shortName:"Financial Aid Grants",colorKey:"Financial Aid Grants"},
+							{id:6,name:"F&A on Sponsored Grants & Contracts",shortName:"F&A on Sponsored Grants & Contracts",colorKey:"F&A on Sponsored Grants & Contracts"},
+							{id:7,name:"Investment, Endowment, State Land Grant",shortName:"Investment, Endowment, State Land Grant",colorKey:"Investment, Endowment, State Land Grant"},
+							{id:8,name:"Technology & Research Initiative Fund (TRIF)",shortName:"Technology & Research Initiative Fund (TRIF)",colorKey:"Technology & Research Initiative Fund (TRIF)"},
+							{id:9,name:"Restricted Gifts",shortName:"Restricted Gifts",colorKey:"Restricted Gifts"},
+							{id:10,name:"Sponsored Grants & Contracts (Federal)",shortName:"Sponsored Grants & Contracts (Federal)",colorKey:"Sponsored Grants & Contracts (Federal)"},
+							{id:11,name:"Other Grants & Contracts",shortName:"Other Grants & Contracts",colorKey:"Other Grants & Contracts"},
+							{id:12,name:"Academic Enhancement Funds",shortName:"Academic Enhancement Funds",colorKey:"Academic Enhancement Funds"},
+              {id:13,name:"Departmental Sales & Service",shortName:"Departmental Sales & Service",colorKey:"Departmental Sales & Service"},
+							{id:14,name:"Auxiliaries",shortName:"Auxiliaries",colorKey:"Auxiliaries"},
+
+              //Level Two Nodes
+							{id:15,name:"Support Unit & Institution PS ERE & Ops",shortName:"Support Unit & Institution PS ERE & Ops",colorKey:"Support Unit & Institution PS ERE & Ops"},
+							{id:16,name:"Debt Service",shortName:"Debt Service",colorKey:"Debt Service"},
+							{id:17,name:"Colleges 'State Line' Salaries & Benefits",shortName:"Colleges 'State Line' Salaries & Benefits",colorKey:"Colleges 'State Line' Salaries & Benefits"},
+							{id:18,name:"Colleges 'State Line' Operations",shortName:"Colleges 'State Line' Operations",colorKey:"Colleges 'State Line' Operations"},
+							{id:19,name:"Colleges Other Revenues Salaries & Operations",shortName:"Colleges Other Revenues Salaries & Operations",colorKey:"Colleges Other Revenues Salaries & Operations"},
+							{id:20,name:"Capital Infrastructure",shortName:"Capital Infrastructure",colorKey:"Capital Infrastructure"},
+							{id:21,name:"Student Financial Aid",shortName:"Student Financial Aid",colorKey:"Student Financial Aid"},
+							{id:22,name:"Grant & Contract Soft Funding Ops",shortName:"Grant & Contract Soft Funding Ops",colorKey:"Grant & Contract Soft Funding Ops"},
+							{id:23,name:"Grant & Contract Soft Funding PS & ERE",shortName:"Grant & Contract Soft Funding PS & ERE",colorKey:"Grant & Contract Soft Funding PS & ERE"},
+							{id:24,name:"Auxiliaries",shortName:"Auxiliaries",colorKey:"Auxiliaries"}
+						]
+				};
+
+		var chartLayoutData = {
+			chartLayout:{
+				title:"University of Arizona - Flow of Funds"
+			},
+			// chartData:{data:data}
+		}
+		sankeyChart.data({data:data})
+		var chartLayout = new AD.UTILS.CHARTPAGE.chartLayout();
+
+		chartLayout
+			.select('.sankey-chart')
+			//.width($(window).width())
+			// .height($(window).height())
+			.height(1000)
+			.width(1500)
+			.data({data:chartLayoutData})
+			.chart(sankeyChart);
+
+
+		chartLayout.update();
+
+		// $(window).resize(function(){
+		// 	chartLayout.height($(window).height()).width($(window).width()).update();
+		// });
+
+	})
+</script>
+<style>
+	.ad-general-tooltip{
+		/*display:none !important;*/
+	}
+</style>
+<body style='margin:0px;'>
+<div class = 'sankey-chart'></div>
+
+</body>
+</html>
