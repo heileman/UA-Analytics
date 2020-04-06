@@ -46,8 +46,7 @@ html, body, .ad-container {
     font-style: italic;
     text-align: center;
     font-size: 8pt; }
-  .ad-chart-layout .ad-chart-layout-footnote div {
-    padding: 5px; }
+
   .ad-chart-layout .ad-chart-layout-right-notes ul, .ad-chart-layout .ad-chart-layout-left-notes ul {
     padding: 5px; }
   .ad-chart-layout .ad-chart-layout-right-notes li, .ad-chart-layout .ad-chart-layout-left-notes li {
