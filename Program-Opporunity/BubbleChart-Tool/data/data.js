@@ -4,7 +4,7 @@ var data = [
     label: "University of Arizona",
     size: 57803,
     university: "University of Arizona",
-    percentage: 4,
+    percentage: 40,
     demand: 7,
     children: [
       {

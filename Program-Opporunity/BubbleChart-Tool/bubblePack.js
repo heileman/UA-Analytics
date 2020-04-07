@@ -201,6 +201,9 @@ const drawCircles = (selection, { data }) => {
     .transition()
     .duration(500)
     .attr("r", (d) => {
+      if (d.size > 10000) {
+        return sizeScale(30000);
+      }
       return sizeScale(d.size);
     });
 
