@@ -1,0 +1,31 @@
+[
+  {
+    "id": 0,
+    "label": "< college name >",
+    "size": "< sum of department enrollments >",
+    "x": "TBD: < projected demands > (random for now)",
+    "y": "TBD: < % of program online > (random for now)",
+    "children": [
+      {
+        "id": 1,
+        "college_name": "< college name >",
+        "label": "< department name >",
+        "size": "< sum of program enrollments >",
+        "x": "TBD: < projected demands > (random for now)",
+        "y": "TBD: < % of program online > (random for now)",
+        "children": [
+          {
+            "id": 2,
+            "college_name": "< college name >",
+            "department_name:": "< department name >",
+            "label": "< program name >",
+            "size": "< program enrollments >",
+            "x": "< projected demands > (random for now)",
+            "y": "< % of program online > (random for now)",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+1. Data structure: data.json
+
+2. Input, csv file:
+
+    <College Name>   <Department Name>   <Degree Type>   <Plan Description>   <Academic Year>   <Headcount>
+
+3. Data processing flow: (processData.py)
+    input file -> 
+    list of objects(each object is a program) -> 
+    find min and max enrollments (Headcount) (enrollmentScaler, radius of circles) -> 
+    find min and max % of program online (programOnlineScaler, y axis)->
+    find min and max of demands (demandScaler, x axis)->
+    group program objects by department ->
+    create department objects with their programs as children -> 
+    group departments by college (collegeScaler, color of circles) -> 
+    create college objects with their departments as children (should be format in data.json)
