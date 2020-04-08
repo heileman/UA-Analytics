@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
   <style>
-    svg {
-      margin-top: 20px;
+    svg,
+    #bubble {
+      width: 90%;
+      height: 88vh;
+      display: block;
     }
     div.tooltip {
       position: absolute;
@@ -13,6 +16,41 @@
       border: 0px;
       border-radius: 8px;
       pointer-events: none;
+    }
+    .axis path {
+      display: none;
+    }
+    .axis line {
+      stroke-opacity: 0.3;
+      shape-rendering: crispEdges;
+    }
+    #left {
+      position: absolute;
+      top: 0px;
+      bottom: 0;
+      left: 0;
+      width: 20%;
+      overflow-y: scroll;
+    }
+    #middle {
+      position: absolute;
+      top: 0px;
+      bottom: 0;
+      left: 20%;
+      width: 65%;
+      overflow-y: scroll;
+    }
+    #right {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      overflow-y: scroll;
+      width: 15%;
+    }
+
+    input[type="range"] {
+      width: 80%;
     }
   </style>
   <head>
@@ -25,18 +63,35 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="container-fluid overflow-auto">
       <div class="row">
-        <div class="col-md-1">
-          <svg id="splited" width="50" , height="500"></svg>
+        <div class="col" id="left">
+          <label class="label label-info lead text-center"
+            >Splited Bubbles</label
+          >
+          <div id="splited"></div>
         </div>
-        <div class="col-md-1">
-          <svg id="bubble" width="500" , height="500"></svg>
+        <div class="col-8" id="middle">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-sm-3 p-2">
+              <h3>Quad Bubble Chart</h3>
+            </div>
+            <div id="bubble"></div>
+            <div id="slidebar" class="col-sm-3 p-2"></div>
+          </div>
+        </div>
+        <div id="right" class="col-3">
+          <div id="legend">
+            <div class="row"><p2>bubble = program</p2></div>
+            <div class="row"><p2>bubble color = college</p2></div>
+            <div class="row"><p2>bubble size = enrollment</p2></div>
+          </div>
         </div>
       </div>
     </div>
 
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="./bubblePack.js"></script>
+    <script src="./data/data.js"></script>
+    <script src="./bubblePack-v2.js"></script>
   </body>
 </html>

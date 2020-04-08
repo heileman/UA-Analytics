@@ -1,5 +1,7 @@
+// import { groupBy } from "processData";
+
 var svg = d3.select("#bubble"),
-  margin = { top: 20, right: 20, bottom: 30, left: 50 },
+  margin = { top: 20, right: 20, bottom: 20, left: 20 },
   width = +svg.attr("width"),
   height = +svg.attr("height"),
   domainwidth = width - margin.left - margin.right,
@@ -26,104 +28,63 @@ var y = d3
 
 const colorScale = d3
   .scaleOrdinal()
-  .domain(["CS", "CE", "ENGL"])
-  .range(["#FFDF00", "#FFA500", "#000000"]);
+  .domain([
+    "Col Arch Plan & Landscape Arch",
+    "College of Agric and Life Sci",
+    "College of Applied Sci & Tech",
+    "College of Education",
+    "College of Engineering",
+    "College of Fine Arts",
+    "College of Humanities",
+    "College of Medicine - Phoenix",
+    "College of Medicine - Tucson",
+    "College of Nursing",
+    "College of Pharmacy",
+    "College of Public Health",
+    "College of Science",
+    "College of Social & Behav Sci",
+    "Colleges of Letters Arts & Sci",
+    "Eller College of Management",
+    "Graduate College",
+    "Honors College",
+    "James C Wyant Coll Optical Sci",
+    "James E Rogers College of Law",
+    "Letters Arts & Sci Division",
+    "Vice Provost Acad Affrs Div",
+  ])
+  .range([
+    "#A52A2A",
+    "#F2C649",
+    "#C49102",
+    "#ADD8E6",
+    "#FFA500",
+    "#B2B2B2",
+    "#999999",
+    "#008000",
+    "#228B22",
+    "#FBCEB1",
+    "#556B2F",
+    "#FF9999",
+    "#FFDF00",
+    "#9FA91F",
+    "#C0C0C0",
+    "#FAD6A5",
+    "#541E1B",
+    "#FF0000",
+    "#CEB180",
+    "#800080",
+    "#000000",
+    "#001540",
+  ]);
 
 const sizeScale = d3
   .scaleLinear()
-  .domain(padExtent([300, 2000]))
+  .domain(padExtent([0, 58000]))
   .range(padExtent([10, 150]));
 
 var g = svg
   .append("g")
   .attr("transform", "translate(" + margin.top + "," + margin.top + ")");
-
-var data = [
-  {
-    id: 0,
-    label: "College of Engineering",
-    size: 507,
-    x: 4,
-    y: 53,
-    code: "CE",
-    children: [
-      {
-        id: 1,
-        label: "ECE",
-        size: 507,
-        x: 3,
-        y: 62,
-        code: "CE",
-        children: [],
-      },
-    ],
-  },
-  {
-    id: 2,
-    label: "College of Science",
-    size: 1000,
-    x: 8,
-    y: 80,
-    code: "CS",
-    children: [
-      {
-        id: 3,
-        label: "CS",
-        size: 567,
-        x: 5,
-        y: 92,
-        code: "CS",
-        children: [],
-      },
-      {
-        id: 4,
-        label: "CHEM",
-        size: 372,
-        x: 3,
-        y: 77,
-        code: "CS",
-        children: [],
-      },
-      {
-        id: 5,
-        label: "MATH",
-        size: 429,
-        x: 4,
-        y: 51,
-        code: "CS",
-        children: [],
-      },
-      {
-        id: 6,
-        label: "PHYS",
-        size: 410,
-        x: 3,
-        y: 84,
-        code: "CS",
-        children: [],
-      },
-    ],
-  },
-  {
-    id: 7,
-    label: "ENGL",
-    size: 410,
-    x: 2,
-    y: 74,
-    code: "ENGL",
-    children: [
-      {
-        id: 8,
-        label: "ENGL-1",
-        size: 390,
-        x: 2,
-        y: 94,
-        code: "ENGL",
-        children: [],
-      },
-    ],
-  },
-];
 
 var hiddenData = [];
 
@@ -205,13 +166,13 @@ const drawCircles = (selection, { data }) => {
     .on("click", circleClicked)
     .merge(circles)
     .attr("cx", (d) => {
-      return x(d.x);
+      return x(d.demand);
     })
     .attr("cy", (d) => {
-      return y(d.y);
+      return y(d.percentage);
     })
     .style("fill", (d) => {
-      return colorScale(d.code);
+      return colorScale(d.college);
     })
     .style("opacity", 0.7)
     .on("mouseover", function (d) {
@@ -226,9 +187,9 @@ const drawCircles = (selection, { data }) => {
             "<br/>Enrollment: " +
             d.size +
             "<br/>Projected Demand: " +
-            d.x +
+            d.demand +
             "<br/>% of Program online: " +
-            d.y
+            d.percentage
         )
         .style("left", d3.event.pageX + "px")
         .style("top", d3.event.pageY + "px");
@@ -240,6 +201,9 @@ const drawCircles = (selection, { data }) => {
     .transition()
     .duration(500)
     .attr("r", (d) => {
+      if (d.size > 10000) {
+        return sizeScale(30000);
+      }
       return sizeScale(d.size);
     });
 
@@ -271,9 +235,9 @@ const drawSplitedCircle = (selection, { hiddenData }) => {
             "<br/>Enrollment: " +
             d.size +
             "<br/>Projected Demand: " +
-            d.x +
+            d.demand +
             "<br/>% of Program online: " +
-            d.y
+            d.percentage
         )
         .style("left", d3.event.pageX + "px")
         .style("top", d3.event.pageY + "px");
@@ -286,7 +250,7 @@ const drawSplitedCircle = (selection, { hiddenData }) => {
     .attr("r", 10)
     .style("opacity", 0.7)
     .attr("fill", (d) => {
-      return colorScale(d.code);
+      return colorScale(d.college);
     });
 
   circles.exit().transition().duration(300).attr("r", 0).remove();
