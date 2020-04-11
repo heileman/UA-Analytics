@@ -1,0 +1,201 @@
+[
+  {
+    "AGSC": [
+      { "AREC": ["AREC"] },
+      { "AED": ["AED", "ALC", "CTE", "AGTM"] },
+      { "Animal & Biomedical Sciences-Ins": ["ACBS", "MIC"] },
+      { "Biosystems Engineering": ["BE"] },
+      { "CALS Administration": [] },
+      { "College of Agric and Life Sci": ["CALS"] },
+      { "Environmental  Science": ["ENVS", "EHS", "EVS"] },
+      { "Family & Consumer Sci, Sch": [] },
+      { "Family Studies and Human Dev": ["FSHD"] },
+      { "Family and Consumer Sciences": ["FCSC", "PFFP"] },
+      { "NRE": ["WFSC", "GIST", "WSM", "GENE", "RAM"] },
+      { "Nutritional Sciences": ["NSC", "NAFS"] },
+      { "Plant Sciences, Sch": ["PLS", "PLP"] },
+      { "Retailing & Consumer Sciences": ["RCSC"] },
+      { "ENTO": ["ENTO"] },
+      { "RNR": ["RNR"] }
+    ]
+  },
+  {
+    "ARCH": [
+      { "College Arch Plan & Landscape Arch": [] },
+      { "Planning Degree Program": ["PLG", "RED", "SBE"] },
+      { "LAR": ["LAR"] },
+      { "School of Architecture": ["ARC"] }
+    ]
+  },
+  {
+    "BUSN": [
+      { "ECON": ["ECON"] },
+      { "Eller Administration": [] },
+      { "Eller College of Management": ["OSCM"] },
+      { "Finance": ["FIN"] },
+      { "Karl Eller Grad School of Mgmt": [] },
+      { "Management Information Systems": ["MIS"] },
+      { "Management and Organizations": ["MGMT"] },
+      { "Marketing": ["MKTG"] },
+      { "School of Accountancy": ["ACCT"] },
+      { "BNAD": ["BNAD"] },
+      { "BCOM": ["BCOM"] },
+      { "ENTR": ["ENTR"] }
+    ]
+  },
+  {
+    "EDUC": [
+      { "College of Education": [] },
+      { "Disability Psychoeduc Studies": ["SERP"] },
+      { "EDP": ["EDP"] },
+      { "EPSP": ["EDL"] },
+      { "Teachg Learning Sociocult Stds": ["TLS"] },
+      { "Teaching Teacher Education": ["TTE"] },
+      { "STCH": ["STCH"] }
+    ]
+  },
+  {
+    "ENGR": [
+      { "Aerospace & Mechanical Engr": ["AME", "EM"] },
+      { "Biomedical Engineering": ["BME"] },
+      { "Chemical & Environmental Engr": ["CHEE"] },
+      { "Civil Arch Engr and Mechanics": ["CE", "ARCE"] },
+      { "College of Engineering": [] },
+      { "Electrical and Computer Engr": ["ECE"] },
+      { "Engineering Administration": [] },
+      { "MSE": ["MSE"] },
+      { "Mining & Geological Engr": ["MNE", "GEN"] },
+      { "Systems and Industrial Engr": ["SIE"] },
+      { "ENGR": ["ENGR"] }
+    ]
+  },
+  {
+    "FNRT": [
+      { "ARH": ["ARH"] },
+      { "College of Fine Arts": ["FA"] },
+      { "Fine Arts Administration": [] },
+      { "Sch Theatre Film & Television": ["TAR", "FTV"] },
+      { "School of Art": ["ART", "ARE"] },
+      { "DNC": ["DNC"] },
+      { "School of Music": ["MUSI", "MUS"] }
+    ]
+  },
+  {
+    "HMNT": [
+      { "AFAS": ["AFAS"] },
+      { "College of Humanities": ["HUMS"] },
+      { "East Asian Studies": ["EAS", "JPN", "CHN", "KOR"] },
+      { "French and Italian": ["ITAL", "FREN"] },
+      { "GER": ["GER"] },
+      { "Public & Applied Humanities": ["PAH"] },
+      { "Religious Studies and Classics": ["RELI", "CLAS", "GRK", "LAT"] },
+      { "Religious Studies, Cmt": [] },
+      { "Russian and Slavic Studies": ["RSSS"] },
+      { "Spanish and Portuguese": ["PORT", "SPAN"] },
+      { "CRL": ["CRL"] }
+    ]
+  },
+  {
+    "MDTC": [
+      { "Cellular & Molecular Medicine": ["CMM"] },
+      { "College of Medicine - Tucson": ["MED", "MEDI", "GERO"] },
+      { "Dept of Emergency Medicine": ["EMD"] },
+      { "Family and Community Medicine": ["FCM"] },
+      { "Immunobiology": ["IMB"] },
+      { "Pharmacology": ["PHCL"] },
+      { "Physiology-Undergraduate Prog": ["PSIO"] },
+      { "Anesthesiology": ["ANES"] },
+      { "PATH": ["PATH"] },
+      { "SURG": ["SURG"] },
+      { "PSYI": ["PSYI"] },
+      { "PHP": ["PHP"] }
+    ]
+  },
+  { "NURS": [{ "NURS": ["NURS"] }] },
+  {
+    "PBLH": [
+      { "Community, Environment, and Policy": ["PHPM"] },
+      { "Epidemiology and Biostatistics": ["EPID", "BIOS"] },
+      { "HPS": ["HPS"] }
+    ]
+  },
+  {
+    "PHRM": [
+      { "College of Pharmacy": ["PHPR"] },
+      { "Pharmaceutical Sciences": [] },
+      { "Pharmacology and Toxicology": ["PCOL"] }
+    ]
+  },
+  {
+    "SBSC": [
+      { "JUS": ["JUS"] },
+      { "American Indian Studies Prog": ["AIS"] },
+      { "College of Social & Behav Sci": ["SBS"] },
+      { "Communication": ["COMM", "PR"] },
+      { "ENGL": ["ENGL"] },
+      { "Gender and Womens Studies": ["GWS"] },
+      { "HIST": ["HIST"] },
+      { "Journalism": ["JOUR"] },
+      { "LAS": ["LAS"] },
+      { "Linguistics": ["LING"] },
+      { "Mexican American Studies": ["MAS"] },
+      { "Philosophy": ["PHIL"] },
+      { "Political Economy & Moral Sci": ["PPEL"] },
+      { "Political Science": ["POL"] },
+      { "Sch Geography, Dev & Environ": ["GEOG"] },
+      { "Sch Middle E/N African Studies": ["MENA", "PRS", "TURK", "ARB"] },
+      { "Sch of Info Res & Library Sci": ["LIS", "IRLS"] },
+      { "School of Anthropology": ["ANTH"] },
+      { "School of Govt & Public Policy": ["SGPP", "PA"] },
+      { "INFO": ["INFO", "ESOC", "ISTA"] },
+      { "Social & Behavioral Sci Admin": [] },
+      { "Sociology": ["SOC", "CHS"] },
+      { "FOOD": ["FOOD"] },
+      { "GLS": ["GLS"] }
+    ]
+  },
+  {
+    "SCNC": [
+      { "Astronomy": ["ASTR"] },
+      { "Chemistry": ["CHEM"] },
+      { "Chemistry & Biochemistry - Sci": ["BIOC"] },
+      { "College of Science": [] },
+      { "Computer Science": ["CSC"] },
+      { "ECOL": ["ECOL"] },
+      { "Geosciences": ["GEOS"] },
+      { "Hydrology & Atmospheric Sci": ["ATMO"] },
+      { "Hydrology and Water Resources": ["HWRS"] },
+      { "Mathematics": ["MATH", "DATA"] },
+      { "Molecular and Cellular Biology": ["MCB"] },
+      { "Physics": ["PHYS"] },
+      { "Planetary Sciences": ["PTYS"] },
+      { "Psychology": ["PSYS", "PSY"] },
+      { "Sch of Mind Brain & Behavior": [] },
+      { "Science Administration": [] },
+      { "Speech Language & Hearing Sci": ["SLHS"] },
+      { "NSCS": ["NSCS", "NROS"] },
+      { "SCI": ["SCI"] }
+    ]
+  },
+  { "Colleges of Letters Arts & Sci": [{ "LASC": ["LASC"] }] },
+  {
+    "James E Rogers College of Law": [
+      { "LAW": ["LAW"] },
+      { "James E Rogers College of Law": [] }
+    ]
+  },
+  { "James C Wyant Coll Optical Science": [{ "OPTI": ["OPTI"] }] },
+  { "NROTC": [{ "NROTC": ["NS"] }] },
+  { "GRAD": [{ "GRAD": ["GRAD"] }] },
+  { "HNRS": [{ "HNRS": ["HNRS"] }] },
+  {
+    "UA": [
+      { "UA": ["BGS", "SAS", "IA"] },
+      { "ARMY": ["MLA", "MLS"] },
+      { "GIDP": ["REM", "ARL", "GC"] },
+      { "COOP": ["COOP"] },
+      { "HED": ["HED"] }
+    ]
+  },
+  { "UAHS": [{ "SI": ["HSD"] }] }
+]
