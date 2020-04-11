@@ -11,14 +11,8 @@ page_soup=soup(page_html,"html.parser")
 containers1=page_soup.findAll("td",{"class":"reportrtd","width":"10%"})
 n=len(containers1)
 containers2=page_soup.findAll("td",{"class":"report2ed"})
-import csv
-with open("demand.csv",'w',newline='') as f:
-    thewriter=csv.writer(f)
-    thewriter.writerow([])
-    
+
   
-    
-    
 import csv
 with open("demand.csv",'w',newline='') as f:
     thewriter=csv.writer(f)
