@@ -1,31 +1,27 @@
-// import { groupBy } from "processData";
+var chartBubbleData = data;
+var splitedBubbleData = [];
 
-var svg = d3.select("#bubble"),
-  margin = { top: 20, right: 20, bottom: 20, left: 20 },
-  width = +svg.attr("width"),
-  height = +svg.attr("height"),
-  domainwidth = width - margin.left - margin.right,
-  domainheight = height - margin.top - margin.bottom;
+const margin = { top: 20, right: 20, bottom: 20, left: 20 };
+const container = document.querySelector("#bubble").getBoundingClientRect();
 
-var splited = d3.select("#splited").append("g");
+const domainwidth = container.width - margin.left - margin.right;
+const domainheight = container.height - margin.top - margin.bottom;
+var currentTransform = null;
+var svg = d3.select("#bubble").append("svg");
+var view = svg.append("g").attr("class", "view");
+
+var splited = d3.select("#splited").append("svg").append("g");
 
 // Define the div for the tooltip
-var div = d3
+var tooltip = d3
   .select("body")
   .append("div")
   .attr("class", "tooltip")
   .style("opacity", 0);
 
-// scalers
-var x = d3
-  .scaleLinear()
-  .domain(padExtent([0, 10]))
-  .range(padExtent([0, domainwidth]));
-var y = d3
-  .scaleLinear()
-  .domain(padExtent([0, 100]))
-  .range(padExtent([domainheight, 0]));
+if (currentTransform) view.attr("transform", currentTransform);
 
+// config the scalers for circle color, circle size, x and y axes
 const colorScale = d3
   .scaleOrdinal()
   .domain([
@@ -76,20 +72,22 @@ const colorScale = d3
     "#000000",
     "#001540",
   ]);
-
 const sizeScale = d3
   .scaleLinear()
-  .domain(padExtent([0, 58000]))
+  .domain(padExtent([0, 20000]))
   .range(padExtent([10, 150]));
+const xScale = d3
+  .scaleLinear()
+  .domain(padExtent([-1.5, 12.3]))
+  .range(padExtent([0, domainwidth]));
+const yScale = d3
+  .scaleLinear()
+  .domain(padExtent([-20, 123]))
+  .range(padExtent([domainheight, 0]));
 
-var g = svg
-  .append("g")
-  .attr("transform", "translate(" + margin.top + "," + margin.top + ")");
-
-var hiddenData = [];
-
-var defs = g.append("defs");
-defs
+// the end arrows of x and y axes
+const defs = view
+  .append("defs")
   .append("marker")
   .attr("id", "arrow")
   .attr("viewBox", "0 0 10 10")
@@ -103,189 +101,149 @@ defs
   .attr("d", "M 0 0 L 10 5 L 0 10 z")
   .attr("class", "arrowHead");
 
-// x axis
-g.append("line")
-  .attr("x1", 0)
-  .attr("x2", domainwidth)
-  .attr("y1", domainheight / 2)
-  .attr("y2", domainheight / 2)
+// x and y axes
+const xAxis = d3
+  .axisBottom(xScale)
+  .ticks(((domainwidth + 2) / (domainheight + 2)) * 20)
+  .tickSize(domainheight * 2 - 5)
+  .tickPadding(18 - domainheight);
+const yAxis = d3
+  .axisRight(yScale)
+  .ticks(((domainwidth + 2) / (domainheight + 2)) * 20)
+  .tickSize(domainwidth)
+  .tickPadding(8 - domainwidth);
+gX = svg.append("g").attr("class", "axis axis--x").call(xAxis);
+gY = svg.append("g").attr("class", "axis axis--y").call(yAxis);
+view
+  .append("line")
+  .attr("x1", xScale(-2))
+  .attr("x2", xScale(12))
+  .attr("y1", yScale(50))
+  .attr("y2", yScale(50))
   .attr("stroke-width", 2)
   .attr("stroke", "black")
   .attr("marker-end", "url(#arrow)")
   .attr("marker-start", "url(#arrow)");
-// x axis text
-svg
+view
+  .append("line")
+  .attr("x1", xScale(5))
+  .attr("x2", xScale(5))
+  .attr("y1", yScale(120))
+  .attr("y2", yScale(-20))
+  .attr("stroke-width", 2)
+  .attr("stroke", "black")
+  .attr("marker-end", "url(#arrow)")
+  .attr("marker-start", "url(#arrow)");
+
+// texts for x and y axes
+view
   .append("text")
-  .attr("transform", "translate(" + domainwidth + " ," + domainheight / 2 + ")")
+  .attr("transform", "translate(" + xScale(11.5) + " ," + yScale(46) + ")")
   .style("text-anchor", "middle")
   .text("Projected");
-svg
+view
   .append("text")
-  .attr(
-    "transform",
-    "translate(" + domainwidth + " ," + (domainheight / 2 + 15) + ")"
-  )
+  .attr("transform", "translate(" + xScale(11.5) + " ," + yScale(43) + ")")
   .style("text-anchor", "middle")
   .text("Demand");
-
-// y axis
-g.append("line")
-  .attr("x1", domainwidth / 2)
-  .attr("x2", domainwidth / 2)
-  .attr("y1", domainheight)
-  .attr("y2", 0)
-  .attr("stroke-width", 2)
-  .attr("stroke", "black")
-  .attr("marker-end", "url(#arrow)")
-  .attr("marker-start", "url(#arrow)");
-// y axis text
-svg
+view
   .append("text")
-  .attr(
-    "transform",
-    "translate(" + (domainwidth / 3 + 10) + " ," + margin.top + ")"
-  )
+  .attr("transform", "translate(" + xScale(4) + " ," + yScale(120) + ")")
   .style("text-anchor", "middle")
-  .text("% of programs");
-svg
+  .text("% of Program");
+view
   .append("text")
-  .attr(
-    "transform",
-    "translate(" + (domainwidth / 3 + 10) + " ," + (margin.top + 15) + ")"
-  )
+  .attr("transform", "translate(" + xScale(4) + " ," + yScale(117) + ")")
   .style("text-anchor", "middle")
-  .text("online");
+  .text("Online");
 
-// draw all circles on the bubble chart
-const drawCircles = (selection, { data }) => {
-  const circles = selection.selectAll("circle").data(data, (d) => d.id);
-  circles
-    .enter()
-    .append("circle")
-    .attr("r", 0)
-    .on("click", circleClicked)
-    .merge(circles)
-    .attr("cx", (d) => {
-      return x(d.demand);
-    })
-    .attr("cy", (d) => {
-      return y(d.percentage);
-    })
-    .style("fill", (d) => {
-      return colorScale(d.college);
-    })
-    .style("opacity", 0.7)
-    .on("mouseover", function (d) {
-      if (d.children.length > 0) {
-        d3.select(this).style("cursor", "pointer");
-      }
-      div.transition().duration(200).style("opacity", 0.9);
-      div
-        .html(
-          "Program: " +
-            d.label +
-            "<br/>Enrollment: " +
-            d.size +
-            "<br/>Projected Demand: " +
-            d.demand +
-            "<br/>% of Program online: " +
-            d.percentage
-        )
-        .style("left", d3.event.pageX + "px")
-        .style("top", d3.event.pageY + "px");
-    })
-    .on("mouseout", function (d) {
-      d3.select(this).style("cursor", "default");
-      div.transition().duration(500).style("opacity", 0);
-    })
-    .transition()
-    .duration(500)
-    .attr("r", (d) => {
-      if (d.size > 10000) {
-        return sizeScale(30000);
-      }
-      return sizeScale(d.size);
-    });
+// texts in four quards
+view
+  .append("text")
+  .attr("transform", "translate(" + xScale(1.5) + " ," + yScale(85) + ")")
+  .style("text-anchor", "middle")
+  .style("opacity", 0.5)
+  .style("font-size", "30px")
+  .text("low risk/ low reward");
+view
+  .append("text")
+  .attr("transform", "translate(" + xScale(8.5) + " ," + yScale(85) + ")")
+  .style("text-anchor", "middle")
+  .style("opacity", 0.5)
+  .style("font-size", "30px")
+  .text("low risk/ high reward");
+view
+  .append("text")
+  .attr("transform", "translate(" + xScale(1.5) + " ," + yScale(15) + ")")
+  .style("text-anchor", "middle")
+  .style("opacity", 0.5)
+  .style("font-size", "30px")
+  .text("high risk/ low reward");
+view
+  .append("text")
+  .attr("transform", "translate(" + xScale(8.5) + " ," + yScale(15) + ")")
+  .style("text-anchor", "middle")
+  .style("opacity", 0.5)
+  .style("font-size", "30px")
+  .text("high risk/ high reward");
 
-  circles.exit().transition().duration(300).attr("r", 0).remove();
-};
+drawChartBubbles(view, { chartBubbleData });
 
-// draw all circles splited
-const drawSplitedCircle = (selection, { hiddenData }) => {
-  const circles = selection.selectAll("circle").data(hiddenData, (d) => d.id);
-  circles
-    .enter()
-    .append("circle")
-    .attr("r", 0)
-    .on("click", splitedCircleClicked)
-    .merge(circles)
-    .attr("cx", 25)
-    .attr("cy", (d, i) => {
-      return (i + 1) * 15 * 2;
-    })
-    .on("mouseover", function (d) {
-      if (d.children.length > 0) {
-        d3.select(this).style("cursor", "pointer");
-      }
-      div.transition().duration(200).style("opacity", 0.9);
-      div
-        .html(
-          "Program: " +
-            d.label +
-            "<br/>Enrollment: " +
-            d.size +
-            "<br/>Projected Demand: " +
-            d.demand +
-            "<br/>% of Program online: " +
-            d.percentage
-        )
-        .style("left", d3.event.pageX + "px")
-        .style("top", d3.event.pageY + "px");
-    })
-    .on("mouseout", function (d) {
-      d3.select(this).style("cursor", "default");
-      div.transition().duration(500).style("opacity", 0);
-    })
-    .transition()
-    .attr("r", 10)
-    .style("opacity", 0.7)
-    .attr("fill", (d) => {
-      return colorScale(d.college);
-    });
+// config zoom
+var zoom = d3
+  .zoom()
+  .scaleExtent([1, 10])
+  .translateExtent([
+    [-domainwidth * 2, -domainheight * 2],
+    [domainwidth * 2, domainheight * 2],
+  ])
+  .on("zoom", () => {
+    currentTransform = d3.event.transform;
+    view.attr("transform", currentTransform);
+    gX.call(xAxis.scale(d3.event.transform.rescaleX(xScale)));
+    gY.call(yAxis.scale(d3.event.transform.rescaleY(yScale)));
+  });
+svg.call(zoom);
 
-  circles.exit().transition().duration(300).attr("r", 0).remove();
-};
-
-drawCircles(g, { data });
-
+// cirlce on clicked events
 function circleClicked(d) {
-  i = data.indexOf(d);
   const children = d.children;
 
   if (children.length > 0) {
-    // update buttons
-    hiddenData = hiddenData.concat(data.splice(i, 1));
-    drawSplitedCircle(splited, { hiddenData });
+    // add this bubble to the splited bubble list
+    splitedBubbleData = splitedBubbleData.concat(d);
+    drawSplitedBubbles(splited, { splitedBubbleData });
 
-    // update circles
-    data = data.concat(children);
-    drawCircles(g, { data });
+    // remove this bubble and add the children of this bubble to the bubble chart list
+    chartBubbleData.splice(chartBubbleData.indexOf(d), 1);
+    chartBubbleData = chartBubbleData.concat(children);
+    drawChartBubbles(view, { chartBubbleData });
   }
 }
 
 function splitedCircleClicked(d) {
-  const children = d.children;
+  deleteChildern(d);
 
-  // update buttons
-  hiddenData.splice(hiddenData.indexOf(d), 1);
-  drawSplitedCircle(splited, { hiddenData });
+  chartBubbleData = chartBubbleData.concat([d]);
+  drawChartBubbles(view, { chartBubbleData });
+  splitedBubbleData.splice(splitedBubbleData.indexOf(d), 1);
+  drawSplitedBubbles(splited, { splitedBubbleData });
+}
 
-  // update the circles
-  for (i of children) {
-    data.splice(data.indexOf(i), 1);
+// helper functions
+function deleteChildern(d) {
+  if (d.children == []) {
+    return;
   }
-  data = data.concat([d]);
-  drawCircles(g, { data });
+  for (child of d.children) {
+    if (chartBubbleData.includes(child)) {
+      chartBubbleData.splice(chartBubbleData.indexOf(child), 1);
+    }
+    if (splitedBubbleData.includes(child)) {
+      splitedBubbleData.splice(splitedBubbleData.indexOf(child), 1);
+    }
+    deleteChildern(child);
+  }
 }
 
 function padExtent(e, p) {
