@@ -78,7 +78,7 @@ const sizeScale = d3
   .domain(padExtent([0, 58000]))
   .range(padExtent([10, 150]));
 
-var hiddenData = [];
+hiddenData = [];
 
 // draw all circles on the bubble chart
 const drawCircles = (selection, { data }) => {
@@ -326,33 +326,45 @@ function zoomed() {
 drawCircles(view, { data });
 
 function circleClicked(d) {
-  i = data.indexOf(d);
   const children = d.children;
 
   if (children.length > 0) {
-    // update buttons
-    hiddenData = hiddenData.concat(data.splice(i, 1));
+    // add this bubble to the splited bubble list
+    hiddenData = hiddenData.concat(d);
     drawSplitedCircle(splited, { hiddenData });
 
-    // update circles
+    // remove this bubble and add the children of this bubble to the bubble chart list
+    data.splice(data.indexOf(d), 1);
     data = data.concat(children);
     drawCircles(view, { data });
   }
 }
 
-function splitedCircleClicked(d) {
-  const children = d.children;
-
-  // update buttons
-  hiddenData.splice(hiddenData.indexOf(d), 1);
-  drawSplitedCircle(splited, { hiddenData });
-
-  // update the circles
-  for (i of children) {
-    data.splice(data.indexOf(i), 1);
+// delete all childern of this node if it's in the chart bubble list
+function deleteChildern(d) {
+  if (d.children == []) {
+    return;
   }
+
+  for (child of d.children) {
+    if (data.includes(child)) {
+      data.splice(data.indexOf(child), 1);
+    }
+    if (hiddenData.includes(child)) {
+      hiddenData.splice(hiddenData.indexOf(child), 1);
+    }
+    deleteChildern(child);
+  }
+}
+
+function splitedCircleClicked(d) {
+  // update the circles
+  deleteChildern(d);
+
   data = data.concat([d]);
   drawCircles(view, { data });
+  hiddenData.splice(hiddenData.indexOf(d), 1);
+  drawSplitedCircle(splited, { hiddenData });
 }
 
 var previousDraggedPosition = null,
