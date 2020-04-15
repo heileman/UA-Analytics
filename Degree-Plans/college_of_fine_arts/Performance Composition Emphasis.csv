@@ -1,0 +1,64 @@
+Curriculum,Performance Composition Emphasis
+Degree Plan,2019-20 Degree Plan
+Degree Type,BS
+System Type,semester
+CIP
+Courses
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
+1,First-Year Composition,ENGL,101,,,,3,,,1
+2,MATH,,,,,,3,,,1
+3,Piano Class,MUS,110A,,,,1,,,1
+4,Musical Skills and Structure I,MUS,120A,,,,3,,,1
+5,Introduction to Music Literature,MUS,130A,,,,2,,,1
+6,Large Ensemble,MUS,200,,,,1,,,1
+7,Individual Studies,MUSI,182,,,,2,,,1
+8,Second Language,,,,,,4,,,1
+9,First-Year Composition,ENGL,102,,,,3,,,2
+10,Tier I General Education,,,,,,3,,,2
+11,Piano Class,MUS,110B,,,,1,,,2
+12,Musical Skills and Structure I,MUS,120B,,,,3,,,2
+13,Introduction to Music Literature,MUS,130B,,,,2,,,2
+14,Large Ensemble,MUS,200,,,,1,,,2
+15,Individual Studies,MUSI,182,,,,2,,,2
+16,Second Language,,,,,,4,,,2
+17,Tier I General Education,,,,,,3,,,3
+18,Tier I General Education,,,,,,3,,,3
+19,Piano Class,MUS,210A,,,,1,,,3
+20,Musical Skills and Structure II,MUS,220A,,,,3,,,3
+21,Introduction to Music Composition,MUS,240,,,,3,,,3
+22,Large Ensemble,MUS,200,,,,1,,,3
+23,Individual Studies,MUSI,282,,,,2,,,3
+24,Tier I General Education,,,,,,3,,,4
+25,Tier I General Education,,,,,,3,,,4
+26,Piano Class,MUS,210B,,,,1,,,4
+27,Musical Skills and Structure II,MUS,220B,,,,3,,,4
+28,Introduction to Music Composition,MUS,240,,,,3,,,4
+29,Large Ensemble,MUS,200,,,,1,,,4
+30,Individual Studies,MUSI,282,,,,2,,,4
+31,Tier I General Education,,,,,,3,,,5
+32,History of Western Music,MUS,330A,,,,3,,,5
+33,Composition,MUS,340,,,,3,,,5
+34,Introduction to Conducting,MUS,370,,,,2,,,5
+35,Careers in Music,MUS,427A,,,,2,,,5
+36,Large Ensemble,MUS,400,,,,1,,,5
+37,Individual Studies,MUSI,282,,,,2,,,5
+38,Tier II General Education,,,,,,3,,,6
+39,Tier II General Education,,,,,,3,,,6
+40,History of Western Music,MUS,330B,,,,3,,,6
+41,Composition,MUS,340,,,,3,,,6
+42,Careers in Music,MUS,427B,,,,2,,,6
+43,Large Ensemble,MUS,400,,,,1,,,6
+44,Individual Studies,MUSI,282,,,,2,,,6
+45,Tier II General Education,,,,,,3,,,7
+46,Counterpoint,MUS,420A,,,,3,,,7
+47,Comositional Techniques,MUS,440,,,,3,,,7
+48,Electro-Acoustic Music,MUS,441,,,,3,,,7
+49,Large Ensemble,MUS,400,,,,1,,,7
+50,Individual Studies,MUSI,382,,,,2,,,7
+51,Counterpoint,MUS,420B,,,,3,,,8
+52,Orchestration,MUS,421,,,,3,,,8
+53,Comositional Techniques,MUS,440,,,,3,,,8
+54,Electro-Acoustic Studio Resources,MUS,442,,,,3,,,8
+55,Senior Capstone: Recital,MUS,498,,,,1,,,8
+56,Large Ensemble,MUS,400,,,,1,,,8
+57,Individual Studies,MUSI,382,,,,2,,,8

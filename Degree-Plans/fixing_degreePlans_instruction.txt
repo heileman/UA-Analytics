@@ -1,0 +1,35 @@
+The goal is to make sure the degree type, CIP code, course name, course prefix and course number are correctly entered
+
+Instructions,
+1. Fix Degree Type, also change the Degree type in the file name
+
+2. Enter CIP code
+
+3. Fix Course name Go to https://www.arizona.edu/degree-search/majors?cat-location=main-tucson
+	fill the course name, and double check if the course name is correct, fix it if not
+	some examples, 
+	course name: A or C EMS Leadership, 
+	it supposes to be course name: Leadership prefix/num: EMS 493A or EMS 493C (the original text is EMD 493 A or C EMS Leadership)
+	if you have to choose between multiple courses("or" in between courses), just choose the first one
+
+4. Don't worry about ISSUE_FILE for now, we may need to go to department's websites to find out
+
+5, If a course name doesn't contain Elective/Second Language/Tier .../, and prefix and number are empty, and
+	if that name occurs in the course.csv as a course name, enter the prefix and number(from the course.csv) into the degree plan file.
+	you may want to search by keywords since the name may not have an exact match
+
+6. Don't worry about college of science and college of engineering since they are done already
+
+
+File structures,
+Folder names are college names, 
+	files in each folder are programs offered by that college, and their files names are the program name shown in the website above
+
+
+course.csv is included in the folder, or you can file course.csv here,
+https://github.com/heileman/UA-Analytics/blob/master/Courses-Scrape/course.csv
+
+If some files are too strange, make notes and put them aside, and we can fix them all together after.
+
+I suggest you can put the fixed degree plans into separate folders so that you can track the progress.
+

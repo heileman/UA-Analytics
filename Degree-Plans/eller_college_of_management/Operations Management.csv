@@ -1,0 +1,47 @@
+Curriculum,Operations Management
+Degree Plan,2019-20 Degree Plan
+Degree Type,BS
+System Type,semester
+CIP
+Courses
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
+1,First Year Composition,ENGL,101,,,,3,,,1
+2,Computers and Internetworked Society,MIS,111,,,,3,,,1
+3,Computers and Internetworked Society Lab,MIS,112,,,,1,,,1
+4,College Algebra Concepts and Applications,MATH,112,,,,3,,,1
+5,Tier I General Education,,,,,,3,,,1
+6,Tier I General Education,,,,,,3,,,1
+7,First Year Composition,ENGL,102,,,,3,,,2
+8,Calculus Concepts for Business Majors,MATH,116,,,,3,,,2
+9,Tier I General Education,,,,,,3,,,2
+10,Tier I General Education,,,,,,3,,,2
+11,Tier I General Education,,,,,,3,,,2
+12,Statistical Inference in Management,BNAD,276,,,,3,,,3
+13,Introduction to Financial Accounting,ACCT,200,,,,3,,,3
+14,Basic Economic Issues,ECON,200,,,,3,,,3
+15,Tier I General Education,,,,,,3,,,3
+16,Second Language,,,,,,4,,,3
+17,Introduction to Managerial Accounting,ACCT,210,,,,3,,,4
+18,Analytical Methods for Business,BNAD,277,,,,4,,,4
+19,Fundamentals of Business Communication,BCOM,214,,,,3,,,4
+20,Tier II General Education,,,,,,3,,,4
+21,Second Language,,,,,,4,,,4
+22,Business Communication,BCOM,314R,,,,3,,,5
+23,Organization Behavior and Management,MGMT,310A,,,,3,,,5
+24,Introduction to Marketing,MKTG,361,,,,3,,,5
+25,Introduction to Finance,FIN,311,,,,3,,,5
+26,Tier II General Education,,,,,,3,,,5
+27,Microeconomic Analysis for Business Decisions,ECON,300,,,,3,,,6
+28,Using and Managing Information Systems,MIS,304,,,,3,,,6
+29,Basic Operations Management,MIS,373,,,,3,,,6
+30,General Elective,,,,,,3,,,6
+31,Macroeconomic and Global Institutions and Policy,ECON,330,,,,3,,,7
+32,Integrating Business Fundamentals with Ethics and Law in Management,MGMT,402,,,,3,,,7
+33,Innovating: Creating the Future,ENTR,485,,,,3,,,7
+34,Production and Operations Management,MIS,473A,,,,3,,,7
+35,OPER Major Course Elective,,,,,,3,,,7
+36,Production and Operations Management,MIS,473B,,,,3,,,8
+37,OPER Major Course Elective,,,,,,3,,,8
+38,OPER Major Course Elective,,,,,,3,,,8
+39,Tier II General Education,,,,,,3,,,8
+40,Ethics,,,,,,3,,,8

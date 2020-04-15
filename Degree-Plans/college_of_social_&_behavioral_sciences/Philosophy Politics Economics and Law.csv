@@ -1,0 +1,46 @@
+Curriculum,Philosophy Politics Economics and Law
+Degree Plan,2019-20 Degree Plan
+Degree Type,BS
+System Type,semester
+CIP
+Courses
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
+1,First-Year Composition,ENGL,101:,,,,3,,,1
+2,Second Language,,,,,,4,,,1
+3,Tier I General Education,,,,,,3,,,1
+4,Tier I General Education,,,,,,3,,,1
+5,Tier I General Education,,,,,,3,,,1
+6,First-Year Composition,ENGL,102:,,,,3,,,2
+7,MATH,,,,,,3,,,2
+8,Second Language,,,,,,4,,,2
+9,PPEL Pre-Core Course,PPEL,,,,,3,,,2
+10,PPEL Pre-Core Course,PPEL,,,,,3,,,2
+11,Second Language,,,,,,4,,,3
+12,Tier I General Education,,,,,,3,,,3
+13,Tier I General Education,,,,,,3,,,3
+14,PPEL Pre-Core Course,PPEL,,,,,3,,,3
+15,PPEL Pre-Core Course,PPEL,,,,,3,,,3
+16,Second Language,,,,,,4,,,4
+17,Tier I General Education,,,,,,3,,,4
+18,Tier II General Education,,,,,,3,,,4
+19,Tier II General Education,,,,,,3,,,4
+20,Tier II General Education,,,,,,3,,,4
+21,,PPEL,301,,,,3,,,5
+22,,PPEL,310,,,,3,,,5
+23,General Elective,,,,,,3,,,5
+24,General Elective,,,,,,3,,,5
+25,General Elective,,,,,,3,,,5
+26,,PPEL,320,,,,3,,,6
+27,,PPEL,326,,,,3,,,6
+28,PPEL Track Course,PPEL,,,,,3,,,6
+29,General Elective,,,,,,3,,,6
+30,Upper-Division General Elective,,,,,,3,,,6
+31,,PPEL,330,,,,3,,,7
+32,PPEL Track Course,PPEL,,,,,3,,,7
+33,PPEL Track Course,PPEL,,,,,3,,,7
+34,General Elective,,,,,,3,,,7
+35,Upper-Division General Elective,,,,,,3,,,7
+36,,PPEL,350,,,,3,,,8
+37,or 496H,PPEL,496A,,,,3,,,8
+38,PPEL Track Course,PPEL,,,,,3,,,8
+39,Upper-Division General Elective,,,,,,3,,,8

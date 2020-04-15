@@ -1,0 +1,49 @@
+Curriculum,Animal Sciences Equine Emphasis
+Degree Plan,2019-20 Degree Plan
+Degree Type,BS
+System Type,semester
+CIP
+Courses
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
+1,First-Year Composition,ENGL,101,,,,3,,,1
+2,Tier I General Education,,,,,,3,,,1
+3,MATH,,,,,,3,,,1
+4,,ACBS,270,,,,3,,,1
+5,,ACBS,102R,,,,3,,,1
+6,Second Language,,,,,,4,,,1
+7,First-Year Composition,ENGL,102,,,,3,,,2
+8,Tier I General Education,,,,,,3,,,2
+9,Statistics,,,,,,3,,,2
+10,Second Language,,,,,,4,,,2
+11,,ACBS,273,,,,3,,,2
+12,COMM,,,,,,3,,,3
+13,,CHEM,151,,,,4,,,3
+14,,ECON,200,,,,3,,,3
+15,,ACBS,142,,,,2,,,3
+16,,ACBS,270,,,,3,,,3
+17,Tier I General Education,,,,,,3,,,4
+18,,CHEM,152,,,,4,,,4
+19,,ACBS,215,,,,3,,,4
+20,Emphasis Elective,,,,,,3,,,4
+21,,ACBS,273,,,,3,,,4
+22,,ACCT,200,,,,3,,,4
+23,Tier II General Education,,,,,,3,,,5
+24,,AREC,315,,,,3,,,5
+25,R,ACBS,315,,,,4,,,5
+26,,MCB,181R/L,,,,4,,,5
+27,,ACBS,336A,,,,3,,,5
+28,Tier II General Education,,,,,,3,,,6
+29,Tier I General Education,,,,,,4,,,6
+30,,ACBS,316,,,,3,,,6
+31,,ACBS,340,,,,3,,,6
+32,Emphasis Elective,,,,,,3,,,6
+33,,ACBS,475,,,,3,,,7
+34,,PLS,312,,,,4,,,7
+35,,ACBS,431,,,,3,,,7
+36,,ACBS,444,,,,3,,,7
+37,,ACBS,447,,,,3,,,7
+38,,ACBS,446,,,,4,,,8
+39,,ACBS,395A,,,,1,,,8
+40,,ACBS,370,,,,3,,,8
+41,Emphasis Elective,,,,,,2,,,8
+42,Tier II General Education,,,,,,3,,,8

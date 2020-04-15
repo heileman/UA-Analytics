@@ -1,0 +1,49 @@
+Curriculum,Pharmaceutical Sciences
+Degree Plan,2019-20 Degree Plan
+Degree Type,BS
+System Type,semester
+CIP
+Courses
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
+1,Elements of Calculus,MATH,113,,,,3,,,1
+2,General Chemistry I,CHEM,151,,,,4,,,1
+3,English Composition I,ENGL,101,,,,3,,,1
+4,Second Language,,,,,,4,,,1
+5,Tier I General Education,,,,,,1,,,1
+6,General Chemistry II,CHEM,152,,,,4,,,2
+7,English Composition II,ENGL,102,,,,3,,,2
+8,Second Language,,,,,,4,,,2
+9,Tier I General Education,,,,,,3,,,2
+10,Tier I General Education,,,,,,3,,,2
+11,Organic Chemistry I,CHEM,241A,,,,3,,,3
+12,Organic Chemistry Lab I,CHEM,243A,,,,1,,,3
+13,Introductory Biology I,MCB,181R,,,,3,,,3
+14,Introductory Biology Lab I,MCB,181L,,,,1,,,3
+15,Scientific Writing: Manuscripts to Proposals,PCOL,305,,,,3,,,3
+16,Tier I General Education,,,,,,3,,,3
+17,Tier I General Education,,,,,,3,,,3
+18,Organic Chemistry II,CHEM,241B,,,,3,,,4
+19,Organic Chemistry Lab II,CHEM,243B,,,,1,,,4
+20,General Microbiology,MIC,205A,,,,3,,,4
+21,Biology of Microorganisms Lab,MIC,205L,,,,1,,,4
+22,Drug Approval The 3 Billion Dollar Bet,PCOL,310,,,,2,,,4
+23,Fundamentals of Human Physiology,PSIO,380,,,,4,,,4
+24,Drug Delivery Systems,PCOL,355,,,,3,,,5
+25,Comprehensive Human Pharmacology,PCOL,360,,,,5,,,5
+26,Foundations in Biochemistry,BIOC,384,,,,3,,,5
+27,Introductory Biology II,ECOL,182R,,,,3,,,5
+28,Introductory Biology Lab II,ECOL,182L,,,,1,,,5
+29,ADME: How the Body Changes Drugs,PCOL,350,,,,3,,,6
+30,Integrated Medicinal Chemistry,PCOL,410,,,,5,,,6
+31,Introductory Physics I,PHYS,102,,,,3,,,6
+32,Introductory Physics Lab I,PHYS,181,,,,1,,,6
+33,Tier II General Education,,,,,,3,,,6
+34,Rigor and Reproducibility,PCOL,440,,,,2,,,7
+35,Biomarkers: Analysis of Drug Effect/Toxicity,PCOL,390,,,,3,,,7
+36,Tier II General Education,,,,,,3,,,7
+37,Tier II General Education,,,,,,3,,,7
+38,"Upper-Division Elective, Research, or Thesis",,,,,,3,,,7
+39,Designing Drugs: From Chemistry to Cure,PHCL,460,,,,3,,,8
+40,Pharmacogenomics,PCOL,473,,,,4,,,8
+41,"Elective, Research, or Thesis",,,,,,3,,,8
+42,Elective,,,,,,3,,,8

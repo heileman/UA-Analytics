@@ -1,0 +1,43 @@
+Curriculum,Arabic
+Degree Plan,2019-20 Degree Plan
+Degree Type,BS
+System Type,semester
+CIP
+Courses
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
+1,First-Year Composition,ENGL,101:,,,,3,,,1
+2,,ARB,101,,,,5,,,1
+3,Tier I General Education,,,,,,3,,,1
+4,Tier I General Education,,,,,,3,,,1
+5,Tier I General Education,,,,,,3,,,1
+6,First-Year Composition,ENGL,102:,,,,3,,,2
+7,MATH,,,,,,3,,,2
+8,,ARB,102,,,,5,,,2
+9,Tier I General Education,,,,,,3,,,2
+10,Tier I General Education,,,,,,3,,,2
+11,,ARB,401,,,,5,,,3
+12,Tier I General Education,,,,,,3,,,3
+13,Tier II General Education,,,,,,3,,,3
+14,Tier II General Education,,,,,,3,,,3
+15,Tier II General Education,,,,,,3,,,3
+16,,ARB,402,,,,5,,,4
+17,Upper-Division Elective in Arabic,,,,,,3,,,4
+18,,MENA,330,,,,3,,,4
+19,Minor Course,,,,,,3,,,4
+20,Minor Course,,,,,,3,,,4
+21,,ARB,405,,,,5,,,5
+22,Upper-Division Elective in Arabic,,,,,,3,,,5
+23,Upper-Division Arabic Elective in English,,,,,,3,,,5
+24,Minor Course,,,,,,3,,,5
+25,,ARB,406,,,,5,,,6
+26,Upper-Division Arabic Elective in English,,,,,,3,,,6
+27,Minor Course Upper-Division,,,,,,3,,,6
+28,Minor Course Upper-Division,,,,,,3,,,6
+29,,ARB,407,,,,3,,,7
+30,Minor Course Upper-Division,,,,,,3,,,7
+31,General Elective,,,,,,3,,,7
+32,General Elective,,,,,,3,,,7
+33,,ARB,408,,,,3,,,8
+34,General Elective,,,,,,3,,,8
+35,General Elective,,,,,,3,,,8
+36,General Elective,,,,,,3,,,8

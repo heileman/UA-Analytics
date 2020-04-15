@@ -1,0 +1,46 @@
+Curriculum,Religious Studies
+Degree Plan,2019-20 Degree Plan
+Degree Type,BS
+System Type,semester
+CIP
+Courses
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
+1,First Year Composition,ENGL,101,,,,3,,,1
+2,Second Language,,,,,,4,,,1
+3,MATH,,,,,,3,,,1
+4,Tier I General Education,,,,,,3,,,1
+5,First Year Composition,ENGL,102,,,,3,,,2
+6,Second Language,,,,,,4,,,2
+7,Tier I General Education,,,,,,3,,,2
+8,Tier I General Education,,,,,,3,,,2
+9,General Elective,,,,,,2,,,2
+10,Second Language,,,,,,4,,,3
+11,Tier I General Education,,,,,,3,,,3
+12,Tier I General Education,,,,,,3,,,3
+13,Tier I General Education,,,,,,3,,,3
+14,General Elective,,,,,,3,,,3
+15,Second Language,,,,,,4,,,4
+16,Introduction to the Study of Religion,RELI,200,,,,3,,,4
+17,Tier II General Education,,,,,,3,,,4
+18,Tier II General Education,,,,,,3,,,4
+19,Upper Division General Elective,,,,,,3,,,4
+20,Major Course - Approaches to Religious Studies,,,,,,3,,,5
+21,Major Course - Asian Religions,,,,,,3,,,5
+22,Tier II General Education,,,,,,3,,,5
+23,Upper Division General Elective,,,,,,3,,,5
+24,Minor Course,,,,,,3,,,5
+25,Major Course - Abrahamic Religions,,,,,,3,,,6
+26,Upper Division Major Course - Indigenous Religions,,,,,,3,,,6
+27,Minor Course,,,,,,3,,,6
+28,Minor Course,,,,,,3,,,6
+29,Upper Division General Elective,,,,,,3,,,6
+30,Upper Division Major Concentration Course,,,,,,3,,,7
+31,Upper Division Major Concentration Course,,,,,,3,,,7
+32,Upper Division Minor Course,,,,,,3,,,7
+33,Upper Division Minor Course,,,,,,3,,,7
+34,Upper Division General Elective,,,,,,3,,,7
+35,Upper Division Major Concentration,,,,,,3,,,8
+36,Upper Division Major Elective Course,,,,,,3,,,8
+37,Senior Capstone,RELI,498,,,,3,,,8
+38,Upper Division Minor Course,,,,,,3,,,8
+39,Upper Division General Elective,,,,,,3,,,8

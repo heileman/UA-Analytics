@@ -1,0 +1,38 @@
+Curriculum,Nursing
+Degree Plan,2019-20 Degree Plan
+Degree Type,BS
+System Type,semester
+CIP
+Courses
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
+1,First Year Composition,ENGL,101,,,,3,,,1
+2,Introduction to Human Nutrition,NSC,101,,,,3,,,1
+3,Introductory Chemistry 1,,,,,,3,,,1
+4,Math,,,,,,3,,,1
+5,Tier I General Education,,,,,,3,,,1
+6,First Year Composition,ENGL,102,,,,3,,,2
+7,Introductory Chemistry 2 with Lab,,,,,,4,,,2
+8,Human Development (also meets GE Tier 2 Indv.),,,,,,3,,,2
+9,Second Language,,,,,,4,,,2
+10,Tier I General Education,,,,,,3,,,2
+11,Human Anatomy and Physiology 1,PSIO,201,,,,4,,,3
+12,Introductory Biology 1,MCB,181R,,,,3,,,3
+13,Statistics,,,,,,3,,,3
+14,Second Language,,,,,,4,,,3
+15,Tier I General Education,,,,,,3,,,3
+16,Human Anatomy and Physiology 2,PSIO,202,,,,4,,,4
+17,General Microbiology,MIC,205A,,,,3,,,4
+18,Tier I General Education,,,,,,3,,,4
+19,Tier II General Education,,,,,,3,,,4
+20,Tier II General Education,,,,,,3,,,4
+21,Pathophysiology,NURS,350,,,,3,,,5
+22,Foundations in Nursing Care,NURS,356,,,,7,,,5
+23,Scholarly Inquiry in Evidence-Based Practice,NURS,379,,,,2,,,5
+24,Nursing Pharmacology,NURS,472A,,,,3,,,5
+25,Acute and Chronic Illness Management 1,NURS,366,,,,10,,,6
+26,Nursing Care of the Childbearing Family,NURS,368,,,,5,,,6
+27,Acute and Chronic Illness Management 2,NURS,470,,,,10,,,7
+28,Mental Health Nursing,NURS,471,,,,5,,,7
+29,Population Health and Community Nursing,NURS,473,,,,5,,,8
+30,Nursing Leadership and Management in in Health Systems,NURS,478,,,,5,,,8
+31,Transition to the Professional Nursing Role,NURS,479,,,,6,,,8

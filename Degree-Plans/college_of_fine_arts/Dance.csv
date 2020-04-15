@@ -1,0 +1,62 @@
+Curriculum,Dance
+Degree Plan,2019-20 Degree Plan
+Degree Type,BS
+System Type,semester
+CIP
+Courses
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
+1,First Year Composition,ENGL,101,,,,3,,,1
+2,Math,,,,,,3,,,1
+3,Dance History,DNC,200,,,,3,,,1
+4,Dance Improvisation,DNC,145,,,,1,,,1
+5,or 301B or 302 or 303 Somatics,DNC,301A,,,,1,,,1
+6,DNC Technique I or II (Ballet/Modern/Jazz),DNC,,,,,2,,,1
+7,DNC Technique I or II (Ballet/Modern/Jazz),DNC,,,,,2,,,1
+8,First Year Composition,ENGL,102,,,,3,,,2
+9,Second Language,,,,,,4,,,2
+10,Tier I General Education,,,,,,3,,,2
+11,Dance Production,DNC,394B,,,,1,,,2
+12,DNC Technique I or II,DNC,,,,,2,,,2
+13,Creating with Movement and Rhythm,DNC,243,,,,2,,,2
+14,Tier I General Education,,,,,,3,,,2
+15,Second Language,,,,,,4,,,3
+16,Tier I General Education,,,,,,3,,,3
+17,Tier I General Education,,,,,,3,,,3
+18,Dance Ensemble,DNC,343,,,,1,,,3
+19,Basic Choreography,DNC,245A,,,,2,,,3
+20,DNC Technique I or II (Ballet/Modern/Jazz),DNC,,,,,2,,,3
+21,DNC Elective,DNC,,,,,2,,,3
+22,Tier I General Education,,,,,,3,,,4
+23,Tier I General Education,,,,,,3,,,4
+24,Dance Ensemble,DNC,343,,,,1,,,4
+25,DNC Technique I or II (Ballet/Modern/Jazz),DNC,,,,,2,,,4
+26,DNC Technique I or II (Ballet/Modern/Jazz),DNC,,,,,2,,,4
+27,DNC Elective,DNC,,,,,2,,,4
+28,Basic Choreography,DNC,245B,,,,2,,,4
+29,Tier II General Education,,,,,,3,,,5
+30,MUS Elective Dep't Specified (See Advisor),MUS,,,,,3,,,5
+31,DNC Technique I or II (Ballet/Modern/Jazz),DNC,,,,,2,,,5
+32,DNC Technique I or II (Ballet/Modern/Jazz),DNC,,,,,2,,,5
+33,Advanced Choreography,DNC,445A,,,,2,,,5
+34,Tier II General Education,,,,,,3,,,5
+35,Dance Ensemble,DNC,343,,,,1,,,5
+36,Tier II General Education,,,,,,3,,,6
+37,MUS Elective Dep't Specified (See Advisor),MUS,,,,,3,,,6
+38,Biomechanics,DNC,455,,,,3,,,6
+39,DNC Technique I or II (Ballet/Modern/Jazz),DNC,,,,,2,,,6
+40,DNC Elective,DNC,,,,,2,,,6
+41,Dance Ensemble,DNC,343,,,,2,,,6
+42,Tier II General Education,,,,,,3,,,7
+43,Art/FA/FTV/MUS/TAR Dep't Sprecified (See Advisor),MUS,Art/FA/FTV//TAR,,,,3,,,7
+44,DNC Technique II ( 400 level Ballet/Modern/Jazz),DNC,,,,,2,,,7
+45,Dance Ensemble,DNC,343,,,,1,,,7
+46,DNC Elective,DNC,,,,,2,,,7
+47,Dance in Culture,DNC,400,,,,3,,,7
+48,,DNC,498,,,,1,,,7
+49,Dance Ensemble,DNC,343,,,,2,,,8
+50,DNC Technique II ( 400 level Ballet/Modern/Jazz),DNC,,,,,2,,,8
+51,Careers in Dance,DNC,446,,,,3,,,8
+52,Advanced Choreography,DNC,445B,,,,2,,,8
+53,Elective,,,,,,1,,,8
+54,DNC Elective,DNC,,,,,2,,,8
+55,DNC Technique I or II (Ballet/Modern/Jazz),DNC,,,,,2,,,8

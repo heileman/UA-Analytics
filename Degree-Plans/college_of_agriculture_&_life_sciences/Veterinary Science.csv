@@ -1,0 +1,53 @@
+Curriculum,Veterinary Science
+Degree Plan,2019-20 Degree Plan
+Degree Type,BS
+System Type,semester
+CIP
+Courses
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
+1,Intro To Animal Science Lecture,ACBS,102R,,,,3,,,1
+2,Intro to Animal Science Lab,ACBS,102L,,,,1,,,1
+3,Careers in Veterinary Science,ACBS,195F,,,,1,,,1
+4,Tier I General Education,,,,,,3,,,1
+5,First Year Composition,ENGL,101,,,,3,,,1
+6,Second  Language,,,,,,4,,,1
+7,,MATH,112,,,,3,,,2
+8,First Year Composition,ENGL,102,,,,3,,,2
+9,Second Language,,,,,,4,,,2
+10,Ecol 182R  General Biology II Lecture,,,,,,3,,,2
+11,Ecol 182L General Biology II Lab,,,,,,1,,,2
+12,Colloquium or General Elective,,,,,,1,,,2
+13,General Chemistry I,,,,,,4,,,3
+14,Basic Econimic Issues,ECON,200,,,,3,,,3
+15,Statistics,,,,,,3,,,3
+16,Tier I General Education,,,,,,3,,,3
+17,Tier I General Education,,,,,,3,,,3
+18,General Chemistry I I,,,,,,4,,,4
+19,General Biology I Lecture,MCB,181R,,,,3,,,4
+20,General Biology I Lab,MCB,181RL,,,,1,,,4
+21,Tier I General Education,,,,,,3,,,4
+22,Tier II General Education,,,,,,3,,,4
+23,Organic Chemistry I Lecture,,,,,,3,,,5
+24,Organic Chemistry I Lab,,,,,,1,,,5
+25,General Microbiology Lecture,MIC,205a,,,,3,,,5
+26,General Microbiology Lab,MIC,205L,,,,1,,,5
+27,Communications,,,,,,3,,,5
+28,Core Elective Course- Disease Related,,,,,,3,,,5
+29,Organic Chemistry II Lecture,,,,,,3,,,6
+30,Organic Chemistry II Lab,,,,,,1,,,6
+31,Principles of Animal Genetic Systems,ACBS,313,,,,3,,,6
+32,Professional Development in Animal Agriculture,ACBS,395a,,,,1,,,6
+33,Tier II General Education,,,,,,3,,,6
+34,Core Elective Course- Disease Related,,,,,,3,,,6
+35,Animal Anatomy and Physiology,ACBS,400a,,,,3,,,7
+36,Immunology,ACBS,419,,,,4,,,7
+37,Fundamentals of Biochemistry,BIOC,384,,,,3,,,7
+38,Introductory Physics I Lecture,,,,,,3,,,7
+39,Introductory Physics I  Lab,,,,,,1,,,7
+40,Core Elective Course- Disease or Non-Disease Related,,,,,,3,,,7
+41,Animal Anatomy and Physiology,ACBS,400b,,,,3,,,8
+42,Introductory Physics II Lecture,,,,,,3,,,8
+43,Introductory Physics II Lab,,,,,,1,,,8
+44,Tier II General Education,,,,,,3,,,8
+45,Core Elective Course- Disease or Non-Disease Related,,,,,,2,,,8
+46,Metabolic Biochemistry,BIOC,385,,,,3,,,8

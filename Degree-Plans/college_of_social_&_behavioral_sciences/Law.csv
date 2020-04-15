@@ -1,0 +1,46 @@
+Curriculum,Law
+Degree Plan,2019-20 Degree Plan
+Degree Type,BS
+System Type,semester
+CIP
+Courses
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
+1,,ENGL,101,,,,3,,,1
+2,Tier I General Education,,,,,,3,,,1
+3,Tier I General Education,,,,,,3,,,1
+4,Tier I General Education,,,,,,3,,,1
+5,First Semester Second Language,,,,,,4,,,1
+6,,ENGL,102,,,,3,,,2
+7,Tier I General Education,,,,,,3,,,2
+8,Tier I General Education,,,,,,3,,,2
+9,Math 112,,,,,,3,,,2
+10,Second Semester Second Language,,,,,,4,,,2
+11,American National Government,POL,201:,,,,3,,,3
+12,"Politics, Policy, and Governance: The U.S. and the World (Part B)",SGPP,300B:,,,,3,,,3
+13,Tier II General Education,,,,,,3,,,3
+14,"203, 204 or 206",POL,202,,,,3,,,3
+15,Third Semester Second Language,,,,,,4,,,3
+16,"Politics, Policy, and Governance: The U.S. and the World",SGPP,300A:,,,,3,,,4
+17,Tier II General Education,,,,,,3,,,4
+18,Tier I General Education,,,,,,3,,,4
+19,Minor Course,,,,,,3,,,4
+20,Fourth Semester Second Language,,,,,,4,,,4
+21,Tier II General Education,,,,,,3,,,5
+22,Law 401 :  Procedure,,,,,,3,,,5
+23,American Common Law System I,LAW,402A:,,,,3,,,5
+24,Elective,,,,,,3,,,5
+25,Minor Course,,,,,,3,,,5
+26,The American Common Law System II,LAW,402B:,,,,3,,,6
+27,The American Public Law System,LAW,404:,,,,3,,,6
+28,Law Major Elective,,,,,,3,,,6
+29,Minor Course,,,,,,3,,,6
+30,Minor Course,,,,,,3,,,6
+31,Law Major Elective,,,,,,3,,,7
+32,Law Major Elective,,,,,,3,,,7
+33,Elective,,,,,,3,,,7
+34,Minor Course,,,,,,3,,,7
+35,Minor Course,,,,,,3,,,7
+36,Law Major Elective,,,,,,3,,,8
+37,Law Major Elective,,,,,,3,,,8
+38,Elective,,,,,,3,,,8
+39,Elective,,,,,,3,,,8

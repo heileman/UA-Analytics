@@ -1,0 +1,48 @@
+Curriculum,Plant Sciences
+Degree Plan,2019-20 Degree Plan
+Degree Type,BS
+System Type,semester
+CIP
+Courses
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
+1,First Year Composition,ENGL,101,,,,3,,,1
+2,MATH,,,,,,3,,,1
+3,General Chemistry I,,,,,,4,,,1
+4,Tier I General Education,,,,,,3,,,1
+5,Colloquium,,,,,,1,,,1
+6,First Year Composition,ENGL,102,,,,3,,,2
+7,General Chemistry II,,,,,,4,,,2
+8,Tier I General Education,,,,,,3,,,2
+9,Introductory Biology II,ECOL,182R,,,,3,,,2
+10,Introductory Biology II Lab,ECOL,182L,,,,1,,,2
+11,Lectures in Organic Chemistry,CHEM,241A,,,,3,,,3
+12,Organic Chemistry Laboratory I,CHEM,243A,,,,1,,,3
+13,Plant Biology,PLS,240,,,,4,,,3
+14,Introductory Biology I,MCB,181,,,,3,,,3
+15,Free Elective,,,,,,3,,,3
+16,MAT 263 Introductory Statistics and Biostatistics,,,,,,3,,,4
+17,Foundations in Biochemistry,BIOC,384,,,,3,,,4
+18,Animal and Plant Genetics,PLS,312,,,,4,,,4
+19,Tier I General Education,,,,,,3,,,4
+20,Tier I General Education,,,,,,3,,,4
+21,Plant Cell Structure and Function,PLS,359,,,,3,,,5
+22,Second Language,,,,,,4,,,5
+23,Free Elective,,,,,,3,,,5
+24,Free Elective,,,,,,3,,,5
+25,Free Elective,,,,,,3,,,5
+26,Plant Growth and Physiology,PLS,360,,,,3,,,6
+27,Introductory Physics I,PHYS,102,,,,3,,,6
+28,Core Elective,,,,,,3,,,6
+29,Free Elective,,,,,,3,,,6
+30,Second Language,,,,,,4,,,6
+31,Principles of Plant Physiology Laboratory,PLS,361,,,,1,,,7
+32,Science Communication,,,,,,3,,,7
+33,Tier II General Education,,,,,,3,,,7
+34,Tier II General Education,,,,,,3,,,7
+35,Core Elective,,,,,,3,,,7
+36,General Elective,,,,,,3,,,7
+37,Senior Capstone,PLS,498,,,,2,,,8
+38,Tier II General Education,,,,,,3,,,8
+39,Free Elective,,,,,,3,,,8
+40,General Elective,,,,,,3,,,8
+41,General Elective,,,,,,3,,,8
