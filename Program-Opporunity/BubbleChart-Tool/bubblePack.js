@@ -25,6 +25,7 @@ if (currentTransform) view.attr("transform", currentTransform);
 const colorScale = d3
   .scaleOrdinal()
   .domain([
+    "University of Arizona",
     "Col Arch Plan & Landscape Arch",
     "College of Agric and Life Sci",
     "College of Applied Sci & Tech",
@@ -49,6 +50,7 @@ const colorScale = d3
     "Vice Provost Acad Affrs Div",
   ])
   .range([
+    "#002147",
     "#A52A2A",
     "#F2C649",
     "#C49102",
@@ -72,14 +74,25 @@ const colorScale = d3
     "#000000",
     "#001540",
   ]);
+
+demand_median = 44.631006;
+
+// the scaler for the circle size and enrollments
+// if the enrollment is greater than 100
 const sizeScale = d3
   .scaleLinear()
   .domain(padExtent([0, 20000]))
-  .range(padExtent([10, 150]));
+  .range(padExtent([5, 150]));
+// the scaler for x axis and projected demand
+// it should cover 1 and 10
+const x_min = -600,
+  x_max = 800;
 const xScale = d3
   .scaleLinear()
-  .domain(padExtent([-1.5, 12.3]))
-  .range(padExtent([0, domainwidth]));
+  .domain(padExtent([x_min, x_max]))
+  .range(padExtent([100, domainwidth - 100]));
+// the scaler for y axis and the % program online
+// it should cover between 0 and 100 percentage
 const yScale = d3
   .scaleLinear()
   .domain(padExtent([-20, 123]))
@@ -116,8 +129,8 @@ gX = svg.append("g").attr("class", "axis axis--x").call(xAxis);
 gY = svg.append("g").attr("class", "axis axis--y").call(yAxis);
 view
   .append("line")
-  .attr("x1", xScale(-2))
-  .attr("x2", xScale(12))
+  .attr("x1", xScale(demand_median - (x_max - x_min) / 2))
+  .attr("x2", xScale(demand_median + (x_max - x_min) / 2))
   .attr("y1", yScale(50))
   .attr("y2", yScale(50))
   .attr("stroke-width", 2)
@@ -126,8 +139,8 @@ view
   .attr("marker-start", "url(#arrow)");
 view
   .append("line")
-  .attr("x1", xScale(5))
-  .attr("x2", xScale(5))
+  .attr("x1", xScale(demand_median))
+  .attr("x2", xScale(demand_median))
   .attr("y1", yScale(120))
   .attr("y2", yScale(-20))
   .attr("stroke-width", 2)
@@ -138,61 +151,101 @@ view
 // texts for x and y axes
 view
   .append("text")
-  .attr("transform", "translate(" + xScale(11.5) + " ," + yScale(46) + ")")
+  .attr(
+    "transform",
+    "translate(" +
+      xScale(demand_median + (x_max - x_min) / 2) +
+      " ," +
+      yScale(46) +
+      ")"
+  )
   .style("text-anchor", "middle")
   .text("Projected");
 view
   .append("text")
-  .attr("transform", "translate(" + xScale(11.5) + " ," + yScale(43) + ")")
+  .attr(
+    "transform",
+    "translate(" +
+      xScale(demand_median + (x_max - x_min) / 2) +
+      " ," +
+      yScale(43) +
+      ")"
+  )
   .style("text-anchor", "middle")
   .text("Demand");
 view
   .append("text")
-  .attr("transform", "translate(" + xScale(4) + " ," + yScale(120) + ")")
+  .attr(
+    "transform",
+    "translate(" + xScale(-demand_median) + " ," + yScale(120) + ")"
+  )
   .style("text-anchor", "middle")
   .text("% of Program");
 view
   .append("text")
-  .attr("transform", "translate(" + xScale(4) + " ," + yScale(117) + ")")
+  .attr(
+    "transform",
+    "translate(" + xScale(-demand_median) + " ," + yScale(117) + ")"
+  )
   .style("text-anchor", "middle")
   .text("Online");
 
 // texts in four quards
 view
   .append("text")
-  .attr("transform", "translate(" + xScale(1.5) + " ," + yScale(85) + ")")
+  .attr(
+    "transform",
+    "translate(" + xScale(-(x_max - 100 - x_min) / 4) + " ," + yScale(85) + ")"
+  )
   .style("text-anchor", "middle")
   .style("opacity", 0.5)
   .style("font-size", "30px")
   .text("low risk/ low reward");
 view
   .append("text")
-  .attr("transform", "translate(" + xScale(8.5) + " ," + yScale(85) + ")")
+  .attr(
+    "transform",
+    "translate(" +
+      xScale(((x_max - 100 - x_min) * 3) / 8.5) +
+      " ," +
+      yScale(85) +
+      ")"
+  )
   .style("text-anchor", "middle")
   .style("opacity", 0.5)
   .style("font-size", "30px")
   .text("low risk/ high reward");
 view
   .append("text")
-  .attr("transform", "translate(" + xScale(1.5) + " ," + yScale(15) + ")")
+  .attr(
+    "transform",
+    "translate(" + xScale(-(x_max - 100 - x_min) / 4) + " ," + yScale(15) + ")"
+  )
   .style("text-anchor", "middle")
   .style("opacity", 0.5)
   .style("font-size", "30px")
   .text("high risk/ low reward");
 view
   .append("text")
-  .attr("transform", "translate(" + xScale(8.5) + " ," + yScale(15) + ")")
+  .attr(
+    "transform",
+    "translate(" +
+      xScale(((x_max - 100 - x_min) * 3) / 8.5) +
+      " ," +
+      yScale(15) +
+      ")"
+  )
   .style("text-anchor", "middle")
   .style("opacity", 0.5)
   .style("font-size", "30px")
   .text("high risk/ high reward");
 
-drawChartBubbles(view, { chartBubbleData });
+drawChartBubbles(view, chartBubbleData);
 
 // config zoom
 var zoom = d3
   .zoom()
-  .scaleExtent([1, 10])
+  .scaleExtent([0, 10])
   .translateExtent([
     [-domainwidth * 2, -domainheight * 2],
     [domainwidth * 2, domainheight * 2],
@@ -212,12 +265,12 @@ function circleClicked(d) {
   if (children.length > 0) {
     // add this bubble to the splited bubble list
     splitedBubbleData = splitedBubbleData.concat(d);
-    drawSplitedBubbles(splited, { splitedBubbleData });
+    drawSplitedBubbles(splited, splitedBubbleData);
 
     // remove this bubble and add the children of this bubble to the bubble chart list
     chartBubbleData.splice(chartBubbleData.indexOf(d), 1);
     chartBubbleData = chartBubbleData.concat(children);
-    drawChartBubbles(view, { chartBubbleData });
+    drawChartBubbles(view, chartBubbleData);
   }
 }
 
@@ -225,9 +278,9 @@ function splitedCircleClicked(d) {
   deleteChildern(d);
 
   chartBubbleData = chartBubbleData.concat([d]);
-  drawChartBubbles(view, { chartBubbleData });
+  drawChartBubbles(view, chartBubbleData);
   splitedBubbleData.splice(splitedBubbleData.indexOf(d), 1);
-  drawSplitedBubbles(splited, { splitedBubbleData });
+  drawSplitedBubbles(splited, splitedBubbleData);
 }
 
 // helper functions

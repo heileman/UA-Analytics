@@ -1,5 +1,5 @@
 // draw all circles on the bubble chart
-const drawChartBubbles = (selection, { chartBubbleData }) => {
+const drawChartBubbles = (selection, chartBubbleData) => {
   const circles = selection
     .selectAll("circle")
     .attr("class", "circle")
@@ -34,18 +34,9 @@ const drawChartBubbles = (selection, { chartBubbleData }) => {
           .style("opacity", 0.95)
           .style("stroke-width", 3);
       }
-      tooltip.transition().duration(200).style("opacity", 0.7);
+      tooltip.transition().duration(200).style("opacity", 0.95);
       tooltip
-        .html(
-          "Program: " +
-            d.label +
-            "<br/>Enrollment: " +
-            d.size +
-            "<br/>Projected Demand: " +
-            d.demand +
-            "<br/>% of Program online: " +
-            d.percentage
-        )
+        .html(tooltipHTML(d))
         .style("left", d3.event.pageX + "px")
         .style("top", d3.event.pageY + "px");
     })
@@ -57,7 +48,7 @@ const drawChartBubbles = (selection, { chartBubbleData }) => {
     .duration(500)
     .attr("r", (d) => {
       if (d.size > 10000) {
-        return sizeScale(30000);
+        return sizeScale(10000);
       }
       return sizeScale(d.size);
     });
@@ -66,7 +57,7 @@ const drawChartBubbles = (selection, { chartBubbleData }) => {
 };
 
 // draw all circles splited
-const drawSplitedBubbles = (selection, { splitedBubbleData }) => {
+const drawSplitedBubbles = (selection, splitedBubbleData) => {
   const circles = selection
     .selectAll("circle")
     .data(splitedBubbleData, (d) => d.id);
@@ -87,16 +78,7 @@ const drawSplitedBubbles = (selection, { splitedBubbleData }) => {
       }
       tooltip.transition().duration(200).style("opacity", 0.9);
       tooltip
-        .html(
-          "Program: " +
-            d.label +
-            "<br/>Enrollment: " +
-            d.size +
-            "<br/>Projected Demand: " +
-            d.demand +
-            "<br/>% of Program online: " +
-            d.percentage
-        )
+        .html(tooltipHTML(d))
         .style("left", d3.event.pageX + "px")
         .style("top", d3.event.pageY + "px");
     })
@@ -121,8 +103,65 @@ const drawSplitedBubbles = (selection, { splitedBubbleData }) => {
       return (i + 2) * 15 * 2;
     })
     .text(function (d) {
-      return d.label;
+      if (d.level == "university") {
+        return d.university;
+      }
+      if (d.level == "college") {
+        return d.college;
+      }
+      if (d.level == "department") {
+        return d.department;
+      }
+      if (d.level == "degree") {
+        return d.degree;
+      }
+      if (d.level == "major") {
+        return d.major;
+      }
     });
   text.exit().remove();
   circles.exit().transition().duration(300).attr("r", 0).remove();
+};
+
+const tooltipHTML = (d) => {
+  program = "";
+  enrollment = "<br/>Enrollment: " + d.size;
+  demand = "<br/>Projected Demand: " + d.demand;
+  percentage = "<br/>% of Program online: " + d.percentage;
+
+  if (d.level == "university") {
+    program = "University: " + d.university;
+  }
+  if (d.level == "college") {
+    program = "University: " + d.university + "<br/>College: " + d.college;
+  }
+  if (d.level == "department") {
+    program =
+      "University: " + d.university + "<br/>Department: " + d.department;
+  }
+  if (d.level == "degree") {
+    program =
+      "University: " +
+      d.university +
+      "<br/>College: " +
+      d.college +
+      "<br/>Department: " +
+      d.department +
+      "<br/>Degree: " +
+      d.degree;
+  }
+  if (d.level == "major") {
+    program =
+      "University: " +
+      d.university +
+      "<br/>College: " +
+      d.college +
+      "<br/>Department: " +
+      d.department +
+      "<br/>Degree: " +
+      d.degree +
+      "<br/>Major: " +
+      d.major;
+  }
+  return program + enrollment + demand + percentage;
 };
