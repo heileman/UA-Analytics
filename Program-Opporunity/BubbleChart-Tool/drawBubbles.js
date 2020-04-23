@@ -47,9 +47,9 @@ const drawChartBubbles = (selection, chartBubbleData) => {
     .transition()
     .duration(500)
     .attr("r", (d) => {
-      if (d.size > 10000) {
-        return sizeScale(10000);
-      }
+      // if (d.size > 10000) {
+      //   return sizeScale(10000);
+      // }
       return sizeScale(d.size);
     });
 
