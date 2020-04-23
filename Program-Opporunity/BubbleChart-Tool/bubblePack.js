@@ -4,8 +4,8 @@ var splitedBubbleData = [];
 const margin = { top: 20, right: 20, bottom: 20, left: 20 };
 const container = document.querySelector("#bubble").getBoundingClientRect();
 
-const domainwidth = container.width - margin.left - margin.right;
-const domainheight = container.height - margin.top - margin.bottom;
+const domainwidth = container.width - margin.left - margin.right + 30;
+const domainheight = container.height - margin.top - margin.bottom + 30;
 var currentTransform = null;
 var svg = d3.select("#bubble").append("svg");
 var view = svg.append("g").attr("class", "view");
@@ -82,21 +82,21 @@ demand_median = 44.631006;
 const sizeScale = d3
   .scaleLinear()
   .domain(padExtent([0, 20000]))
-  .range(padExtent([5, 150]));
+  .range(padExtent([5, 130]));
 // the scaler for x axis and projected demand
 // it should cover 1 and 10
 const x_min = -600,
-  x_max = 800;
+  x_max = 1000;
 const xScale = d3
   .scaleLinear()
   .domain(padExtent([x_min, x_max]))
-  .range(padExtent([100, domainwidth - 100]));
+  .range(padExtent([10, domainwidth]));
 // the scaler for y axis and the % program online
 // it should cover between 0 and 100 percentage
 const yScale = d3
   .scaleLinear()
-  .domain(padExtent([-20, 123]))
-  .range(padExtent([domainheight, 0]));
+  .domain(padExtent([-25, 130]))
+  .range(padExtent([domainheight, 10]));
 
 // the end arrows of x and y axes
 const defs = view
@@ -118,127 +118,103 @@ const defs = view
 const xAxis = d3
   .axisBottom(xScale)
   .ticks(((domainwidth + 2) / (domainheight + 2)) * 20)
-  .tickSize(domainheight * 2 - 5)
-  .tickPadding(18 - domainheight);
+  .tickSize(domainheight * 2 - 28)
+  .tickPadding(30 - domainheight);
 const yAxis = d3
   .axisRight(yScale)
   .ticks(((domainwidth + 2) / (domainheight + 2)) * 20)
   .tickSize(domainwidth)
-  .tickPadding(8 - domainwidth);
+  .tickPadding(-domainwidth);
 gX = svg.append("g").attr("class", "axis axis--x").call(xAxis);
 gY = svg.append("g").attr("class", "axis axis--y").call(yAxis);
-view
-  .append("line")
-  .attr("x1", xScale(demand_median - (x_max - x_min) / 2))
-  .attr("x2", xScale(demand_median + (x_max - x_min) / 2))
-  .attr("y1", yScale(50))
-  .attr("y2", yScale(50))
-  .attr("stroke-width", 2)
-  .attr("stroke", "black")
-  .attr("marker-end", "url(#arrow)")
-  .attr("marker-start", "url(#arrow)");
-view
-  .append("line")
-  .attr("x1", xScale(demand_median))
-  .attr("x2", xScale(demand_median))
-  .attr("y1", yScale(120))
-  .attr("y2", yScale(-20))
-  .attr("stroke-width", 2)
-  .attr("stroke", "black")
-  .attr("marker-end", "url(#arrow)")
-  .attr("marker-start", "url(#arrow)");
 
-// texts for x and y axes
-view
-  .append("text")
-  .attr(
-    "transform",
-    "translate(" +
-      xScale(demand_median + (x_max - x_min) / 2) +
-      " ," +
-      yScale(46) +
-      ")"
-  )
-  .style("text-anchor", "middle")
-  .text("Projected");
-view
-  .append("text")
-  .attr(
-    "transform",
-    "translate(" +
-      xScale(demand_median + (x_max - x_min) / 2) +
-      " ," +
-      yScale(43) +
-      ")"
-  )
-  .style("text-anchor", "middle")
-  .text("Demand");
-view
-  .append("text")
-  .attr(
-    "transform",
-    "translate(" + xScale(-demand_median) + " ," + yScale(120) + ")"
-  )
-  .style("text-anchor", "middle")
-  .text("% of Program");
-view
-  .append("text")
-  .attr(
-    "transform",
-    "translate(" + xScale(-demand_median) + " ," + yScale(117) + ")"
-  )
-  .style("text-anchor", "middle")
-  .text("Online");
+var axes = [
+  {
+    id: 0,
+    x1: domainwidth,
+    x2: 20,
+    y1: yScale(50),
+    y2: yScale(50),
+    strokeWidth: 2,
+  },
+  {
+    id: 1,
+    x1: xScale(demand_median),
+    x2: xScale(demand_median),
+    y1: domainheight,
+    y2: 5,
+    strokeWidth: 2,
+  },
+];
 
-// texts in four quards
-view
-  .append("text")
-  .attr(
-    "transform",
-    "translate(" + xScale(-(x_max - 100 - x_min) / 4) + " ," + yScale(85) + ")"
-  )
-  .style("text-anchor", "middle")
-  .style("opacity", 0.5)
-  .style("font-size", "30px")
-  .text("low risk/ low reward");
-view
-  .append("text")
-  .attr(
-    "transform",
-    "translate(" +
-      xScale(((x_max - 100 - x_min) * 3) / 8.5) +
-      " ," +
-      yScale(85) +
-      ")"
-  )
-  .style("text-anchor", "middle")
-  .style("opacity", 0.5)
-  .style("font-size", "30px")
-  .text("low risk/ high reward");
-view
-  .append("text")
-  .attr(
-    "transform",
-    "translate(" + xScale(-(x_max - 100 - x_min) / 4) + " ," + yScale(15) + ")"
-  )
-  .style("text-anchor", "middle")
-  .style("opacity", 0.5)
-  .style("font-size", "30px")
-  .text("high risk/ low reward");
-view
-  .append("text")
-  .attr(
-    "transform",
-    "translate(" +
-      xScale(((x_max - 100 - x_min) * 3) / 8.5) +
-      " ," +
-      yScale(15) +
-      ")"
-  )
-  .style("text-anchor", "middle")
-  .style("opacity", 0.5)
-  .style("font-size", "30px")
-  .text("high risk/ high reward");
+const textLocations = {
+  txx: domainwidth * 0.97,
+  tyy: 20,
+  size: 18,
+};
+
+var texts = [
+  {
+    id: 0,
+    tx: axes[0].x1 - 50,
+    ty: axes[0].y1 + 20,
+    text: "Projected",
+    size: textLocations.size,
+  },
+  {
+    id: 1,
+    tx: axes[0].x1 - 50,
+    ty: axes[0].y1 + 35,
+    text: "Demand",
+    size: textLocations.size,
+  },
+  {
+    id: 2,
+    tx: axes[1].x2 - 60,
+    ty: axes[1].y2 + 13,
+    text: "% of Program",
+    size: textLocations.size,
+  },
+  {
+    id: 3,
+    tx: axes[1].x2 - 60,
+    ty: axes[1].y2 + 28,
+    text: "Online",
+    size: textLocations.size,
+  },
+];
+
+const drawAxes = (selection, axes, texts) => {
+  const twoAxes = selection.selectAll("line").data(axes, (d) => d.id);
+  twoAxes
+    .enter()
+    .append("line")
+    .attr("stroke", "black")
+    .attr("marker-end", "url(#arrow)")
+    .attr("marker-start", "url(#arrow)")
+    .merge(twoAxes)
+    .attr("x1", (d) => d.x1)
+    .attr("x2", (d) => d.x2)
+    .attr("y1", (d) => d.y1)
+    .attr("y2", (d) => d.y2)
+    .attr("stroke-width", (d) => d.strokeWidth);
+
+  twoAxes.exit().remove();
+
+  const axisTexts = selection.selectAll("text").data(texts, (d) => d.id);
+  axisTexts
+    .enter()
+    .append("text")
+    .text((d) => d.text)
+    .style("text-anchor", "middle")
+    .merge(axisTexts)
+    .style("font-size", (d) => d.size)
+    .attr("transform", (d) => `translate(${d.tx},${d.ty})`);
+
+  axisTexts.exit().remove();
+};
+
+drawAxes(view, axes, texts);
 
 drawChartBubbles(view, chartBubbleData);
 
@@ -251,10 +227,38 @@ var zoom = d3
     [domainwidth * 2, domainheight * 2],
   ])
   .on("zoom", () => {
-    currentTransform = d3.event.transform;
-    view.attr("transform", currentTransform);
+    xTransform = d3.event.transform.x;
+    yTransform = d3.event.transform.y;
+    kTransform = d3.event.transform.k;
+
+    view.attr("transform", d3.event.transform);
     gX.call(xAxis.scale(d3.event.transform.rescaleX(xScale)));
     gY.call(yAxis.scale(d3.event.transform.rescaleY(yScale)));
+
+    axes[0].x1 = (domainwidth - xTransform) / kTransform;
+    axes[0].x2 = (20 - xTransform) / kTransform;
+    axes[0].strokeWidth = 2 / kTransform;
+    axes[1].y1 = (domainheight - yTransform) / kTransform;
+    axes[1].y2 = (5 - yTransform) / kTransform;
+    axes[1].strokeWidth = 2 / kTransform;
+
+    texts[0].tx = axes[0].x1 - 50 / kTransform;
+    texts[0].ty = axes[0].y1 + 20 / kTransform;
+
+    texts[1].tx = axes[0].x1 - 50 / kTransform;
+    texts[1].ty = axes[0].y1 + 35 / kTransform;
+
+    texts[2].tx = axes[1].x2 - 60 / kTransform;
+    texts[2].ty = axes[1].y2 + 13 / kTransform;
+
+    texts[3].tx = axes[1].x2 - 60 / kTransform;
+    texts[3].ty = axes[1].y2 + 28 / kTransform;
+
+    for (i = 0; i < texts.length; i++) {
+      texts[i].size = textLocations.size / kTransform;
+    }
+
+    drawAxes(view, axes, texts);
   });
 svg.call(zoom);
 
