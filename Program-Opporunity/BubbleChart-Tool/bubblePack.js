@@ -1,34 +1,31 @@
-// import { groupBy } from "processData";
+var chartBubbleData = data;
+var splitedBubbleData = [];
 
-var svg = d3.select("#bubble"),
-  margin = { top: 20, right: 20, bottom: 20, left: 20 },
-  width = +svg.attr("width"),
-  height = +svg.attr("height"),
-  domainwidth = width - margin.left - margin.right,
-  domainheight = height - margin.top - margin.bottom;
+const margin = { top: 20, right: 20, bottom: 20, left: 20 };
+const container = document.querySelector("#bubble").getBoundingClientRect();
 
-var splited = d3.select("#splited").append("g");
+const domainwidth = container.width - margin.left - margin.right + 30;
+const domainheight = container.height - margin.top - margin.bottom + 30;
+var currentTransform = null;
+var svg = d3.select("#bubble").append("svg");
+var view = svg.append("g").attr("class", "view");
+
+var splited = d3.select("#splited").append("svg").append("g");
 
 // Define the div for the tooltip
-var div = d3
+var tooltip = d3
   .select("body")
   .append("div")
   .attr("class", "tooltip")
   .style("opacity", 0);
 
-// scalers
-var x = d3
-  .scaleLinear()
-  .domain(padExtent([0, 10]))
-  .range(padExtent([0, domainwidth]));
-var y = d3
-  .scaleLinear()
-  .domain(padExtent([0, 100]))
-  .range(padExtent([domainheight, 0]));
+if (currentTransform) view.attr("transform", currentTransform);
 
+// config the scalers for circle color, circle size, x and y axes
 const colorScale = d3
   .scaleOrdinal()
   .domain([
+    "University of Arizona",
     "Col Arch Plan & Landscape Arch",
     "College of Agric and Life Sci",
     "College of Applied Sci & Tech",
@@ -53,6 +50,7 @@ const colorScale = d3
     "Vice Provost Acad Affrs Div",
   ])
   .range([
+    "#002147",
     "#A52A2A",
     "#F2C649",
     "#C49102",
@@ -77,19 +75,32 @@ const colorScale = d3
     "#001540",
   ]);
 
+demand_median = 44.631006;
+
+// the scaler for the circle size and enrollments
+// if the enrollment is greater than 100
 const sizeScale = d3
   .scaleLinear()
-  .domain(padExtent([0, 58000]))
-  .range(padExtent([10, 150]));
+  .domain(padExtent([0, 20000]))
+  .range(padExtent([5, 130]));
+// the scaler for x axis and projected demand
+// it should cover 1 and 10
+const x_min = -600,
+  x_max = 1000;
+const xScale = d3
+  .scaleLinear()
+  .domain(padExtent([x_min, x_max]))
+  .range(padExtent([10, domainwidth]));
+// the scaler for y axis and the % program online
+// it should cover between 0 and 100 percentage
+const yScale = d3
+  .scaleLinear()
+  .domain(padExtent([-25, 130]))
+  .range(padExtent([domainheight, 10]));
 
-var g = svg
-  .append("g")
-  .attr("transform", "translate(" + margin.top + "," + margin.top + ")");
-
-var hiddenData = [];
-
-var defs = g.append("defs");
-defs
+// the end arrows of x and y axes
+const defs = view
+  .append("defs")
   .append("marker")
   .attr("id", "arrow")
   .attr("viewBox", "0 0 10 10")
@@ -103,189 +114,193 @@ defs
   .attr("d", "M 0 0 L 10 5 L 0 10 z")
   .attr("class", "arrowHead");
 
-// x axis
-g.append("line")
-  .attr("x1", 0)
-  .attr("x2", domainwidth)
-  .attr("y1", domainheight / 2)
-  .attr("y2", domainheight / 2)
-  .attr("stroke-width", 2)
-  .attr("stroke", "black")
-  .attr("marker-end", "url(#arrow)")
-  .attr("marker-start", "url(#arrow)");
-// x axis text
-svg
-  .append("text")
-  .attr("transform", "translate(" + domainwidth + " ," + domainheight / 2 + ")")
-  .style("text-anchor", "middle")
-  .text("Projected");
-svg
-  .append("text")
-  .attr(
-    "transform",
-    "translate(" + domainwidth + " ," + (domainheight / 2 + 15) + ")"
-  )
-  .style("text-anchor", "middle")
-  .text("Demand");
+// x and y axes
+const xAxis = d3
+  .axisBottom(xScale)
+  .ticks(((domainwidth + 2) / (domainheight + 2)) * 20)
+  .tickSize(domainheight * 2 - 28)
+  .tickPadding(30 - domainheight);
+const yAxis = d3
+  .axisRight(yScale)
+  .ticks(((domainwidth + 2) / (domainheight + 2)) * 20)
+  .tickSize(domainwidth)
+  .tickPadding(-domainwidth);
+gX = svg.append("g").attr("class", "axis axis--x").call(xAxis);
+gY = svg.append("g").attr("class", "axis axis--y").call(yAxis);
 
-// y axis
-g.append("line")
-  .attr("x1", domainwidth / 2)
-  .attr("x2", domainwidth / 2)
-  .attr("y1", domainheight)
-  .attr("y2", 0)
-  .attr("stroke-width", 2)
-  .attr("stroke", "black")
-  .attr("marker-end", "url(#arrow)")
-  .attr("marker-start", "url(#arrow)");
-// y axis text
-svg
-  .append("text")
-  .attr(
-    "transform",
-    "translate(" + (domainwidth / 3 + 10) + " ," + margin.top + ")"
-  )
-  .style("text-anchor", "middle")
-  .text("% of programs");
-svg
-  .append("text")
-  .attr(
-    "transform",
-    "translate(" + (domainwidth / 3 + 10) + " ," + (margin.top + 15) + ")"
-  )
-  .style("text-anchor", "middle")
-  .text("online");
+var axes = [
+  {
+    id: 0,
+    x1: domainwidth,
+    x2: 20,
+    y1: yScale(50),
+    y2: yScale(50),
+    strokeWidth: 2,
+  },
+  {
+    id: 1,
+    x1: xScale(demand_median),
+    x2: xScale(demand_median),
+    y1: domainheight,
+    y2: 5,
+    strokeWidth: 2,
+  },
+];
 
-// draw all circles on the bubble chart
-const drawCircles = (selection, { data }) => {
-  const circles = selection.selectAll("circle").data(data, (d) => d.id);
-  circles
-    .enter()
-    .append("circle")
-    .attr("r", 0)
-    .on("click", circleClicked)
-    .merge(circles)
-    .attr("cx", (d) => {
-      return x(d.demand);
-    })
-    .attr("cy", (d) => {
-      return y(d.percentage);
-    })
-    .style("fill", (d) => {
-      return colorScale(d.college);
-    })
-    .style("opacity", 0.7)
-    .on("mouseover", function (d) {
-      if (d.children.length > 0) {
-        d3.select(this).style("cursor", "pointer");
-      }
-      div.transition().duration(200).style("opacity", 0.9);
-      div
-        .html(
-          "Program: " +
-            d.label +
-            "<br/>Enrollment: " +
-            d.size +
-            "<br/>Projected Demand: " +
-            d.demand +
-            "<br/>% of Program online: " +
-            d.percentage
-        )
-        .style("left", d3.event.pageX + "px")
-        .style("top", d3.event.pageY + "px");
-    })
-    .on("mouseout", function (d) {
-      d3.select(this).style("cursor", "default");
-      div.transition().duration(500).style("opacity", 0);
-    })
-    .transition()
-    .duration(500)
-    .attr("r", (d) => {
-      if (d.size > 10000) {
-        return sizeScale(30000);
-      }
-      return sizeScale(d.size);
-    });
-
-  circles.exit().transition().duration(300).attr("r", 0).remove();
+const textLocations = {
+  txx: domainwidth * 0.97,
+  tyy: 20,
+  size: 18,
 };
 
-// draw all circles splited
-const drawSplitedCircle = (selection, { hiddenData }) => {
-  const circles = selection.selectAll("circle").data(hiddenData, (d) => d.id);
-  circles
-    .enter()
-    .append("circle")
-    .attr("r", 0)
-    .on("click", splitedCircleClicked)
-    .merge(circles)
-    .attr("cx", 25)
-    .attr("cy", (d, i) => {
-      return (i + 1) * 15 * 2;
-    })
-    .on("mouseover", function (d) {
-      if (d.children.length > 0) {
-        d3.select(this).style("cursor", "pointer");
-      }
-      div.transition().duration(200).style("opacity", 0.9);
-      div
-        .html(
-          "Program: " +
-            d.label +
-            "<br/>Enrollment: " +
-            d.size +
-            "<br/>Projected Demand: " +
-            d.demand +
-            "<br/>% of Program online: " +
-            d.percentage
-        )
-        .style("left", d3.event.pageX + "px")
-        .style("top", d3.event.pageY + "px");
-    })
-    .on("mouseout", function (d) {
-      d3.select(this).style("cursor", "default");
-      div.transition().duration(500).style("opacity", 0);
-    })
-    .transition()
-    .attr("r", 10)
-    .style("opacity", 0.7)
-    .attr("fill", (d) => {
-      return colorScale(d.college);
-    });
+var texts = [
+  {
+    id: 0,
+    tx: axes[0].x1 - 50,
+    ty: axes[0].y1 + 20,
+    text: "Projected",
+    size: textLocations.size,
+  },
+  {
+    id: 1,
+    tx: axes[0].x1 - 50,
+    ty: axes[0].y1 + 35,
+    text: "Demand",
+    size: textLocations.size,
+  },
+  {
+    id: 2,
+    tx: axes[1].x2 - 60,
+    ty: axes[1].y2 + 13,
+    text: "% of Program",
+    size: textLocations.size,
+  },
+  {
+    id: 3,
+    tx: axes[1].x2 - 60,
+    ty: axes[1].y2 + 28,
+    text: "Online",
+    size: textLocations.size,
+  },
+];
 
-  circles.exit().transition().duration(300).attr("r", 0).remove();
+const drawAxes = (selection, axes, texts) => {
+  const twoAxes = selection.selectAll("line").data(axes, (d) => d.id);
+  twoAxes
+    .enter()
+    .append("line")
+    .attr("stroke", "black")
+    .attr("marker-end", "url(#arrow)")
+    .attr("marker-start", "url(#arrow)")
+    .merge(twoAxes)
+    .attr("x1", (d) => d.x1)
+    .attr("x2", (d) => d.x2)
+    .attr("y1", (d) => d.y1)
+    .attr("y2", (d) => d.y2)
+    .attr("stroke-width", (d) => d.strokeWidth);
+
+  twoAxes.exit().remove();
+
+  const axisTexts = selection.selectAll("text").data(texts, (d) => d.id);
+  axisTexts
+    .enter()
+    .append("text")
+    .text((d) => d.text)
+    .style("text-anchor", "middle")
+    .merge(axisTexts)
+    .style("font-size", (d) => d.size)
+    .attr("transform", (d) => `translate(${d.tx},${d.ty})`);
+
+  axisTexts.exit().remove();
 };
 
-drawCircles(g, { data });
+drawAxes(view, axes, texts);
 
+drawChartBubbles(view, chartBubbleData);
+
+// config zoom
+var zoom = d3
+  .zoom()
+  .scaleExtent([0, 10])
+  .translateExtent([
+    [-domainwidth * 2, -domainheight * 2],
+    [domainwidth * 2, domainheight * 2],
+  ])
+  .on("zoom", () => {
+    xTransform = d3.event.transform.x;
+    yTransform = d3.event.transform.y;
+    kTransform = d3.event.transform.k;
+
+    view.attr("transform", d3.event.transform);
+    gX.call(xAxis.scale(d3.event.transform.rescaleX(xScale)));
+    gY.call(yAxis.scale(d3.event.transform.rescaleY(yScale)));
+
+    axes[0].x1 = (domainwidth - xTransform) / kTransform;
+    axes[0].x2 = (20 - xTransform) / kTransform;
+    axes[0].strokeWidth = 2 / kTransform;
+    axes[1].y1 = (domainheight - yTransform) / kTransform;
+    axes[1].y2 = (5 - yTransform) / kTransform;
+    axes[1].strokeWidth = 2 / kTransform;
+
+    texts[0].tx = axes[0].x1 - 50 / kTransform;
+    texts[0].ty = axes[0].y1 + 20 / kTransform;
+
+    texts[1].tx = axes[0].x1 - 50 / kTransform;
+    texts[1].ty = axes[0].y1 + 35 / kTransform;
+
+    texts[2].tx = axes[1].x2 - 60 / kTransform;
+    texts[2].ty = axes[1].y2 + 13 / kTransform;
+
+    texts[3].tx = axes[1].x2 - 60 / kTransform;
+    texts[3].ty = axes[1].y2 + 28 / kTransform;
+
+    for (i = 0; i < texts.length; i++) {
+      texts[i].size = textLocations.size / kTransform;
+    }
+
+    drawAxes(view, axes, texts);
+  });
+svg.call(zoom);
+
+// cirlce on clicked events
 function circleClicked(d) {
-  i = data.indexOf(d);
   const children = d.children;
 
   if (children.length > 0) {
-    // update buttons
-    hiddenData = hiddenData.concat(data.splice(i, 1));
-    drawSplitedCircle(splited, { hiddenData });
+    // add this bubble to the splited bubble list
+    splitedBubbleData = splitedBubbleData.concat(d);
+    drawSplitedBubbles(splited, splitedBubbleData);
 
-    // update circles
-    data = data.concat(children);
-    drawCircles(g, { data });
+    // remove this bubble and add the children of this bubble to the bubble chart list
+    chartBubbleData.splice(chartBubbleData.indexOf(d), 1);
+    chartBubbleData = chartBubbleData.concat(children);
+    drawChartBubbles(view, chartBubbleData);
   }
 }
 
 function splitedCircleClicked(d) {
-  const children = d.children;
+  deleteChildern(d);
 
-  // update buttons
-  hiddenData.splice(hiddenData.indexOf(d), 1);
-  drawSplitedCircle(splited, { hiddenData });
+  chartBubbleData = chartBubbleData.concat([d]);
+  drawChartBubbles(view, chartBubbleData);
+  splitedBubbleData.splice(splitedBubbleData.indexOf(d), 1);
+  drawSplitedBubbles(splited, splitedBubbleData);
+}
 
-  // update the circles
-  for (i of children) {
-    data.splice(data.indexOf(i), 1);
+// helper functions
+function deleteChildern(d) {
+  if (d.children == []) {
+    return;
   }
-  data = data.concat([d]);
-  drawCircles(g, { data });
+  for (child of d.children) {
+    if (chartBubbleData.includes(child)) {
+      chartBubbleData.splice(chartBubbleData.indexOf(child), 1);
+    }
+    if (splitedBubbleData.includes(child)) {
+      splitedBubbleData.splice(splitedBubbleData.indexOf(child), 1);
+    }
+    deleteChildern(child);
+  }
 }
 
 function padExtent(e, p) {

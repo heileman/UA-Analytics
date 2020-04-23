@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <style>
+    .col-centered {
+        text-align: center;
+        align-items: center;
+    }
     svg,
     #bubble {
-      width: 90%;
+      width: 100%;
       height: 88vh;
-      display: block;
     }
     div.tooltip {
       position: absolute;
@@ -24,36 +27,20 @@
       stroke-opacity: 0.3;
       shape-rendering: crispEdges;
     }
-    #left {
-      position: absolute;
-      top: 0px;
-      bottom: 0;
-      left: 0;
-      width: 20%;
-      overflow-y: scroll;
+    h2{
+        text-align: center;
     }
-    #middle {
-      position: absolute;
-      top: 0px;
-      bottom: 0;
-      left: 20%;
-      width: 65%;
-      overflow-y: scroll;
+    h4 {
+        text-align: right;
     }
-    #right {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      overflow-y: scroll;
-      width: 15%;
-    }
-
     input[type="range"] {
       width: 80%;
     }
   </style>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bubble Chart</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -61,37 +48,32 @@
       crossorigin="anonymous"
     />
   </head>
-
-  <body>
-    <div class="container-fluid overflow-auto">
-      <div class="row">
-        <div class="col" id="left">
-          <label class="label label-info lead text-center"
-            >Splited Bubbles</label
-          >
-          <div id="splited"></div>
-        </div>
-        <div class="col-8" id="middle">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-sm-3 p-2">
-              <h3>Quad Bubble Chart</h3>
-            </div>
-            <div id="bubble"></div>
-            <div id="slidebar" class="col-sm-3 p-2"></div>
+  <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-2">
+          <h2><span class="badge badge-default">Popped Bubbles</span></h2>
+          <div class="row">
+            <div class="col-md-12"><div id="splited"></div></div>
+					</div>
+			  </div>
+				<div class="col-md-8 mx-auto">
+          <h2><span class="badge badge-default">Quad Chart</span></h2>
+					<div class="row">
+            <div class="col-md-12"><div id="bubble" ></div></div>
           </div>
-        </div>
-        <div id="right" class="col-3">
-          <div id="legend">
-            <div class="row"><p2>bubble = program</p2></div>
-            <div class="row"><p2>bubble color = college</p2></div>
-            <div class="row"><p2>bubble size = enrollment</p2></div>
-          </div>
+          <h4><span class="badge badge-pill badge-primary">Bubble = Program(s)</span>
+          <span class="badge badge-pill badge-primary">Bubble Color = College</span>
+          <span class="badge badge-pill badge-primary">Bubble Size = Enrollment</span></h4>
         </div>
       </div>
-    </div>
-
+		</div>
+	</div>
+</div>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="./data/data.js"></script>
-    <script src="./bubblePack-v2.js"></script>
+    <script src="./drawBubbles.js"></script>
+    <script src="./bubblePack.js"></script>
   </body>
 </html>
