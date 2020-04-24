@@ -35,11 +35,11 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 28,"The Poverty & Development of Nations, Agribusiness Management Emphasis Core",AREC,360,,,,3,,,6
 29,"Macroeconomic Analysis & Policy, Economics III",ECON,331,,,,3,,,6
 30,"Excel Applications for Economic Analysis, Computer Skills I",AREC,297,,,,1,,,6
-31,Minor Course Upper Division,BNAD,,,,,3,,,6
-32,Minor Course Upper Division,BNAD,,,,,3,,,6
+31,Minor Course Upper Division,,,,,,3,,,6
+32,Minor Course Upper Division,,,,,,3,,,6
 33,"Economics of Future Markets, Agribusiness Management Emphasis Core",AREC,313,,,,3,,,7
 34,"Economics of Policy Analysis, Agribusiness Management Emphasis Core",AREC,464,,,,3,,,7
-35,BNAD Minor Course Upper Division,BNAD,,,,,3,,,7
+35,BNAD Minor Course Upper Division,,,,,,3,,,7
 36,Elective,,,,,,3,,,7
 37,Elective,,,,,,3,,,7
 38,"Analysis of Economic Data, Agribusiness Management Emphasis Core",AREC,403,,,,3,,,8
