@@ -1,13 +1,13 @@
-Curriculum,World Literature
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,World Literature,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BA,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,16-0104,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,Foundation Composition,ENGL,101,,,,3,,,1
 2,First Semester Second Language course,,,,,,4,,,1
-3,MATH - General Strand,MATH,,,,,3,,,1
+3,MATH - General Strand,,,,,,3,,,1
 4,Tier I General Education,,,,,,3,,,1
 5,Tier I General Education,,,,,,3,,,1
 6,Foundation Composition,ENGL,102,,,,3,,,2

@@ -1,9 +1,9 @@
-Curriculum,Africana Studies
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Africana Studies,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BA,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,05-0101,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First Year Composition,ENGL,101,,,,3,,,1
 2,Second Language,,,,,,4,,,1
@@ -15,7 +15,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 8,Tier I General Education,,,,,,3,,,2
 9,General Elective,,,,,,3,,,2
 10,Second Language,,,,,,4,,,3
-11,Intro to Africana Studies,AFAS,200-,,,,3,,,3
+11,Intro to Africana Studies,AFAS,200,,,,3,,,3
 12,Tier I General Education,,,,,,3,,,3
 13,Tier I General Education,,,,,,3,,,3
 14,General Elective,,,,,,2,,,3
@@ -40,7 +40,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 33,Upper Division Minor Course,,,,,,3,,,7
 34,Upper Division Gerneral Elective,,,,,,3,,,7
 35,Capstone,AFAS,498,,,,3,,,8
-36,AFAS Elective,AFAS,,,,,3,,,8
+36,AFAS Elective,,,,,,3,,,8
 37,Upper Division Minor Course,,,,,,3,,,8
 38,Upper Division Gerneral Elective,,,,,,3,,,8
 39,Upper Division Gerneral Elective,,,,,,3,,,8

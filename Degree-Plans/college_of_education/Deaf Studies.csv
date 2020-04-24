@@ -1,15 +1,15 @@
-Curriculum,Deaf Studies
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Deaf Studies,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,05-0211,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,Foundation Composition,ENGL,101,,,,3,,,1
 2,Tier I General Education,,,,,,3,,,1
 3,GE General Math Strand,,,,,,3,,,1
 4,American Sign Language I,SERP,370A,,,,4,,,1
-5,,TLS,197,,,,1,,,1
+5,Success Course,TLS,197,,,,1,,,1
 6,Foundation Composition,ENGL,102,,,,3,,,2
 7,American Sign Language II,SERP,370B,,,,4,,,2
 8,Tier I General Education,,,,,,3,,,2

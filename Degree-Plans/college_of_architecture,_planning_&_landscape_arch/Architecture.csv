@@ -1,9 +1,9 @@
-Curriculum,Architecture
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Architecture,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,04-0201,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,Foundation Studio 1,ARC,101,,,,6,,,1
 2,First Year Composition,ENGL,101,,,,3,,,1
@@ -18,7 +18,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 11,Design Studio 1 Composition,ARC,201,,,,6,,,3
 12,Building Technology 1,ARC,221,,,,3,,,3
 13,Design Communications 1,ARC,241,,,,3,,,3
-14,,ARC,297M,,,,3,,,3
+14,Material Fabrication I,ARC,297M,,,,3,,,3
 15,Site Planning,ARC,326,,,,2,,,3
 16,Design Studio 2 Performance,ARC,202,,,,6,,,4
 17,Building Technology 2,ARC,222,,,,3,,,4
@@ -33,7 +33,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 26,Design Studio 4 Tectonics,ARC,302,,,,6,,,6
 27,Building Technology 5,ARC,322,,,,3,,,6
 28,History 3,ARC,332,,,,3,,,6
-29,,ARC,397M,,,,3,,,6
+29,Material Fabrication II,ARC,397M,,,,3,,,6
 30,Tier I General Education,,,,,,3,,,6
 31,Design Studio 5 Techniques,ARC,401,,,,6,,,7
 32,Building Technology 6,ARC,421,,,,3,,,7
@@ -50,7 +50,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 43,Upper Division Elective 2,,,,,,3,,,9
 44,Upper Division Elective 3,,,,,,3,,,9
 45,Tier II General Education,,,,,,3,,,9
-46,,ARC,452,,,,6,,,1
+46,Design Studio VIII: Senior Project,ARC,452,,,,6,,,1
 47,Upper Division Elective 4,,,,,,3,,,1
 48,Upper or Lower Division Elective,,,,,,3,,,1
 49,Upper or Lower Division Elective,,,,,,3,,,1

@@ -1,15 +1,15 @@
-Curriculum,Rehabilitation Studies and Services
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Rehabilitation Studies and Services,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,51-2314,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,Foundation Composition,ENGL,101,,,,3,,,1
 2,Tier I General Education,,,,,,3,,,1
 3,GE General Math Strand,,,,,,3,,,1
 4,Second Language,,,,,,4,,,1
-5,,TLS,197,,,,1,,,1
+5,Success Course,TLS,197,,,,1,,,1
 6,Foundation Composition,ENGL,102,,,,3,,,2
 7,Second Language,,,,,,4,,,2
 8,Tier I General Education,,,,,,3,,,2
@@ -18,29 +18,29 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 11,Tier I General Education,,,,,,3,,,3
 12,Tier I General Education,,,,,,3,,,3
 13,Tier II General Education,,,,,,3,,,3
-14,,SERP,200,,,,3,,,3
+14,Mass Media and Its Construction of Disability,SERP,200,,,,3,,,3
 15,Rehabilitation Electives,,,,,,3,,,3
 16,Tier II General Education,,,,,,3,,,4
 17,Tier II General Education,,,,,,3,,,4
-18,,SERP,202,,,,3,,,4
+18,Introduction to Low Incidence Disabilities,SERP,202,,,,3,,,4
 19,Rehabilitation Electives,,,,,,3,,,4
 20,Rehabilitation Electives,,,,,,3,,,4
-21,,SERP,414,,,,3,,,5
-22,,SERP,465,,,,3,,,5
+21,Introduction to Disability Studies,SERP,414,,,,3,,,5
+22,Introduction to Rehabilitation,SERP,465,,,,3,,,5
 23,Rehabilitation Electives,,,,,,3,,,5
 24,Rehabilitation Electives,,,,,,3,,,5
 25,Elective,,,,,,3,,,5
-26,,SERP,416,,,,3,,,6
-27,,SERP,478,,,,3,,,6
+26,Disability Perspectives and Narratives,SERP,416,,,,3,,,6
+27,Drug Abuse and Addictions,SERP,478,,,,3,,,6
 28,Rehabilitation Electives,,,,,,3,,,6
 29,Rehabilitation Electives,,,,,,4,,,6
 30,Elective,,,,,,3,,,6
-31,,SERP,481,,,,3,,,7
+31,Interviewing and Client Services,SERP,481,,,,3,,,7
 32,Rehabilitation Electives,,,,,,3,,,7
 33,Elective,,,,,,3,,,7
 34,Elective,,,,,,3,,,7
 35,Elective,,,,,,3,,,7
-36,,SERP,483,,,,3,,,8
+36,Supervised Casework in Rehabilitation,SERP,483,,,,3,,,8
 37,Elective,,,,,,3,,,8
 38,Elective,,,,,,3,,,8
 39,Elective,,,,,,3,,,8

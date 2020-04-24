@@ -1,9 +1,9 @@
-Curriculum,Applied Humanities Spatial Organization and Design Thinking Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Applied Humanities Spatial Organization and Design Thinking Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BA,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,52-1003,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First Year Composition,ENGL,101,,,,3,,,1
 2,First Semester Second Language,,,,,,4,,,1
@@ -14,7 +14,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 7,Second Semester Second Language,,,,,,4,,,2
 8,Tier I General Education,,,,,,3,,,2
 9,Tier I General Education,,,,,,3,,,2
-10,Introduction to Applied Humanities,PAH,200-,,,,3,,,2
+10,Introduction to Applied Humanities,PAH,200,,,,3,,,2
 11,Major Core Foundation Course,,,,,,3,,,3
 12,Introduction to Design Thinking,SBE,301,,,,3,,,3
 13,Tier I General Education,,,,,,3,,,3

@@ -1,9 +1,9 @@
-Curriculum,Applied Humanities Fashion Studies Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Applied Humanities Fashion Studies Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,50-0407,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First Year Composition,ENGL,101,,,,3,,,1
 2,First Semester Second Language,,,,,,4,,,1
@@ -31,12 +31,12 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 24,Tier II General Education,,,,,,3,,,5
 25,Minor Course,,,,,,3,,,5
 26,Applied Humanities Internship,,,,,,3,,,6
-27,FSCS 335 - Fashion Forecasting & Research Trends,,,,,,3,,,6
+27,Fashion Forecasting & Research Trends,FSCS,335,,,,3,,,6
 28,Minor Course,,,,,,3,,,6
 29,Minor Course,,,,,,3,,,6
 30,General Elective,,,,,,3,,,6
 31,Applied Humanities Elective,,,,,,3,,,7
-32,FSCS 345 - Science of Textiles,,,,,,3,,,7
+32,Science of Textiles,,FSCS,345,,,3,,,7
 33,Upper Division Minor Course,,,,,,3,,,7
 34,Upper Division Minor Course,,,,,,3,,,7
 35,General Elective,,,,,,2,,,7

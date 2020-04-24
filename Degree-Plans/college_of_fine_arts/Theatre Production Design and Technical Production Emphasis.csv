@@ -1,20 +1,20 @@
-Curriculum,Theatre Production Design and Technical Production Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Theatre Production Design and Technical Production Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BFA,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,50-0502,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
-1,Acting or 149 Acting I,TAR,100,,,,3,,,1
+1,Acting I,TAR,100,,,,3,,,1
 2,Stagecraft,TAR,111,,,,3,,,1
 3,Stagecraft Crew,TAR,113,,,,1,,,1
 4,Principles of Dramatic Structure,TAR,145,,,,3,,,1
-5,,ENGL,101,,,,3,,,1
+5,Introduction to College Writing,ENGL,101,,,,3,,,1
 6,Math,,,,,,3,,,1
 7,Costume Construction,TAR,116,,,,3,,,2
 8,Costume Crew,TAR,118,,,,1,,,2
 9,Intro to Design,TAR,121,,,,3,,,2
-10,,ENGL,102,,,,3,,,2
+10,First-Year Composition,ENGL,102,,,,3,,,2
 11,Tier I General Education,,,,,,3,,,2
 12,Tier I General Education,,,,,,3,,,2
 13,Stage Lighting,TAR,220,,,,3,,,3
@@ -30,18 +30,18 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 23,Tier I General Education,,,,,,3,,,4
 24,Tier I General Education,,,,,,3,,,4
 25,Rendering or 496G Adv Stage Mgmt,TAR,416,,,,1,,,5
-26,Adv Lighting or 425 Cost/Scen Des II,TAR,420,,,,3,,,5
+26,Adv Lighting,TAR,420,,,,3,,,5
 27,Theatre Production,TAR,497x,,,,2,,,5
 28,Theatre History I,TAR,340,,,,3,,,5
 29,Dramatic Literature,,,,,,3,,,5
 30,Tier I General Education,,,,,,3,,,5
 31,Rendering or 496G Adv Stage Mgmt,TAR,416,,,,1,,,6
-32,or 448B Period Styles,TAR,448A,,,,3,,,6
+32,Period Styles,TAR,448A,,,,3,,,6
 33,Theatre Production,TAR,497x,,,,2,,,6
 34,Theatre History II,TAR,341,,,,3,,,6
 35,Design Tech Elective,,,,,,3,,,6
 36,Tier II General Education,,,,,,3,,,6
-37,Rendering or 496G Adv Stage Mgmt,TAR,416,,,,1,,,7
+37,Rendering ,TAR,416,,,,1,,,7
 38,Adv Lighting or 425 Cost/Scen Des II,TAR,420,,,,3,,,7
 39,Theatre Production,TAR,497x,,,,3,,,7
 40,Design Tech Elective,,,,,,3,,,7

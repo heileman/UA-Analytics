@@ -1,9 +1,9 @@
-Curriculum,Agribusiness Economics and Management Agribusiness Management Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Agribusiness Economics and Management Agribusiness Management Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,01-0101,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,GE Moderate Math Strand,,,,,,3,,,1
 2,Foundation Composition,ENGL,101,,,,3,,,1
@@ -14,7 +14,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 7,Foundation Composition,ENGL,102,,,,3,,,2
 8,Second Semester Second Language,,,,,,4,,,2
 9,"Basic Economic Issues, Supporting Coursework",ECON,200,,,,3,,,2
-10,"MIS111, Computers and Internetworked Society, Supporting Coursework",MIS,111,,,,3,,,2
+10,"Computers and Internetworked Society, Supporting Coursework",MIS,111,,,,3,,,2
 11,Tier II General Education,,,,,,3,,,3
 12,Tier I General Education,,,,,,3,,,3
 13,Tier I General Education,,,,,,3,,,3
@@ -35,8 +35,8 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 28,"The Poverty & Development of Nations, Agribusiness Management Emphasis Core",AREC,360,,,,3,,,6
 29,"Macroeconomic Analysis & Policy, Economics III",ECON,331,,,,3,,,6
 30,"Excel Applications for Economic Analysis, Computer Skills I",AREC,297,,,,1,,,6
-31,BNAD Minor Course Upper Division,BNAD,,,,,3,,,6
-32,BNAD Minor Course Upper Division,BNAD,,,,,3,,,6
+31,Minor Course Upper Division,BNAD,,,,,3,,,6
+32,Minor Course Upper Division,BNAD,,,,,3,,,6
 33,"Economics of Future Markets, Agribusiness Management Emphasis Core",AREC,313,,,,3,,,7
 34,"Economics of Policy Analysis, Agribusiness Management Emphasis Core",AREC,464,,,,3,,,7
 35,BNAD Minor Course Upper Division,BNAD,,,,,3,,,7

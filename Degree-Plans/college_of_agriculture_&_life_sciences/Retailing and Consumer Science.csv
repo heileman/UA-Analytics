@@ -1,13 +1,13 @@
-Curriculum,Retailing and Consumer Science
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Retailing and Consumer Science,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,19-0203,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First-Year Composition,ENGL,101,,,,3,,,1
 2,College Algebra,MATH,112,,,,3,,,1
-3,ABE 120 Microcomputing Applications,BE,A,,,,3,,,1
+3,Microcomputing Applications,ABE,120,,,,3,,,1
 4,Tier I General Education,,,,,,3,,,1
 5,Tier I General Education,,,,,,3,,,1
 6,First-Year Composition,ENGL,102,,,,3,,,2
@@ -34,15 +34,15 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 27,Retail Mathematics,RCSC,304,,,,3,,,6
 28,Consumer Behavior in Retailing,RCSC,340,,,,3,,,6
 29,"Leadership, Ethics, and Management Practices",RCSC,384,,,,3,,,6
-30,RCSC Elective,CSC,R,,,,3,,,6
+30,RCSC Elective,,,,,,3,,,6
 31,Minor course or General Elective,,,,,,3,,,6
 32,Retail Promotion and Visual Merchandising,RCSC,315,,,,3,,,7
 33,Retailing and Marketing Strategy,RCSC,400,,,,3,,,7
-34,RCSC Elective,CSC,R,,,,3,,,7
-35,RCSC Elective,CSC,R,,,,3,,,7
+34,RCSC Elective,,,,,,3,,,7
+35,RCSC Elective,,,,,,3,,,7
 36,Minor course or General Elective,,,,,,3,,,7
-37,RCSC Elective,CSC,R,,,,3,,,8
-38,RCSC Elective,CSC,R,,,,3,,,8
-39,RCSC Elective,CSC,R,,,,3,,,8
-40,RCSC Elective,CSC,R,,,,3,,,8
+37,RCSC Elective,,,,,,3,,,8
+38,RCSC Elective,,,,,,3,,,8
+39,RCSC Elective,,,,,,3,,,8
+40,RCSC Elective,,,,,,3,,,8
 41,Minor course or General Elective,,,,,,2,,,8

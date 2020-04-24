@@ -1,9 +1,9 @@
-Curriculum,French French and Francophone Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,French French and Francophone Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BA,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,05-0124,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First Year Composition,ENGL,101,,,,3,,,1
 2,Elementary French I,FREN,101,,,,4,,,1
@@ -20,7 +20,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 13,Tier I General Education,,,,,,3,,,3
 14,Tier I General Education,,,,,,3,,,3
 15,General Elective,,,,,,3,,,3
-16,Intermediate French II,FREN,202-,,,,4,,,4
+16,Intermediate French II,FREN,202,,,,4,,,4
 17,Images of Africa,FREN,249,,,,3,,,4
 18,Tier II General Education,,,,,,3,,,4
 19,Tier II General Education,,,,,,3,,,4

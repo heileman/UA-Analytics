@@ -1,9 +1,9 @@
-Curriculum,Applied Humanities Public Health Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Applied Humanities Public Health Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BA,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,51-2201,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First Year Composition,ENGL,101,,,,3,,,1
 2,First Semester Second Language,,,,,,4,,,1
@@ -31,16 +31,16 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 24,Tier II General Education,,,,,,3,,,5
 25,Minor Course,,,,,,3,,,5
 26,Applied Humanities Internship,,,,,,3,,,6
-27,or HPS 322 or HPS 330 or HPS 350 or HPS 381 or PHPM 310 or EHS 457,HPS,306,,,,3,,,6
+27,Drugs and Society,HPS,306,,,,3,,,6
 28,Minor Course,,,,,,3,,,6
 29,Minor Course,,,,,,3,,,6
 30,General Elective,,,,,,3,,,6
 31,Applied Humanities Elective,,,,,,3,,,7
-32,or HPS 322 or HPS 330 or HPS 350 or HPS 381 or PHPM 310 or EHS 457,HPS,306,,,,3,,,7
+32,Drugs and Society,HPS,306,,,,3,,,7
 33,Upper Division Minor Course,,,,,,3,,,7
 34,Upper Division Minor Course,,,,,,3,,,7
 35,General Elective,,,,,,2,,,7
 36,Senior Capstone,PAH,498,,,,3,,,8
-37,or HPS 322 or HPS 330 or HPS 350 or HPS 381 or PHPM 310 or EHS 457,HPS,306,,,,3,,,8
+37,Drugs and Society,HPS,306,,,,3,,,8
 38,Upper Division Minor Course,,,,,,3,,,8
 39,General Elective,,,,,,3,,,8

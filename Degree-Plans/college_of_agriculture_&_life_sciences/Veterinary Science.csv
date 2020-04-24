@@ -1,9 +1,9 @@
-Curriculum,Veterinary Science
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Veterinary Science,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,51.2401,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,Intro To Animal Science Lecture,ACBS,102R,,,,3,,,1
 2,Intro to Animal Science Lab,ACBS,102L,,,,1,,,1
@@ -11,11 +11,11 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 4,Tier I General Education,,,,,,3,,,1
 5,First Year Composition,ENGL,101,,,,3,,,1
 6,Second  Language,,,,,,4,,,1
-7,,MATH,112,,,,3,,,2
+7,College Algebra Concepts and Applications,MATH,112,,,,3,,,2
 8,First Year Composition,ENGL,102,,,,3,,,2
 9,Second Language,,,,,,4,,,2
-10,Ecol 182R  General Biology II Lecture,,,,,,3,,,2
-11,Ecol 182L General Biology II Lab,,,,,,1,,,2
+10,General Biology II Lecture,ECOL,182R,,,,3,,,2
+11,General Biology II Lab,ECOL,182L,,,,1,,,2
 12,Colloquium or General Elective,,,,,,1,,,2
 13,General Chemistry I,,,,,,4,,,3
 14,Basic Econimic Issues,ECON,200,,,,3,,,3
@@ -46,8 +46,8 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 39,Introductory Physics I  Lab,,,,,,1,,,7
 40,Core Elective Course- Disease or Non-Disease Related,,,,,,3,,,7
 41,Animal Anatomy and Physiology,ACBS,400b,,,,3,,,8
-42,Introductory Physics II Lecture,,,,,,3,,,8
-43,Introductory Physics II Lab,,,,,,1,,,8
+42,Introductory Physics II Lecture,PHYS,103,,,,3,,,8
+43,Introductory Physics II Lab,PHYS,182,,,,1,,,8
 44,Tier II General Education,,,,,,3,,,8
 45,Core Elective Course- Disease or Non-Disease Related,,,,,,2,,,8
 46,Metabolic Biochemistry,BIOC,385,,,,3,,,8

@@ -1,19 +1,19 @@
-Curriculum,Studio Art
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Studio Art,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BA,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,50.0101,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,Mapping,ART,100A,,,,2,,,1
 2,Experience,ART,100B,,,,2,,,1
 3,Surface,ART,100E,,,,2,,,1
-4,ART Foundation Course,ART,,,,,2,,,1
+4,ART Foundation Course,,,,,,2,,,1
 5,Pre-Historic to Gothic Art History,ARH,201,,,,3,,,1
 6,First Year Composition,ENGL,101,,,,3,,,1
 7,Tier I General Education,,,,,,3,,,1
-8,ART Foundation Course,ART,,,,,2,,,2
-9,ART Foundation Course,ART,,,,,2,,,2
+8,ART Foundation Course,,,,,,2,,,2
+9,ART Foundation Course,,,,,,2,,,2
 10,Renaissance to Modern Art History,ARH,202,,,,3,,,2
 11,First Year Composition,ENGL,102,,,,3,,,2
 12,Contemporary Art and Theory,ART,119,,,,3,,,2

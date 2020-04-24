@@ -1,9 +1,9 @@
-Curriculum,Performance Viola Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Performance Viola Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BM,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,50-0903,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First-Year Composition,ENGL,101,,,,3,,,1
 2,MATH,,,,,,3,,,1
@@ -49,7 +49,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 42,Careers in Music,MUS,427B,,,,2,,,6
 43,Tier II General Education,,,,,,3,,,7
 44,Tier II General Education,,,,,,3,,,7
-45,OR 410B Pedagogy,MUS,410A,,,,2,,,7
+45,Pedagogy,MUS,410A,,,,2,,,7
 46,Coached Ensemble,MUS,401,,,,1,,,7
 47,Individual Studies,MUSI,485,,,,4,,,7
 48,Large Ensemble,MUS,400,,,,1,,,7

@@ -1,17 +1,17 @@
-Curriculum,Plant Sciences
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Plant Sciences,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,01-1101,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First Year Composition,ENGL,101,,,,3,,,1
 2,MATH,,,,,,3,,,1
-3,General Chemistry I,,,,,,4,,,1
+3,General Chemistry I,CHEM,151,,,,4,,,1
 4,Tier I General Education,,,,,,3,,,1
 5,Colloquium,,,,,,1,,,1
 6,First Year Composition,ENGL,102,,,,3,,,2
-7,General Chemistry II,,,,,,4,,,2
+7,General Chemistry II,CHEM,152,,,,4,,,2
 8,Tier I General Education,,,,,,3,,,2
 9,Introductory Biology II,ECOL,182R,,,,3,,,2
 10,Introductory Biology II Lab,ECOL,182L,,,,1,,,2
@@ -20,7 +20,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 13,Plant Biology,PLS,240,,,,4,,,3
 14,Introductory Biology I,MCB,181,,,,3,,,3
 15,Free Elective,,,,,,3,,,3
-16,MAT 263 Introductory Statistics and Biostatistics,,,,,,3,,,4
+16,Introductory Statistics and Biostatistics,MATH,263,,,,3,,,4
 17,Foundations in Biochemistry,BIOC,384,,,,3,,,4
 18,Animal and Plant Genetics,PLS,312,,,,4,,,4
 19,Tier I General Education,,,,,,3,,,4

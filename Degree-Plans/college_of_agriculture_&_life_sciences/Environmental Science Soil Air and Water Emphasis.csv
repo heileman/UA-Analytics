@@ -1,18 +1,18 @@
-Curriculum,Environmental Science Soil Air and Water Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Environmental Science Soil Air and Water Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,03-0101,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,English Composition I,ENGL,101,,,,3,,,1
-2,MATH Calculus,MATH,,,,,3,,,1
+2,MATH Calculus,MATH,122A,,,,3,,,1
 3,Fundamentals of Environmental Science,ENVS,210,,,,3,,,1
 4,Tier I General Education,,,,,,3,,,1
 5,Introductory Biology I,MCB,181R,,,,3,,,1
 6,English Composition II,ENGL,102,,,,3,,,2
 7,Critical Zone Science,ENVS,270,,,,3,,,2
-8,General Chemistry I,,,,,,4,,,2
+8,General Chemistry I,CHEM,151,,,,4,,,2
 9,Tier I General Education,,,,,,3,,,2
 10,Introduction to Soil Science,ENVS,200,,,,3,,,3
 11,Introdcution to Soil Science laboratory,ENVS,201,,,,1,,,3

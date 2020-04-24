@@ -1,9 +1,9 @@
-Curriculum,Animal Sciences Race Track Industry Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Animal Sciences Race Track Industry Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,01-0307,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,Intro to Racing,ACBS,142,,,,2,,,1
 2,Intro to Horse Science,ACBS,270,,,,3,,,1
@@ -24,24 +24,24 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 17,Joe Hirsch Speaker Forum,ACBS,497a,,,,1,,,4
 18,Advanced Racing Law,ACBS,433,,,,3,,,4
 19,General Chemistry,CHEM,152,,,,4,,,4
-20,or 250 Financial Accounting,ACCT,200,,,,3,,,4
+20,Financial Accounting,ACCT,200,,,,3,,,4
 21,Tier II General Education,,,,,,3,,,5
 22,Admin of the Racing Department,ACBS,342,,,,3,,,5
 23,Management of the Racing Animal,ACBS,444,,,,3,,,5
 24,Financial and Economic Strategies,ACBS,301,,,,3,,,5
-25,RTIP Elective (ALC 422 or ACBS 336A suggested),,,,,,3,,,5
+25,RTIP Elective ,ALC,422,,,,3,,,5
 26,Racing Organization and Structure,ACBS,441,,,,3,,,6
 27,Tier II General Education,,,,,,3,,,6
 28,Tier II General Education,,,,,,3,,,6
-29,RTIP Elective (ACBS 370 or ACBS 302 suggested),,,,,,3,,,6
-30,RTIP Elective (ACCT 210 or ACBS 215 suggested),,,,,,3,,,6
+29,RTIP Elective ,ACBS,370,,,,3,,,6
+30,RTIP Elective ,ACCT,210,,,,3,,,6
 31,Race Track Financial Management,ACBS,442,,,,3,,,7
 32,RTIP Capstone,ACBS,498B,,,,1,,,7
 33,Business Law,ACBS,447,,,,3,,,7
 34,Equine Course,,,,,,3,,,7
-35,RTIP Elective (AREC 315 or ACBS 431 suggested),,,,,,3,,,7
-36,RTIP Elective (ENGL 307 or ACBS 475 suggested),,,,,,3,,,7
+35,RTIP Elective,AREC,315,,,,3,,,7
+36,RTIP Elective,ENGL,307,,,,3,,,7
 37,Internship,ACBS,493,,,,3,,,8
 38,Human Resources,ACBS,446,,,,3,,,8
-39,RTIP Elective (ACBS 316 or BNAD 303 suggested),,,,,,3,,,8
+39,RTIP Elective,ACBS,316,,,,3,,,8
 40,General Elective,,,,,,4,,,8

@@ -1,9 +1,9 @@
-Curriculum,Spanish Spanish and Portuguese Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Spanish Spanish and Portuguese Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BA,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,05-0130,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First-Year Composition,ENGL,101,,,,3,,,1
 2,Third Semester Spanish,SPAN,201,,,,4,,,1
@@ -40,8 +40,8 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 33,PORT Upper Level Elective,PORT,,,,,3,,,7
 34,Minor,,,,,,3,,,7
 35,Minor,,,,,,3,,,7
-36,PORT Upper Level Elective,PORT,,,,,3,,,8
-37,PORT Upper Level Elective,PORT,,,,,3,,,8
+36,PORT Upper Level Elective,,,,,,3,,,8
+37,PORT Upper Level Elective,,,,,,3,,,8
 38,Elective,,,,,,3,,,8
 39,Minor,,,,,,3,,,8
 40,Minor,,,,,,3,,,8

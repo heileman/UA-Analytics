@@ -1,9 +1,9 @@
-Curriculum,Spanish Hispanic Linguistics Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Spanish Hispanic Linguistics Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BA,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,05-0130,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First-Year Composition,ENGL,101,,,,3,,,1
 2,Third Semester Spanish,SPAN,201,,,,4,,,1
@@ -30,7 +30,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 23,Portuguese for Spanish Speakers,PORT,305A,,,,3,,,5
 24,Minor,,,,,,3,,,5
 25,Elective,,,,,,3,,,5
-26,SPAN Upper Level Spanish elective,PA,SN,,,,3,,,6
+26,SPAN Upper Level Spanish elective,,,,,,3,,,6
 27,Intermediate Grammar and Conversation,PORT,325A,,,,3,,,6
 28,Introduction to Hispanic Linguistics,SPAN,452,,,,3,,,6
 29,Minor,,,,,,3,,,6

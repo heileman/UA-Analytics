@@ -1,47 +1,47 @@
-Curriculum,Animal Sciences Science and Pre-professional Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Animal Sciences Science and Pre-professional Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,01-0901,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First-Year Composition,ENGL,101,,,,3,,,1
 2,Tier I General Education,,,,,,3,,,1
 3,MATH,,,,,,3,,,1
 4,Second Language,,,,,,4,,,1
-5,,ACBS,102R/L,,,,4,,,1
+5,Introduction to Animal Science,ACBS,102R,,,,4,,,1
 6,First-Year Composition,ENGL,102,,,,3,,,2
 7,Tier I General Education,,,,,,3,,,2
 8,Statistics,,,,,,3,,,2
 9,Second Language,,,,,,4,,,2
 10,Emphasis Elective,,,,,,3,,,2
 11,COMM,,,,,,3,,,3
-12,,CHEM,151,,,,4,,,3
-13,,ECON,200,,,,3,,,3
-14,R/L,ECOL,182,,,,4,,,3
+12,Introduction to Chemistry,CHEM,151,,,,4,,,3
+13,Basic Economics Issues,ECON,200,,,,3,,,3
+14,Introductory Biology II ,ECOL,182R,,,,4,,,3
 15,Tier I General Education,,,,,,3,,,3
 16,Tier I General Education,,,,,,3,,,4
-17,,CHEM,152,,,,4,,,4
-18,,ACBS,215,,,,3,,,4
-19,,BIOC,385,,,,3,,,4
+17,General Chemistry II,CHEM,152,,,,4,,,4
+18,Psycology and Anatomy of Domestic Animals,ACBS,215,,,,3,,,4
+19,Metabolic Biochemistry,BIOC,385,,,,3,,,4
 20,Emphasis Elective,,,,,,3,,,4
 21,Tier II General Education,,,,,,3,,,5
-22,,AREC,315,,,,3,,,5
+22,Agribusiness Economics and Management Syllabus,AREC,315,,,,3,,,5
 23,Organic Chemistry I,,,,,,4,,,5
-24,,MCB,181R/L,,,,4,,,5
-25,,ACBS,336A,,,,3,,,5
+24,Introduction to Biology I,MCB,181R,,,,4,,,5
+25,Applied Animal Nutrition,ACBS,336A,,,,3,,,5
 26,Tier II General Education,,,,,,3,,,6
 27,Organic Chemistry II,,,,,,4,,,6
-28,,ACBS,445,,,,3,,,6
-29,A orB,ACBS,400,,,,3,,,6
+28,Nutritional Physiology and Metabolic Biochemistry,ACBS,445,,,,3,,,6
+29,Animal Anatomy and Physiology,ACBS,400A,,,,3,,,6
 30,Emphasis Elective,,,,,,3,,,6
 31,Tier II General Education,,,,,,3,,,7
 32,Physics I,,,,,,4,,,7
-33,R,ACBS,315,,,,3,,,7
-34,,MIC,205A,,,,3,,,7
+33,Physiology of Reproduction,ACBS,315R,,,,3,,,7
+34,General Microbiology,MIC,205A,,,,3,,,7
 35,Emphasis Elective,,,,,,3,,,7
 36,Physics II,,,,,,4,,,8
-37,,ACBS,395A,,,,1,,,8
-38,,PLS,312,,,,3,,,8
-39,,MCB,410,,,,3,,,8
+37,Professional Development in Animal Agriculture,ACBS,395A,,,,1,,,8
+38,Plant and Animal Genetics,PLS,312,,,,3,,,8
+39,Cell Biology,MCB,410,,,,3,,,8
 40,Emphasis Elective,,,,,,3,,,8

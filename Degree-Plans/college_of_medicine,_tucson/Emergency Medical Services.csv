@@ -1,26 +1,26 @@
-Curriculum,Emergency Medical Services
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Emergency Medical Services,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,51-0904,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,Paramedic Certificate,,,,,,20,,,1
 2,Paramedic Certificate,,,,,,20,,,2
 3,Foundation Math,,,,,,3,,,3
-4,Eng 101 First-Year Composition,,,,,,3,,,3
+4,First-Year Composition,ENG,101,,,,3,,,3
 5,Tier I General Education,,,,,,3,,,3
 6,Second Language,,,,,,4,,,3
 7,Tier I General Education,,,,,,3,,,4
 8,Tier I General Education,,,,,,3,,,4
-9,ENG 102 First-Year Composition,,,,,,3,,,4
+9,First-Year Composition,ENG,102,,,,3,,,4
 10,Math elective,,,,,,3,,,4
 11,Second Language,,,,,,4,,,4
 12,Science Elective,,,,,,4,,,5
 13,Tier I General Education,,,,,,3,,,5
 14,Advanced Medical Services Core Competencies,EMD,350,,,,3,,,5
 15,Emergency Medical Services Core Competencies,EMD,310,,,,3,,,5
-16,EMD Elective,EMD,,,,,3,,,5
+16,EMD Elective,,,,,,3,,,5
 17,Science Elective,,,,,,4,,,6
 18,Tier II General Education,,,,,,3,,,6
 19,Health Elective,,,,,,3,,,6
@@ -30,7 +30,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 23,Leadership Elective,,,,,,3,,,7
 24,Health Elective,,,,,,3,,,7
 25,A or C EMS Leadership,EMD,493,,,,3,,,7
-26,EMD Elective,EMD,,,,,3,,,7
+26,EMD Elective,,,,,,3,,,7
 27,Tier II General Education,,,,,,3,,,8
 28,General Elective,,,,,,3,,,8
 29,B or D EMS Leadership,EMD,493,,,,3,,,8

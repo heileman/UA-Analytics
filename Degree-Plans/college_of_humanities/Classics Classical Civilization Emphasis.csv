@@ -1,25 +1,25 @@
-Curriculum,Classics Classical Civilization Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Classics Classical Civilization Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BA,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,05-0299,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First Year Composition,ENGL,101,,,,3,,,1
-2,GRK or LAT 101 - Elementary Greek or Latin I,GRK,,,,,4,,,1
+2,Elementary Greek or Latin I,GRK,,,,,4,,,1
 3,MATH,,,,,,3,,,1
 4,Tier I General Education,,,,,,3,,,1
 5,Tier I General Education,,,,,,3,,,1
 6,0 First Year Composition,ENGL,102,,,,3,,,2
-7,GRK or LAT 102-Elementary Greek or Latin II,GRK,,,,,4,,,2
+7,Elementary Greek or Latin II,LAT,102,,,,4,,,2
 8,Tier I General Education,,,,,,3,,,2
 9,Tier I General Education,,,,,,3,,,2
 10,Tier I General Education,,,,,,3,,,2
-11,GRK or LAT 201 - Intermediate Greek/Latin I,GRK,,,,,4,,,3
+11,Intermediate Greek/Latin I,LAT,201,,,,4,,,3
 12,The Literature of the Ancient Greek: From Homer to the Novel,CLAS,301A,,,,3,,,3
 13,Tier I General Education,,,,,,3,,,3
 14,Tier II General Education,,,,,,3,,,3
-15,GRK or LAT 202 - Intermediate Greek/Latin II,GRK,,,,,4,,,4
+15,Intermediate Greek/Latin II,LAT,202,,,,4,,,4
 16,The Literature of the Ancient Romans: Latin Literature in English Translation,CLAS,301B,,,,3,,,4
 17,Tier II General Education,,,,,,3,,,4
 18,Tier II General Education,,,,,,3,,,4

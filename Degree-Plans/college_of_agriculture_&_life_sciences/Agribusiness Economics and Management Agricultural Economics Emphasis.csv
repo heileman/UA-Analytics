@@ -1,9 +1,9 @@
-Curriculum,Agribusiness Economics and Management Agricultural Economics Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Agribusiness Economics and Management Agricultural Economics Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,01-0103,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,GE Moderate Math Strand,,,,,,3,,,1
 2,First-Year Composition,ENGL,101,,,,3,,,1
@@ -14,7 +14,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 7,First-Year Composition,ENGL,102,,,,3,,,2
 8,Second Semester Second Language,,,,,,4,,,2
 9,"Basic Economic Issues, Supporting Coursework",ECON,200,,,,3,,,2
-10,"BE120 or MIS111, Supporting Coursework",BE,120,,,,3,,,2
+10,Supporting Coursework,BE,120,,,,3,,,2
 11,Tier II General Education,,,,,,3,,,3
 12,Tier I General Education,,,,,,3,,,3
 13,Tier I General Education,,,,,,3,,,3

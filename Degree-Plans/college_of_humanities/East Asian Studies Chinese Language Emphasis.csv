@@ -1,16 +1,16 @@
-Curriculum,East Asian Studies Chinese Language Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,East Asian Studies Chinese Language Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BA,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,05-0123,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First Year Composition,ENGL,101,,,,3,,,1
 2,Elementary Chinese,CHN,101,,,,5,,,1
 3,MATH,,,,,,3,,,1
 4,Tier I General Education,,,,,,3,,,1
 5,First Year Composition,ENGL,102,,,,3,,,2
-6,Elementary Chinese,CHN,102-,,,,5,,,2
+6,Elementary Chinese,CHN,102,,,,5,,,2
 7,Tier I General Education,,,,,,3,,,2
 8,Tier I General Education,,,,,,3,,,2
 9,Intermediate Modern Chinese,CHN,201,,,,5,,,3

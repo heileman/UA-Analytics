@@ -1,9 +1,9 @@
-Curriculum,Art History
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Art History,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BA,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,50-0703,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,Studio Art Course,,,,,,2,,,1
 2,Studio Art Course,,,,,,2,,,1
@@ -16,17 +16,17 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 9,Tier I General Education,,,,,,3,,,2
 10,Tier I General Education,,,,,,3,,,2
 11,MATH,,,,,,3,,,2
-12,ARH Major Emphasis Course,ARH,,,,,3,,,3
-13,ARH Major Emphasis Course,ARH,,,,,3,,,3
+12,ARH Major Emphasis Course,,,,,,3,,,3
+13,ARH Major Emphasis Course,,,,,,3,,,3
 14,Minor,,,,,,3,,,3
 15,Second Language,,,,,,4,,,3
 16,Tier I General Education,,,,,,3,,,3
-17,ARH Major Emphasis Course,ARH,,,,,3,,,4
-18,ARH Major Emphasis Course,ARH,,,,,3,,,4
+17,ARH Major Emphasis Course,,,,,,3,,,4
+18,ARH Major Emphasis Course,,,,,,3,,,4
 19,Minor,,,,,,3,,,4
 20,Second Language,,,,,,4,,,4
 21,Tier I General Education,,,,,,3,,,4
-22,ARH Major Emphasis Course,ARH,,,,,3,,,5
+22,ARH Major Emphasis Course,,,,,,3,,,5
 23,Minor,,,,,,3,,,5
 24,Second Language,,,,,,4,,,5
 25,Tier II General Education,,,,,,3,,,5
@@ -36,7 +36,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 29,Minor,,,,,,3,,,6
 30,Second Language,,,,,,4,,,6
 31,General Elective,,,,,,3,,,6
-32,ARH Major Emphasis Course,ARH,,,,,3,,,7
+32,ARH Major Emphasis Course,,,,,,3,,,7
 33,Upper Division Art Elective,,,,,,3,,,7
 34,Tier II General Education,,,,,,3,,,7
 35,Minor,,,,,,3,,,7

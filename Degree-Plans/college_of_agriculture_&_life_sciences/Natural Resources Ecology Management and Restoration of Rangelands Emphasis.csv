@@ -1,16 +1,16 @@
-Curriculum,Natural Resources Ecology Management and Restoration of Rangelands Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Natural Resources Ecology Management and Restoration of Rangelands Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,03-0201,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
-1,or CHEM 141 and 143: General Chemistry I,CHEM,151,,,,4,,,1
+1,GENERAL Chemistry I,CHEM,151,,,,4,,,1
 2,First Year Composition,ENGL,101,,,,3,,,1
 3,Tier I General Education,,,,,,3,,,1
 4,Conservation of Natural Environments,RNR,200,,,,3,,,1
-5,Math 112,,,,,,3,,,1
-6,or CHEM 142 and 144: General Chemistry II,CHEM,152,,,,4,,,2
+5,Calculus I,MATH,112,,,,3,,,1
+6,GENERAL Chemistry II,CHEM,152,,,,4,,,2
 7,First Year Composition,ENGL,102,,,,3,,,2
 8,General Biology II,ECOL,182R,,,,3,,,2
 9,General Biology II,ECOL,182L,,,,1,,,2
@@ -19,10 +19,10 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 12,Oral or Media Communication,,,,,,3,,,3
 13,Tier I General Education,,,,,,3,,,3
 14,Statistics,,,,,,3,,,3
-15,and L Field Botany,RNR,230R,,,,3,,,3
+15,Field Botany,RNR,230R,,,,3,,,3
 16,General Biology I Lab,MCB,181L,,,,1,,,3
 17,General Biology I Lecture,MCB,181R,,,,3,,,3
-18,and 201 Soil Science Lecture and Lab,ENVS,200,,,,4,,,4
+18,Soil Science Lecture and Lab,ENVS,200,,,,4,,,4
 19,Tier II General Education,,,,,,3,,,4
 20,Basic Economic Issues,ECON,200,,,,3,,,4
 21,Natural Resources Management Practices,RNR,384,,,,3,,,4

@@ -1,9 +1,9 @@
-Curriculum,Musical Theatre
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Musical Theatre,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BFA,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,50-0509,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,Costume Crew,TAR,118,,,,1,,,1
 2,Acting I,TAR,149,,,,3,,,1
@@ -11,7 +11,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 4,Musical Theatre I Voice Class,TAR,197V,,,,2,,,1
 5,Performance,TAR,497F,,,,1,,,1
 6,Basic Musicianship,MUS,100,,,,3,,,1
-7,,ENGL,101,,,,3,,,1
+7,Introduction to College Writing,ENGL,101,,,,3,,,1
 8,Math,,,,,,3,,,1
 9,Stagecraft Crew,TAR,113,,,,1,,,2
 10,Acting II,TAR,151,,,,3,,,2
@@ -20,7 +20,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 13,Performance,TAR,497F,,,,1,,,2
 14,Dance,,,,,,1,,,2
 15,Exploring Music through Piano,MUS,101A,,,,3,,,2
-16,,ENGL,102,,,,3,,,2
+16,First-Year Composition,ENGL,102,,,,3,,,2
 17,Tier I General Education,,,,,,3,,,2
 18,Movement Styles for Mus Theatre I,TAR,133,,,,3,,,3
 19,Voice & Movement I,TAR,203,,,,2,,,3

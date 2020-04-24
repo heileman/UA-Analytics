@@ -1,49 +1,49 @@
-Curriculum,Animal Sciences Equine Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Animal Sciences Equine Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,01-0307,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First-Year Composition,ENGL,101,,,,3,,,1
 2,Tier I General Education,,,,,,3,,,1
 3,MATH,,,,,,3,,,1
-4,,ACBS,270,,,,3,,,1
-5,,ACBS,102R,,,,3,,,1
+4,Introduction to Horse Science,ACBS,270,,,,3,,,1
+5,Introduction to Animal Science,ACBS,102R,,,,3,,,1
 6,Second Language,,,,,,4,,,1
 7,First-Year Composition,ENGL,102,,,,3,,,2
 8,Tier I General Education,,,,,,3,,,2
 9,Statistics,,,,,,3,,,2
 10,Second Language,,,,,,4,,,2
-11,,ACBS,273,,,,3,,,2
+11,Developing the Training Foundation in Yearlings,ACBS,273,,,,3,,,2
 12,COMM,,,,,,3,,,3
-13,,CHEM,151,,,,4,,,3
-14,,ECON,200,,,,3,,,3
-15,,ACBS,142,,,,2,,,3
-16,,ACBS,270,,,,3,,,3
+13,Introduction to Chemistry,CHEM,151,,,,4,,,3
+14,Basic Economics Issues,ECON,200,,,,3,,,3
+15,Introduction to Animal Racing Industry,ACBS,142,,,,2,,,3
+16,Introduction to Horse Science,ACBS,270,,,,3,,,3
 17,Tier I General Education,,,,,,3,,,4
-18,,CHEM,152,,,,4,,,4
-19,,ACBS,215,,,,3,,,4
+18,General Chemistry II,CHEM,152,,,,4,,,4
+19,Psycology and Anatomy of Domestic Animals,ACBS,215,,,,3,,,4
 20,Emphasis Elective,,,,,,3,,,4
-21,,ACBS,273,,,,3,,,4
-22,,ACCT,200,,,,3,,,4
+21,Developing the Training Foundation in Yearlings,ACBS,273,,,,3,,,4
+22,Introduction to Financial Accounting,ACCT,200,,,,3,,,4
 23,Tier II General Education,,,,,,3,,,5
-24,,AREC,315,,,,3,,,5
-25,R,ACBS,315,,,,4,,,5
-26,,MCB,181R/L,,,,4,,,5
-27,,ACBS,336A,,,,3,,,5
+24,Agribusiness Economics and Management,AREC,315,,,,3,,,5
+25,Physiology of Reproduction ,ACBS,315R,,,,4,,,5
+26,Intro Biology I and Laboratory Information,MCB,181R,,,,4,,,5
+27,Applied Animal Nutrition,ACBS,336A,,,,3,,,5
 28,Tier II General Education,,,,,,3,,,6
 29,Tier I General Education,,,,,,4,,,6
-30,,ACBS,316,,,,3,,,6
-31,,ACBS,340,,,,3,,,6
+30,Equine Reproductive Physiology and Management,ACBS,316,,,,3,,,6
+31,Race Track Marketing and Media Relations,ACBS,340,,,,3,,,6
 32,Emphasis Elective,,,,,,3,,,6
-33,,ACBS,475,,,,3,,,7
-34,,PLS,312,,,,4,,,7
-35,,ACBS,431,,,,3,,,7
-36,,ACBS,444,,,,3,,,7
-37,,ACBS,447,,,,3,,,7
-38,,ACBS,446,,,,4,,,8
-39,,ACBS,395A,,,,1,,,8
-40,,ACBS,370,,,,3,,,8
+33,Equine Enterprises,ACBS,475,,,,3,,,7
+34,Plant and Animal Genetics,PLS,312,,,,4,,,7
+35,Equine Nutrition and Management,ACBS,431,,,,3,,,7
+36,Development and Management of Racing Animals,ACBS,444,,,,3,,,7
+37,Legal Environment of Business,ACBS,447,,,,3,,,7
+38,Human Resource Management,ACBS,446,,,,4,,,8
+39,Professional Development in Animal Agriculture,ACBS,395A,,,,1,,,8
+40,Form and Function of the Equine Athlete,ACBS,370,,,,3,,,8
 41,Emphasis Elective,,,,,,2,,,8
 42,Tier II General Education,,,,,,3,,,8

@@ -1,13 +1,13 @@
-Curriculum,Personal and Family Financial Planning
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Personal and Family Financial Planning,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,52-0804,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
-1,Math 112 College Algebra,,,,,,3,,,1
+1,College Algebra,MATH,112,,,,3,,,1
 2,First Year Composition,ENGL,101,,,,3,,,1
-3,ABE 120 Microcomputing Applications,BE,A,,,,3,,,1
+3,Microcomputing Applications,ABE,120,,,,3,,,1
 4,Tier I General Education,,,,,,3,,,1
 5,Second language,,,,,,4,,,1
 6,Calculus Concepts for Business,MATH,116,,,,3,,,2
@@ -37,12 +37,12 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 30,"Supporting Elective (300-400 level course from AREC, FCSC, FSHD or RCSC)",,,,,,3,,,6
 31,"General Elective  (minor course, gened, etc)",,,,,,3,,,6
 32,Personal and Family Estate Planning: Concepts and Applications,PFFP,402,,,,3,,,7
-33,Retirement Savings and Family Income Strategies,PFFP,403:,,,,3,,,7
-34,Professional Conduct and Fiduciary Responsibility Seminar,PFFP,406:,,,,3,,,7
+33,Retirement Savings and Family Income Strategies,PFFP,403:00:00,,,,3,,,7
+34,Professional Conduct and Fiduciary Responsibility Seminar,PFFP,406:00:00,,,,3,,,7
 35,PFFP Program Internship Orientation,PFFP,495A:,,,,1,,,7
-36,Retail Financial Services,RCSC,476:,,,,3,,,7
+36,Retail Financial Services,RCSC,476:00:00,,,,3,,,7
 37,"Supporting Elective (300-400 level course from AREC, FCSC, FSHD or RCSC)",,,,,,3,,,7
-38,Capstone: Family and Personal Financial Plan Development,PFFP,498:,,,,3,,,8
-39,PFFP Program Internship,PFFP,493:,,,,6,,,8
+38,Capstone: Family and Personal Financial Plan Development,PFFP,498:00:00,,,,3,,,8
+39,PFFP Program Internship,PFFP,493:00:00,,,,6,,,8
 40,"Supporting Elective (300-400 level course from AREC, FCSC, FSHD or RCSC)",,,,,,3,,,8
 41,"Supporting Elective (300-400 level course from AREC, FCSC, FSHD or RCSC)",,,,,,3,,,8

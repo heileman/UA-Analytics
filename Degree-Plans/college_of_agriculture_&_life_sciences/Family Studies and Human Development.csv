@@ -1,12 +1,12 @@
-Curriculum,Family Studies and Human Development
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Family Studies and Human Development,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,19-0701,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,First Year Composition,ENGL,101,,,,3,,,1
-2,Math - College Algebra,,,,,,3,,,1
+2,Math - College Algebra,MATH,112,,,,3,,,1
 3,Introduction to Family Studies and Human Development,FSHD,197A,,,,1,,,1
 4,Lifespan Human Development,FSHD,117,,,,3,,,1
 5,Second Language,,,,,,4,,,1
@@ -31,7 +31,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 24,Advanced Composition,,,,,,3,,,5
 25,Biological Processes and Development,,,,,,3,,,5
 26,Issues in Aging,FSHD,413,,,,3,,,6
-27,or 427C Problems in Adult Development & Relations or Problems in Child/Adolescent Developm,FSHD,427A,,,,3,,,6
+27,Problems in Adult Development & Relations or Problems in Child/Adolescent Developm,FSHD,427A,,,,3,,,6
 28,FSHD Complementary Advanced Topic,FSHD,,,,,3,,,6
 29,Tier II General Education,,,,,,3,,,6
 30,Tier II General Education,,,,,,3,,,6

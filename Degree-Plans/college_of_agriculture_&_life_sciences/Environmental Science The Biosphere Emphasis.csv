@@ -1,25 +1,25 @@
-Curriculum,Environmental Science The Biosphere Emphasis
-Degree Plan,2019-20 Degree Plan
-Degree Type,BS
-System Type,semester
-CIP
-Courses
+Curriculum,Environmental Science The Biosphere Emphasis,,,,,,,,,
+Degree Plan,2019-20 Degree Plan,,,,,,,,,
+Degree Type,BS,,,,,,,,,
+System Type,semester,,,,,,,,,
+CIP,03-0199,,,,,,,,,
+Courses,,,,,,,,,,
 Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name,Term
 1,English Composition I,ENGL,101,,,,3,,,1
-2,MATH Calculus,MATH,,,,,3,,,1
+2,MATH Calculus,MATH,122A,,,,3,,,1
 3,Fundamentals of Environmental Science,ENVS,210,,,,3,,,1
 4,Tier I General Education,,,,,,3,,,1
 5,Introductory Biology I,MCB,181R,,,,3,,,1
 6,English Composition II,ENGL,102,,,,3,,,2
 7,Critical Zone Science,ENVS,270,,,,3,,,2
-8,General Chemistry I,,,,,,4,,,2
+8,General Chemistry I,CHEM,151,,,,4,,,2
 9,Tier I General Education,,,,,,3,,,2
 10,Introduction to Soil Science,ENVS,200,,,,3,,,3
 11,Introdcution to Soil Science laboratory,ENVS,201,,,,1,,,3
-12,General Chemtry II,,,,,,4,,,3
+12,General Chemtry II,CHEM,152,,,,4,,,3
 13,Careers in Environmental Science,ENVS,195A,,,,1,,,3
 14,Tier I General Education,,,,,,3,,,3
-15,Organic Chemistry,,,,,,4,,,4
+15,Organic Chemistry,CHEM,241A,,,,4,,,4
 16,Microbiology,MIC,205A,,,,3,,,4
 17,Tier I General Education,,,,,,3,,,4
 18,Tier II General Education,,,,,,3,,,4
@@ -29,7 +29,7 @@ Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisit
 22,Physics,,,,,,4,,,5
 23,Quantitative Skills in Natural Sciences,ENVS,275,,,,3,,,5
 24,Scientific Writing,,,,,,3,,,5
-25,or ECOL 302 Ecology,RNR,316,,,,3,,,5
+25,Ecology,RNR,316,,,,3,,,5
 26,Pollution Science,ENVS,305,,,,3,,,6
 27,Biosphere Emphasis Core,,,,,,3,,,6
 28,Biosphere Emphasis Core,,,,,,4,,,6
