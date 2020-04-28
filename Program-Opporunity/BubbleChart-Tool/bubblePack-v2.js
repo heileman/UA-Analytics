@@ -85,13 +85,18 @@ demand_median = 44.631006;
 //   .range(padExtent([5, 130]));
 const yScale = d3
   .scaleLinear()
-  .domain(padExtent([0, 1000]))
-  .range(padExtent([domainheight, 0]));
+  .domain(padExtent([-200, 5500]))
+  .range(padExtent([domainheight, 1]));
+
+const yScale_large = d3
+  .scaleLinear()
+  .domain(padExtent([7000, 20000]))
+  .range(padExtent([yScale(4000), yScale(5000)]));
 
 // the scaler for x axis and projected demand
 // it should cover 1 and 10
-const x_min = -600,
-  x_max = 1000;
+const x_min = -200,
+  x_max = 1400;
 const xScale = d3
   .scaleLinear()
   .domain(padExtent([x_min, x_max]))
@@ -117,6 +122,7 @@ const defs = view
   .attr("refY", 5)
   .attr("markerWidth", 6)
   .attr("markerHeight", 6)
+  .attr("color", "red")
   .attr("orient", "auto-start-reverse")
 
   .append("path")
@@ -181,14 +187,14 @@ var texts = [
     id: 2,
     tx: axes[1].x2 - 60,
     ty: axes[1].y2 + 13,
-    text: "% of Program",
+    text: "Program",
     size: textLocations.size,
   },
   {
     id: 3,
     tx: axes[1].x2 - 60,
     ty: axes[1].y2 + 28,
-    text: "Online",
+    text: "Enrollments",
     size: textLocations.size,
   },
 ];
@@ -230,8 +236,7 @@ drawChartBubbles(view, chartBubbleData);
 // config zoom
 var zoom = d3
   .zoom()
-  .scaleExtent([-10, 10])
-
+  .scaleExtent([0.1, 10])
   .on("zoom", () => {
     currentTransform = d3.event.transform;
     xTransform = d3.event.transform.x;

@@ -21,8 +21,11 @@ const drawChartBubbles = (selection, chartBubbleData) => {
       return xScale(d.demand);
     })
     .attr("cy", (d) => {
-      if (d.size > 9000) {
-        return yScale(2500);
+      if (d.size > 7000) {
+        if (d.size > 20000) {
+          return yScale_large(20000);
+        }
+        return yScale_large(d.size);
       }
       return yScale(d.size);
     })
@@ -55,12 +58,12 @@ const drawChartBubbles = (selection, chartBubbleData) => {
       // }
       // return sizeScale(d.percentage);
       if (d.percentage > 66) {
-        return 30;
+        return 25;
       }
       if (d.percentage > 33) {
-        return 20;
+        return 15;
       }
-      return 10;
+      return 5;
     });
 
   circles.exit().transition().duration(300).attr("r", 0).remove();
