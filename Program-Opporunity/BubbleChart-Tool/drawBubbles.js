@@ -6,7 +6,7 @@ const drawChartBubbles = (selection, chartBubbleData) => {
     .data(
       // enter the data in descending order so that big bubbles wouldn't cover little ones
       chartBubbleData.sort((first, second) => {
-        return second.percentage - first.percentage;
+        return second.size - first.size;
       }),
       (d) => d.id
     );
@@ -21,10 +21,7 @@ const drawChartBubbles = (selection, chartBubbleData) => {
       return xScale(d.demand);
     })
     .attr("cy", (d) => {
-      if (d.size > 9000) {
-        return yScale(2500);
-      }
-      return yScale(d.size);
+      return yScale(d.percentage);
     })
     .style("fill", (d) => {
       return colorScale(d.college);
@@ -53,14 +50,7 @@ const drawChartBubbles = (selection, chartBubbleData) => {
       // if (d.size > 10000) {
       //   return sizeScale(10000);
       // }
-      // return sizeScale(d.percentage);
-      if (d.percentage > 66) {
-        return 30;
-      }
-      if (d.percentage > 33) {
-        return 20;
-      }
-      return 10;
+      return sizeScale(d.size);
     });
 
   circles.exit().transition().duration(300).attr("r", 0).remove();

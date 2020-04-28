@@ -79,15 +79,10 @@ demand_median = 44.631006;
 
 // the scaler for the circle size and enrollments
 // if the enrollment is greater than 100
-// const sizeScale = d3
-//   .scaleLinear()
-//   .domain(padExtent([0, 20000]))
-//   .range(padExtent([5, 130]));
-const yScale = d3
+const sizeScale = d3
   .scaleLinear()
-  .domain(padExtent([0, 1000]))
-  .range(padExtent([domainheight, 0]));
-
+  .domain(padExtent([0, 20000]))
+  .range(padExtent([5, 130]));
 // the scaler for x axis and projected demand
 // it should cover 1 and 10
 const x_min = -600,
@@ -95,17 +90,13 @@ const x_min = -600,
 const xScale = d3
   .scaleLinear()
   .domain(padExtent([x_min, x_max]))
-  .range(padExtent([1, domainwidth]));
+  .range(padExtent([10, domainwidth]));
 // the scaler for y axis and the % program online
 // it should cover between 0 and 100 percentage
-// const yScale = d3
-//   .scaleLinear()
-//   .domain(padExtent([-25, 130]))
-//   .range(padExtent([domainheight, 10]));
-const sizeScale = d3
+const yScale = d3
   .scaleLinear()
-  .domain(padExtent([0, 100]))
-  .range(padExtent([1, 1000]));
+  .domain(padExtent([-25, 130]))
+  .range(padExtent([domainheight, 10]));
 
 // the end arrows of x and y axes
 const defs = view
@@ -142,8 +133,8 @@ var axes = [
     id: 0,
     x1: domainwidth,
     x2: 20,
-    y1: yScale(77.48391421),
-    y2: yScale(77.48391421),
+    y1: yScale(50),
+    y2: yScale(50),
     strokeWidth: 2,
   },
   {
@@ -230,10 +221,12 @@ drawChartBubbles(view, chartBubbleData);
 // config zoom
 var zoom = d3
   .zoom()
-  .scaleExtent([-10, 10])
-
+  .scaleExtent([0, 10])
+  .translateExtent([
+    [-domainwidth * 2, -domainheight * 2],
+    [domainwidth * 2, domainheight * 2],
+  ])
   .on("zoom", () => {
-    currentTransform = d3.event.transform;
     xTransform = d3.event.transform.x;
     yTransform = d3.event.transform.y;
     kTransform = d3.event.transform.k;
