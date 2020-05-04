@@ -1,0 +1,120 @@
+<html lang="en">
+  <style>
+    h2 {
+      text-align: center;
+      /* align-items: center; */
+    }
+    .y-label,
+    .x-label {
+      font-size: 13px;
+    }
+
+    .x-label {
+      float: right;
+    }
+    .bubble-area {
+      align-items: center;
+      margin-left: 20px;
+    }
+    svg,
+    #bubble {
+      width: 100%;
+      height: 89vh;
+    }
+    .axis line {
+      stroke-opacity: 0.3;
+      shape-rendering: crispEdges;
+    }
+    div.tooltip {
+      position: absolute;
+      text-align: left;
+      padding: 5px;
+      font: 12px sans-serif;
+      background: lightsteelblue;
+      border: 0px;
+      border-radius: 8px;
+      pointer-events: none;
+    }
+    .axis path {
+      display: none;
+    }
+    .checkbox-area {
+      margin-top: 55px;
+    }
+    .checkbox {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 mx-auto" id="left">
+          <h2>
+            <span class="badge badge-default"
+              >Average NTR Per Student versus Total Cost for Colleges in Fiscal
+              Year 2019</span
+            >
+          </h2>
+          <span class="y-label">Average NTR Per Student ($)</span>
+          <div id="bubble" class="bubble-area"></div>
+          <span class="x-label">Total Cost ($)</span>
+        </div>
+        <div class="col-md-2 mx-auto checkbox-area">
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              class="checkbox"
+              value="total"
+              checked="true"
+              id="total"
+            />
+            All Students
+          </div>
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              class="checkbox"
+              value="resident"
+              id="resident"
+            />
+            Arizona Residents
+          </div>
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              class="checkbox"
+              value="non_resident"
+              id="non-resident"
+            />
+            Domestic Non-Residents
+          </div>
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              class="checkbox"
+              value="international"
+              id="international"
+            />
+            International Non-Residents
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="./data.js"></script>
+    <script src="./drawChart-v2.js"></script>
+  </body>
+</html>
