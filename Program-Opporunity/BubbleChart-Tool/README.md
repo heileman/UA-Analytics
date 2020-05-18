@@ -1,4 +1,4 @@
-# BubbleChart-Tool
+# BubbleChart-Tool (V1-1)
 clone the program and repo and open `index.html` in browser.
 
 ## Datasets
@@ -20,11 +20,13 @@ Append `College Code`, `Department Code`, `Current Demand` and `Future Demand` i
 
 
 ## Visualization
-* The bubble chart starts with a big bubble for the entire univeristy, when the bubble is clicked, it splits into multiple smaller bubbles. Each splited bubble is a child program. For example, if the university bubble is clicked, it splits into bubbles representing colleges. If a college bubble is clicled, it splits to department bubbles.
+* The bubble chart starts with a big bubble for the entire univeristy, when the bubble is clicked, it splits into multiple smaller bubbles. Each splited bubble is a child program. For example, if the university bubble is clicked, it splits into bubbles representing colleges. If a college bubble is clicled, it splits to department bubbles, etc. Majors(Plan Decriptions) are the smallest bubbles.
 
-* The radian(size) of the bubble is represented the program's enrollment, the percentage of a program online and the projected demand for the program construct the x and y coordinates of the bubble. Colleges are represented by different colors while the color for the university if Navy Blue.
+* There are two radio buttons on the right for choosing between `Current Demand` and `Future Demand` options. The default option is `Current Demand`.
 
-* (median of projected demand, 50) is the origin. The projected demand data is right skewed so median is a good measurement.
+* The radian(size) of the bubble is represented the program's enrollment, the percentage of a program online and the demand(Billion $) for the program construct the x and y coordinates of the bubble. Colleges are represented by different colors while the color for the university if Navy Blue.
+
+* The point (median of the demand, 50%) is the origin. The demand data is right skewed so median is a good measurement for x-axis.
 
 ## Current Calculation of Percentage of Program Online
 * Percentage of program online for a department is computed by the number of online courses offered by a department divided by the total courses offered by the department(graduate and undergraduate degree are separate, if a course number > 500, it's a graduate course). The percentage for a college is the average of the percentages of all departments under this college. The percentage for the university is the average of the percentages of all colleges.
