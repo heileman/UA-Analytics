@@ -33,7 +33,7 @@ Append `College Code`, `Department Code`, `Current Demand` and `Future Demand` i
 
 * Note that in the datasets, there are more courses offered online than all active courses in many cases. This may be caused by some onine courses are no longer active, so computing percentages for degree, major, college and univeristy using percentage of a major online could be a better option(in progress).
 
-## Calculation of Program Demands
+## Calculation of Program Demands (update this)
 * Source: [O*NET](https://www.onetonline.org/)
 
 
