@@ -86,13 +86,7 @@ const sizeScale = d3
   .domain(padExtent([0, 20000]))
   .range(padExtent([5, 130]));
 
-let xScale = setDemandScale();
-// the scaler for y axis and the % program online
-// it should cover between 0 and 100 percentage
-const yScale = d3
-  .scaleLinear()
-  .domain(padExtent([-25, 130]))
-  .range(padExtent([domainheight, 10]));
+let { xScale, yScale } = setScales();
 
 // the end arrows of x and y axes
 const defs = view
@@ -253,9 +247,7 @@ svg.call(zoom);
 const buttons = d3.selectAll("input");
 buttons.on("change", function (d) {
   selectedDemand = this.value;
-  xScale = setDemandScale();
   drawChartBubbles(view, chartBubbleData, selectedDemand);
-  gX.call(xAxis.scale(xScale));
 });
 
 // cirlce on clicked events
@@ -299,16 +291,61 @@ function deleteChildern(d) {
   }
 }
 
-function setDemandScale() {
-  let x_min = -600,
-    x_max = 1000;
-  if (selectedDemand === "future-demand") {
-    (x_min = -200), (x_max = 1500);
+function setScales() {
+  let {
+    demand_max,
+    demand_min,
+    percentage_max,
+    percentage_min,
+  } = computeOptimum(chartBubbleData, {
+    demand_max: chartBubbleData[0].demand,
+    demand_min: chartBubbleData[0].demand,
+    percentage_max: chartBubbleData[0].percentage,
+    percentage_min: chartBubbleData[0].percentage,
+  });
+  return {
+    xScale: d3
+      .scaleLinear()
+      .domain(padExtent([demand_min - 100, demand_max + 100]))
+      .range(padExtent([10, domainwidth])),
+    yScale: d3
+      .scaleLinear()
+      .domain(padExtent([percentage_min - 20, percentage_max + 20]))
+      .range(padExtent([domainheight, 10])),
+  };
+}
+
+function computeOptimum(d, optimas) {
+  for (child of d) {
+    // current demand optimum
+    if (selectedDemand === "current-demand") {
+      optimas.demand_max =
+        child.demand > optimas.demand_max ? child.demand : optimas.demand_max;
+      optimas.demand_min =
+        child.demand < optimas.demand_min ? child.demand : optimas.demand_min;
+    } else {
+      // future demand optimum
+      optimas.demand_max =
+        child.future_demand > optimas.demand_max
+          ? child.future_demand
+          : optimas.demand_max;
+      optimas.demand_min =
+        child.future_demand < optimas.demand_min
+          ? child.future_demand
+          : optimas.demand_min;
+    }
+    // percentage online optimum
+    optimas.percentage_max =
+      child.percentage > optimas.percentage_max
+        ? child.percentage
+        : optimas.percentage_max;
+    optimas.percentage_min =
+      child.percentage < optimas.percentage_min
+        ? child.percentage
+        : optimas.percentage_min;
   }
-  return d3
-    .scaleLinear()
-    .domain(padExtent([x_min, x_max]))
-    .range(padExtent([10, domainwidth]));
+
+  return optimas;
 }
 
 function padExtent(e, p) {

@@ -1,5 +1,8 @@
 // draw all circles on the bubble chart
 const drawChartBubbles = (selection, chartBubbleData, demandSelection) => {
+  let { xScale, yScale } = setScales();
+  gX.call(xAxis.scale(xScale));
+  gY.call(yAxis.scale(yScale));
   const circles = selection
     .selectAll("circle")
     .attr("class", "circle")
