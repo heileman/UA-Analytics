@@ -35,7 +35,7 @@ Append `College Code`, `Department Code`, `Current Demand` and `Future Demand` i
 
 ## Calculation of Program Demands (update this)
 * Source: [O*NET](https://www.onetonline.org/)
-
+-The demand data is taken from the [O*NET](https://www.onetonline.org/). For a specific program, there may be more than one category of a profession. For these cases, we are taking a weighted average demand for that program. If the annual median/mean salary of demand is W, the number of employees currently working is N, then the Current demand is =W*N, and for i% projectile growth, the projected growth demand is= (1+i)*W*N. As for the multiple categories of demand for a program, we replace these estimates with the weighted average values. 
 
 ### In progress
 - The percentage of program online for major is still in progress. The approach is to summarize a set of courses needed for a student to finish a degree in a major, then count the number of courses in the set that are offered online. The percentage is calculated as number of courses the student has to take for the major divided by the total number of courses needed for the major. 
