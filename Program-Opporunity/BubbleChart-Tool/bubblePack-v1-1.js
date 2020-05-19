@@ -86,7 +86,13 @@ const sizeScale = d3
   .domain(padExtent([0, 20000]))
   .range(padExtent([5, 130]));
 
-let { xScale, yScale } = setScales();
+let xScale = setDemandScale();
+// the scaler for y axis and the % program online
+// it should cover between 0 and 100 percentage
+const yScale = d3
+  .scaleLinear()
+  .domain(padExtent([-25, 130]))
+  .range(padExtent([domainheight, 10]));
 
 // the end arrows of x and y axes
 const defs = view
@@ -247,7 +253,16 @@ svg.call(zoom);
 const buttons = d3.selectAll("input");
 buttons.on("change", function (d) {
   selectedDemand = this.value;
+
+  for (bubble of splitedBubbleData) {
+    deleteChildern(bubble);
+    chartBubbleData = chartBubbleData.concat([bubble]);
+  }
+  splitedBubbleData = [];
+  xScale = setDemandScale();
   drawChartBubbles(view, chartBubbleData, selectedDemand);
+  drawSplitedBubbles(splited, splitedBubbleData);
+  gX.call(xAxis.scale(xScale));
 });
 
 // cirlce on clicked events
@@ -268,7 +283,6 @@ function circleClicked(d) {
 
 function splitedCircleClicked(d) {
   deleteChildern(d);
-
   chartBubbleData = chartBubbleData.concat([d]);
   drawChartBubbles(view, chartBubbleData, selectedDemand);
   splitedBubbleData.splice(splitedBubbleData.indexOf(d), 1);
@@ -291,60 +305,61 @@ function deleteChildern(d) {
   }
 }
 
-function setScales() {
-  let {
-    demand_max,
-    demand_min,
-    percentage_max,
-    percentage_min,
-  } = computeOptimum(chartBubbleData, {
+function setDemandScale() {
+  let optimas = computeOptimum(chartBubbleData, {
     demand_max: chartBubbleData[0].demand,
     demand_min: chartBubbleData[0].demand,
-    percentage_max: chartBubbleData[0].percentage,
-    percentage_min: chartBubbleData[0].percentage,
   });
-  return {
-    xScale: d3
-      .scaleLinear()
-      .domain(padExtent([demand_min - 100, demand_max + 100]))
-      .range(padExtent([10, domainwidth])),
-    yScale: d3
-      .scaleLinear()
-      .domain(padExtent([percentage_min - 20, percentage_max + 20]))
-      .range(padExtent([domainheight, 10])),
-  };
+  if (selectedDemand === "future-demand") {
+    optimas = computeOptimum(chartBubbleData, {
+      demand_max: chartBubbleData[0].future_demand,
+      demand_min: chartBubbleData[0].future_demand,
+    });
+  }
+  const { demand_max, demand_min } = optimas;
+  return d3
+    .scaleLinear()
+    .domain(padExtent([demand_min - 100, demand_max + 100]))
+    .range(padExtent([10, domainwidth]));
 }
+console.log(
+  computeOptimum(chartBubbleData, {
+    demand_max: chartBubbleData[0].demand,
+    demand_min: chartBubbleData[0].demand,
+  })
+);
+selectedDemand = "future-demand";
+console.log(
+  computeOptimum(chartBubbleData, {
+    demand_max: chartBubbleData[0].future_demand,
+    demand_min: chartBubbleData[0].future_demand,
+  })
+);
 
 function computeOptimum(d, optimas) {
-  for (child of d) {
-    // current demand optimum
-    if (selectedDemand === "current-demand") {
-      optimas.demand_max =
-        child.demand > optimas.demand_max ? child.demand : optimas.demand_max;
-      optimas.demand_min =
-        child.demand < optimas.demand_min ? child.demand : optimas.demand_min;
-    } else {
-      // future demand optimum
-      optimas.demand_max =
-        child.future_demand > optimas.demand_max
-          ? child.future_demand
-          : optimas.demand_max;
-      optimas.demand_min =
-        child.future_demand < optimas.demand_min
-          ? child.future_demand
-          : optimas.demand_min;
+  for (element of d) {
+    let children = element.children;
+    for (child of children) {
+      // current demand optimum
+      if (selectedDemand === "current-demand") {
+        optimas.demand_max =
+          child.demand > optimas.demand_max ? child.demand : optimas.demand_max;
+        optimas.demand_min =
+          child.demand < optimas.demand_min ? child.demand : optimas.demand_min;
+      } else {
+        // future demand optimum
+        optimas.demand_max =
+          child.future_demand > optimas.demand_max
+            ? child.future_demand
+            : optimas.demand_max;
+        optimas.demand_min =
+          child.future_demand < optimas.demand_min
+            ? child.future_demand
+            : optimas.demand_min;
+      }
+      optimas = computeOptimum(child.children, optimas);
     }
-    // percentage online optimum
-    optimas.percentage_max =
-      child.percentage > optimas.percentage_max
-        ? child.percentage
-        : optimas.percentage_max;
-    optimas.percentage_min =
-      child.percentage < optimas.percentage_min
-        ? child.percentage
-        : optimas.percentage_min;
   }
-
   return optimas;
 }
 
