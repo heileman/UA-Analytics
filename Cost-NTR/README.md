@@ -1,6 +1,6 @@
 # Revenue and Cost Bubble Chart (v2)
-[**Demo**](https://heileman.github.io/UA-Analytics/Cost-NTR/v2/index-v2.html)
-[**Old Version (NTR vs Total Cost)**](https://heileman.github.io/UA-Analytics/Cost-NTR/v1/index.html)
+* [**Demo**](https://heileman.github.io/UA-Analytics/Cost-NTR/v2/index-v2.html)
+* [**Old Version (NTR vs Total Cost)**](https://heileman.github.io/UA-Analytics/Cost-NTR/v1/index.html)
 
 ## Datasets
 Original Dataset:
