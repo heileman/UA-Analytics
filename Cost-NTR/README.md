@@ -25,10 +25,10 @@ This dataset contains data of `Total Cost` at different colleges at year of 2016
 Note: `< *TYPE* >` can be replaced by `total`(all type of students), `resident`(AZ Resident), `non-resident`(Out-of-State) and `international`(International Student)
 
 ### Merge Cost and NTR Datasets
-Fill the entries using original cost and NTR datasets. It yields a workable dataset [**cost_NTR.csv**](https://github.com/heileman/UA-Analytics/blob/master/Cost-NTR/cost_NTR.csv)
+Fill the entries using original cost and NTR datasets. It yields a workable dataset [**cost_NTR.csv**](https://github.com/heileman/UA-Analytics/blob/master/Cost-NTR/data/cost_NTR.csv)
 
 ### Generate the Dataset for Visualization
-Place ```processData.py``` and ```cost_NTR.csv``` under the same directory, run `python processData.py` in Terminal to generate ```data.json``` which is the dataset the visualization program is using.
+Place [**processData.py**](https://github.com/heileman/UA-Analytics/blob/master/Cost-NTR/data/processData.py) and [**cost_NTR.csv**](https://github.com/heileman/UA-Analytics/blob/master/Cost-NTR/data/cost_NTR.csv) under the same directory, run `python processData.py` in Terminal to generate ```data.json``` which is the dataset the visualization program is using.
 
 
 ## Visualization
