@@ -1,11 +1,11 @@
 # BubbleChart-Tool (v1-1)
-[Demo of the Current Version](https://heileman.github.io/UA-Analytics/Program-Opporunity/v1-1/index-v1-1.html)<br/>
+[**Demo of the Current Version**](https://heileman.github.io/UA-Analytics/Program-Opporunity/v1-1/index-v1-1.html)<br/>
 #### Old Versions with data computed using old metrics
 * Old metrics, Demand vs Percentage Online with Enrollment as the Bubble Size
-  * [Linear Scale](https://heileman.github.io/UA-Analytics/Program-Opporunity/v0-1/index.html)
+  * [**Linear Scale**](https://heileman.github.io/UA-Analytics/Program-Opporunity/v0-1/index.html)
 * Old metrics, Demand vs Enrollment with Percentage Online as the Bubble size
-  * [Linear Scale](https://heileman.github.io/UA-Analytics/Program-Opporunity/v2-1/index-v2-1.html)
-  * [Power Scale (k = 0.5)](https://heileman.github.io/UA-Analytics/Program-Opporunity/v2-2/index-v2-2.html)
+  * [**Linear Scale**](https://heileman.github.io/UA-Analytics/Program-Opporunity/v2-1/index-v2-1.html)
+  * [**Power Scale (k = 0.5)**](https://heileman.github.io/UA-Analytics/Program-Opporunity/v2-2/index-v2-2.html)
 
 
 ## Datasets
