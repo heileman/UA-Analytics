@@ -10,7 +10,7 @@ const domainheight = container.height - margin.top - margin.bottom + 30;
 
 var choices = ["total", "resident", "non_resident", "international"];
 processData();
-const scales = getScalers(
+let scales = getScalers(
   [].concat(
     chartData_total,
     chartData_resident,
@@ -107,12 +107,21 @@ const drawCircle = (selection, dataSet, { xScale, yScale, sizeScale }) => {
     .attr("class", "circle")
     .merge(circles)
     .attr("cx", (d) => {
-      return xScale(d.cost);
+      if (d.count === 0) {
+        return 0;
+      }
+      return xScale(d.cost / d.count);
     })
     .attr("cy", (d) => {
+      if (d.count === 0) {
+        return 0;
+      }
       return yScale(d.averageNTR);
     })
     .attr("stroke", (d) => {
+      if (d.count === 0) {
+        return "white";
+      }
       return "black";
     })
     .attr("stroke-width", 1.5)
@@ -181,6 +190,9 @@ const drawRectangle = (selection, dataSet, { xScale, yScale, sizeScale }) => {
       tooltip.transition().duration(500).style("opacity", 0);
     })
     .attr("width", (d) => {
+      if (d.count === 0) {
+        return 0;
+      }
       if (d.type === "international") {
         width = Math.sqrt(Math.PI * sizeScale(d.count) * sizeScale(d.count));
       } else {
@@ -192,6 +204,9 @@ const drawRectangle = (selection, dataSet, { xScale, yScale, sizeScale }) => {
       return width;
     })
     .attr("height", (d) => {
+      if (d.count === 0) {
+        return 0;
+      }
       if (d.type === "international") {
         height = Math.sqrt(Math.PI * sizeScale(d.count) * sizeScale(d.count));
       } else {
@@ -203,7 +218,10 @@ const drawRectangle = (selection, dataSet, { xScale, yScale, sizeScale }) => {
       return height;
     })
     .attr("x", (d) => {
-      return xScale(d.cost);
+      if (d.count === 0) {
+        return 0;
+      }
+      return xScale(d.cost / d.count);
     })
     .attr("y", (d) => {
       return yScale(d.averageNTR);
@@ -338,12 +356,20 @@ function update() {
 }
 
 function findMinMax(dataSet) {
-  var min_cost = (max_cost = dataSet[0].cost);
-  var min_count = (max_count = dataSet[0].count);
-  var min_NTR = (max_NTR = dataSet[0].averageNTR);
+  if (dataSet.length === 0) {
+    return {};
+  }
+  const first_average_cost =
+    dataSet[0].count === 0
+      ? dataSet[0].cost
+      : dataSet[0].cost / dataSet[0].count;
+  let min_cost = (max_cost = first_average_cost);
+  let min_count = (max_count = dataSet[0].count);
+  let min_NTR = (max_NTR = dataSet[0].averageNTR);
   dataSet.forEach((item) => {
-    min_cost = item.cost < min_cost ? item.cost : min_cost;
-    max_cost = item.cost > max_cost ? item.cost : max_cost;
+    const average_cost = item.count === 0 ? item.cost : item.cost / item.count;
+    min_cost = average_cost < min_cost ? average_cost : min_cost;
+    max_cost = average_cost > max_cost ? average_cost : max_cost;
 
     min_count = item.count < min_count ? item.count : min_count;
     max_count = item.count > max_count ? item.count : max_count;
@@ -351,6 +377,7 @@ function findMinMax(dataSet) {
     min_NTR = item.averageNTR < min_NTR ? item.averageNTR : min_NTR;
     max_NTR = item.averageNTR > max_NTR ? item.averageNTR : max_NTR;
   });
+
   return {
     min_cost: min_cost,
     max_cost: max_cost,
@@ -360,7 +387,6 @@ function findMinMax(dataSet) {
     max_NTR: max_NTR,
   };
 }
-
 function getScalers(dataSet) {
   const {
     min_cost,
@@ -374,11 +400,11 @@ function getScalers(dataSet) {
 
   const xScale = d3
     .scaleLinear()
-    .domain(padExtent([-2000000, 162400000]))
+    .domain(padExtent([min_cost, , max_cost]))
     .range(padExtent([1, domainwidth]));
   const yScale = d3
     .scaleLinear()
-    .domain(padExtent([-2000, 31000]))
+    .domain(padExtent([min_NTR, max_NTR]))
     .range(padExtent([domainheight, 1]));
   const sizeScale = d3
     .scaleLinear()
@@ -392,6 +418,7 @@ const tooltipHTML = (d) => {
   Student: ${getStudent(d.type)}<br>
   Fiscal Year Count: ${d.count}<br>
   Total Cost: $${convertMillion(d.cost)}<br>
+  Cost Per Student: $${(d.cost / d.count).toFixed(1)}<br>
   Net Tuition Revenue: $${convertMillion(d.totalNTR)}<br>
   Average Net Tuition Revenue: $${d.averageNTR}`;
 };
