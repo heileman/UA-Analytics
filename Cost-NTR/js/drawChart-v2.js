@@ -11,7 +11,9 @@ const domainheight = container.height - margin.top - margin.bottom + 30;
 old_choices = ["total"];
 var choices = ["total"];
 processData();
+let globalSizeScale = null;
 let scales = getScalers(chartData_average);
+
 const collegeColorScale = d3
   .scaleOrdinal()
   .domain([
@@ -328,11 +330,15 @@ function getScalers(dataSet) {
     .scaleLinear()
     .domain(padExtent([min_NTR - 3000, max_NTR + 3000]))
     .range(padExtent([domainheight, 1]));
-  const sizeScale = d3
-    .scaleLinear()
-    .domain(padExtent([min_count * 2.5, max_count * 2.5]))
-    .range(padExtent([5, 150]));
-  return { xScale: xScale, yScale: yScale, sizeScale: sizeScale };
+
+  // compute sizeScale only once for all students
+  if (!globalSizeScale) {
+    globalSizeScale = d3
+      .scaleLinear()
+      .domain(padExtent([min_count * 2.5, max_count * 2.5]))
+      .range(padExtent([5, 150]));
+  }
+  return { xScale: xScale, yScale: yScale, sizeScale: globalSizeScale };
 }
 
 const tooltipHTML = (d) => {
