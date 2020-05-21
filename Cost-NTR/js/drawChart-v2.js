@@ -157,17 +157,16 @@ const drawCircle = (selection, dataSet, { xScale, yScale, sizeScale }) => {
       tooltip.transition().duration(500).style("opacity", 0);
     })
     .transition()
-    .duration(300)
+    .duration(400)
     .attr("r", (d) => {
       return sizeScale(d.count);
     });
 
-  circles.exit().transition().duration(100).attr("r", 0).remove();
+  circles.exit().transition().duration(300).attr("r", 0).remove();
 };
 
 var zoom = d3.zoom().on("zoom", () => {
   view.attr("transform", d3.event.transform);
-
   gX.call(xAxis.scale(d3.event.transform.rescaleX(scales.xScale)));
   gY.call(yAxis.scale(d3.event.transform.rescaleY(scales.yScale)));
 });
@@ -267,9 +266,9 @@ function update() {
 
   scales = getScalers(chartData_average);
   if (chartData_average.length !== 0) {
-    svg.call(zoom.transform, d3.zoomIdentity); // reset zoom
-    gX.call(xAxis.scale(scales.xScale));
-    gY.call(yAxis.scale(scales.yScale));
+    svg.transition().duration(300).call(zoom.transform, d3.zoomIdentity); // reset zoom
+    gX.transition().duration(100).call(xAxis.scale(scales.xScale));
+    gY.transition().duration(100).call(yAxis.scale(scales.yScale));
   }
   drawCircle(view, chartData_average, scales);
 }
