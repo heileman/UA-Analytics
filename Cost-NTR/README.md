@@ -25,16 +25,17 @@ This dataset contains data of `Total Cost` at different colleges at year of 2016
 Note: `< *TYPE* >` can be replaced by `total`(all type of students), `resident`(AZ Resident), `non-resident`(Out-of-State) and `international`(International Student)
 
 ### Merge Cost and NTR Datasets
-Fill the entries using original cost and NTR datasets. It yields a workable dataset [**cost_NTR.csv**](https://github.com/heileman/UA-Analytics/blob/master/Cost-NTR/data/cost_NTR.csv)
+* Fill the entries using original cost and NTR datasets. It yields a workable dataset [**cost_NTR.csv**](https://github.com/heileman/UA-Analytics/blob/master/Cost-NTR/data/cost_NTR.csv)
 
 ### Generate the Dataset for Visualization
-Place [**processData.py**](https://github.com/heileman/UA-Analytics/blob/master/Cost-NTR/data/processData.py) and [**cost_NTR.csv**](https://github.com/heileman/UA-Analytics/blob/master/Cost-NTR/data/cost_NTR.csv) under the same directory, run `python processData.py` in Terminal to generate ```data.json``` which is the dataset the visualization program is using.
+* Place [**processData.py**](https://github.com/heileman/UA-Analytics/blob/master/Cost-NTR/data/processData.py) and [**cost_NTR.csv**](https://github.com/heileman/UA-Analytics/blob/master/Cost-NTR/data/cost_NTR.csv) under the same directory, run `python processData.py` in Terminal to generate ```data.json``` which is the dataset the visualization program is using.
 
 
 ## Visualization
-`Cost Per Student`(x-axis) equals to `total_cost / < *TYPE* >_fiscal_year_count`, `Average NTR Per Student`(y-axis) equals to `< *TYPE* >_average_NTR_per_student` and `< *TYPE* >_fiscal_year_count`is the circle size.</br></br>
-There are four checkboxes. Each checkbox represents one type of students or all types of students. The "All Students"(AZ Residents, Out of State Students and International Students) option is selected by default. When a single option is selected(besides "All Students"), the chart displays `Cost Per Student` vs `Average NTR Per Student` with circle size being the number of students for different colleges in terms of selected student type. When multiple student types are selected(except "All Students"), `Average NTR Per Student` is computed by total NTR of all selected types of students being divided by the total number of students in selected types, `Cost Per Student` is computed as the college's total cost being divided by the total number of students in selected types and the total number of students is the sum of students in each type.</br></br>
-An user can select either "All Students" or one or more any other options. If the user selects nothing, it displays nothing.</br></br>
+* `Cost Per Student`(x-axis) equals to `total_cost / < *TYPE* >_fiscal_year_count`, `Average NTR Per Student`(y-axis) equals to `< *TYPE* >_average_NTR_per_student` and `< *TYPE* >_fiscal_year_count`is the circle size.
+* There are four checkboxes. Each checkbox represents one type of students or all types of students. The "All Students"(AZ Residents, Out of State Students and International Students) option is selected by default. When a single option is selected(besides "All Students"), the chart displays `Cost Per Student` vs `Average NTR Per Student` with circle size being the number of students for different colleges in terms of selected student type. When multiple student types are selected(except "All Students"), `Average NTR Per Student` is computed by total NTR of all selected types of students being divided by the total number of students in selected types, `Cost Per Student` is computed as the college's total cost being divided by the total number of students in selected types and the total number of students is the sum of students in each type.
+* An user can select either "All Students" or one or more any other options. If the user selects nothing, it displays nothing.
+* Scales of x and y axes will be adjusted automatically after a new option being selected. i.e. All data points are displayed within the coordinate system without zooming. Zoom to adjust bubble sizes.
 
 
 ## In progress
