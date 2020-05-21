@@ -47,10 +47,10 @@ The processes follow the rules of,
 * Source: [O*NET](https://www.onetonline.org/)
 -The demand data is taken from the [O*NET](https://www.onetonline.org/). For a specific program, there may be more than one category of a profession. For these cases, we are taking a weighted average demand for that program. If the annual median/mean salary of demand is W, the number of employees currently working is N, then the Current demand is =W*N, and for i% projectile growth, the projected growth demand is= (1+i)*W*N. As for the multiple categories of demand for a program, we replace these estimates with the weighted average values. 
 
-\section{Project Demand Evaluation Method}
+\\section{Project Demand Evaluation Method}
 For the bubble chart, we need the projected demand and the number of enrolled students in the $x$ and $y$ axis, respectively. The projected demand data can be collected from \href{https://www.onetonline.org/}{ONET}. The CIP taxonomy is organized on two levels: 1) the first two-digit series, 2) the four-digit series. The first two-digit series represent the most general groupings of related programs. The four-digit series represent intermediate groupings of programs that have comparable content and objectives. For example, the CIP code for the Computer Programmers is: 15-1131.00., where the digits ‘15’ represents ENGINEERING TECHNOLOGIES/TECHNICIANS, the last six digits ‘1131.00 represents program for the Computer Programmers. Based on the CIP code, the projected demand data for any program can be collected from \href{https://www.onetonline.org/}{ONET}. Say,
 
-\begin{align*}
+\\begin{align*}
 \text{the annual median/mean wages}= W,\\
 \text{the number of employments}=N,\\
 \text{projected growth over the years in percentage} = i.
@@ -60,7 +60,8 @@ We need to put all the information into the projectile demand formulation. Missi
 \text{The current demand}, CD=W*N,\\
 \text{The future demand},  FD=(1+i)*W*N\\
 \text{The projectile demand}, PD=FD-CD=i*W*N.  
-\end{align*}
+\\end{align*}
+
 \\
 
 In this evaluation metrics, we include all the needed details to form the proper demand criteria. 
