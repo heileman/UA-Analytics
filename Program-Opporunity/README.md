@@ -1,23 +1,33 @@
-# BubbleChart-Tool (V1-1)
-clone the program and repo and open `index.html` in browser.
+# BubbleChart-Tool (v1-1)
+[Demo of the Current Version](https://heileman.github.io/UA-Analytics/Program-Opporunity/index-v1-1.html)<br/>
+#### Old Versions with data computed using old metrics
+* Old metrics, Demand vs Percentage Online with Enrollment as the Bubble Size
+  * [Linear Scale](https://github.com/heileman/UA-Analytics/blob/master/Program-Opporunity/index.html)
+* Old metrics, Demand vs Enrollment with Percentage Online as the Bubble size
+  * [Linear Scale](https://heileman.github.io/UA-Analytics/Program-Opporunity/index-v2-1.html)
+  * [Power Scale (k = 0.5)](https://heileman.github.io/UA-Analytics/Program-Opporunity/index-v2-2.html)
+
 
 ## Datasets
 * all courses with course code offered by the university: <br />
-**Active_Courses_with_Enroll_Requirements_4.3.2020.xlsx** (renamed as **all_courses.xlsx** for data processing)
+[**Active_Courses_with_Enroll_Requirements_4.3.2020.xlsx**](https://github.com/heileman/UA-Analytics/blob/master/Program-Opporunity/data/Active_Courses_with_Enroll_Requirements_4.3.2020.xlsx) (renamed as [**all_courses.xlsx**](https://github.com/heileman/UA-Analytics/blob/master/Program-Opporunity/data/all_courses.xlsx) for data processing)
   
 * courses offered online: <br />
-  **online_courses.xls**
+  [**online_courses.xls**](https://github.com/heileman/UA-Analytics/blob/master/Program-Opporunity/data/online_courses.xls)
   
 * program enrollments and projected demands: <br />
-  **data_test.csv** This is extracted from **Academic_Plan_Growth_Analysis_20200403.xlsx (Raw Data sheet)**
+  [**data_test.csv**](https://github.com/heileman/UA-Analytics/blob/master/Program-Opporunity/data/data_test.csv) This is extracted from [**Academic_Plan_Growth_Analysis_20200403.xlsx (Raw Data sheet)**](https://github.com/heileman/UA-Analytics/blob/master/Program-Opporunity/data/Academic%20Plan%20Growth%20Analysis%2020200403%5B1%5D.xlsx)
 
 ## Data Preprocessing
 The processes follow the rules of,
 * If a same program (same Plan Description) is offered at different campuses, combine the Headcounts. For example, if the Computer Science is offered at Main, Online and UA South, and has headcount of 300, 200, 100 accordingly, then the headcount for computer scinece is 600.
 * If a program is offered through Online or/and Distance campus, then the percentage of the program is 100% (if a program is not offered online or through distance campus, the percentage is random for now).
 
-Append `College Code`, `Department Code`, `Current Demand` and `Future Demand` into the dataset.
+* Append `College Code`, `Department Code`, `Current Demand` and `Future Demand` into the dataset.
 
+* Run `python process_Data.py` under [data_processing_tools](https://github.com/heileman/UA-Analytics/tree/master/Program-Opporunity/data_processing_tools) in Terminal to generate ```data.json``` which is the dataset the visualization program is using. (May need to declare that as a JavaScript variable)
+
+* Note that the College of Public Health is not included in visualization since can't compute percentage of courses online due to not knowing what courses are offered under the college
 
 ## Visualization
 * The bubble chart starts with a big bubble for the entire univeristy, when the bubble is clicked, it splits into multiple smaller bubbles. Each splited bubble is a child program. For example, if the university bubble is clicked, it splits into bubbles representing colleges. If a college bubble is clicled, it splits to department bubbles, etc. Majors(Plan Decriptions) are the smallest bubbles.
@@ -39,3 +49,9 @@ Append `College Code`, `Department Code`, `Current Demand` and `Future Demand` i
 
 ### In progress
 - The percentage of program online for major is still in progress. The approach is to summarize a set of courses needed for a student to finish a degree in a major, then count the number of courses in the set that are offered online. The percentage is calculated as number of courses the student has to take for the major divided by the total number of courses needed for the major. 
+
+### Current Challenge(s)
+- No good metrics for percentage of a program online. Possible solutions could be,<br/>
+  1. Go through all degree plans among colleges and campuses, compute the percentage of courses online in the degree plan(Very time consuming, and may need degree plan infrastructure being set up first).
+  2. More suitable datasets (Don't know if there are any).
+  3. Use `Median/Mean Salary` vs `Number of Jobs Occupied/Avaliable` as the coordinate system instead, then no needs for percentage of program online (Doable but no percentage visualization).
