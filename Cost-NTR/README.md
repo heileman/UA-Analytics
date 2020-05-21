@@ -1,4 +1,4 @@
-# Revenue and Cost Bubble Chart
+# Revenue and Cost Bubble Chart (v2)
 [**Demo**](https://heileman.github.io/UA-Analytics/Cost-NTR/index-v2.html)
 
 ## Datasets
