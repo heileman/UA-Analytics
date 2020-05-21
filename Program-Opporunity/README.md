@@ -47,9 +47,9 @@ The processes follow the rules of,
 * Source: [O*NET](https://www.onetonline.org/)
 -The demand data is taken from the [O*NET](https://www.onetonline.org/). For a specific program, there may be more than one category of a profession. For these cases, we are taking a weighted average demand for that program. If the annual median/mean salary of demand is W, the number of employees currently working is N, then the Current demand is =W*N, and for i% projectile growth, the projected growth demand is= (1+i)*W*N. As for the multiple categories of demand for a program, we replace these estimates with the weighted average values. 
 
-
 \section{Project Demand Evaluation Method}
 For the bubble chart, we need the projected demand and the number of enrolled students in the $x$ and $y$ axis, respectively. The projected demand data can be collected from \href{https://www.onetonline.org/}{ONET}. The CIP taxonomy is organized on two levels: 1) the first two-digit series, 2) the four-digit series. The first two-digit series represent the most general groupings of related programs. The four-digit series represent intermediate groupings of programs that have comparable content and objectives. For example, the CIP code for the Computer Programmers is: 15-1131.00., where the digits ‘15’ represents ENGINEERING TECHNOLOGIES/TECHNICIANS, the last six digits ‘1131.00 represents program for the Computer Programmers. Based on the CIP code, the projected demand data for any program can be collected from \href{https://www.onetonline.org/}{ONET}. Say,
+
 \begin{align*}
 \text{the annual median/mean wages}= W,\\
 \text{the number of employments}=N,\\
@@ -61,12 +61,14 @@ We need to put all the information into the projectile demand formulation. Missi
 \text{The future demand},  FD=(1+i)*W*N\\
 \text{The projectile demand}, PD=FD-CD=i*W*N.  
 \end{align*}
+\\
 
 In this evaluation metrics, we include all the needed details to form the proper demand criteria. 
 For example, we can consider the CIP code: 15-1131.00, which is for the Computer Programmers. From \href{https://www.onetonline.org/link/summary/15-1131.00}{ONET}, we get the following value: current median wage, W= $\$84290$, current employment, $N=250000$ and the projected growth over the years in percentage, $i=-2\%$.Thus, projectile demand, $PD=\$0.98\times84290\times250000= \$2.065\times10^{10}$
-\newpage
+\\
 For some programs, there may be multiple categories of demand. For example, the computer science program has demand in software engineering, hardware engineering, database administrator, etc. For these cases, we are using a weighted average of all the demand categories to compute the overall demand for the program.
 Let, for the $t$-th demand category,
+
 \begin{align*}
 \text{the annual median/mean wages}= W_t,\\
 \text{the number of employments}=N_t,\\
@@ -83,7 +85,7 @@ i=\frac{\sum_{t=1}^n N_t*i_t}{\sum_{t=1}^n N_t}\\
 \text{The projectile demand}, PD=FD-CD=i*\bar{N}*W,
 \end{align*}
 where, $t=1,2,...,n$
-
+\\
 
 ### In progress
 - The percentage of program online for major is still in progress. The approach is to summarize a set of courses needed for a student to finish a degree in a major, then count the number of courses in the set that are offered online. The percentage is calculated as number of courses the student has to take for the major divided by the total number of courses needed for the major. 
