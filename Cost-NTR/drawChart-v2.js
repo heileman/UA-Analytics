@@ -11,7 +11,7 @@ const domainheight = container.height - margin.top - margin.bottom + 30;
 old_choices = ["total"];
 var choices = ["total"];
 processData();
-const scales = getScalers(chartData_average);
+let scales = getScalers(chartData_average);
 const collegeColorScale = d3
   .scaleOrdinal()
   .domain([
@@ -79,6 +79,20 @@ var tooltip = d3
   .attr("class", "tooltip")
   .style("opacity", 0);
 
+// x and y axes
+const xAxis = d3
+  .axisBottom(scales.xScale)
+  .ticks(15)
+  .tickSize(domainheight * 2 - 30)
+  .tickPadding(30 - domainheight);
+const yAxis = d3
+  .axisRight(scales.yScale)
+  .ticks(15)
+  .tickSize(domainwidth - 10)
+  .tickPadding(30 - domainwidth);
+let gX = svg.append("g").attr("class", "axis axis--x").call(xAxis);
+let gY = svg.append("g").attr("class", "axis axis--y").call(yAxis);
+
 const drawCircle = (selection, dataSet, { xScale, yScale, sizeScale }) => {
   var id = 0;
   const circles = selection
@@ -101,12 +115,21 @@ const drawCircle = (selection, dataSet, { xScale, yScale, sizeScale }) => {
     .attr("class", "circle")
     .merge(circles)
     .attr("cx", (d) => {
-      return xScale(d.cost);
+      if (d.count === 0) {
+        return 0;
+      }
+      return xScale(d.cost / d.count);
     })
     .attr("cy", (d) => {
+      if (d.count === 0) {
+        return 0;
+      }
       return yScale(d.averageNTR);
     })
     .attr("stroke", (d) => {
+      if (d.count === 0) {
+        return "white";
+      }
       return "black";
     })
     .attr("stroke-width", (d) => {
@@ -140,22 +163,9 @@ const drawCircle = (selection, dataSet, { xScale, yScale, sizeScale }) => {
   circles.exit().transition().duration(100).attr("r", 0).remove();
 };
 
-// x and y axes
-const xAxis = d3
-  .axisBottom(scales.xScale)
-  .ticks(15)
-  .tickSize(domainheight * 2 - 30)
-  .tickPadding(30 - domainheight);
-const yAxis = d3
-  .axisRight(scales.yScale)
-  .ticks(15)
-  .tickSize(domainwidth - 10)
-  .tickPadding(30 - domainwidth);
-gX = svg.append("g").attr("class", "axis axis--x").call(xAxis);
-gY = svg.append("g").attr("class", "axis axis--y").call(yAxis);
-
 var zoom = d3.zoom().on("zoom", () => {
   view.attr("transform", d3.event.transform);
+
   gX.call(xAxis.scale(d3.event.transform.rescaleX(scales.xScale)));
   gY.call(yAxis.scale(d3.event.transform.rescaleY(scales.yScale)));
 });
@@ -190,13 +200,15 @@ function processData() {
       }
     });
 
-    college = program.primary_program;
-    type = "average";
-    cost = program.total_cost;
+    if (count !== 0) {
+      college = program.primary_program;
+      type = "average";
+      cost = program.total_cost;
 
-    chartData_average.push(
-      addData(college, type, count, cost, ntr / count, ntr)
-    );
+      chartData_average.push(
+        addData(college, type, count, cost, ntr / count, ntr)
+      );
+    }
   });
 }
 
@@ -250,18 +262,31 @@ function update() {
     document.getElementById("total").checked = false;
   }
   processData();
-  if (chartData_average.length > 0) {
-    drawCircle(view, chartData_average, scales);
+
+  scales = getScalers(chartData_average);
+  if (chartData_average.length !== 0) {
+    svg.call(zoom.transform, d3.zoomIdentity); // reset zoom
+    gX.call(xAxis.scale(scales.xScale));
+    gY.call(yAxis.scale(scales.yScale));
   }
+  drawCircle(view, chartData_average, scales);
 }
 
 function findMinMax(dataSet) {
-  var min_cost = (max_cost = dataSet[0].cost);
-  var min_count = (max_count = dataSet[0].count);
-  var min_NTR = (max_NTR = dataSet[0].averageNTR);
+  if (dataSet.length === 0) {
+    return {};
+  }
+  const first_average_cost =
+    dataSet[0].count === 0
+      ? dataSet[0].cost
+      : dataSet[0].cost / dataSet[0].count;
+  let min_cost = (max_cost = first_average_cost);
+  let min_count = (max_count = dataSet[0].count);
+  let min_NTR = (max_NTR = dataSet[0].averageNTR);
   dataSet.forEach((item) => {
-    min_cost = item.cost < min_cost ? item.cost : min_cost;
-    max_cost = item.cost > max_cost ? item.cost : max_cost;
+    const average_cost = item.count === 0 ? item.cost : item.cost / item.count;
+    min_cost = average_cost < min_cost ? average_cost : min_cost;
+    max_cost = average_cost > max_cost ? average_cost : max_cost;
 
     min_count = item.count < min_count ? item.count : min_count;
     max_count = item.count > max_count ? item.count : max_count;
@@ -269,6 +294,7 @@ function findMinMax(dataSet) {
     min_NTR = item.averageNTR < min_NTR ? item.averageNTR : min_NTR;
     max_NTR = item.averageNTR > max_NTR ? item.averageNTR : max_NTR;
   });
+
   return {
     min_cost: min_cost,
     max_cost: max_cost,
@@ -280,6 +306,9 @@ function findMinMax(dataSet) {
 }
 
 function getScalers(dataSet) {
+  if (dataSet.length === 0) {
+    return {};
+  }
   const {
     min_cost,
     max_cost,
@@ -289,13 +318,15 @@ function getScalers(dataSet) {
     max_NTR,
   } = findMinMax(dataSet);
 
+  const tmpCostMin =
+    choices.length === 1 && choices[0] === "international" ? -600000 : -16000;
   const xScale = d3
     .scaleLinear()
-    .domain(padExtent([-2000000, 162400000]))
+    .domain(padExtent([tmpCostMin, max_cost * 1.05]))
     .range(padExtent([1, domainwidth]));
   const yScale = d3
     .scaleLinear()
-    .domain(padExtent([-2000, 31000]))
+    .domain(padExtent([min_NTR - 3000, max_NTR + 3000]))
     .range(padExtent([domainheight, 1]));
   const sizeScale = d3
     .scaleLinear()
@@ -309,6 +340,7 @@ const tooltipHTML = (d) => {
   Student: ${getStudent(d.type)}<br>
   Fiscal Year Count: ${d.count}<br>
   Total Cost: $${convertMillion(d.cost)}<br>
+  Cost Per Student: $${(d.cost / d.count).toFixed(1)}<br>
   Net Tuition Revenue: $${convertMillion(d.totalNTR)}<br>
   Average Net Tuition Revenue: $${d.averageNTR.toFixed(1)}`;
 };
