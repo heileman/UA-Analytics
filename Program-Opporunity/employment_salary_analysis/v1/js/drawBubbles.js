@@ -26,13 +26,16 @@ const drawChartBubbles = (selection, chartBubbleData) => {
     .style("fill", (d) => {
       return colorScale(d.college);
     })
+    .attr("stroke", (d) => {
+      return "black";
+    })
     .style("opacity", 0.8)
     .on("mouseover", function (d) {
       if (d.children.length > 0) {
         d3.select(this)
           .style("cursor", "pointer")
           .style("opacity", 0.95)
-          .style("stroke-width", 3);
+          .style("stroke-width", 1.5);
       }
       tooltip.transition().duration(200).style("opacity", 0.95);
       tooltip
@@ -41,15 +44,12 @@ const drawChartBubbles = (selection, chartBubbleData) => {
         .style("top", d3.event.pageY + "px");
     })
     .on("mouseout", function (d) {
-      d3.select(this).style("cursor", "default").style("opacity", 0.8);
+      d3.select(this).style("cursor", "default").style("opacity", 0.8).style("stroke-width", 1);
       tooltip.transition().duration(500).style("opacity", 0);
     })
     .transition()
     .duration(500)
     .attr("r", (d) => {
-      // if (d.size > 10000) {
-      //   return sizeScale(10000);
-      // }
       return sizeScale(d.size);
     });
 
@@ -71,6 +71,9 @@ const drawSplitedBubbles = (selection, splitedBubbleData) => {
     .attr("cx", 25)
     .attr("cy", (d, i) => {
       return (i + 1) * 15 * 2 + 10;
+    })
+    .attr("stroke", (d) => {
+      return "black";
     })
     .on("mouseover", function (d) {
       if (d.children.length > 0) {
