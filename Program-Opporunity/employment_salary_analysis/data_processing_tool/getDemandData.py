@@ -12,10 +12,10 @@ def getData(majors):
     majorData = df[df["Major"].isin(res)]
     weightedSalaries = majorData["Weighted Salary"]
     numEmployee = majorData["Number of Employee"]
-    averageNumEmployee = (
+    weightedAverageSalary = (
         0 if numEmployee.sum() == 0 else weightedSalaries.sum() / numEmployee.sum()
     )
-    weightedAverageSalary = (
+    averageNumEmployee = (
         0 if len(numEmployee) == 0 else numEmployee.sum() / len(numEmployee)
     )
     return (averageNumEmployee, weightedAverageSalary)

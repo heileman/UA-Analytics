@@ -3,15 +3,15 @@ var data = [{
     "level": "university",
     "university": "University of Arizona",
     "size": 52888,
-    "averageSalary": 251833.4775280899,
-    "averageNumEmployee": 83958.50682482377,
+    "averageSalary": 78983.39286646157,
+    "averageNumEmployee": 267696.30898876407,
     "children": [{
         "id": 0,
         "level": "college",
         "college": "College of Engineering",
         "university": "University of Arizona",
-        "averageSalary": 153813.52112676058,
-        "averageNumEmployee": 102145.49069844956,
+        "averageSalary": 95427.25063304133,
+        "averageNumEmployee": 164642.25352112675,
         "size": 3561,
         "children": [{
             "id": 1,
@@ -19,8 +19,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Engineering",
             "department": "Aerospace & Mechanical Engr",
-            "averageSalary": 105272.0,
-            "averageNumEmployee": 149756.6190440003,
+            "averageSalary": 95269.39086294416,
+            "averageNumEmployee": 165480.0,
             "size": 796,
             "children": [{
                 "id": 2,
@@ -29,8 +29,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Engineering",
                 "department": "Aerospace & Mechanical Engr",
-                "averageSalary": 102465.0,
-                "averageNumEmployee": 173222.7931488801,
+                "averageSalary": 93392.65193370165,
+                "averageNumEmployee": 190050.0,
                 "size": 668,
                 "children": [{
                     "id": 3,
@@ -76,8 +76,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Engineering",
                 "department": "Aerospace & Mechanical Engr",
-                "averageSalary": 107143.33333333333,
-                "averageNumEmployee": 134795.59157514854,
+                "averageSalary": 96864.17840375587,
+                "averageNumEmployee": 149100.0,
                 "size": 128,
                 "children": [{
                     "id": 7,
@@ -215,8 +215,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Engineering",
             "department": "Chemical & Environmental Engr",
-            "averageSalary": 98815.0,
-            "averageNumEmployee": 43567.00399736882,
+            "averageSalary": 96418.21948488241,
+            "averageNumEmployee": 44650.0,
             "size": 370,
             "children": [{
                 "id": 19,
@@ -225,8 +225,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Engineering",
                 "department": "Chemical & Environmental Engr",
-                "averageSalary": 98815.0,
-                "averageNumEmployee": 43567.00399736882,
+                "averageSalary": 96418.21948488241,
+                "averageNumEmployee": 44650.0,
                 "size": 71,
                 "children": [{
                     "id": 20,
@@ -284,8 +284,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Engineering",
                 "department": "Chemical & Environmental Engr",
-                "averageSalary": 98815.0,
-                "averageNumEmployee": 43567.00399736882,
+                "averageSalary": 96418.21948488241,
+                "averageNumEmployee": 44650.0,
                 "size": 299,
                 "children": [{
                     "id": 25,
@@ -319,8 +319,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Engineering",
             "department": "Civil Arch Engr and Mechanics",
-            "averageSalary": 78823.33333333333,
-            "averageNumEmployee": 256134.81625576183,
+            "averageSalary": 84598.36580766813,
+            "averageNumEmployee": 238650.0,
             "size": 202,
             "children": [{
                 "id": 28,
@@ -329,8 +329,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Engineering",
                 "department": "Civil Arch Engr and Mechanics",
-                "averageSalary": 74705.0,
-                "averageNumEmployee": 214958.78455257346,
+                "averageSalary": 82531.13709366567,
+                "averageNumEmployee": 194575.0,
                 "size": 170,
                 "children": [{
                     "id": 29,
@@ -352,8 +352,8 @@ var data = [{
                     "department": "Civil Arch Engr and Mechanics",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Architectural Engineering",
-                    "averageSalary": 62350.0,
-                    "averageNumEmployee": 58793.64875701684,
+                    "averageSalary": 58793.64875701684,
+                    "averageNumEmployee": 62350.0,
                     "size": 35,
                     "children": []
                 }, {
@@ -444,8 +444,8 @@ var data = [{
                     "department": "College of Engineering",
                     "degree": "Graduate",
                     "major": "Main - Master of Engineering",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 32,
                     "children": []
                 }, {
@@ -456,8 +456,8 @@ var data = [{
                     "department": "College of Engineering",
                     "degree": "Graduate",
                     "major": "Online - Master of Engineering",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 41,
                     "children": []
                 }]
@@ -560,8 +560,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Engineering",
             "department": "Engineering Administration",
-            "averageSalary": 18750.0,
-            "averageNumEmployee": 69735.76,
+            "averageSalary": 69735.76,
+            "averageNumEmployee": 18750.0,
             "size": 96,
             "children": [{
                 "id": 49,
@@ -570,8 +570,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Engineering",
                 "department": "Engineering Administration",
-                "averageSalary": 18750.0,
-                "averageNumEmployee": 69735.76,
+                "averageSalary": 69735.76,
+                "averageNumEmployee": 18750.0,
                 "size": 40,
                 "children": [{
                     "id": 50,
@@ -581,8 +581,8 @@ var data = [{
                     "department": "Engineering Administration",
                     "degree": "Graduate",
                     "major": "Distance - Master of Science in Biosystems Engineering",
-                    "averageSalary": 18750.0,
-                    "averageNumEmployee": 69735.76,
+                    "averageSalary": 69735.76,
+                    "averageNumEmployee": 18750.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -593,8 +593,8 @@ var data = [{
                     "department": "Engineering Administration",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Biosystems Engineering",
-                    "averageSalary": 18750.0,
-                    "averageNumEmployee": 69735.76,
+                    "averageSalary": 69735.76,
+                    "averageNumEmployee": 18750.0,
                     "size": 22,
                     "children": []
                 }, {
@@ -605,8 +605,8 @@ var data = [{
                     "department": "Engineering Administration",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Biosystems Engineering",
-                    "averageSalary": 18750.0,
-                    "averageNumEmployee": 69735.76,
+                    "averageSalary": 69735.76,
+                    "averageNumEmployee": 18750.0,
                     "size": 17,
                     "children": []
                 }]
@@ -617,8 +617,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Engineering",
                 "department": "Engineering Administration",
-                "averageSalary": 18750.0,
-                "averageNumEmployee": 69735.76,
+                "averageSalary": 69735.76,
+                "averageNumEmployee": 18750.0,
                 "size": 56,
                 "children": [{
                     "id": 54,
@@ -628,8 +628,8 @@ var data = [{
                     "department": "Engineering Administration",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Biosystems Engineering",
-                    "averageSalary": 18750.0,
-                    "averageNumEmployee": 69735.76,
+                    "averageSalary": 69735.76,
+                    "averageNumEmployee": 18750.0,
                     "size": 56,
                     "children": []
                 }]
@@ -640,8 +640,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Engineering",
             "department": "Materials Science & Engr",
-            "averageSalary": 17900.0,
-            "averageNumEmployee": 94140.58659217878,
+            "averageSalary": 94140.58659217878,
+            "averageNumEmployee": 17900.0,
             "size": 101,
             "children": [{
                 "id": 56,
@@ -650,8 +650,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Engineering",
                 "department": "Materials Science & Engr",
-                "averageSalary": 17900.0,
-                "averageNumEmployee": 94140.58659217878,
+                "averageSalary": 94140.58659217878,
+                "averageNumEmployee": 17900.0,
                 "size": 40,
                 "children": [{
                     "id": 57,
@@ -661,8 +661,8 @@ var data = [{
                     "department": "Materials Science & Engr",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Materials Science and Engineering",
-                    "averageSalary": 17900.0,
-                    "averageNumEmployee": 94140.58659217878,
+                    "averageSalary": 94140.58659217878,
+                    "averageNumEmployee": 17900.0,
                     "size": 18,
                     "children": []
                 }, {
@@ -673,8 +673,8 @@ var data = [{
                     "department": "Materials Science & Engr",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Materials Science and Engineering",
-                    "averageSalary": 17900.0,
-                    "averageNumEmployee": 94140.58659217878,
+                    "averageSalary": 94140.58659217878,
+                    "averageNumEmployee": 17900.0,
                     "size": 11,
                     "children": []
                 }, {
@@ -685,8 +685,8 @@ var data = [{
                     "department": "Materials Science & Engr",
                     "degree": "Graduate",
                     "major": "Online - Master of Science in Materials Science and Engineering",
-                    "averageSalary": 17900.0,
-                    "averageNumEmployee": 94140.58659217878,
+                    "averageSalary": 94140.58659217878,
+                    "averageNumEmployee": 17900.0,
                     "size": 11,
                     "children": []
                 }]
@@ -697,8 +697,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Engineering",
                 "department": "Materials Science & Engr",
-                "averageSalary": 17900.0,
-                "averageNumEmployee": 94140.58659217878,
+                "averageSalary": 94140.58659217878,
+                "averageNumEmployee": 17900.0,
                 "size": 61,
                 "children": [{
                     "id": 61,
@@ -708,8 +708,8 @@ var data = [{
                     "department": "Materials Science & Engr",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Materials Science & Engineering",
-                    "averageSalary": 17900.0,
-                    "averageNumEmployee": 94140.58659217878,
+                    "averageSalary": 94140.58659217878,
+                    "averageNumEmployee": 17900.0,
                     "size": 61,
                     "children": []
                 }]
@@ -836,8 +836,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Engineering",
             "department": "Systems and Industrial Engr",
-            "averageSalary": 266396.3333333333,
-            "averageNumEmployee": 100899.42967182981,
+            "averageSalary": 97482.7300531915,
+            "averageNumEmployee": 275733.3333333333,
             "size": 728,
             "children": [{
                 "id": 73,
@@ -846,8 +846,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Engineering",
                 "department": "Systems and Industrial Engr",
-                "averageSalary": 263511.8181818182,
-                "averageNumEmployee": 100259.36614883583,
+                "averageSalary": 97130.61714572193,
+                "averageNumEmployee": 272000.0,
                 "size": 282,
                 "children": [{
                     "id": 74,
@@ -857,8 +857,8 @@ var data = [{
                     "department": "Systems and Industrial Engr",
                     "degree": "Graduate",
                     "major": "Distance - Master of Science in Engineering Management",
-                    "averageSalary": 406550.0,
-                    "averageNumEmployee": 100262.47939982782,
+                    "averageSalary": 100262.47939982782,
+                    "averageNumEmployee": 406550.0,
                     "size": 26,
                     "children": []
                 }, {
@@ -881,8 +881,8 @@ var data = [{
                     "department": "Systems and Industrial Engr",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Systems and Industrial Engineering",
-                    "averageSalary": 161671.42857142858,
-                    "averageNumEmployee": 93040.08571176107,
+                    "averageSalary": 93040.08571176107,
+                    "averageNumEmployee": 161671.42857142858,
                     "size": 46,
                     "children": []
                 }, {
@@ -893,8 +893,8 @@ var data = [{
                     "department": "Systems and Industrial Engr",
                     "degree": "Graduate",
                     "major": "Main - Engineering Management",
-                    "averageSalary": 406550.0,
-                    "averageNumEmployee": 100262.47939982782,
+                    "averageSalary": 100262.47939982782,
+                    "averageNumEmployee": 406550.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -917,8 +917,8 @@ var data = [{
                     "department": "Systems and Industrial Engr",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Engineering Management",
-                    "averageSalary": 406550.0,
-                    "averageNumEmployee": 100262.47939982782,
+                    "averageSalary": 100262.47939982782,
+                    "averageNumEmployee": 406550.0,
                     "size": 11,
                     "children": []
                 }, {
@@ -929,8 +929,8 @@ var data = [{
                     "department": "Systems and Industrial Engr",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Industrial Engineering",
-                    "averageSalary": 156633.33333333334,
-                    "averageNumEmployee": 91919.0870397957,
+                    "averageSalary": 91919.0870397957,
+                    "averageNumEmployee": 156633.33333333334,
                     "size": 10,
                     "children": []
                 }, {
@@ -953,8 +953,8 @@ var data = [{
                     "department": "Systems and Industrial Engr",
                     "degree": "Graduate",
                     "major": "Online - Engineering Management",
-                    "averageSalary": 406550.0,
-                    "averageNumEmployee": 100262.47939982782,
+                    "averageSalary": 100262.47939982782,
+                    "averageNumEmployee": 406550.0,
                     "size": 5,
                     "children": []
                 }, {
@@ -989,8 +989,8 @@ var data = [{
                     "department": "Systems and Industrial Engr",
                     "degree": "Graduate",
                     "major": "Online - Master of Science in Cybersecurity",
-                    "averageSalary": 373100.0,
-                    "averageNumEmployee": 92245.86839989279,
+                    "averageSalary": 92245.86839989279,
+                    "averageNumEmployee": 373100.0,
                     "size": 65,
                     "children": []
                 }, {
@@ -1001,8 +1001,8 @@ var data = [{
                     "department": "Systems and Industrial Engr",
                     "degree": "Graduate",
                     "major": "Online - Master of Science in Engineering Management",
-                    "averageSalary": 406550.0,
-                    "averageNumEmployee": 100262.47939982782,
+                    "averageSalary": 100262.47939982782,
+                    "averageNumEmployee": 406550.0,
                     "size": 39,
                     "children": []
                 }, {
@@ -1013,8 +1013,8 @@ var data = [{
                     "department": "Systems and Industrial Engr",
                     "degree": "Graduate",
                     "major": "Online - Master of Science in Industrial Engineering",
-                    "averageSalary": 156633.33333333334,
-                    "averageNumEmployee": 91919.0870397957,
+                    "averageSalary": 91919.0870397957,
+                    "averageNumEmployee": 156633.33333333334,
                     "size": 11,
                     "children": []
                 }, {
@@ -1037,8 +1037,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Engineering",
                 "department": "Systems and Industrial Engr",
-                "averageSalary": 274328.75,
-                "averageNumEmployee": 102590.1997147583,
+                "averageSalary": 98403.64073426573,
+                "averageNumEmployee": 286000.0,
                 "size": 446,
                 "children": [{
                     "id": 90,
@@ -1048,8 +1048,8 @@ var data = [{
                     "department": "Systems and Industrial Engr",
                     "degree": "Undergraduate",
                     "major": "Distance - Major in Engineering Management",
-                    "averageSalary": 406550.0,
-                    "averageNumEmployee": 100262.47939982782,
+                    "averageSalary": 100262.47939982782,
+                    "averageNumEmployee": 406550.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -1060,8 +1060,8 @@ var data = [{
                     "department": "Systems and Industrial Engr",
                     "degree": "Undergraduate",
                     "major": "Distance - Major in Industrial Engineering",
-                    "averageSalary": 156633.33333333334,
-                    "averageNumEmployee": 91919.0870397957,
+                    "averageSalary": 91919.0870397957,
+                    "averageNumEmployee": 156633.33333333334,
                     "size": 112,
                     "children": []
                 }, {
@@ -1084,8 +1084,8 @@ var data = [{
                     "department": "Systems and Industrial Engr",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Engineering Management",
-                    "averageSalary": 406550.0,
-                    "averageNumEmployee": 100262.47939982782,
+                    "averageSalary": 100262.47939982782,
+                    "averageNumEmployee": 406550.0,
                     "size": 53,
                     "children": []
                 }, {
@@ -1096,8 +1096,8 @@ var data = [{
                     "department": "Systems and Industrial Engr",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Industrial Engineering",
-                    "averageSalary": 156633.33333333334,
-                    "averageNumEmployee": 91919.0870397957,
+                    "averageSalary": 91919.0870397957,
+                    "averageNumEmployee": 156633.33333333334,
                     "size": 118,
                     "children": []
                 }, {
@@ -1120,8 +1120,8 @@ var data = [{
         "level": "college",
         "college": "College of Humanities",
         "university": "University of Arizona",
-        "averageSalary": 71784.80952380953,
-        "averageNumEmployee": 41026.67200647968,
+        "averageSalary": 69833.5863083241,
+        "averageNumEmployee": 42173.0,
         "size": 2273,
         "children": [{
             "id": 97,
@@ -1195,8 +1195,8 @@ var data = [{
                     "department": "College of Humanities",
                     "degree": "Undergraduate",
                     "major": "Distance - Major in General Studies",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 10,
                     "children": []
                 }, {
@@ -1207,8 +1207,8 @@ var data = [{
                     "department": "College of Humanities",
                     "degree": "Undergraduate",
                     "major": "Main - Major in General Studies",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 533,
                     "children": []
                 }, {
@@ -1219,8 +1219,8 @@ var data = [{
                     "department": "College of Humanities",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Global Studies",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 100,
                     "children": []
                 }, {
@@ -1231,8 +1231,8 @@ var data = [{
                     "department": "College of Humanities",
                     "degree": "Undergraduate",
                     "major": "Online - Major in General Studies",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 275,
                     "children": []
                 }]
@@ -1447,8 +1447,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Humanities",
             "department": "Public & Applied Humanities",
-            "averageSalary": 80052.2,
-            "averageNumEmployee": 75373.58509322668,
+            "averageSalary": 69765.9673128554,
+            "averageNumEmployee": 86486.6,
             "size": 101,
             "children": [{
                 "id": 126,
@@ -1468,8 +1468,8 @@ var data = [{
                     "department": "Public & Applied Humanities",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Applied Humanities",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 97,
                     "children": []
                 }, {
@@ -1492,8 +1492,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Humanities",
                 "department": "Public & Applied Humanities",
-                "averageSalary": 82942.75,
-                "averageNumEmployee": 73695.98772345985,
+                "averageSalary": 70071.30750889139,
+                "averageNumEmployee": 87233.25,
                 "size": 1,
                 "children": [{
                     "id": 130,
@@ -1503,8 +1503,8 @@ var data = [{
                     "department": "Public & Applied Humanities",
                     "degree": "Graduate",
                     "major": "Online - Master of Arts in Second Language Learning and Educational Technology",
-                    "averageSalary": 82942.75,
-                    "averageNumEmployee": 73695.98772345985,
+                    "averageSalary": 70071.30750889139,
+                    "averageNumEmployee": 87233.25,
                     "size": 1,
                     "children": []
                 }]
@@ -1728,8 +1728,8 @@ var data = [{
         "level": "college",
         "college": "College of Agric and Life Sci",
         "university": "University of Arizona",
-        "averageSalary": 151725.92592592593,
-        "averageNumEmployee": 57355.42514931081,
+        "averageSalary": 50696.24715551937,
+        "averageNumEmployee": 171655.80246913582,
         "size": 3818,
         "children": [{
             "id": 151,
@@ -1737,8 +1737,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Agric and Life Sci",
             "department": "Agricultural & Resource Econ",
-            "averageSalary": 82446.66666666667,
-            "averageNumEmployee": 570163.9362820409,
+            "averageSalary": 71520.6146668019,
+            "averageNumEmployee": 657266.6666666666,
             "size": 172,
             "children": [{
                 "id": 152,
@@ -1770,8 +1770,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Agricultural & Resource Econ",
-                "averageSalary": 88090.0,
-                "averageNumEmployee": 406487.0246338972,
+                "averageSalary": 71873.62906463268,
+                "averageNumEmployee": 498200.0,
                 "size": 158,
                 "children": [{
                     "id": 155,
@@ -1805,8 +1805,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Agric and Life Sci",
             "department": "Agricultural Education",
-            "averageSalary": 38338.333333333336,
-            "averageNumEmployee": 56297.3916445681,
+            "averageSalary": 51738.270075908906,
+            "averageNumEmployee": 41716.666666666664,
             "size": 156,
             "children": [{
                 "id": 158,
@@ -1815,8 +1815,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Agricultural Education",
-                "averageSalary": 55700.0,
-                "averageNumEmployee": 48280.0,
+                "averageSalary": 48280.0,
+                "averageNumEmployee": 55700.0,
                 "size": 129,
                 "children": [{
                     "id": 159,
@@ -1826,8 +1826,8 @@ var data = [{
                     "department": "Agricultural Education",
                     "degree": "Undergraduate",
                     "major": "Distance - Major in Agricultural Systems Management",
-                    "averageSalary": 55700.0,
-                    "averageNumEmployee": 48280.0,
+                    "averageSalary": 48280.0,
+                    "averageNumEmployee": 55700.0,
                     "size": 9,
                     "children": []
                 }, {
@@ -1838,8 +1838,8 @@ var data = [{
                     "department": "Agricultural Education",
                     "degree": "Undergraduate",
                     "major": "Distance - Major in Agricultural Technology Management and Education",
-                    "averageSalary": 55700.0,
-                    "averageNumEmployee": 48280.0,
+                    "averageSalary": 48280.0,
+                    "averageNumEmployee": 55700.0,
                     "size": 24,
                     "children": []
                 }, {
@@ -1850,8 +1850,8 @@ var data = [{
                     "department": "Agricultural Education",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Agricultural Technology Management and Education",
-                    "averageSalary": 55700.0,
-                    "averageNumEmployee": 48280.0,
+                    "averageSalary": 48280.0,
+                    "averageNumEmployee": 55700.0,
                     "size": 96,
                     "children": []
                 }]
@@ -1862,8 +1862,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Agricultural Education",
-                "averageSalary": 29657.5,
-                "averageNumEmployee": 63826.15695861081,
+                "averageSalary": 54511.857451403885,
+                "averageNumEmployee": 34725.0,
                 "size": 27,
                 "children": [{
                     "id": 163,
@@ -1897,8 +1897,8 @@ var data = [{
                     "department": "Agricultural Education",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Agricultural Education",
-                    "averageSalary": 8000.0,
-                    "averageNumEmployee": 76886.3125,
+                    "averageSalary": 76886.3125,
+                    "averageNumEmployee": 8000.0,
                     "size": 12,
                     "children": []
                 }, {
@@ -1909,8 +1909,8 @@ var data = [{
                     "department": "Agricultural Education",
                     "degree": "Graduate",
                     "major": "Online - Master of Science in Agricultural Education",
-                    "averageSalary": 8000.0,
-                    "averageNumEmployee": 76886.3125,
+                    "averageSalary": 76886.3125,
+                    "averageNumEmployee": 8000.0,
                     "size": 13,
                     "children": []
                 }]
@@ -1921,8 +1921,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Agric and Life Sci",
             "department": "Animal&Biomedical Sciences-Ins",
-            "averageSalary": 53915.0,
-            "averageNumEmployee": 29442.630065844383,
+            "averageSalary": 77623.44254278729,
+            "averageNumEmployee": 20450.0,
             "size": 940,
             "children": [{
                 "id": 168,
@@ -1931,8 +1931,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Animal&Biomedical Sciences-Ins",
-                "averageSalary": 67975.0,
-                "averageNumEmployee": 13272.636998896653,
+                "averageSalary": 73951.4344262295,
+                "averageNumEmployee": 12200.0,
                 "size": 15,
                 "children": [{
                     "id": 169,
@@ -1990,8 +1990,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Animal&Biomedical Sciences-Ins",
-                "averageSalary": 44541.666666666664,
-                "averageNumEmployee": 45893.97193638915,
+                "averageSalary": 78774.33526011561,
+                "averageNumEmployee": 25950.0,
                 "size": 925,
                 "children": [{
                     "id": 174,
@@ -2013,8 +2013,8 @@ var data = [{
                     "department": "Animal&Biomedical Sciences-Ins",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Food Safety",
-                    "averageSalary": 22050.0,
-                    "averageNumEmployee": 50602.4716553288,
+                    "averageSalary": 50602.4716553288,
+                    "averageNumEmployee": 22050.0,
                     "size": 4,
                     "children": []
                 }, {
@@ -2037,8 +2037,8 @@ var data = [{
                     "department": "Animal&Biomedical Sciences-Ins",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Veterinary Science",
-                    "averageSalary": 43600.0,
-                    "averageNumEmployee": 94371.33027522935,
+                    "averageSalary": 94371.33027522935,
+                    "averageNumEmployee": 43600.0,
                     "size": 546,
                     "children": []
                 }]
@@ -2049,8 +2049,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Agric and Life Sci",
             "department": "Biosystems Engineering",
-            "averageSalary": 242140.0,
-            "averageNumEmployee": 73332.47790534401,
+            "averageSalary": 73332.47790534401,
+            "averageNumEmployee": 242140.0,
             "size": 72,
             "children": [{
                 "id": 179,
@@ -2059,8 +2059,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Biosystems Engineering",
-                "averageSalary": 391066.6666666667,
-                "averageNumEmployee": 73447.44289123765,
+                "averageSalary": 73447.44289123765,
+                "averageNumEmployee": 391066.6666666667,
                 "size": 70,
                 "children": [{
                     "id": 180,
@@ -2070,8 +2070,8 @@ var data = [{
                     "department": "Biosystems Engineering",
                     "degree": "Undergraduate",
                     "major": "Distance - Major in Sustainable Plant Systems",
-                    "averageSalary": 1135700.0,
-                    "averageNumEmployee": 73570.0,
+                    "averageSalary": 73570.0,
+                    "averageNumEmployee": 1135700.0,
                     "size": 12,
                     "children": []
                 }, {
@@ -2082,8 +2082,8 @@ var data = [{
                     "department": "Biosystems Engineering",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Biosystems Analytics & Technology",
-                    "averageSalary": 18750.0,
-                    "averageNumEmployee": 69735.76,
+                    "averageSalary": 69735.76,
+                    "averageNumEmployee": 18750.0,
                     "size": 9,
                     "children": []
                 }, {
@@ -2094,8 +2094,8 @@ var data = [{
                     "department": "Biosystems Engineering",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Sustainable Plant Systems",
-                    "averageSalary": 1135700.0,
-                    "averageNumEmployee": 73570.0,
+                    "averageSalary": 73570.0,
+                    "averageNumEmployee": 1135700.0,
                     "size": 49,
                     "children": []
                 }]
@@ -2106,8 +2106,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Biosystems Engineering",
-                "averageSalary": 18750.0,
-                "averageNumEmployee": 69735.76,
+                "averageSalary": 69735.76,
+                "averageNumEmployee": 18750.0,
                 "size": 2,
                 "children": [{
                     "id": 184,
@@ -2117,8 +2117,8 @@ var data = [{
                     "department": "Biosystems Engineering",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Biosystems Analytics & Technology",
-                    "averageSalary": 18750.0,
-                    "averageNumEmployee": 69735.76,
+                    "averageSalary": 69735.76,
+                    "averageNumEmployee": 18750.0,
                     "size": 2,
                     "children": []
                 }]
@@ -2186,8 +2186,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Agric and Life Sci",
             "department": "Environmental  Science",
-            "averageSalary": 51027.142857142855,
-            "averageNumEmployee": 57632.29933648758,
+            "averageSalary": 64511.69225947979,
+            "averageNumEmployee": 45585.71428571428,
             "size": 278,
             "children": [{
                 "id": 191,
@@ -2196,8 +2196,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Environmental  Science",
-                "averageSalary": 47866.666666666664,
-                "averageNumEmployee": 63903.203342618384,
+                "averageSalary": 63903.203342618384,
+                "averageNumEmployee": 47866.666666666664,
                 "size": 53,
                 "children": [{
                     "id": 192,
@@ -2207,8 +2207,8 @@ var data = [{
                     "department": "Environmental  Science",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Soil, Water and Environmental Science",
-                    "averageSalary": 47866.666666666664,
-                    "averageNumEmployee": 63903.203342618384,
+                    "averageSalary": 63903.203342618384,
+                    "averageNumEmployee": 47866.666666666664,
                     "size": 31,
                     "children": []
                 }, {
@@ -2219,8 +2219,8 @@ var data = [{
                     "department": "Environmental  Science",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Soil, Water and Environmental Science",
-                    "averageSalary": 47866.666666666664,
-                    "averageNumEmployee": 63903.203342618384,
+                    "averageSalary": 63903.203342618384,
+                    "averageNumEmployee": 47866.666666666664,
                     "size": 22,
                     "children": []
                 }]
@@ -2266,8 +2266,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Agric and Life Sci",
             "department": "Family & Consumer Sci, Sch",
-            "averageSalary": 101800.0,
-            "averageNumEmployee": 47924.781434184675,
+            "averageSalary": 47924.781434184675,
+            "averageNumEmployee": 101800.0,
             "size": 463,
             "children": [{
                 "id": 198,
@@ -2276,8 +2276,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Family & Consumer Sci, Sch",
-                "averageSalary": 101800.0,
-                "averageNumEmployee": 47924.781434184675,
+                "averageSalary": 47924.781434184675,
+                "averageNumEmployee": 101800.0,
                 "size": 445,
                 "children": [{
                     "id": 199,
@@ -2287,8 +2287,8 @@ var data = [{
                     "department": "Family & Consumer Sci, Sch",
                     "degree": "Undergraduate",
                     "major": "Distance - Major in Family Studies and Human Development",
-                    "averageSalary": 101800.0,
-                    "averageNumEmployee": 47924.781434184675,
+                    "averageSalary": 47924.781434184675,
+                    "averageNumEmployee": 101800.0,
                     "size": 49,
                     "children": []
                 }, {
@@ -2299,8 +2299,8 @@ var data = [{
                     "department": "Family & Consumer Sci, Sch",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Family Studies and Human Development",
-                    "averageSalary": 101800.0,
-                    "averageNumEmployee": 47924.781434184675,
+                    "averageSalary": 47924.781434184675,
+                    "averageNumEmployee": 101800.0,
                     "size": 391,
                     "children": []
                 }, {
@@ -2311,8 +2311,8 @@ var data = [{
                     "department": "Family & Consumer Sci, Sch",
                     "degree": "Undergraduate",
                     "major": "South - Major in Family Studies and Human Development",
-                    "averageSalary": 101800.0,
-                    "averageNumEmployee": 47924.781434184675,
+                    "averageSalary": 47924.781434184675,
+                    "averageNumEmployee": 101800.0,
                     "size": 5,
                     "children": []
                 }]
@@ -2323,8 +2323,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Family & Consumer Sci, Sch",
-                "averageSalary": 101800.0,
-                "averageNumEmployee": 47924.781434184675,
+                "averageSalary": 47924.781434184675,
+                "averageNumEmployee": 101800.0,
                 "size": 18,
                 "children": [{
                     "id": 203,
@@ -2334,8 +2334,8 @@ var data = [{
                     "department": "Family & Consumer Sci, Sch",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Family and Consumer Sciences",
-                    "averageSalary": 101800.0,
-                    "averageNumEmployee": 47924.781434184675,
+                    "averageSalary": 47924.781434184675,
+                    "averageNumEmployee": 101800.0,
                     "size": 16,
                     "children": []
                 }, {
@@ -2346,8 +2346,8 @@ var data = [{
                     "department": "Family & Consumer Sci, Sch",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Family and Consumer Sciences",
-                    "averageSalary": 101800.0,
-                    "averageNumEmployee": 47924.781434184675,
+                    "averageSalary": 47924.781434184675,
+                    "averageNumEmployee": 101800.0,
                     "size": 2,
                     "children": []
                 }]
@@ -2391,8 +2391,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Agric and Life Sci",
             "department": "Nat Resources & Eviron, Sch",
-            "averageSalary": 74446.66666666667,
-            "averageNumEmployee": 78393.3322885884,
+            "averageSalary": 72135.00034333585,
+            "averageNumEmployee": 80905.55555555556,
             "size": 391,
             "children": [{
                 "id": 209,
@@ -2401,8 +2401,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Nat Resources & Eviron, Sch",
-                "averageSalary": 57937.5,
-                "averageNumEmployee": 96289.55771305285,
+                "averageSalary": 96289.55771305285,
+                "averageNumEmployee": 57937.5,
                 "size": 76,
                 "children": [{
                     "id": 210,
@@ -2412,8 +2412,8 @@ var data = [{
                     "department": "Nat Resources & Eviron, Sch",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Natural Resources",
-                    "averageSalary": 57433.333333333336,
-                    "averageNumEmployee": 91437.94544399304,
+                    "averageSalary": 91437.94544399304,
+                    "averageNumEmployee": 57433.333333333336,
                     "size": 42,
                     "children": []
                 }, {
@@ -2424,8 +2424,8 @@ var data = [{
                     "department": "Nat Resources & Eviron, Sch",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Natural Resources",
-                    "averageSalary": 57433.333333333336,
-                    "averageNumEmployee": 91437.94544399304,
+                    "averageSalary": 91437.94544399304,
+                    "averageNumEmployee": 57433.333333333336,
                     "size": 23,
                     "children": []
                 }, {
@@ -2436,8 +2436,8 @@ var data = [{
                     "department": "Nat Resources & Eviron, Sch",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Water, Society & Policy",
-                    "averageSalary": 59450.0,
-                    "averageNumEmployee": 110350.66442388562,
+                    "averageSalary": 110350.66442388562,
+                    "averageNumEmployee": 59450.0,
                     "size": 11,
                     "children": []
                 }]
@@ -2448,8 +2448,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Nat Resources & Eviron, Sch",
-                "averageSalary": 87654.0,
-                "averageNumEmployee": 68930.10130741324,
+                "averageSalary": 60858.16982272361,
+                "averageNumEmployee": 99280.0,
                 "size": 315,
                 "children": [{
                     "id": 214,
@@ -2459,8 +2459,8 @@ var data = [{
                     "department": "Nat Resources & Eviron, Sch",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Natural Resource",
-                    "averageSalary": 57433.333333333336,
-                    "averageNumEmployee": 91437.94544399304,
+                    "averageSalary": 91437.94544399304,
+                    "averageNumEmployee": 57433.333333333336,
                     "size": 12,
                     "children": []
                 }, {
@@ -2495,8 +2495,8 @@ var data = [{
                     "department": "Nat Resources & Eviron, Sch",
                     "degree": "Undergraduate",
                     "major": "Main - International Environmental Conservation",
-                    "averageSalary": 146566.66666666666,
-                    "averageNumEmployee": 67715.00341141688,
+                    "averageSalary": 67715.00341141688,
+                    "averageNumEmployee": 146566.66666666666,
                     "size": 3,
                     "children": []
                 }, {
@@ -2659,8 +2659,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Agric and Life Sci",
             "department": "Plant Sciences, Sch",
-            "averageSalary": 115881.81818181818,
-            "averageNumEmployee": 71772.64375931592,
+            "averageSalary": 71772.64375931592,
+            "averageNumEmployee": 115881.81818181818,
             "size": 86,
             "children": [{
                 "id": 232,
@@ -2669,8 +2669,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Plant Sciences, Sch",
-                "averageSalary": 13900.0,
-                "averageNumEmployee": 57087.338129496406,
+                "averageSalary": 57087.338129496406,
+                "averageNumEmployee": 13900.0,
                 "size": 29,
                 "children": [{
                     "id": 233,
@@ -2680,8 +2680,8 @@ var data = [{
                     "department": "Plant Sciences, Sch",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Plant Pathology",
-                    "averageSalary": 13900.0,
-                    "averageNumEmployee": 57087.338129496406,
+                    "averageSalary": 57087.338129496406,
+                    "averageNumEmployee": 13900.0,
                     "size": 6,
                     "children": []
                 }, {
@@ -2692,8 +2692,8 @@ var data = [{
                     "department": "Plant Sciences, Sch",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Plant Science",
-                    "averageSalary": 13900.0,
-                    "averageNumEmployee": 57087.338129496406,
+                    "averageSalary": 57087.338129496406,
+                    "averageNumEmployee": 13900.0,
                     "size": 15,
                     "children": []
                 }, {
@@ -2704,8 +2704,8 @@ var data = [{
                     "department": "Plant Sciences, Sch",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Plant Pathology",
-                    "averageSalary": 13900.0,
-                    "averageNumEmployee": 57087.338129496406,
+                    "averageSalary": 57087.338129496406,
+                    "averageNumEmployee": 13900.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -2716,8 +2716,8 @@ var data = [{
                     "department": "Plant Sciences, Sch",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Plant Science",
-                    "averageSalary": 13900.0,
-                    "averageNumEmployee": 57087.338129496406,
+                    "averageSalary": 57087.338129496406,
+                    "averageNumEmployee": 13900.0,
                     "size": 7,
                     "children": []
                 }]
@@ -2728,8 +2728,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Plant Sciences, Sch",
-                "averageSalary": 387833.3333333333,
-                "averageNumEmployee": 73176.17275461968,
+                "averageSalary": 73176.17275461968,
+                "averageNumEmployee": 387833.3333333333,
                 "size": 57,
                 "children": [{
                     "id": 238,
@@ -2739,8 +2739,8 @@ var data = [{
                     "department": "Plant Sciences, Sch",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Plant Sciences",
-                    "averageSalary": 13900.0,
-                    "averageNumEmployee": 57087.338129496406,
+                    "averageSalary": 57087.338129496406,
+                    "averageNumEmployee": 13900.0,
                     "size": 54,
                     "children": []
                 }, {
@@ -2751,8 +2751,8 @@ var data = [{
                     "department": "Plant Sciences, Sch",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Sustainable Plant Systems",
-                    "averageSalary": 1135700.0,
-                    "averageNumEmployee": 73570.0,
+                    "averageSalary": 73570.0,
+                    "averageNumEmployee": 1135700.0,
                     "size": 3,
                     "children": []
                 }]
@@ -2763,8 +2763,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Agric and Life Sci",
             "department": "Retailing & Consumer Sciences",
-            "averageSalary": 2163833.3333333335,
-            "averageNumEmployee": 31457.383347454364,
+            "averageSalary": 31457.383347454364,
+            "averageNumEmployee": 2163833.3333333335,
             "size": 476,
             "children": [{
                 "id": 241,
@@ -2773,8 +2773,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Agric and Life Sci",
                 "department": "Retailing & Consumer Sciences",
-                "averageSalary": 2163833.3333333335,
-                "averageNumEmployee": 31457.383347454364,
+                "averageSalary": 31457.383347454364,
+                "averageNumEmployee": 2163833.3333333335,
                 "size": 476,
                 "children": [{
                     "id": 242,
@@ -2784,8 +2784,8 @@ var data = [{
                     "department": "Retailing & Consumer Sciences",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Retailing and Consumer Science",
-                    "averageSalary": 2163833.3333333335,
-                    "averageNumEmployee": 31457.383347454364,
+                    "averageSalary": 31457.383347454364,
+                    "averageNumEmployee": 2163833.3333333335,
                     "size": 476,
                     "children": []
                 }]
@@ -2796,8 +2796,8 @@ var data = [{
         "level": "college",
         "college": "College of Social & Behav Sci",
         "university": "University of Arizona",
-        "averageSalary": 94555.69811320755,
-        "averageNumEmployee": 105370.1087470258,
+        "averageSalary": 82789.01026362697,
+        "averageNumEmployee": 120346.21698113208,
         "size": 9550,
         "children": [{
             "id": 244,
@@ -2892,8 +2892,8 @@ var data = [{
                     "department": "College of Social & Behav Sci",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Global Studies",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 130,
                     "children": []
                 }]
@@ -3019,8 +3019,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Social & Behav Sci",
             "department": "English",
-            "averageSalary": 72425.91666666667,
-            "averageNumEmployee": 85294.84903884544,
+            "averageSalary": 67802.4824486227,
+            "averageNumEmployee": 91111.08333333333,
             "size": 738,
             "children": [{
                 "id": 264,
@@ -3029,8 +3029,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Social & Behav Sci",
                 "department": "English",
-                "averageSalary": 73742.1,
-                "averageNumEmployee": 82259.36275614609,
+                "averageSalary": 68377.32509443341,
+                "averageNumEmployee": 88713.3,
                 "size": 157,
                 "children": [{
                     "id": 265,
@@ -3112,8 +3112,8 @@ var data = [{
                     "department": "English",
                     "degree": "Graduate",
                     "major": "Online - Teaching English as a Second or Foreign Language",
-                    "averageSalary": 82942.75,
-                    "averageNumEmployee": 73695.98772345985,
+                    "averageSalary": 70071.30750889139,
+                    "averageNumEmployee": 87233.25,
                     "size": 3,
                     "children": []
                 }]
@@ -3124,8 +3124,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Social & Behav Sci",
                 "department": "English",
-                "averageSalary": 65845.0,
-                "averageNumEmployee": 102292.58106158402,
+                "averageSalary": 65329.34044616877,
+                "averageNumEmployee": 103100.0,
                 "size": 581,
                 "children": [{
                     "id": 273,
@@ -3195,8 +3195,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Social & Behav Sci",
             "department": "Gender and Womens Studies",
-            "averageSalary": 18566.666666666668,
-            "averageNumEmployee": 57620.23339317774,
+            "averageSalary": 57620.23339317774,
+            "averageNumEmployee": 18566.666666666668,
             "size": 64,
             "children": [{
                 "id": 279,
@@ -3205,8 +3205,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Social & Behav Sci",
                 "department": "Gender and Womens Studies",
-                "averageSalary": 18566.666666666668,
-                "averageNumEmployee": 57620.23339317774,
+                "averageSalary": 57620.23339317774,
+                "averageNumEmployee": 18566.666666666668,
                 "size": 20,
                 "children": [{
                     "id": 280,
@@ -3216,8 +3216,8 @@ var data = [{
                     "department": "Gender and Womens Studies",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Gender & Women's Studies",
-                    "averageSalary": 18566.666666666668,
-                    "averageNumEmployee": 57620.23339317774,
+                    "averageSalary": 57620.23339317774,
+                    "averageNumEmployee": 18566.666666666668,
                     "size": 17,
                     "children": []
                 }, {
@@ -3228,8 +3228,8 @@ var data = [{
                     "department": "Gender and Womens Studies",
                     "degree": "Graduate",
                     "major": "Main - Gender & Women's Studies",
-                    "averageSalary": 18566.666666666668,
-                    "averageNumEmployee": 57620.23339317774,
+                    "averageSalary": 57620.23339317774,
+                    "averageNumEmployee": 18566.666666666668,
                     "size": 2,
                     "children": []
                 }, {
@@ -3240,8 +3240,8 @@ var data = [{
                     "department": "Gender and Womens Studies",
                     "degree": "Graduate",
                     "major": "Main - Master of Arts in Gender & Women's Studies",
-                    "averageSalary": 18566.666666666668,
-                    "averageNumEmployee": 57620.23339317774,
+                    "averageSalary": 57620.23339317774,
+                    "averageNumEmployee": 18566.666666666668,
                     "size": 1,
                     "children": []
                 }]
@@ -3252,8 +3252,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Social & Behav Sci",
                 "department": "Gender and Womens Studies",
-                "averageSalary": 18566.666666666668,
-                "averageNumEmployee": 57620.23339317774,
+                "averageSalary": 57620.23339317774,
+                "averageNumEmployee": 18566.666666666668,
                 "size": 44,
                 "children": [{
                     "id": 284,
@@ -3263,8 +3263,8 @@ var data = [{
                     "department": "Gender and Womens Studies",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Gender & Women's Studies",
-                    "averageSalary": 18566.666666666668,
-                    "averageNumEmployee": 57620.23339317774,
+                    "averageSalary": 57620.23339317774,
+                    "averageNumEmployee": 18566.666666666668,
                     "size": 44,
                     "children": []
                 }]
@@ -3752,8 +3752,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Social & Behav Sci",
             "department": "Sch Geography, Dev & Environ",
-            "averageSalary": 87346.36363636363,
-            "averageNumEmployee": 134977.08808193088,
+            "averageSalary": 89513.62230811706,
+            "averageNumEmployee": 131709.0909090909,
             "size": 719,
             "children": [{
                 "id": 328,
@@ -3762,8 +3762,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Social & Behav Sci",
                 "department": "Sch Geography, Dev & Environ",
-                "averageSalary": 92340.0,
-                "averageNumEmployee": 135944.52179832297,
+                "averageSalary": 91200.64348728594,
+                "averageNumEmployee": 137642.85714285713,
                 "size": 185,
                 "children": [{
                     "id": 329,
@@ -3869,8 +3869,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Social & Behav Sci",
                 "department": "Sch Geography, Dev & Environ",
-                "averageSalary": 78607.5,
-                "averageNumEmployee": 132988.31536431002,
+                "averageSalary": 86164.26128168144,
+                "averageNumEmployee": 121325.0,
                 "size": 534,
                 "children": [{
                     "id": 338,
@@ -4124,8 +4124,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Social & Behav Sci",
             "department": "School of Govt & Public Policy",
-            "averageSalary": 200007.36842105264,
-            "averageNumEmployee": 95951.97045372013,
+            "averageSalary": 82678.99891161399,
+            "averageNumEmployee": 232115.7894736842,
             "size": 2916,
             "children": [{
                 "id": 360,
@@ -4134,8 +4134,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Social & Behav Sci",
                 "department": "School of Govt & Public Policy",
-                "averageSalary": 183256.0,
-                "averageNumEmployee": 163812.2833631641,
+                "averageSalary": 99985.29110045297,
+                "averageNumEmployee": 300240.0,
                 "size": 2656,
                 "children": [{
                     "id": 361,
@@ -4193,8 +4193,8 @@ var data = [{
                     "department": "School of Govt & Public Policy",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Public Management and Policy",
-                    "averageSalary": 223700.0,
-                    "averageNumEmployee": 71574.14841305319,
+                    "averageSalary": 71574.14841305319,
+                    "averageNumEmployee": 223700.0,
                     "size": 131,
                     "children": []
                 }, {
@@ -4217,8 +4217,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Social & Behav Sci",
                 "department": "School of Govt & Public Policy",
-                "averageSalary": 205990.0,
-                "averageNumEmployee": 74390.92119589717,
+                "averageSalary": 73748.02406325197,
+                "averageNumEmployee": 207785.7142857143,
                 "size": 260,
                 "children": [{
                     "id": 368,
@@ -4228,8 +4228,8 @@ var data = [{
                     "department": "School of Govt & Public Policy",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Government and Public Policy",
-                    "averageSalary": 223700.0,
-                    "averageNumEmployee": 71574.14841305319,
+                    "averageSalary": 71574.14841305319,
+                    "averageNumEmployee": 223700.0,
                     "size": 34,
                     "children": []
                 }, {
@@ -4240,8 +4240,8 @@ var data = [{
                     "department": "School of Govt & Public Policy",
                     "degree": "Graduate",
                     "major": "Main - Master of Arts in Government and Public Policy",
-                    "averageSalary": 223700.0,
-                    "averageNumEmployee": 71574.14841305319,
+                    "averageSalary": 71574.14841305319,
+                    "averageNumEmployee": 223700.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -4252,8 +4252,8 @@ var data = [{
                     "department": "School of Govt & Public Policy",
                     "degree": "Graduate",
                     "major": "Main - Master of Public Administration",
-                    "averageSalary": 223700.0,
-                    "averageNumEmployee": 71574.14841305319,
+                    "averageSalary": 71574.14841305319,
+                    "averageNumEmployee": 223700.0,
                     "size": 63,
                     "children": []
                 }, {
@@ -4264,8 +4264,8 @@ var data = [{
                     "department": "School of Govt & Public Policy",
                     "degree": "Graduate",
                     "major": "Main - Master of Public Policy",
-                    "averageSalary": 223700.0,
-                    "averageNumEmployee": 71574.14841305319,
+                    "averageSalary": 71574.14841305319,
+                    "averageNumEmployee": 223700.0,
                     "size": 16,
                     "children": []
                 }, {
@@ -4300,8 +4300,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Social & Behav Sci",
             "department": "School of Information",
-            "averageSalary": 120426.08333333333,
-            "averageNumEmployee": 256285.52293004075,
+            "averageSalary": 91029.9945725349,
+            "averageNumEmployee": 339047.1666666667,
             "size": 1060,
             "children": [{
                 "id": 375,
@@ -4310,8 +4310,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Social & Behav Sci",
                 "department": "School of Information",
-                "averageSalary": 131051.44444444444,
-                "averageNumEmployee": 221033.82717219615,
+                "averageSalary": 92115.16953351852,
+                "averageNumEmployee": 314462.8888888889,
                 "size": 310,
                 "children": [{
                     "id": 376,
@@ -4369,8 +4369,8 @@ var data = [{
                     "department": "School of Information",
                     "degree": "Graduate",
                     "major": "Main - Medical and Community Health Information",
-                    "averageSalary": 190100.75,
-                    "averageNumEmployee": 92380.4836356511,
+                    "averageSalary": 77103.52147703899,
+                    "averageNumEmployee": 227766.5,
                     "size": 1,
                     "children": []
                 }, {
@@ -4441,8 +4441,8 @@ var data = [{
                     "department": "School of Information",
                     "degree": "Graduate",
                     "major": "Online - Medical and Community Health Information",
-                    "averageSalary": 190100.75,
-                    "averageNumEmployee": 92380.4836356511,
+                    "averageSalary": 77103.52147703899,
+                    "averageNumEmployee": 227766.5,
                     "size": 1,
                     "children": []
                 }, {
@@ -4524,8 +4524,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Social & Behav Sci",
             "department": "Social & Behavioral Sci Admin",
-            "averageSalary": 39500.0,
-            "averageNumEmployee": 65374.6582278481,
+            "averageSalary": 65374.6582278481,
+            "averageNumEmployee": 39500.0,
             "size": 44,
             "children": [{
                 "id": 394,
@@ -4534,8 +4534,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Social & Behav Sci",
                 "department": "Social & Behavioral Sci Admin",
-                "averageSalary": 39500.0,
-                "averageNumEmployee": 65374.6582278481,
+                "averageSalary": 65374.6582278481,
+                "averageNumEmployee": 39500.0,
                 "size": 24,
                 "children": [{
                     "id": 395,
@@ -4545,8 +4545,8 @@ var data = [{
                     "department": "Social & Behavioral Sci Admin",
                     "degree": "Graduate",
                     "major": "Main - Computational Social Sciences",
-                    "averageSalary": 39500.0,
-                    "averageNumEmployee": 65374.6582278481,
+                    "averageSalary": 65374.6582278481,
+                    "averageNumEmployee": 39500.0,
                     "size": 24,
                     "children": []
                 }]
@@ -4580,8 +4580,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Social & Behav Sci",
             "department": "Sociology",
-            "averageSalary": 81090.0,
-            "averageNumEmployee": 24702.737698853125,
+            "averageSalary": 74883.92523364486,
+            "averageNumEmployee": 26750.0,
             "size": 696,
             "children": [{
                 "id": 399,
@@ -4625,8 +4625,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Social & Behav Sci",
                 "department": "Sociology",
-                "averageSalary": 78760.0,
-                "averageNumEmployee": 47689.56323006602,
+                "averageSalary": 74376.83168316832,
+                "averageNumEmployee": 50500.0,
                 "size": 642,
                 "children": [{
                     "id": 403,
@@ -4672,8 +4672,8 @@ var data = [{
         "level": "college",
         "college": "College of Fine Arts",
         "university": "University of Arizona",
-        "averageSalary": 66681.09523809524,
-        "averageNumEmployee": 56808.488698517394,
+        "averageSalary": 58075.63215915313,
+        "averageNumEmployee": 65226.19047619047,
         "size": 1804,
         "children": [{
             "id": 407,
@@ -4737,8 +4737,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Fine Arts",
             "department": "Sch Theatre Film & Television",
-            "averageSalary": 45027.2,
-            "averageNumEmployee": 55900.2380783171,
+            "averageSalary": 43789.686847599165,
+            "averageNumEmployee": 57480.0,
             "size": 583,
             "children": [{
                 "id": 413,
@@ -4770,8 +4770,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Fine Arts",
                 "department": "Sch Theatre Film & Television",
-                "averageSalary": 45660.5,
-                "averageNumEmployee": 53899.39334873687,
+                "averageSalary": 44164.61641991925,
+                "averageNumEmployee": 55725.0,
                 "size": 573,
                 "children": [{
                     "id": 416,
@@ -4829,8 +4829,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Fine Arts",
             "department": "School of Art",
-            "averageSalary": 66000.76923076923,
-            "averageNumEmployee": 65805.76450157924,
+            "averageSalary": 66006.5513210194,
+            "averageNumEmployee": 65800.0,
             "size": 548,
             "children": [{
                 "id": 421,
@@ -4839,8 +4839,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Fine Arts",
                 "department": "School of Art",
-                "averageSalary": 63130.0,
-                "averageNumEmployee": 65163.46088570071,
+                "averageSalary": 65550.61461415888,
+                "averageNumEmployee": 62757.142857142855,
                 "size": 73,
                 "children": [{
                     "id": 422,
@@ -4874,8 +4874,8 @@ var data = [{
                     "department": "School of Art",
                     "degree": "Graduate",
                     "major": "Main - Master of Arts in Art Education",
-                    "averageSalary": 69350.0,
-                    "averageNumEmployee": 66487.90915645278,
+                    "averageSalary": 66487.90915645278,
+                    "averageNumEmployee": 69350.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -4886,8 +4886,8 @@ var data = [{
                     "department": "School of Art",
                     "degree": "Graduate",
                     "major": "Main - Master of Arts in Art and Visual Culture Education",
-                    "averageSalary": 69350.0,
-                    "averageNumEmployee": 66487.90915645278,
+                    "averageSalary": 66487.90915645278,
+                    "averageNumEmployee": 69350.0,
                     "size": 7,
                     "children": []
                 }, {
@@ -4910,8 +4910,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Fine Arts",
                 "department": "School of Art",
-                "averageSalary": 69350.0,
-                "averageNumEmployee": 66487.90915645278,
+                "averageSalary": 66487.90915645278,
+                "averageNumEmployee": 69350.0,
                 "size": 475,
                 "children": [{
                     "id": 428,
@@ -4921,8 +4921,8 @@ var data = [{
                     "department": "School of Art",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Art Education",
-                    "averageSalary": 69350.0,
-                    "averageNumEmployee": 66487.90915645278,
+                    "averageSalary": 66487.90915645278,
+                    "averageNumEmployee": 69350.0,
                     "size": 2,
                     "children": []
                 }, {
@@ -4933,8 +4933,8 @@ var data = [{
                     "department": "School of Art",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Art and Visual Culture Education",
-                    "averageSalary": 69350.0,
-                    "averageNumEmployee": 66487.90915645278,
+                    "averageSalary": 66487.90915645278,
+                    "averageNumEmployee": 69350.0,
                     "size": 35,
                     "children": []
                 }, {
@@ -4945,8 +4945,8 @@ var data = [{
                     "department": "School of Art",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Studio Art",
-                    "averageSalary": 69350.0,
-                    "averageNumEmployee": 66487.90915645278,
+                    "averageSalary": 66487.90915645278,
+                    "averageNumEmployee": 69350.0,
                     "size": 438,
                     "children": []
                 }]
@@ -4957,8 +4957,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Fine Arts",
             "department": "School of Dance",
-            "averageSalary": 10550.0,
-            "averageNumEmployee": 39774.601895734595,
+            "averageSalary": 39774.601895734595,
+            "averageNumEmployee": 10550.0,
             "size": 153,
             "children": [{
                 "id": 432,
@@ -4967,8 +4967,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Fine Arts",
                 "department": "School of Dance",
-                "averageSalary": 10550.0,
-                "averageNumEmployee": 39774.601895734595,
+                "averageSalary": 39774.601895734595,
+                "averageNumEmployee": 10550.0,
                 "size": 9,
                 "children": [{
                     "id": 433,
@@ -4978,8 +4978,8 @@ var data = [{
                     "department": "School of Dance",
                     "degree": "Graduate",
                     "major": "Main - Master of Fine Arts in Dance",
-                    "averageSalary": 10550.0,
-                    "averageNumEmployee": 39774.601895734595,
+                    "averageSalary": 39774.601895734595,
+                    "averageNumEmployee": 10550.0,
                     "size": 9,
                     "children": []
                 }]
@@ -4990,8 +4990,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Fine Arts",
                 "department": "School of Dance",
-                "averageSalary": 10550.0,
-                "averageNumEmployee": 39774.601895734595,
+                "averageSalary": 39774.601895734595,
+                "averageNumEmployee": 10550.0,
                 "size": 144,
                 "children": [{
                     "id": 435,
@@ -5001,8 +5001,8 @@ var data = [{
                     "department": "School of Dance",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Dance",
-                    "averageSalary": 10550.0,
-                    "averageNumEmployee": 39774.601895734595,
+                    "averageSalary": 39774.601895734595,
+                    "averageNumEmployee": 10550.0,
                     "size": 144,
                     "children": []
                 }]
@@ -5013,8 +5013,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Fine Arts",
             "department": "School of Music",
-            "averageSalary": 85994.44444444444,
-            "averageNumEmployee": 56820.37476581174,
+            "averageSalary": 56820.37476581174,
+            "averageNumEmployee": 85994.44444444444,
             "size": 458,
             "children": [{
                 "id": 437,
@@ -5023,8 +5023,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Fine Arts",
                 "department": "School of Music",
-                "averageSalary": 84150.0,
-                "averageNumEmployee": 56140.97326203209,
+                "averageSalary": 56140.97326203209,
+                "averageNumEmployee": 84150.0,
                 "size": 161,
                 "children": [{
                     "id": 438,
@@ -5034,8 +5034,8 @@ var data = [{
                     "department": "School of Music",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Musical Arts in Music",
-                    "averageSalary": 84150.0,
-                    "averageNumEmployee": 56140.97326203209,
+                    "averageSalary": 56140.97326203209,
+                    "averageNumEmployee": 84150.0,
                     "size": 95,
                     "children": []
                 }, {
@@ -5046,8 +5046,8 @@ var data = [{
                     "department": "School of Music",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Music",
-                    "averageSalary": 84150.0,
-                    "averageNumEmployee": 56140.97326203209,
+                    "averageSalary": 56140.97326203209,
+                    "averageNumEmployee": 84150.0,
                     "size": 15,
                     "children": []
                 }, {
@@ -5058,8 +5058,8 @@ var data = [{
                     "department": "School of Music",
                     "degree": "Graduate",
                     "major": "Main - Master of Music in Music",
-                    "averageSalary": 84150.0,
-                    "averageNumEmployee": 56140.97326203209,
+                    "averageSalary": 56140.97326203209,
+                    "averageNumEmployee": 84150.0,
                     "size": 51,
                     "children": []
                 }]
@@ -5070,8 +5070,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Fine Arts",
                 "department": "School of Music",
-                "averageSalary": 89683.33333333333,
-                "averageNumEmployee": 58095.34157219848,
+                "averageSalary": 58095.34157219848,
+                "averageNumEmployee": 89683.33333333333,
                 "size": 297,
                 "children": [{
                     "id": 442,
@@ -5093,8 +5093,8 @@ var data = [{
                     "department": "School of Music",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Music Education",
-                    "averageSalary": 84150.0,
-                    "averageNumEmployee": 56140.97326203209,
+                    "averageSalary": 56140.97326203209,
+                    "averageNumEmployee": 84150.0,
                     "size": 88,
                     "children": []
                 }, {
@@ -5105,8 +5105,8 @@ var data = [{
                     "department": "School of Music",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Performance",
-                    "averageSalary": 100750.0,
-                    "averageNumEmployee": 61360.05806451613,
+                    "averageSalary": 61360.05806451613,
+                    "averageNumEmployee": 100750.0,
                     "size": 134,
                     "children": []
                 }]
@@ -5117,8 +5117,8 @@ var data = [{
         "level": "college",
         "college": "College of Science",
         "university": "University of Arizona",
-        "averageSalary": 168081.48936170212,
-        "averageNumEmployee": 79100.68798948838,
+        "averageSalary": 92265.50729773426,
+        "averageNumEmployee": 144098.93617021278,
         "size": 9963,
         "children": [{
             "id": 446,
@@ -5342,8 +5342,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Science",
             "department": "College of Science",
-            "averageSalary": 69293.33333333333,
-            "averageNumEmployee": 50688.858957090626,
+            "averageSalary": 71584.23913043478,
+            "averageNumEmployee": 49066.666666666664,
             "size": 14,
             "children": [{
                 "id": 466,
@@ -5352,8 +5352,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Science",
                 "department": "College of Science",
-                "averageSalary": 69293.33333333333,
-                "averageNumEmployee": 50688.858957090626,
+                "averageSalary": 71584.23913043478,
+                "averageNumEmployee": 49066.666666666664,
                 "size": 14,
                 "children": [{
                     "id": 467,
@@ -5399,8 +5399,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Science",
             "department": "Computer Science",
-            "averageSalary": 282266.6666666667,
-            "averageNumEmployee": 109334.54534718941,
+            "averageSalary": 109334.54534718941,
+            "averageNumEmployee": 282266.6666666667,
             "size": 1717,
             "children": [{
                 "id": 471,
@@ -5409,8 +5409,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Science",
                 "department": "Computer Science",
-                "averageSalary": 282266.6666666667,
-                "averageNumEmployee": 109334.54534718941,
+                "averageSalary": 109334.54534718941,
+                "averageNumEmployee": 282266.6666666667,
                 "size": 1626,
                 "children": [{
                     "id": 472,
@@ -5420,8 +5420,8 @@ var data = [{
                     "department": "Computer Science",
                     "degree": "Undergraduate",
                     "major": "Distance - Major in Computer Science",
-                    "averageSalary": 282266.6666666667,
-                    "averageNumEmployee": 109334.54534718941,
+                    "averageSalary": 109334.54534718941,
+                    "averageNumEmployee": 282266.6666666667,
                     "size": 19,
                     "children": []
                 }, {
@@ -5432,8 +5432,8 @@ var data = [{
                     "department": "Computer Science",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Computer Science",
-                    "averageSalary": 282266.6666666667,
-                    "averageNumEmployee": 109334.54534718941,
+                    "averageSalary": 109334.54534718941,
+                    "averageNumEmployee": 282266.6666666667,
                     "size": 1592,
                     "children": []
                 }, {
@@ -5444,8 +5444,8 @@ var data = [{
                     "department": "Computer Science",
                     "degree": "Undergraduate",
                     "major": "South - Major in Computer Science",
-                    "averageSalary": 282266.6666666667,
-                    "averageNumEmployee": 109334.54534718941,
+                    "averageSalary": 109334.54534718941,
+                    "averageNumEmployee": 282266.6666666667,
                     "size": 15,
                     "children": []
                 }]
@@ -5456,8 +5456,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Science",
                 "department": "Computer Science",
-                "averageSalary": 282266.6666666667,
-                "averageNumEmployee": 109334.54534718941,
+                "averageSalary": 109334.54534718941,
+                "averageNumEmployee": 282266.6666666667,
                 "size": 91,
                 "children": [{
                     "id": 476,
@@ -5467,8 +5467,8 @@ var data = [{
                     "department": "Computer Science",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Computer Science",
-                    "averageSalary": 282266.6666666667,
-                    "averageNumEmployee": 109334.54534718941,
+                    "averageSalary": 109334.54534718941,
+                    "averageNumEmployee": 282266.6666666667,
                     "size": 48,
                     "children": []
                 }, {
@@ -5479,8 +5479,8 @@ var data = [{
                     "department": "Computer Science",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Computer Science",
-                    "averageSalary": 282266.6666666667,
-                    "averageNumEmployee": 109334.54534718941,
+                    "averageSalary": 109334.54534718941,
+                    "averageNumEmployee": 282266.6666666667,
                     "size": 43,
                     "children": []
                 }]
@@ -5491,8 +5491,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Science",
             "department": "Ecology & Evolutionary Biology",
-            "averageSalary": 68303.33333333333,
-            "averageNumEmployee": 111290.69835537553,
+            "averageSalary": 80709.88143691383,
+            "averageNumEmployee": 94183.33333333333,
             "size": 1062,
             "children": [{
                 "id": 479,
@@ -5536,8 +5536,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Science",
                 "department": "Ecology & Evolutionary Biology",
-                "averageSalary": 62665.0,
-                "averageNumEmployee": 106776.54990824225,
+                "averageSalary": 81524.85531526043,
+                "averageNumEmployee": 82075.0,
                 "size": 1015,
                 "children": [{
                     "id": 483,
@@ -5547,8 +5547,8 @@ var data = [{
                     "department": "Ecology & Evolutionary Biology",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Bioinformatics",
-                    "averageSalary": 45750.0,
-                    "averageNumEmployee": 86558.09836065574,
+                    "averageSalary": 86558.09836065574,
+                    "averageNumEmployee": 45750.0,
                     "size": 32,
                     "children": []
                 }, {
@@ -5663,8 +5663,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Science",
             "department": "Hydrology & Atmospheric Sci",
-            "averageSalary": 89720.0,
-            "averageNumEmployee": 16560.786644870463,
+            "averageSalary": 108104.31689571544,
+            "averageNumEmployee": 13744.444444444445,
             "size": 128,
             "children": [{
                 "id": 494,
@@ -5673,8 +5673,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Science",
                 "department": "Hydrology & Atmospheric Sci",
-                "averageSalary": 85973.33333333333,
-                "averageNumEmployee": 7920.355148883375,
+                "averageSalary": 87299.91452991453,
+                "averageNumEmployee": 7800.0,
                 "size": 85,
                 "children": [{
                     "id": 495,
@@ -5756,8 +5756,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Science",
                 "department": "Hydrology & Atmospheric Sci",
-                "averageSalary": 97213.33333333333,
-                "averageNumEmployee": 31843.601700726922,
+                "averageSalary": 120765.51365409623,
+                "averageNumEmployee": 25633.333333333332,
                 "size": 43,
                 "children": [{
                     "id": 502,
@@ -5836,8 +5836,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Science",
             "department": "Mathematics",
-            "averageSalary": 157917.27272727274,
-            "averageNumEmployee": 71520.30176905054,
+            "averageSalary": 86836.65408541274,
+            "averageNumEmployee": 130063.63636363637,
             "size": 728,
             "children": [{
                 "id": 509,
@@ -5881,8 +5881,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Science",
                 "department": "Mathematics",
-                "averageSalary": 169670.0,
-                "averageNumEmployee": 80959.7892641271,
+                "averageSalary": 86762.59877886168,
+                "averageNumEmployee": 158322.22222222222,
                 "size": 666,
                 "children": [{
                     "id": 513,
@@ -5904,8 +5904,8 @@ var data = [{
                     "department": "Mathematics",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Statistics and Data Science",
-                    "averageSalary": 177750.0,
-                    "averageNumEmployee": 86725.34458509141,
+                    "averageSalary": 86725.34458509141,
+                    "averageNumEmployee": 177750.0,
                     "size": 152,
                     "children": []
                 }, {
@@ -5928,8 +5928,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Science",
             "department": "Molecular and Cellular Biology",
-            "averageSalary": 82750.0,
-            "averageNumEmployee": 80331.32326283988,
+            "averageSalary": 80331.32326283988,
+            "averageNumEmployee": 82750.0,
             "size": 578,
             "children": [{
                 "id": 517,
@@ -5938,8 +5938,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Science",
                 "department": "Molecular and Cellular Biology",
-                "averageSalary": 82750.0,
-                "averageNumEmployee": 80331.32326283988,
+                "averageSalary": 80331.32326283988,
+                "averageNumEmployee": 82750.0,
                 "size": 28,
                 "children": [{
                     "id": 518,
@@ -5949,8 +5949,8 @@ var data = [{
                     "department": "Molecular and Cellular Biology",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Molecular and Cellular Biology",
-                    "averageSalary": 82750.0,
-                    "averageNumEmployee": 80331.32326283988,
+                    "averageSalary": 80331.32326283988,
+                    "averageNumEmployee": 82750.0,
                     "size": 24,
                     "children": []
                 }, {
@@ -5961,8 +5961,8 @@ var data = [{
                     "department": "Molecular and Cellular Biology",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Molecular and Cellular Biology",
-                    "averageSalary": 82750.0,
-                    "averageNumEmployee": 80331.32326283988,
+                    "averageSalary": 80331.32326283988,
+                    "averageNumEmployee": 82750.0,
                     "size": 4,
                     "children": []
                 }]
@@ -5973,8 +5973,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Science",
                 "department": "Molecular and Cellular Biology",
-                "averageSalary": 82750.0,
-                "averageNumEmployee": 80331.32326283988,
+                "averageSalary": 80331.32326283988,
+                "averageNumEmployee": 82750.0,
                 "size": 550,
                 "children": [{
                     "id": 521,
@@ -5984,8 +5984,8 @@ var data = [{
                     "department": "Molecular and Cellular Biology",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Molecular and Cellular Biology",
-                    "averageSalary": 82750.0,
-                    "averageNumEmployee": 80331.32326283988,
+                    "averageSalary": 80331.32326283988,
+                    "averageNumEmployee": 82750.0,
                     "size": 550,
                     "children": []
                 }]
@@ -5996,8 +5996,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Science",
             "department": "Physics",
-            "averageSalary": 139580.0,
-            "averageNumEmployee": 141845.4363089268,
+            "averageSalary": 193915.63173359452,
+            "averageNumEmployee": 102100.0,
             "size": 457,
             "children": [{
                 "id": 523,
@@ -6006,8 +6006,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Science",
                 "department": "Physics",
-                "averageSalary": 150733.33333333334,
-                "averageNumEmployee": 208484.05572755417,
+                "averageSalary": 199696.0177928405,
+                "averageNumEmployee": 157366.66666666666,
                 "size": 117,
                 "children": [{
                     "id": 524,
@@ -6133,8 +6133,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Science",
             "department": "Psychology",
-            "averageSalary": 338100.0,
-            "averageNumEmployee": 52346.75835551612,
+            "averageSalary": 52346.75835551612,
+            "averageNumEmployee": 338100.0,
             "size": 2730,
             "children": [{
                 "id": 535,
@@ -6143,8 +6143,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Science",
                 "department": "Psychology",
-                "averageSalary": 338100.0,
-                "averageNumEmployee": 52346.75835551612,
+                "averageSalary": 52346.75835551612,
+                "averageNumEmployee": 338100.0,
                 "size": 119,
                 "children": [{
                     "id": 536,
@@ -6154,8 +6154,8 @@ var data = [{
                     "department": "Psychology",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Psychology",
-                    "averageSalary": 338100.0,
-                    "averageNumEmployee": 52346.75835551612,
+                    "averageSalary": 52346.75835551612,
+                    "averageNumEmployee": 338100.0,
                     "size": 86,
                     "children": []
                 }, {
@@ -6166,8 +6166,8 @@ var data = [{
                     "department": "Psychology",
                     "degree": "Graduate",
                     "major": "Main - Master of Arts in Psychology",
-                    "averageSalary": 338100.0,
-                    "averageNumEmployee": 52346.75835551612,
+                    "averageSalary": 52346.75835551612,
+                    "averageNumEmployee": 338100.0,
                     "size": 33,
                     "children": []
                 }]
@@ -6178,8 +6178,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Science",
                 "department": "Psychology",
-                "averageSalary": 338100.0,
-                "averageNumEmployee": 52346.75835551612,
+                "averageSalary": 52346.75835551612,
+                "averageNumEmployee": 338100.0,
                 "size": 2611,
                 "children": [{
                     "id": 539,
@@ -6189,8 +6189,8 @@ var data = [{
                     "department": "Psychology",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Psychological Science",
-                    "averageSalary": 338100.0,
-                    "averageNumEmployee": 52346.75835551612,
+                    "averageSalary": 52346.75835551612,
+                    "averageNumEmployee": 338100.0,
                     "size": 220,
                     "children": []
                 }, {
@@ -6201,8 +6201,8 @@ var data = [{
                     "department": "Psychology",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Psychology",
-                    "averageSalary": 338100.0,
-                    "averageNumEmployee": 52346.75835551612,
+                    "averageSalary": 52346.75835551612,
+                    "averageNumEmployee": 338100.0,
                     "size": 2037,
                     "children": []
                 }, {
@@ -6213,8 +6213,8 @@ var data = [{
                     "department": "Psychology",
                     "degree": "Undergraduate",
                     "major": "Online - Major in Psychology",
-                    "averageSalary": 338100.0,
-                    "averageNumEmployee": 52346.75835551612,
+                    "averageSalary": 52346.75835551612,
+                    "averageNumEmployee": 338100.0,
                     "size": 317,
                     "children": []
                 }, {
@@ -6225,8 +6225,8 @@ var data = [{
                     "department": "Psychology",
                     "degree": "Undergraduate",
                     "major": "South - Major in Psychology",
-                    "averageSalary": 338100.0,
-                    "averageNumEmployee": 52346.75835551612,
+                    "averageSalary": 52346.75835551612,
+                    "averageNumEmployee": 338100.0,
                     "size": 37,
                     "children": []
                 }]
@@ -6374,8 +6374,8 @@ var data = [{
         "level": "college",
         "college": "College of Medicine - Tucson",
         "university": "University of Arizona",
-        "averageSalary": 263125.5,
-        "averageNumEmployee": 174282.38692183007,
+        "averageSalary": 126934.16427928863,
+        "averageNumEmployee": 361275.0,
         "size": 2391,
         "children": [{
             "id": 556,
@@ -6383,8 +6383,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Medicine - Tucson",
             "department": "Cellular & Molecular Medicine",
-            "averageSalary": 146572.5,
-            "averageNumEmployee": 309017.1382762797,
+            "averageSalary": 203520.17299483262,
+            "averageNumEmployee": 222550.0,
             "size": 70,
             "children": [{
                 "id": 557,
@@ -6393,8 +6393,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Medicine - Tucson",
                 "department": "Cellular & Molecular Medicine",
-                "averageSalary": 146572.5,
-                "averageNumEmployee": 309017.1382762797,
+                "averageSalary": 203520.17299483262,
+                "averageNumEmployee": 222550.0,
                 "size": 70,
                 "children": [{
                     "id": 558,
@@ -6452,8 +6452,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Medicine - Tucson",
             "department": "College of Medicine - Tucson",
-            "averageSalary": 152522.0,
-            "averageNumEmployee": 258747.87637193323,
+            "averageSalary": 194560.95247485704,
+            "averageNumEmployee": 202840.0,
             "size": 563,
             "children": [{
                 "id": 563,
@@ -6462,8 +6462,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Medicine - Tucson",
                 "department": "College of Medicine - Tucson",
-                "averageSalary": 116536.66666666667,
-                "averageNumEmployee": 52074.07682846601,
+                "averageSalary": 124016.47138964578,
+                "averageNumEmployee": 48933.333333333336,
                 "size": 52,
                 "children": [{
                     "id": 564,
@@ -6589,8 +6589,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Medicine - Tucson",
             "department": "Family and Community Medicine",
-            "averageSalary": 891300.0,
-            "averageNumEmployee": 28725.644564119826,
+            "averageSalary": 28725.644564119826,
+            "averageNumEmployee": 891300.0,
             "size": 6,
             "children": [{
                 "id": 575,
@@ -6599,8 +6599,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Medicine - Tucson",
                 "department": "Family and Community Medicine",
-                "averageSalary": 891300.0,
-                "averageNumEmployee": 28725.644564119826,
+                "averageSalary": 28725.644564119826,
+                "averageNumEmployee": 891300.0,
                 "size": 6,
                 "children": [{
                     "id": 576,
@@ -6610,8 +6610,8 @@ var data = [{
                     "department": "Family and Community Medicine",
                     "degree": "Undergraduate",
                     "major": "Main - Developmental Disabilities",
-                    "averageSalary": 891300.0,
-                    "averageNumEmployee": 28725.644564119826,
+                    "averageSalary": 28725.644564119826,
+                    "averageNumEmployee": 891300.0,
                     "size": 6,
                     "children": []
                 }]
@@ -6622,8 +6622,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Medicine - Tucson",
             "department": "Immunobiology",
-            "averageSalary": 162883.33333333334,
-            "averageNumEmployee": 369916.5148879566,
+            "averageSalary": 203306.38285907096,
+            "averageNumEmployee": 296366.6666666667,
             "size": 30,
             "children": [{
                 "id": 578,
@@ -6632,8 +6632,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Medicine - Tucson",
                 "department": "Immunobiology",
-                "averageSalary": 162883.33333333334,
-                "averageNumEmployee": 369916.5148879566,
+                "averageSalary": 203306.38285907096,
+                "averageNumEmployee": 296366.6666666667,
                 "size": 30,
                 "children": [{
                     "id": 579,
@@ -6769,8 +6769,8 @@ var data = [{
         "level": "college",
         "college": "Col Arch Plan & Landscape Arch",
         "university": "University of Arizona",
-        "averageSalary": 154233.0,
-        "averageNumEmployee": 53862.79071275278,
+        "averageSalary": 55622.59384903807,
+        "averageNumEmployee": 149353.33333333334,
         "size": 756,
         "children": [{
             "id": 591,
@@ -6856,8 +6856,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "Col Arch Plan & Landscape Arch",
             "department": "Sch of Landscape Architecture",
-            "averageSalary": 193321.90476190476,
-            "averageNumEmployee": 54381.029420458355,
+            "averageSalary": 55002.34883778868,
+            "averageNumEmployee": 191138.09523809524,
             "size": 245,
             "children": [{
                 "id": 599,
@@ -6866,8 +6866,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "Col Arch Plan & Landscape Arch",
                 "department": "Sch of Landscape Architecture",
-                "averageSalary": 193321.90476190476,
-                "averageNumEmployee": 54381.029420458355,
+                "averageSalary": 55002.34883778868,
+                "averageNumEmployee": 191138.09523809524,
                 "size": 88,
                 "children": [{
                     "id": 600,
@@ -6877,8 +6877,8 @@ var data = [{
                     "department": "Sch of Landscape Architecture",
                     "degree": "Graduate",
                     "major": "Main - Real Estate Development Analysis",
-                    "averageSalary": 199520.0,
-                    "averageNumEmployee": 54917.794707297515,
+                    "averageSalary": 54917.794707297515,
+                    "averageNumEmployee": 199520.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -6889,8 +6889,8 @@ var data = [{
                     "department": "Sch of Landscape Architecture",
                     "degree": "Graduate",
                     "major": "Main - Real Estate Development Practice",
-                    "averageSalary": 199520.0,
-                    "averageNumEmployee": 54917.794707297515,
+                    "averageSalary": 54917.794707297515,
+                    "averageNumEmployee": 199520.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -6901,8 +6901,8 @@ var data = [{
                     "department": "Sch of Landscape Architecture",
                     "degree": "Graduate",
                     "major": "Main - Master in Real Estate Development",
-                    "averageSalary": 199520.0,
-                    "averageNumEmployee": 54917.794707297515,
+                    "averageSalary": 54917.794707297515,
+                    "averageNumEmployee": 199520.0,
                     "size": 18,
                     "children": []
                 }, {
@@ -6925,8 +6925,8 @@ var data = [{
                     "department": "Sch of Landscape Architecture",
                     "degree": "Graduate",
                     "major": "Online - Real Estate Development Finance",
-                    "averageSalary": 199520.0,
-                    "averageNumEmployee": 54917.794707297515,
+                    "averageSalary": 54917.794707297515,
+                    "averageNumEmployee": 199520.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -6937,8 +6937,8 @@ var data = [{
                     "department": "Sch of Landscape Architecture",
                     "degree": "Graduate",
                     "major": "Online - Master in Real Estate Development",
-                    "averageSalary": 199520.0,
-                    "averageNumEmployee": 54917.794707297515,
+                    "averageSalary": 54917.794707297515,
+                    "averageNumEmployee": 199520.0,
                     "size": 32,
                     "children": []
                 }]
@@ -6984,8 +6984,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "Col Arch Plan & Landscape Arch",
             "department": "School of Architecture",
-            "averageSalary": 62350.0,
-            "averageNumEmployee": 58793.64875701684,
+            "averageSalary": 58793.64875701684,
+            "averageNumEmployee": 62350.0,
             "size": 477,
             "children": [{
                 "id": 610,
@@ -6994,8 +6994,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "Col Arch Plan & Landscape Arch",
                 "department": "School of Architecture",
-                "averageSalary": 62350.0,
-                "averageNumEmployee": 58793.64875701684,
+                "averageSalary": 58793.64875701684,
+                "averageNumEmployee": 62350.0,
                 "size": 38,
                 "children": [{
                     "id": 611,
@@ -7005,8 +7005,8 @@ var data = [{
                     "department": "School of Architecture",
                     "degree": "Graduate",
                     "major": "Main - Master of Architecture",
-                    "averageSalary": 62350.0,
-                    "averageNumEmployee": 58793.64875701684,
+                    "averageSalary": 58793.64875701684,
+                    "averageNumEmployee": 62350.0,
                     "size": 18,
                     "children": []
                 }, {
@@ -7017,8 +7017,8 @@ var data = [{
                     "department": "School of Architecture",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Architecture",
-                    "averageSalary": 62350.0,
-                    "averageNumEmployee": 58793.64875701684,
+                    "averageSalary": 58793.64875701684,
+                    "averageNumEmployee": 62350.0,
                     "size": 20,
                     "children": []
                 }]
@@ -7029,8 +7029,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "Col Arch Plan & Landscape Arch",
                 "department": "School of Architecture",
-                "averageSalary": 62350.0,
-                "averageNumEmployee": 58793.64875701684,
+                "averageSalary": 58793.64875701684,
+                "averageNumEmployee": 62350.0,
                 "size": 439,
                 "children": [{
                     "id": 614,
@@ -7040,8 +7040,8 @@ var data = [{
                     "department": "School of Architecture",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Architecture",
-                    "averageSalary": 62350.0,
-                    "averageNumEmployee": 58793.64875701684,
+                    "averageSalary": 58793.64875701684,
+                    "averageNumEmployee": 62350.0,
                     "size": 439,
                     "children": []
                 }]
@@ -7052,8 +7052,8 @@ var data = [{
         "level": "college",
         "college": "College of Applied Sci & Tech",
         "university": "University of Arizona",
-        "averageSalary": 336309.375,
-        "averageNumEmployee": 113498.28710543677,
+        "averageSalary": 87418.03358000658,
+        "averageNumEmployee": 436643.75,
         "size": 1237,
         "children": [{
             "id": 616,
@@ -7061,8 +7061,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Applied Sci & Tech",
             "department": "College of Applied Sci & Tech",
-            "averageSalary": 336309.375,
-            "averageNumEmployee": 113498.28710543677,
+            "averageSalary": 87418.03358000658,
+            "averageNumEmployee": 436643.75,
             "size": 1237,
             "children": [{
                 "id": 617,
@@ -7071,8 +7071,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Applied Sci & Tech",
                 "department": "College of Applied Sci & Tech",
-                "averageSalary": 374883.5714285714,
-                "averageNumEmployee": 111777.95772782787,
+                "averageSalary": 88576.66047621204,
+                "averageNumEmployee": 473078.5714285714,
                 "size": 1197,
                 "children": [{
                     "id": 618,
@@ -7082,8 +7082,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "Distance - Major in Applied Science",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 66,
                     "children": []
                 }, {
@@ -7094,8 +7094,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "Distance - Major in Cyber Operations",
-                    "averageSalary": 373100.0,
-                    "averageNumEmployee": 92245.86839989279,
+                    "averageSalary": 92245.86839989279,
+                    "averageNumEmployee": 373100.0,
                     "size": 28,
                     "children": []
                 }, {
@@ -7106,8 +7106,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "Distance - Major in Organizational Leadership and Regional Commerce",
-                    "averageSalary": 569750.0,
-                    "averageNumEmployee": 108173.06713470821,
+                    "averageSalary": 108173.06713470821,
+                    "averageNumEmployee": 569750.0,
                     "size": 3,
                     "children": []
                 }, {
@@ -7118,8 +7118,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "Distance - Cyber Operations",
-                    "averageSalary": 373100.0,
-                    "averageNumEmployee": 92245.86839989279,
+                    "averageSalary": 92245.86839989279,
+                    "averageNumEmployee": 373100.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -7130,8 +7130,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "Distance - Cybersecurity",
-                    "averageSalary": 373100.0,
-                    "averageNumEmployee": 92245.86839989279,
+                    "averageSalary": 92245.86839989279,
+                    "averageNumEmployee": 373100.0,
                     "size": 11,
                     "children": []
                 }, {
@@ -7142,8 +7142,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "Main - Cybersecurity",
-                    "averageSalary": 373100.0,
-                    "averageNumEmployee": 92245.86839989279,
+                    "averageSalary": 92245.86839989279,
+                    "averageNumEmployee": 373100.0,
                     "size": 20,
                     "children": []
                 }, {
@@ -7154,8 +7154,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "Online - Major in Applied Science",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 398,
                     "children": []
                 }, {
@@ -7166,8 +7166,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "Online - Major in Cyber Operations",
-                    "averageSalary": 373100.0,
-                    "averageNumEmployee": 92245.86839989279,
+                    "averageSalary": 92245.86839989279,
+                    "averageNumEmployee": 373100.0,
                     "size": 125,
                     "children": []
                 }, {
@@ -7178,8 +7178,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "Online - Major in Government and Public Service",
-                    "averageSalary": 223700.0,
-                    "averageNumEmployee": 71574.14841305319,
+                    "averageSalary": 71574.14841305319,
+                    "averageNumEmployee": 223700.0,
                     "size": 21,
                     "children": []
                 }, {
@@ -7190,8 +7190,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "Online - Major in Organizational Leadership and Regional Commerce",
-                    "averageSalary": 569750.0,
-                    "averageNumEmployee": 108173.06713470821,
+                    "averageSalary": 108173.06713470821,
+                    "averageNumEmployee": 569750.0,
                     "size": 25,
                     "children": []
                 }, {
@@ -7202,8 +7202,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "Online - Cyber Operations",
-                    "averageSalary": 373100.0,
-                    "averageNumEmployee": 92245.86839989279,
+                    "averageSalary": 92245.86839989279,
+                    "averageNumEmployee": 373100.0,
                     "size": 25,
                     "children": []
                 }, {
@@ -7214,8 +7214,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "Online - Cybersecurity",
-                    "averageSalary": 373100.0,
-                    "averageNumEmployee": 92245.86839989279,
+                    "averageSalary": 92245.86839989279,
+                    "averageNumEmployee": 373100.0,
                     "size": 50,
                     "children": []
                 }, {
@@ -7226,8 +7226,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "South - Major in Applied Science",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 250,
                     "children": []
                 }, {
@@ -7238,8 +7238,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "South - Major in Commerce",
-                    "averageSalary": 569750.0,
-                    "averageNumEmployee": 108173.06713470821,
+                    "averageSalary": 108173.06713470821,
+                    "averageNumEmployee": 569750.0,
                     "size": 3,
                     "children": []
                 }, {
@@ -7250,8 +7250,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "South - Major in Cyber Operations",
-                    "averageSalary": 373100.0,
-                    "averageNumEmployee": 92245.86839989279,
+                    "averageSalary": 92245.86839989279,
+                    "averageNumEmployee": 373100.0,
                     "size": 42,
                     "children": []
                 }, {
@@ -7274,8 +7274,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "South - Major in Government and Public Service",
-                    "averageSalary": 223700.0,
-                    "averageNumEmployee": 71574.14841305319,
+                    "averageSalary": 71574.14841305319,
+                    "averageNumEmployee": 223700.0,
                     "size": 22,
                     "children": []
                 }, {
@@ -7286,8 +7286,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "South - Major in Organizational Leadership and Regional Commerce",
-                    "averageSalary": 569750.0,
-                    "averageNumEmployee": 108173.06713470821,
+                    "averageSalary": 108173.06713470821,
+                    "averageNumEmployee": 569750.0,
                     "size": 12,
                     "children": []
                 }, {
@@ -7298,8 +7298,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "South - Cyber Operations",
-                    "averageSalary": 373100.0,
-                    "averageNumEmployee": 92245.86839989279,
+                    "averageSalary": 92245.86839989279,
+                    "averageNumEmployee": 373100.0,
                     "size": 28,
                     "children": []
                 }, {
@@ -7310,8 +7310,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Undergraduate",
                     "major": "South - Cybersecurity",
-                    "averageSalary": 373100.0,
-                    "averageNumEmployee": 92245.86839989279,
+                    "averageSalary": 92245.86839989279,
+                    "averageNumEmployee": 373100.0,
                     "size": 24,
                     "children": []
                 }]
@@ -7357,8 +7357,8 @@ var data = [{
                     "department": "College of Applied Sci & Tech",
                     "degree": "Graduate",
                     "major": "South - Master of Education in Secondary Education",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 28,
                     "children": []
                 }]
@@ -7432,8 +7432,8 @@ var data = [{
                     "department": "COM Phoenix Academic Affairs",
                     "degree": "Graduate",
                     "major": "Phoenix - Master of Medical Studies",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 10,
                     "children": []
                 }]
@@ -7444,8 +7444,8 @@ var data = [{
         "level": "college",
         "college": "College of Nursing",
         "university": "University of Arizona",
-        "averageSalary": 2102900.0,
-        "averageNumEmployee": 74394.66799816127,
+        "averageSalary": 74394.66799816127,
+        "averageNumEmployee": 2102900.0,
         "size": 1683,
         "children": [{
             "id": 650,
@@ -7453,8 +7453,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Nursing",
             "department": "College of Nursing",
-            "averageSalary": 2102900.0,
-            "averageNumEmployee": 74394.66799816127,
+            "averageSalary": 74394.66799816127,
+            "averageNumEmployee": 2102900.0,
             "size": 1683,
             "children": [{
                 "id": 651,
@@ -7463,8 +7463,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Nursing",
                 "department": "College of Nursing",
-                "averageSalary": 2102900.0,
-                "averageNumEmployee": 74394.66799816127,
+                "averageSalary": 74394.66799816127,
+                "averageNumEmployee": 2102900.0,
                 "size": 910,
                 "children": [{
                     "id": 652,
@@ -7474,8 +7474,8 @@ var data = [{
                     "department": "College of Nursing",
                     "degree": "Undergraduate",
                     "major": "Distance - Major in Nursing",
-                    "averageSalary": 2102900.0,
-                    "averageNumEmployee": 74394.66799816127,
+                    "averageSalary": 74394.66799816127,
+                    "averageNumEmployee": 2102900.0,
                     "size": 48,
                     "children": []
                 }, {
@@ -7486,8 +7486,8 @@ var data = [{
                     "department": "College of Nursing",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Nursing",
-                    "averageSalary": 2102900.0,
-                    "averageNumEmployee": 74394.66799816127,
+                    "averageSalary": 74394.66799816127,
+                    "averageNumEmployee": 2102900.0,
                     "size": 862,
                     "children": []
                 }]
@@ -7498,8 +7498,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Nursing",
                 "department": "College of Nursing",
-                "averageSalary": 2102900.0,
-                "averageNumEmployee": 74394.66799816127,
+                "averageSalary": 74394.66799816127,
+                "averageNumEmployee": 2102900.0,
                 "size": 773,
                 "children": [{
                     "id": 655,
@@ -7509,8 +7509,8 @@ var data = [{
                     "department": "College of Nursing",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Nursing Practice in Nursing",
-                    "averageSalary": 2102900.0,
-                    "averageNumEmployee": 74394.66799816127,
+                    "averageSalary": 74394.66799816127,
+                    "averageNumEmployee": 2102900.0,
                     "size": 10,
                     "children": []
                 }, {
@@ -7521,8 +7521,8 @@ var data = [{
                     "department": "College of Nursing",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Nursing",
-                    "averageSalary": 2102900.0,
-                    "averageNumEmployee": 74394.66799816127,
+                    "averageSalary": 74394.66799816127,
+                    "averageNumEmployee": 2102900.0,
                     "size": 65,
                     "children": []
                 }, {
@@ -7533,8 +7533,8 @@ var data = [{
                     "department": "College of Nursing",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Nursing",
-                    "averageSalary": 2102900.0,
-                    "averageNumEmployee": 74394.66799816127,
+                    "averageSalary": 74394.66799816127,
+                    "averageNumEmployee": 2102900.0,
                     "size": 70,
                     "children": []
                 }, {
@@ -7545,8 +7545,8 @@ var data = [{
                     "department": "College of Nursing",
                     "degree": "Graduate",
                     "major": "Online - Doctor of Nursing Practice in Nursing",
-                    "averageSalary": 2102900.0,
-                    "averageNumEmployee": 74394.66799816127,
+                    "averageSalary": 74394.66799816127,
+                    "averageNumEmployee": 2102900.0,
                     "size": 377,
                     "children": []
                 }, {
@@ -7557,8 +7557,8 @@ var data = [{
                     "department": "College of Nursing",
                     "degree": "Graduate",
                     "major": "Online - Adult-Gerontology Acute Care Nurse Practitioner",
-                    "averageSalary": 2102900.0,
-                    "averageNumEmployee": 74394.66799816127,
+                    "averageSalary": 74394.66799816127,
+                    "averageNumEmployee": 2102900.0,
                     "size": 8,
                     "children": []
                 }, {
@@ -7569,8 +7569,8 @@ var data = [{
                     "department": "College of Nursing",
                     "degree": "Graduate",
                     "major": "Online - Family Nurse Practitioner",
-                    "averageSalary": 2102900.0,
-                    "averageNumEmployee": 74394.66799816127,
+                    "averageSalary": 74394.66799816127,
+                    "averageNumEmployee": 2102900.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -7581,8 +7581,8 @@ var data = [{
                     "department": "College of Nursing",
                     "degree": "Graduate",
                     "major": "Online - Nursing Rural Telehealth",
-                    "averageSalary": 2102900.0,
-                    "averageNumEmployee": 74394.66799816127,
+                    "averageSalary": 74394.66799816127,
+                    "averageNumEmployee": 2102900.0,
                     "size": 6,
                     "children": []
                 }, {
@@ -7593,8 +7593,8 @@ var data = [{
                     "department": "College of Nursing",
                     "degree": "Graduate",
                     "major": "Online - Pediatric Nurse Practitioner",
-                    "averageSalary": 2102900.0,
-                    "averageNumEmployee": 74394.66799816127,
+                    "averageSalary": 74394.66799816127,
+                    "averageNumEmployee": 2102900.0,
                     "size": 2,
                     "children": []
                 }, {
@@ -7605,8 +7605,8 @@ var data = [{
                     "department": "College of Nursing",
                     "degree": "Graduate",
                     "major": "Online - Psychiatric Mental Health Nurse Practitioner",
-                    "averageSalary": 2102900.0,
-                    "averageNumEmployee": 74394.66799816127,
+                    "averageSalary": 74394.66799816127,
+                    "averageNumEmployee": 2102900.0,
                     "size": 11,
                     "children": []
                 }, {
@@ -7617,8 +7617,8 @@ var data = [{
                     "department": "College of Nursing",
                     "degree": "Graduate",
                     "major": "Online - Master of Science in Nursing",
-                    "averageSalary": 2102900.0,
-                    "averageNumEmployee": 74394.66799816127,
+                    "averageSalary": 74394.66799816127,
+                    "averageNumEmployee": 2102900.0,
                     "size": 164,
                     "children": []
                 }, {
@@ -7629,8 +7629,8 @@ var data = [{
                     "department": "College of Nursing",
                     "degree": "Graduate",
                     "major": "Phoenix - Master of Science in Nursing",
-                    "averageSalary": 2102900.0,
-                    "averageNumEmployee": 74394.66799816127,
+                    "averageSalary": 74394.66799816127,
+                    "averageNumEmployee": 2102900.0,
                     "size": 59,
                     "children": []
                 }]
@@ -7796,8 +7796,8 @@ var data = [{
         "level": "college",
         "college": "College of Public Health",
         "university": "University of Arizona",
-        "averageSalary": 97195.71428571429,
-        "averageNumEmployee": 72095.1300027926,
+        "averageSalary": 81845.71318922436,
+        "averageNumEmployee": 85616.42857142857,
         "size": 1745,
         "children": [{
             "id": 681,
@@ -7805,8 +7805,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Public Health",
             "department": "College of Public Health",
-            "averageSalary": 53872.0,
-            "averageNumEmployee": 236173.08583308585,
+            "averageSalary": 236173.08583308585,
+            "averageNumEmployee": 53872.0,
             "size": 22,
             "children": [{
                 "id": 682,
@@ -7815,8 +7815,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Public Health",
                 "department": "College of Public Health",
-                "averageSalary": 53872.0,
-                "averageNumEmployee": 236173.08583308585,
+                "averageSalary": 236173.08583308585,
+                "averageNumEmployee": 53872.0,
                 "size": 22,
                 "children": [{
                     "id": 683,
@@ -7826,8 +7826,8 @@ var data = [{
                     "department": "College of Public Health",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Health Behavior Health Promotion",
-                    "averageSalary": 51030.0,
-                    "averageNumEmployee": 522477.4289633549,
+                    "averageSalary": 522477.4289633549,
+                    "averageNumEmployee": 51030.0,
                     "size": 21,
                     "children": []
                 }, {
@@ -7838,8 +7838,8 @@ var data = [{
                     "department": "College of Public Health",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Public Health in Health Behavior Health Promotion",
-                    "averageSalary": 55766.666666666664,
-                    "averageNumEmployee": 61515.457262402866,
+                    "averageSalary": 61515.457262402866,
+                    "averageNumEmployee": 55766.666666666664,
                     "size": 1,
                     "children": []
                 }]
@@ -7850,8 +7850,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Public Health",
             "department": "Public Health Administration",
-            "averageSalary": 106613.91304347826,
-            "averageNumEmployee": 54071.52667895535,
+            "averageSalary": 62310.19878753701,
+            "averageNumEmployee": 92517.39130434782,
             "size": 1723,
             "children": [{
                 "id": 686,
@@ -7860,8 +7860,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Public Health",
                 "department": "Public Health Administration",
-                "averageSalary": 106613.91304347826,
-                "averageNumEmployee": 54071.52667895535,
+                "averageSalary": 62310.19878753701,
+                "averageNumEmployee": 92517.39130434782,
                 "size": 641,
                 "children": [{
                     "id": 687,
@@ -7871,8 +7871,8 @@ var data = [{
                     "department": "Public Health Administration",
                     "degree": "Graduate",
                     "major": "Distance - Master of Public Health",
-                    "averageSalary": 55766.666666666664,
-                    "averageNumEmployee": 61515.457262402866,
+                    "averageSalary": 61515.457262402866,
+                    "averageNumEmployee": 55766.666666666664,
                     "size": 3,
                     "children": []
                 }, {
@@ -7919,8 +7919,8 @@ var data = [{
                     "department": "Public Health Administration",
                     "degree": "Graduate",
                     "major": "Main - Major in Public Health",
-                    "averageSalary": 55766.666666666664,
-                    "averageNumEmployee": 61515.457262402866,
+                    "averageSalary": 61515.457262402866,
+                    "averageNumEmployee": 55766.666666666664,
                     "size": 31,
                     "children": []
                 }, {
@@ -7955,8 +7955,8 @@ var data = [{
                     "department": "Public Health Administration",
                     "degree": "Graduate",
                     "major": "Main - Master of Public Health",
-                    "averageSalary": 55766.666666666664,
-                    "averageNumEmployee": 61515.457262402866,
+                    "averageSalary": 61515.457262402866,
+                    "averageNumEmployee": 55766.666666666664,
                     "size": 178,
                     "children": []
                 }, {
@@ -8003,8 +8003,8 @@ var data = [{
                     "department": "Public Health Administration",
                     "degree": "Graduate",
                     "major": "Online - Global Health & Development",
-                    "averageSalary": 352566.6666666667,
-                    "averageNumEmployee": 50792.06958494848,
+                    "averageSalary": 50792.06958494848,
+                    "averageNumEmployee": 352566.6666666667,
                     "size": 3,
                     "children": []
                 }, {
@@ -8015,8 +8015,8 @@ var data = [{
                     "department": "Public Health Administration",
                     "degree": "Graduate",
                     "major": "Online - Public Health",
-                    "averageSalary": 55766.666666666664,
-                    "averageNumEmployee": 61515.457262402866,
+                    "averageSalary": 61515.457262402866,
+                    "averageNumEmployee": 55766.666666666664,
                     "size": 10,
                     "children": []
                 }, {
@@ -8027,8 +8027,8 @@ var data = [{
                     "department": "Public Health Administration",
                     "degree": "Graduate",
                     "major": "Online - Master of Public Health",
-                    "averageSalary": 55766.666666666664,
-                    "averageNumEmployee": 61515.457262402866,
+                    "averageSalary": 61515.457262402866,
+                    "averageNumEmployee": 55766.666666666664,
                     "size": 262,
                     "children": []
                 }, {
@@ -8039,8 +8039,8 @@ var data = [{
                     "department": "Public Health Administration",
                     "degree": "Graduate",
                     "major": "Phoenix - Master of Public Health",
-                    "averageSalary": 55766.666666666664,
-                    "averageNumEmployee": 61515.457262402866,
+                    "averageSalary": 61515.457262402866,
+                    "averageNumEmployee": 55766.666666666664,
                     "size": 74,
                     "children": []
                 }]
@@ -8051,8 +8051,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Public Health",
                 "department": "Public Health Administration",
-                "averageSalary": 55766.666666666664,
-                "averageNumEmployee": 61515.457262402866,
+                "averageSalary": 61515.457262402866,
+                "averageNumEmployee": 55766.666666666664,
                 "size": 1082,
                 "children": [{
                     "id": 703,
@@ -8062,8 +8062,8 @@ var data = [{
                     "department": "Public Health Administration",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Public Health",
-                    "averageSalary": 55766.666666666664,
-                    "averageNumEmployee": 61515.457262402866,
+                    "averageSalary": 61515.457262402866,
+                    "averageNumEmployee": 55766.666666666664,
                     "size": 964,
                     "children": []
                 }, {
@@ -8074,8 +8074,8 @@ var data = [{
                     "department": "Public Health Administration",
                     "degree": "Undergraduate",
                     "major": "Online - Major in Public Health",
-                    "averageSalary": 55766.666666666664,
-                    "averageNumEmployee": 61515.457262402866,
+                    "averageSalary": 61515.457262402866,
+                    "averageNumEmployee": 55766.666666666664,
                     "size": 118,
                     "children": []
                 }]
@@ -8116,8 +8116,8 @@ var data = [{
                     "department": "Colleges of Letters Arts & Sci",
                     "degree": "Undergraduate",
                     "major": "Distance - Major in General Studies",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 13,
                     "children": []
                 }, {
@@ -8128,8 +8128,8 @@ var data = [{
                     "department": "Colleges of Letters Arts & Sci",
                     "degree": "Undergraduate",
                     "major": "Main - Major in General Studies",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 564,
                     "children": []
                 }, {
@@ -8140,8 +8140,8 @@ var data = [{
                     "department": "Colleges of Letters Arts & Sci",
                     "degree": "Undergraduate",
                     "major": "Online - Major in General Studies",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 235,
                     "children": []
                 }]
@@ -8152,8 +8152,8 @@ var data = [{
         "level": "college",
         "college": "College of Education",
         "university": "University of Arizona",
-        "averageSalary": 248838.22535211267,
-        "averageNumEmployee": 63417.83162022682,
+        "averageSalary": 57453.012111208365,
+        "averageNumEmployee": 274672.8169014084,
         "size": 1815,
         "children": [{
             "id": 712,
@@ -8161,8 +8161,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Education",
             "department": "Disability Psychoeduc Studies",
-            "averageSalary": 331243.3333333333,
-            "averageNumEmployee": 50138.151691103216,
+            "averageSalary": 49599.00279931351,
+            "averageNumEmployee": 334844.0,
             "size": 574,
             "children": [{
                 "id": 713,
@@ -8171,8 +8171,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Education",
                 "department": "Disability Psychoeduc Studies",
-                "averageSalary": 204623.63636363635,
-                "averageNumEmployee": 74720.63451303057,
+                "averageSalary": 74720.63451303057,
+                "averageNumEmployee": 204623.63636363635,
                 "size": 344,
                 "children": [{
                     "id": 714,
@@ -8182,8 +8182,8 @@ var data = [{
                     "department": "Disability Psychoeduc Studies",
                     "degree": "Graduate",
                     "major": "Distance - Educational Specialist in School Psychology",
-                    "averageSalary": 338100.0,
-                    "averageNumEmployee": 52346.75835551612,
+                    "averageSalary": 52346.75835551612,
+                    "averageNumEmployee": 338100.0,
                     "size": 51,
                     "children": []
                 }, {
@@ -8194,8 +8194,8 @@ var data = [{
                     "department": "Disability Psychoeduc Studies",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Counselor Education and Supervision",
-                    "averageSalary": 127300.0,
-                    "averageNumEmployee": 56795.04163393559,
+                    "averageSalary": 56795.04163393559,
+                    "averageNumEmployee": 127300.0,
                     "size": 6,
                     "children": []
                 }, {
@@ -8206,8 +8206,8 @@ var data = [{
                     "department": "Disability Psychoeduc Studies",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in School Psychology",
-                    "averageSalary": 338100.0,
-                    "averageNumEmployee": 52346.75835551612,
+                    "averageSalary": 52346.75835551612,
+                    "averageNumEmployee": 338100.0,
                     "size": 32,
                     "children": []
                 }, {
@@ -8218,8 +8218,8 @@ var data = [{
                     "department": "Disability Psychoeduc Studies",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Special Education",
-                    "averageSalary": 127300.0,
-                    "averageNumEmployee": 56795.04163393559,
+                    "averageSalary": 56795.04163393559,
+                    "averageNumEmployee": 127300.0,
                     "size": 13,
                     "children": []
                 }, {
@@ -8230,8 +8230,8 @@ var data = [{
                     "department": "Disability Psychoeduc Studies",
                     "degree": "Graduate",
                     "major": "Main - Educational Specialist in School Psychology",
-                    "averageSalary": 338100.0,
-                    "averageNumEmployee": 52346.75835551612,
+                    "averageSalary": 52346.75835551612,
+                    "averageNumEmployee": 338100.0,
                     "size": 15,
                     "children": []
                 }, {
@@ -8242,8 +8242,8 @@ var data = [{
                     "department": "Disability Psychoeduc Studies",
                     "degree": "Graduate",
                     "major": "Main - Master of Arts in Counseling",
-                    "averageSalary": 498000.0,
-                    "averageNumEmployee": 51438.31325301205,
+                    "averageSalary": 51438.31325301205,
+                    "averageNumEmployee": 498000.0,
                     "size": 97,
                     "children": []
                 }, {
@@ -8266,8 +8266,8 @@ var data = [{
                     "department": "Disability Psychoeduc Studies",
                     "degree": "Graduate",
                     "major": "Online - Applied Behavior Analysis",
-                    "averageSalary": 51030.0,
-                    "averageNumEmployee": 522477.4289633549,
+                    "averageSalary": 522477.4289633549,
+                    "averageNumEmployee": 51030.0,
                     "size": 6,
                     "children": []
                 }, {
@@ -8278,8 +8278,8 @@ var data = [{
                     "department": "Disability Psychoeduc Studies",
                     "degree": "Graduate",
                     "major": "Online - Behavior Support Specialist",
-                    "averageSalary": 51030.0,
-                    "averageNumEmployee": 522477.4289633549,
+                    "averageSalary": 522477.4289633549,
+                    "averageNumEmployee": 51030.0,
                     "size": 2,
                     "children": []
                 }, {
@@ -8302,8 +8302,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Education",
                 "department": "Disability Psychoeduc Studies",
-                "averageSalary": 679447.5,
-                "averageNumEmployee": 29779.063135856708,
+                "averageSalary": 29198.80222238257,
+                "averageNumEmployee": 692950.0,
                 "size": 230,
                 "children": [{
                     "id": 725,
@@ -8325,8 +8325,8 @@ var data = [{
                     "department": "Disability Psychoeduc Studies",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Mild Moderate Disabilities",
-                    "averageSalary": 891300.0,
-                    "averageNumEmployee": 28725.644564119826,
+                    "averageSalary": 28725.644564119826,
+                    "averageNumEmployee": 891300.0,
                     "size": 75,
                     "children": []
                 }, {
@@ -8337,8 +8337,8 @@ var data = [{
                     "department": "Disability Psychoeduc Studies",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Rehabilitation Studies and Services",
-                    "averageSalary": 891300.0,
-                    "averageNumEmployee": 28725.644564119826,
+                    "averageSalary": 28725.644564119826,
+                    "averageNumEmployee": 891300.0,
                     "size": 55,
                     "children": []
                 }, {
@@ -8361,8 +8361,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Education",
             "department": "Educational Psychology",
-            "averageSalary": 297948.5714285714,
-            "averageNumEmployee": 59789.85539210986,
+            "averageSalary": 52993.971356933405,
+            "averageNumEmployee": 336157.14285714284,
             "size": 42,
             "children": [{
                 "id": 730,
@@ -8371,8 +8371,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Education",
                 "department": "Educational Psychology",
-                "averageSalary": 297948.5714285714,
-                "averageNumEmployee": 59789.85539210986,
+                "averageSalary": 52993.971356933405,
+                "averageNumEmployee": 336157.14285714284,
                 "size": 42,
                 "children": [{
                     "id": 731,
@@ -8382,8 +8382,8 @@ var data = [{
                     "department": "Educational Psychology",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Educational Psychology",
-                    "averageSalary": 338100.0,
-                    "averageNumEmployee": 52346.75835551612,
+                    "averageSalary": 52346.75835551612,
+                    "averageNumEmployee": 338100.0,
                     "size": 23,
                     "children": []
                 }, {
@@ -8406,8 +8406,8 @@ var data = [{
                     "department": "Educational Psychology",
                     "degree": "Graduate",
                     "major": "Main - Master of Arts in Educational Psychology",
-                    "averageSalary": 338100.0,
-                    "averageNumEmployee": 52346.75835551612,
+                    "averageSalary": 52346.75835551612,
+                    "averageNumEmployee": 338100.0,
                     "size": 16,
                     "children": []
                 }]
@@ -8418,8 +8418,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Education",
             "department": "Educatnl Policy Studies Pract",
-            "averageSalary": 171050.0,
-            "averageNumEmployee": 87004.28821981877,
+            "averageSalary": 87004.28821981877,
+            "averageNumEmployee": 171050.0,
             "size": 218,
             "children": [{
                 "id": 735,
@@ -8428,8 +8428,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Education",
                 "department": "Educatnl Policy Studies Pract",
-                "averageSalary": 171050.0,
-                "averageNumEmployee": 87004.28821981877,
+                "averageSalary": 87004.28821981877,
+                "averageNumEmployee": 171050.0,
                 "size": 218,
                 "children": [{
                     "id": 736,
@@ -8439,8 +8439,8 @@ var data = [{
                     "department": "Educatnl Policy Studies Pract",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Education in Educational Leadership",
-                    "averageSalary": 171050.0,
-                    "averageNumEmployee": 87004.28821981877,
+                    "averageSalary": 87004.28821981877,
+                    "averageNumEmployee": 171050.0,
                     "size": 13,
                     "children": []
                 }, {
@@ -8451,8 +8451,8 @@ var data = [{
                     "department": "Educatnl Policy Studies Pract",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Educational Leadership and Policy",
-                    "averageSalary": 171050.0,
-                    "averageNumEmployee": 87004.28821981877,
+                    "averageSalary": 87004.28821981877,
+                    "averageNumEmployee": 171050.0,
                     "size": 45,
                     "children": []
                 }, {
@@ -8463,8 +8463,8 @@ var data = [{
                     "department": "Educatnl Policy Studies Pract",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Higher Education",
-                    "averageSalary": 171050.0,
-                    "averageNumEmployee": 87004.28821981877,
+                    "averageSalary": 87004.28821981877,
+                    "averageNumEmployee": 171050.0,
                     "size": 93,
                     "children": []
                 }, {
@@ -8475,8 +8475,8 @@ var data = [{
                     "department": "Educatnl Policy Studies Pract",
                     "degree": "Graduate",
                     "major": "Main - Master of Arts in Education Policy",
-                    "averageSalary": 171050.0,
-                    "averageNumEmployee": 87004.28821981877,
+                    "averageSalary": 87004.28821981877,
+                    "averageNumEmployee": 171050.0,
                     "size": 6,
                     "children": []
                 }, {
@@ -8487,8 +8487,8 @@ var data = [{
                     "department": "Educatnl Policy Studies Pract",
                     "degree": "Graduate",
                     "major": "Main - Master of Arts in Higher Education",
-                    "averageSalary": 171050.0,
-                    "averageNumEmployee": 87004.28821981877,
+                    "averageSalary": 87004.28821981877,
+                    "averageNumEmployee": 171050.0,
                     "size": 30,
                     "children": []
                 }, {
@@ -8499,8 +8499,8 @@ var data = [{
                     "department": "Educatnl Policy Studies Pract",
                     "degree": "Graduate",
                     "major": "Main - Master of Education in Educational Leadership",
-                    "averageSalary": 171050.0,
-                    "averageNumEmployee": 87004.28821981877,
+                    "averageSalary": 87004.28821981877,
+                    "averageNumEmployee": 171050.0,
                     "size": 31,
                     "children": []
                 }]
@@ -8511,8 +8511,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "College of Education",
             "department": "Teachg Learning Sociocult Stds",
-            "averageSalary": 163271.54545454544,
-            "averageNumEmployee": 88784.73429930172,
+            "averageSalary": 63141.60415779835,
+            "averageNumEmployee": 229579.54545454544,
             "size": 981,
             "children": [{
                 "id": 743,
@@ -8521,8 +8521,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Education",
                 "department": "Teachg Learning Sociocult Stds",
-                "averageSalary": 159940.0,
-                "averageNumEmployee": 61063.948980867826,
+                "averageSalary": 61063.948980867826,
+                "averageNumEmployee": 159940.0,
                 "size": 185,
                 "children": [{
                     "id": 744,
@@ -8532,8 +8532,8 @@ var data = [{
                     "department": "Teachg Learning Sociocult Stds",
                     "degree": "Graduate",
                     "major": "Distance - Master of Education in Teaching and Teacher Education",
-                    "averageSalary": 234700.0,
-                    "averageNumEmployee": 59902.12753870189,
+                    "averageSalary": 59902.12753870189,
+                    "averageNumEmployee": 234700.0,
                     "size": 38,
                     "children": []
                 }, {
@@ -8544,8 +8544,8 @@ var data = [{
                     "department": "Teachg Learning Sociocult Stds",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Language, Reading and Culture",
-                    "averageSalary": 47800.0,
-                    "averageNumEmployee": 69620.83682008368,
+                    "averageSalary": 69620.83682008368,
+                    "averageNumEmployee": 47800.0,
                     "size": 69,
                     "children": []
                 }, {
@@ -8556,8 +8556,8 @@ var data = [{
                     "department": "Teachg Learning Sociocult Stds",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Teaching and Teacher Education",
-                    "averageSalary": 234700.0,
-                    "averageNumEmployee": 59902.12753870189,
+                    "averageSalary": 59902.12753870189,
+                    "averageNumEmployee": 234700.0,
                     "size": 30,
                     "children": []
                 }, {
@@ -8568,8 +8568,8 @@ var data = [{
                     "department": "Teachg Learning Sociocult Stds",
                     "degree": "Graduate",
                     "major": "Main - Educational Specialist in Language, Reading and Culture",
-                    "averageSalary": 47800.0,
-                    "averageNumEmployee": 69620.83682008368,
+                    "averageSalary": 69620.83682008368,
+                    "averageNumEmployee": 47800.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -8580,8 +8580,8 @@ var data = [{
                     "department": "Teachg Learning Sociocult Stds",
                     "degree": "Graduate",
                     "major": "Main - Master of Arts in Language, Reading and Culture",
-                    "averageSalary": 47800.0,
-                    "averageNumEmployee": 69620.83682008368,
+                    "averageSalary": 69620.83682008368,
+                    "averageNumEmployee": 47800.0,
                     "size": 17,
                     "children": []
                 }, {
@@ -8592,8 +8592,8 @@ var data = [{
                     "department": "Teachg Learning Sociocult Stds",
                     "degree": "Graduate",
                     "major": "Main - Master of Arts in Teaching and Teacher Education",
-                    "averageSalary": 234700.0,
-                    "averageNumEmployee": 59902.12753870189,
+                    "averageSalary": 59902.12753870189,
+                    "averageNumEmployee": 234700.0,
                     "size": 30,
                     "children": []
                 }]
@@ -8604,8 +8604,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "College of Education",
                 "department": "Teachg Learning Sociocult Stds",
-                "averageSalary": 170410.57142857142,
-                "averageNumEmployee": 144536.58743505183,
+                "averageSalary": 65021.37808534309,
+                "averageNumEmployee": 378807.14285714284,
                 "size": 796,
                 "children": [{
                     "id": 751,
@@ -8627,8 +8627,8 @@ var data = [{
                     "department": "Teachg Learning Sociocult Stds",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Early Childhood Education",
-                    "averageSalary": 234700.0,
-                    "averageNumEmployee": 59902.12753870189,
+                    "averageSalary": 59902.12753870189,
+                    "averageNumEmployee": 234700.0,
                     "size": 115,
                     "children": []
                 }, {
@@ -8651,8 +8651,8 @@ var data = [{
                     "department": "Teachg Learning Sociocult Stds",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Literacy, Learning and Leadership",
-                    "averageSalary": 143034.66666666666,
-                    "averageNumEmployee": 104045.17599463067,
+                    "averageSalary": 87004.19214654584,
+                    "averageNumEmployee": 171050.0,
                     "size": 208,
                     "children": []
                 }, {
@@ -8663,8 +8663,8 @@ var data = [{
                     "department": "Teachg Learning Sociocult Stds",
                     "degree": "Undergraduate",
                     "major": "Online - Major in Literacy, Learning and Leadership",
-                    "averageSalary": 143034.66666666666,
-                    "averageNumEmployee": 104045.17599463067,
+                    "averageSalary": 87004.19214654584,
+                    "averageNumEmployee": 171050.0,
                     "size": 32,
                     "children": []
                 }]
@@ -8675,8 +8675,8 @@ var data = [{
         "level": "college",
         "college": "Eller College of Management",
         "university": "University of Arizona",
-        "averageSalary": 320137.0,
-        "averageNumEmployee": 112008.91641885004,
+        "averageSalary": 90032.05825302242,
+        "averageNumEmployee": 398282.5581395349,
         "size": 8631,
         "children": [{
             "id": 757,
@@ -8776,8 +8776,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "Eller College of Management",
             "department": "Eller Administration",
-            "averageSalary": 603900.0,
-            "averageNumEmployee": 93093.09543522658,
+            "averageSalary": 93093.09543522658,
+            "averageNumEmployee": 603900.0,
             "size": 4332,
             "children": [{
                 "id": 766,
@@ -8786,8 +8786,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "Eller College of Management",
                 "department": "Eller Administration",
-                "averageSalary": 603900.0,
-                "averageNumEmployee": 93093.09543522658,
+                "averageSalary": 93093.09543522658,
+                "averageNumEmployee": 603900.0,
                 "size": 4332,
                 "children": [{
                     "id": 767,
@@ -8797,8 +8797,8 @@ var data = [{
                     "department": "Eller Administration",
                     "degree": "Undergraduate",
                     "major": "Distance - Major in Business Administration",
-                    "averageSalary": 603900.0,
-                    "averageNumEmployee": 93093.09543522658,
+                    "averageSalary": 93093.09543522658,
+                    "averageNumEmployee": 603900.0,
                     "size": 170,
                     "children": []
                 }, {
@@ -8809,8 +8809,8 @@ var data = [{
                     "department": "Eller Administration",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Business Administration",
-                    "averageSalary": 603900.0,
-                    "averageNumEmployee": 93093.09543522658,
+                    "averageSalary": 93093.09543522658,
+                    "averageNumEmployee": 603900.0,
                     "size": 3693,
                     "children": []
                 }, {
@@ -8821,8 +8821,8 @@ var data = [{
                     "department": "Eller Administration",
                     "degree": "Undergraduate",
                     "major": "Online - Major in Business Administration",
-                    "averageSalary": 603900.0,
-                    "averageNumEmployee": 93093.09543522658,
+                    "averageSalary": 93093.09543522658,
+                    "averageNumEmployee": 603900.0,
                     "size": 469,
                     "children": []
                 }]
@@ -8854,8 +8854,8 @@ var data = [{
                     "department": "Eller College of Management",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Entrepreneurship",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 58,
                     "children": []
                 }]
@@ -8877,8 +8877,8 @@ var data = [{
                     "department": "Eller College of Management",
                     "degree": "Graduate",
                     "major": "Online - Master of Science in Entrepreneurship",
-                    "averageSalary": 0.0,
-                    "averageNumEmployee": 0,
+                    "averageSalary": 0,
+                    "averageNumEmployee": 0.0,
                     "size": 17,
                     "children": []
                 }]
@@ -8889,8 +8889,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "Eller College of Management",
             "department": "Finance",
-            "averageSalary": 349750.0,
-            "averageNumEmployee": 105371.52108649035,
+            "averageSalary": 105371.52108649035,
+            "averageNumEmployee": 349750.0,
             "size": 495,
             "children": [{
                 "id": 776,
@@ -8899,8 +8899,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "Eller College of Management",
                 "department": "Finance",
-                "averageSalary": 349750.0,
-                "averageNumEmployee": 105371.52108649035,
+                "averageSalary": 105371.52108649035,
+                "averageNumEmployee": 349750.0,
                 "size": 37,
                 "children": [{
                     "id": 777,
@@ -8910,8 +8910,8 @@ var data = [{
                     "department": "Finance",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Finance",
-                    "averageSalary": 349750.0,
-                    "averageNumEmployee": 105371.52108649035,
+                    "averageSalary": 105371.52108649035,
+                    "averageNumEmployee": 349750.0,
                     "size": 37,
                     "children": []
                 }]
@@ -8922,8 +8922,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "Eller College of Management",
                 "department": "Finance",
-                "averageSalary": 349750.0,
-                "averageNumEmployee": 105371.52108649035,
+                "averageSalary": 105371.52108649035,
+                "averageNumEmployee": 349750.0,
                 "size": 458,
                 "children": [{
                     "id": 779,
@@ -8933,8 +8933,8 @@ var data = [{
                     "department": "Finance",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Finance",
-                    "averageSalary": 349750.0,
-                    "averageNumEmployee": 105371.52108649035,
+                    "averageSalary": 105371.52108649035,
+                    "averageNumEmployee": 349750.0,
                     "size": 457,
                     "children": []
                 }, {
@@ -8945,8 +8945,8 @@ var data = [{
                     "department": "Finance",
                     "degree": "Undergraduate",
                     "major": "Main - Finance",
-                    "averageSalary": 349750.0,
-                    "averageNumEmployee": 105371.52108649035,
+                    "averageSalary": 105371.52108649035,
+                    "averageNumEmployee": 349750.0,
                     "size": 1,
                     "children": []
                 }]
@@ -9014,8 +9014,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "Eller College of Management",
             "department": "Management and Organizations",
-            "averageSalary": 70100.0,
-            "averageNumEmployee": 558057.7803138373,
+            "averageSalary": 87410.84685167806,
+            "averageNumEmployee": 447540.0,
             "size": 630,
             "children": [{
                 "id": 787,
@@ -9059,8 +9059,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "Eller College of Management",
                 "department": "Management and Organizations",
-                "averageSalary": 62380.0,
-                "averageNumEmployee": 619554.6409105483,
+                "averageSalary": 84402.31164009609,
+                "averageNumEmployee": 457900.0,
                 "size": 510,
                 "children": [{
                     "id": 791,
@@ -9082,8 +9082,8 @@ var data = [{
                     "department": "Management and Organizations",
                     "degree": "Undergraduate",
                     "major": "Main - Social Innovation",
-                    "averageSalary": 39500.0,
-                    "averageNumEmployee": 65374.6582278481,
+                    "averageSalary": 65374.6582278481,
+                    "averageNumEmployee": 39500.0,
                     "size": 19,
                     "children": []
                 }, {
@@ -9118,8 +9118,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "Eller College of Management",
             "department": "Management Information Systems",
-            "averageSalary": 249933.75,
-            "averageNumEmployee": 148395.8148909461,
+            "averageSalary": 94497.58909519411,
+            "averageNumEmployee": 392487.5,
             "size": 784,
             "children": [{
                 "id": 796,
@@ -9128,8 +9128,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "Eller College of Management",
                 "department": "Management Information Systems",
-                "averageSalary": 93317.5,
-                "averageNumEmployee": 358095.04112304765,
+                "averageSalary": 88304.24522692739,
+                "averageNumEmployee": 378425.0,
                 "size": 273,
                 "children": [{
                     "id": 797,
@@ -9223,8 +9223,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "Eller College of Management",
                 "department": "Management Information Systems",
-                "averageSalary": 406550.0,
-                "averageNumEmployee": 100262.47939982782,
+                "averageSalary": 100262.47939982782,
+                "averageNumEmployee": 406550.0,
                 "size": 511,
                 "children": [{
                     "id": 805,
@@ -9246,8 +9246,8 @@ var data = [{
                     "department": "Management Information Systems",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Operations Management",
-                    "averageSalary": 406550.0,
-                    "averageNumEmployee": 100262.47939982782,
+                    "averageSalary": 100262.47939982782,
+                    "averageNumEmployee": 406550.0,
                     "size": 73,
                     "children": []
                 }]
@@ -9258,8 +9258,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "Eller College of Management",
             "department": "Marketing",
-            "averageSalary": 325600.0,
-            "averageNumEmployee": 84081.85503685503,
+            "averageSalary": 84081.85503685503,
+            "averageNumEmployee": 325600.0,
             "size": 467,
             "children": [{
                 "id": 808,
@@ -9268,8 +9268,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "Eller College of Management",
                 "department": "Marketing",
-                "averageSalary": 325600.0,
-                "averageNumEmployee": 84081.85503685503,
+                "averageSalary": 84081.85503685503,
+                "averageNumEmployee": 325600.0,
                 "size": 18,
                 "children": [{
                     "id": 809,
@@ -9279,8 +9279,8 @@ var data = [{
                     "department": "Marketing",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Marketing",
-                    "averageSalary": 325600.0,
-                    "averageNumEmployee": 84081.85503685503,
+                    "averageSalary": 84081.85503685503,
+                    "averageNumEmployee": 325600.0,
                     "size": 18,
                     "children": []
                 }]
@@ -9291,8 +9291,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "Eller College of Management",
                 "department": "Marketing",
-                "averageSalary": 325600.0,
-                "averageNumEmployee": 84081.85503685503,
+                "averageSalary": 84081.85503685503,
+                "averageNumEmployee": 325600.0,
                 "size": 449,
                 "children": [{
                     "id": 811,
@@ -9302,8 +9302,8 @@ var data = [{
                     "department": "Marketing",
                     "degree": "Undergraduate",
                     "major": "Main - Major in Marketing",
-                    "averageSalary": 325600.0,
-                    "averageNumEmployee": 84081.85503685503,
+                    "averageSalary": 84081.85503685503,
+                    "averageNumEmployee": 325600.0,
                     "size": 449,
                     "children": []
                 }]
@@ -9314,8 +9314,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "Eller College of Management",
             "department": "School of Accountancy",
-            "averageSalary": 606708.2,
-            "averageNumEmployee": 87556.1844886883,
+            "averageSalary": 71741.58294280505,
+            "averageNumEmployee": 740450.0,
             "size": 514,
             "children": [{
                 "id": 813,
@@ -9324,8 +9324,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "Eller College of Management",
                 "department": "School of Accountancy",
-                "averageSalary": 606708.2,
-                "averageNumEmployee": 87556.1844886883,
+                "averageSalary": 71741.58294280505,
+                "averageNumEmployee": 740450.0,
                 "size": 122,
                 "children": [{
                     "id": 814,
@@ -9335,8 +9335,8 @@ var data = [{
                     "department": "School of Accountancy",
                     "degree": "Graduate",
                     "major": "Main - Master of Accounting",
-                    "averageSalary": 740450.0,
-                    "averageNumEmployee": 71741.72867850632,
+                    "averageSalary": 71741.72867850632,
+                    "averageNumEmployee": 740450.0,
                     "size": 44,
                     "children": []
                 }, {
@@ -9406,8 +9406,8 @@ var data = [{
         "level": "college",
         "college": "Graduate College",
         "university": "University of Arizona",
-        "averageSalary": 130254.03846153847,
-        "averageNumEmployee": 100322.35926540001,
+        "averageSalary": 98763.165720465,
+        "averageNumEmployee": 132310.38461538462,
         "size": 418,
         "children": [{
             "id": 821,
@@ -9415,8 +9415,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "Graduate College",
             "department": "Interdis Graduate Prog Admin",
-            "averageSalary": 130254.03846153847,
-            "averageNumEmployee": 100322.35926540001,
+            "averageSalary": 98763.165720465,
+            "averageNumEmployee": 132310.38461538462,
             "size": 412,
             "children": [{
                 "id": 822,
@@ -9425,8 +9425,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "Graduate College",
                 "department": "Interdis Graduate Prog Admin",
-                "averageSalary": 130254.03846153847,
-                "averageNumEmployee": 100322.35926540001,
+                "averageSalary": 98763.165720465,
+                "averageNumEmployee": 132310.38461538462,
                 "size": 412,
                 "children": [{
                     "id": 823,
@@ -9484,8 +9484,8 @@ var data = [{
                     "department": "Interdis Graduate Prog Admin",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Cancer Biology",
-                    "averageSalary": 82750.0,
-                    "averageNumEmployee": 80331.32326283988,
+                    "averageSalary": 80331.32326283988,
+                    "averageNumEmployee": 82750.0,
                     "size": 30,
                     "children": []
                 }, {
@@ -9544,8 +9544,8 @@ var data = [{
                     "department": "Interdis Graduate Prog Admin",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Physiological Sciences",
-                    "averageSalary": 29466.666666666668,
-                    "averageNumEmployee": 66177.87330316742,
+                    "averageSalary": 48042.40781801757,
+                    "averageNumEmployee": 40590.0,
                     "size": 24,
                     "children": []
                 }, {
@@ -9556,8 +9556,8 @@ var data = [{
                     "department": "Interdis Graduate Prog Admin",
                     "degree": "Graduate",
                     "major": "Main - Doctor of Philosophy in Second Language Acquisition and Teaching",
-                    "averageSalary": 87233.33333333333,
-                    "averageNumEmployee": 70071.41001146351,
+                    "averageSalary": 70071.41001146351,
+                    "averageNumEmployee": 87233.33333333333,
                     "size": 59,
                     "children": []
                 }, {
@@ -9568,8 +9568,8 @@ var data = [{
                     "department": "Interdis Graduate Prog Admin",
                     "degree": "Graduate",
                     "major": "Main - Major in Statistics",
-                    "averageSalary": 177750.0,
-                    "averageNumEmployee": 86725.34458509141,
+                    "averageSalary": 86725.34458509141,
+                    "averageNumEmployee": 177750.0,
                     "size": 22,
                     "children": []
                 }, {
@@ -9580,8 +9580,8 @@ var data = [{
                     "department": "Interdis Graduate Prog Admin",
                     "degree": "Graduate",
                     "major": "Main - Major in Statistics and Data Science",
-                    "averageSalary": 177750.0,
-                    "averageNumEmployee": 86725.34458509141,
+                    "averageSalary": 86725.34458509141,
+                    "averageNumEmployee": 177750.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -9592,8 +9592,8 @@ var data = [{
                     "department": "Interdis Graduate Prog Admin",
                     "degree": "Graduate",
                     "major": "Main - Statistics",
-                    "averageSalary": 177750.0,
-                    "averageNumEmployee": 86725.34458509141,
+                    "averageSalary": 86725.34458509141,
+                    "averageNumEmployee": 177750.0,
                     "size": 4,
                     "children": []
                 }, {
@@ -9604,8 +9604,8 @@ var data = [{
                     "department": "Interdis Graduate Prog Admin",
                     "degree": "Graduate",
                     "major": "Main - Statistics and Data Science",
-                    "averageSalary": 177750.0,
-                    "averageNumEmployee": 86725.34458509141,
+                    "averageSalary": 86725.34458509141,
+                    "averageNumEmployee": 177750.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -9688,8 +9688,8 @@ var data = [{
                     "department": "Interdis Graduate Prog Admin",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Physiological Sciences",
-                    "averageSalary": 29466.666666666668,
-                    "averageNumEmployee": 66177.87330316742,
+                    "averageSalary": 48042.40781801757,
+                    "averageNumEmployee": 40590.0,
                     "size": 22,
                     "children": []
                 }, {
@@ -9700,8 +9700,8 @@ var data = [{
                     "department": "Interdis Graduate Prog Admin",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Statistics",
-                    "averageSalary": 177750.0,
-                    "averageNumEmployee": 86725.34458509141,
+                    "averageSalary": 86725.34458509141,
+                    "averageNumEmployee": 177750.0,
                     "size": 28,
                     "children": []
                 }, {
@@ -9712,8 +9712,8 @@ var data = [{
                     "department": "Interdis Graduate Prog Admin",
                     "degree": "Graduate",
                     "major": "Main - Master of Science in Statistics and Data Science",
-                    "averageSalary": 177750.0,
-                    "averageNumEmployee": 86725.34458509141,
+                    "averageSalary": 86725.34458509141,
+                    "averageNumEmployee": 177750.0,
                     "size": 1,
                     "children": []
                 }, {
@@ -9724,8 +9724,8 @@ var data = [{
                     "department": "Interdis Graduate Prog Admin",
                     "degree": "Graduate",
                     "major": "Main - Professional Science Masters in Applied Biosciences",
-                    "averageSalary": 63000.0,
-                    "averageNumEmployee": 79358.63492063493,
+                    "averageSalary": 79358.63492063493,
+                    "averageNumEmployee": 63000.0,
                     "size": 36,
                     "children": []
                 }, {
@@ -9736,8 +9736,8 @@ var data = [{
                     "department": "Interdis Graduate Prog Admin",
                     "degree": "Graduate",
                     "major": "Online - Statistics",
-                    "averageSalary": 177750.0,
-                    "averageNumEmployee": 86725.34458509141,
+                    "averageSalary": 86725.34458509141,
+                    "averageNumEmployee": 177750.0,
                     "size": 5,
                     "children": []
                 }]
@@ -9906,8 +9906,8 @@ var data = [{
         "level": "college",
         "college": "James E Rogers College of Law",
         "university": "University of Arizona",
-        "averageSalary": 183404.0,
-        "averageNumEmployee": 273327.6253516826,
+        "averageSalary": 108088.70542067359,
+        "averageNumEmployee": 463780.0,
         "size": 639,
         "children": [{
             "id": 864,
@@ -9915,8 +9915,8 @@ var data = [{
             "university": "University of Arizona",
             "college": "James E Rogers College of Law",
             "department": "James E Rogers College of Law",
-            "averageSalary": 223700.0,
-            "averageNumEmployee": 71574.14841305319,
+            "averageSalary": 71574.14841305319,
+            "averageNumEmployee": 223700.0,
             "size": 5,
             "children": [{
                 "id": 865,
@@ -9925,8 +9925,8 @@ var data = [{
                 "university": "University of Arizona",
                 "college": "James E Rogers College of Law",
                 "department": "James E Rogers College of Law",
-                "averageSalary": 223700.0,
-                "averageNumEmployee": 71574.14841305319,
+                "averageSalary": 71574.14841305319,
+                "averageNumEmployee": 223700.0,
                 "size": 5,
                 "children": [{
                     "id": 866,
@@ -9936,8 +9936,8 @@ var data = [{
                     "department": "James E Rogers College of Law",
                     "degree": "Law",
                     "major": "Main - Major in Indigenous Governance",
-                    "averageSalary": 223700.0,
-                    "averageNumEmployee": 71574.14841305319,
+                    "averageSalary": 71574.14841305319,
+                    "averageNumEmployee": 223700.0,
                     "size": 5,
                     "children": []
                 }]

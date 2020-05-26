@@ -269,13 +269,7 @@ function circleClicked(d) {
     chartBubbleData.splice(chartBubbleData.indexOf(d), 1);
     chartBubbleData = chartBubbleData.concat(children);
 
-    getScales();
-    if (chartBubbleData.length !== 0) {
-      svg.transition().duration(300).call(zoom.transform, d3.zoomIdentity); // reset zoom
-      gX.transition().duration(100).call(xAxis.scale(xScale));
-      gY.transition().duration(100).call(yAxis.scale(yScale));
-    }
-    drawChartBubbles(view, chartBubbleData);
+    bubbleChartRescale()
   }
 }
 
@@ -286,6 +280,11 @@ function splitedCircleClicked(d) {
   // drawChartBubbles(view, chartBubbleData);
   splitedBubbleData.splice(splitedBubbleData.indexOf(d), 1);
   drawSplitedBubbles(splited, splitedBubbleData);
+  bubbleChartRescale()
+}
+
+function bubbleChartRescale() {
+  getScales();
   if (chartBubbleData.length !== 0) {
     svg.transition().duration(300).call(zoom.transform, d3.zoomIdentity); // reset zoom
     gX.transition().duration(100).call(xAxis.scale(xScale));
@@ -321,7 +320,7 @@ function getScales() {
 
   xScale = d3
     .scaleLinear()
-    .domain(padExtent([salary_min - 200000, salary_max + 200000]))
+    .domain(padExtent([salary_min - 200, salary_max + 200]))
     .range(padExtent([10, domainwidth]));
   yScale = d3
     .scaleLinear()
