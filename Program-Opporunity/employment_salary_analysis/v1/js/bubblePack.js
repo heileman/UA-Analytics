@@ -1,7 +1,12 @@
 var chartBubbleData = data;
 var splitedBubbleData = [];
 
-const margin = { top: 20, right: 20, bottom: 20, left: 20 };
+const margin = {
+  top: 20,
+  right: 20,
+  bottom: 20,
+  left: 20
+};
 const container = document.querySelector("#bubble").getBoundingClientRect();
 
 const domainwidth = container.width - margin.left - margin.right + 30;
@@ -75,28 +80,18 @@ const colorScale = d3
     "#001540",
   ]);
 
-demand_median = 44.631006;
-
 // the scaler for the circle size and enrollments
 // if the enrollment is greater than 100
 const sizeScale = d3
   .scaleLinear()
-  .domain(padExtent([0, 20000]))
+  .domain(padExtent([0, 50000]))
   .range(padExtent([5, 130]));
-// the scaler for x axis and projected demand
-// it should cover 1 and 10
-const x_min = -600,
-  x_max = 1000;
-const xScale = d3
-  .scaleLinear()
-  .domain(padExtent([x_min, x_max]))
-  .range(padExtent([10, domainwidth]));
-// the scaler for y axis and the % program online
-// it should cover between 0 and 100 percentage
-const yScale = d3
-  .scaleLinear()
-  .domain(padExtent([-25, 130]))
-  .range(padExtent([domainheight, 10]));
+
+let xScale = null
+let yScale = null
+
+getScales()
+
 
 // the end arrows of x and y axes
 const defs = view
@@ -117,72 +112,76 @@ const defs = view
 // x and y axes
 const xAxis = d3
   .axisBottom(xScale)
-  .ticks(((domainwidth + 2) / (domainheight + 2)) * 20)
-  .tickSize(domainheight * 2 - 28)
+  .ticks(((domainwidth + 2) / (domainheight + 2)) * 10)
+  .tickSize(domainheight * 2 - 29)
   .tickPadding(30 - domainheight);
 const yAxis = d3
   .axisRight(yScale)
-  .ticks(((domainwidth + 2) / (domainheight + 2)) * 20)
+  .ticks(((domainwidth + 2) / (domainheight + 2)) * 10)
   .tickSize(domainwidth)
   .tickPadding(-domainwidth);
 gX = svg.append("g").attr("class", "axis axis--x").call(xAxis);
 gY = svg.append("g").attr("class", "axis axis--y").call(yAxis);
 
-var axes = [
-  {
-    id: 0,
-    x1: domainwidth,
-    x2: 20,
-    y1: yScale(50),
-    y2: yScale(50),
-    strokeWidth: 2,
-  },
-  {
-    id: 1,
-    x1: xScale(demand_median),
-    x2: xScale(demand_median),
-    y1: domainheight,
-    y2: 5,
-    strokeWidth: 2,
-  },
-];
+// const {
+//   salary_min,
+//   salary_max,
+//   employment_min,
+//   employment_max
+// } = findMinMax()
+// var axes = [{
+//     id: 0,
+//     x1: domainwidth,
+//     x2: 20,
+//     y1: yScale(50),
+//     y2: yScale(50),
+//     strokeWidth: 2,
+//   },
+//   {
+//     id: 1,
+//     x1: xScale(demand_median),
+//     x2: xScale(demand_median),
+//     y1: domainheight,
+//     y2: 5,
+//     strokeWidth: 2,
+//   },
+// ];
 
-const textLocations = {
-  txx: domainwidth * 0.97,
-  tyy: 20,
-  size: 18,
-};
+// const textLocations = {
+//   txx: domainwidth * 0.97,
+//   tyy: 20,
+//   size: 18,
+// };
 
-var texts = [
-  {
-    id: 0,
-    tx: axes[0].x1 - 50,
-    ty: axes[0].y1 + 20,
-    text: "Weighted Average",
-    size: textLocations.size,
-  },
-  {
-    id: 1,
-    tx: axes[0].x1 - 50,
-    ty: axes[0].y1 + 35,
-    text: "Salary ($)",
-    size: textLocations.size,
-  },
-  {
-    id: 2,
-    tx: axes[1].x2 - 60,
-    ty: axes[1].y2 + 13,
-    text: "Average Number",
-    size: textLocations.size,
-  },
-  {
-    id: 3,
-    tx: axes[1].x2 - 60,
-    ty: axes[1].y2 + 28,
-    text: "of Employee",
-    size: textLocations.size,
-  },
-];
+// var texts = [{
+//     id: 0,
+//     tx: axes[0].x1 - 50,
+//     ty: axes[0].y1 + 20,
+//     text: "Weighted Average",
+//     size: textLocations.size,
+//   },
+//   {
+//     id: 1,
+//     tx: axes[0].x1 - 50,
+//     ty: axes[0].y1 + 35,
+//     text: "Salary ($)",
+//     size: textLocations.size,
+//   },
+//   {
+//     id: 2,
+//     tx: axes[1].x2 - 60,
+//     ty: axes[1].y2 + 13,
+//     text: "Average Number",
+//     size: textLocations.size,
+//   },
+//   {
+//     id: 3,
+//     tx: axes[1].x2 - 60,
+//     ty: axes[1].y2 + 28,
+//     text: "of Employee",
+//     size: textLocations.size,
+//   },
+// ];
 
 const drawAxes = (selection, axes, texts) => {
   const twoAxes = selection.selectAll("line").data(axes, (d) => d.id);
@@ -214,51 +213,46 @@ const drawAxes = (selection, axes, texts) => {
   axisTexts.exit().remove();
 };
 
-drawAxes(view, axes, texts);
-
+// drawAxes(view, axes, texts);
 drawChartBubbles(view, chartBubbleData);
 
 // config zoom
 var zoom = d3
   .zoom()
   .scaleExtent([0, 10])
-  .translateExtent([
-    [-domainwidth * 2, -domainheight * 2],
-    [domainwidth * 2, domainheight * 2],
-  ])
   .on("zoom", () => {
-    xTransform = d3.event.transform.x;
-    yTransform = d3.event.transform.y;
-    kTransform = d3.event.transform.k;
+    // xTransform = d3.event.transform.x;
+    // yTransform = d3.event.transform.y;
+    // kTransform = d3.event.transform.k;
 
     view.attr("transform", d3.event.transform);
     gX.call(xAxis.scale(d3.event.transform.rescaleX(xScale)));
     gY.call(yAxis.scale(d3.event.transform.rescaleY(yScale)));
 
-    axes[0].x1 = (domainwidth - xTransform) / kTransform;
-    axes[0].x2 = (20 - xTransform) / kTransform;
-    axes[0].strokeWidth = 2 / kTransform;
-    axes[1].y1 = (domainheight - yTransform) / kTransform;
-    axes[1].y2 = (5 - yTransform) / kTransform;
-    axes[1].strokeWidth = 2 / kTransform;
+    // axes[0].x1 = (domainwidth - xTransform) / kTransform;
+    // axes[0].x2 = (20 - xTransform) / kTransform;
+    // axes[0].strokeWidth = 2 / kTransform;
+    // axes[1].y1 = (domainheight - yTransform) / kTransform;
+    // axes[1].y2 = (5 - yTransform) / kTransform;
+    // axes[1].strokeWidth = 2 / kTransform;
 
-    texts[0].tx = axes[0].x1 - 50 / kTransform;
-    texts[0].ty = axes[0].y1 + 20 / kTransform;
+    // texts[0].tx = axes[0].x1 - 50 / kTransform;
+    // texts[0].ty = axes[0].y1 + 20 / kTransform;
 
-    texts[1].tx = axes[0].x1 - 50 / kTransform;
-    texts[1].ty = axes[0].y1 + 35 / kTransform;
+    // texts[1].tx = axes[0].x1 - 50 / kTransform;
+    // texts[1].ty = axes[0].y1 + 35 / kTransform;
 
-    texts[2].tx = axes[1].x2 - 60 / kTransform;
-    texts[2].ty = axes[1].y2 + 13 / kTransform;
+    // texts[2].tx = axes[1].x2 - 60 / kTransform;
+    // texts[2].ty = axes[1].y2 + 13 / kTransform;
 
-    texts[3].tx = axes[1].x2 - 60 / kTransform;
-    texts[3].ty = axes[1].y2 + 28 / kTransform;
+    // texts[3].tx = axes[1].x2 - 60 / kTransform;
+    // texts[3].ty = axes[1].y2 + 28 / kTransform;
 
-    for (i = 0; i < texts.length; i++) {
-      texts[i].size = textLocations.size / kTransform;
-    }
+    // for (i = 0; i < texts.length; i++) {
+    //   texts[i].size = textLocations.size / kTransform;
+    // }
 
-    drawAxes(view, axes, texts);
+    // drawAxes(view, axes, texts);
   });
 svg.call(zoom);
 
@@ -274,6 +268,13 @@ function circleClicked(d) {
     // remove this bubble and add the children of this bubble to the bubble chart list
     chartBubbleData.splice(chartBubbleData.indexOf(d), 1);
     chartBubbleData = chartBubbleData.concat(children);
+
+    getScales();
+    if (chartBubbleData.length !== 0) {
+      svg.transition().duration(300).call(zoom.transform, d3.zoomIdentity); // reset zoom
+      gX.transition().duration(100).call(xAxis.scale(xScale));
+      gY.transition().duration(100).call(yAxis.scale(yScale));
+    }
     drawChartBubbles(view, chartBubbleData);
   }
 }
@@ -282,9 +283,15 @@ function splitedCircleClicked(d) {
   deleteChildern(d);
 
   chartBubbleData = chartBubbleData.concat([d]);
-  drawChartBubbles(view, chartBubbleData);
+  // drawChartBubbles(view, chartBubbleData);
   splitedBubbleData.splice(splitedBubbleData.indexOf(d), 1);
   drawSplitedBubbles(splited, splitedBubbleData);
+  if (chartBubbleData.length !== 0) {
+    svg.transition().duration(300).call(zoom.transform, d3.zoomIdentity); // reset zoom
+    gX.transition().duration(100).call(xAxis.scale(xScale));
+    gY.transition().duration(100).call(yAxis.scale(yScale));
+  }
+  drawChartBubbles(view, chartBubbleData);
 }
 
 // helper functions
@@ -301,6 +308,43 @@ function deleteChildern(d) {
     }
     deleteChildern(child);
   }
+}
+
+
+function getScales() {
+  const {
+    salary_min,
+    salary_max,
+    employment_min,
+    employment_max
+  } = findMinMax()
+
+  xScale = d3
+    .scaleLinear()
+    .domain(padExtent([salary_min - 200000, salary_max + 200000]))
+    .range(padExtent([10, domainwidth]));
+  yScale = d3
+    .scaleLinear()
+    .domain(padExtent([employment_min - 20000, employment_max + 20000]))
+    .range(padExtent([domainheight, 10]));
+}
+
+function findMinMax() {
+  let optimas = {
+    salary_min: chartBubbleData[0].averageSalary,
+    salary_max: chartBubbleData[0].averageSalary,
+    employment_min: chartBubbleData[0].averageNumEmployee,
+    employment_max: chartBubbleData[0].averageNumEmployee,
+  }
+  for (element of chartBubbleData) {
+    const salary = element.averageSalary;
+    const employee = element.averageNumEmployee;
+    optimas.salary_max = salary > optimas.salary_max ? salary : optimas.salary_max;
+    optimas.salary_min = salary < optimas.salary_min ? salary : optimas.salary_min;
+    optimas.employment_max = employee > optimas.employment_max ? employee : optimas.employment_max;
+    optimas.employment_min = employee < optimas.employment_min ? employee : optimas.employment_min;
+  }
+  return optimas;
 }
 
 function padExtent(e, p) {

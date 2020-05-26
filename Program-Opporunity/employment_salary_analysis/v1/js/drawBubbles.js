@@ -126,8 +126,8 @@ const drawSplitedBubbles = (selection, splitedBubbleData) => {
 const tooltipHTML = (d) => {
   program = "";
   enrollment = "<br/>Enrollment: " + d.size;
-  demand = "<br/>Projected Demand: " + d.demand;
-  percentage = "<br/>% of Program online: " + d.percentage;
+  demand = "<br/>Weighted Average Salary: $" + d.averageSalary.toFixed(1);
+  percentage = "<br/>Average Number of Employees: " + d.averageNumEmployee.toFixed(0);
 
   if (d.level == "university") {
     program = "University: " + d.university;

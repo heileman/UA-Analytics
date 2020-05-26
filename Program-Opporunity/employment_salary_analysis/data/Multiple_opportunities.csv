@@ -1,4 +1,13 @@
 ﻿Major,Job Title,Salary,Number of Employee,% growth
+Major in Agricultural Systems Management, First-Line Supervisors of Agricultural Crop and Horticultural Workers,48280,55700,0
+Major in Agricultural Technology Management and Education, First-Line Supervisors of Agricultural Crop and Horticultural Workers,48280,55700,0
+Major in Sustainable Plant Systems,Sustainability Specialists,73570,1135700,0.05
+Major in Family Studies and Human Development,"Child, Family, and School Social Workers",47390,339800,0.085
+Major in Family Studies and Human Development,Marriage and Family Therapists,49610,55300,0.05
+Major in Family Studies and Human Development,"Home Economics Teachers, Postsecondary",76480,2500,0.085
+Major in Family Studies and Human Development,Farm and Home Management Advisors,49710,9600,0.11
+Major in Cyber Operations,Computer Systems Analysts,90920,633900,0.085
+Major in Cyber Operations, Information Security Analysts,99730,112300,0.11
 Real Estate Development Analysis,Real Estate Brokers,59720,96200,0.085
 Real Estate Development Analysis,Real Estate Sales Agents,48930,369200,0.085
 Real Estate Development Analysis,Appraisers and Assessors of Real Estate,57010,89100,0.085
@@ -19,30 +28,697 @@ Master in Real Estate Development,Real Estate Sales Agents,48930,369200,0.085
 Master in Real Estate Development,Appraisers and Assessors of Real Estate,57010,89100,0.085
 Master in Real Estate Development,"Property, Real Estate, and Community Association Managers",58760,363000,0.085
 Master in Real Estate Development,"Appraisers, Real Estate",57010,80100,0.085
-Agricultural Leadership,Agricultural Leadership,48280,55700,0
 Master of Science in Agricultural Education,"Agricultural Sciences Teachers, Postsecondary",83260,13300,0.05
 Master of Science in Agricultural Education,Agricultural Inspectors,45490,2700,0.05
 Major in Veterinary Science,Veterinarians,95460,84500,0.085
 Major in Veterinary Science,Animal Scientists,60300,2700,0.11
-Doctor of Philosophy in Family and Consumer Sciences,"Child, Family, and School Social Workers",47390,"339800",0.085
+Doctor of Philosophy in Family and Consumer Sciences,"Child, Family, and School Social Workers",47390,339800,0.085
 Doctor of Philosophy in Family and Consumer Sciences,Marriage and Family Therapists,49610,55300,0.05
 Doctor of Philosophy in Family and Consumer Sciences,"Home Economics Teachers, Postsecondary",76480,2500,0.085
 Doctor of Philosophy in Family and Consumer Sciences,Farm and Home Management Advisors,49710,9600,0.11
-Master of Science in Family and Consumer Sciences,"Child, Family, and School Social Workers",47390,"339800",0.085
+Master of Science in Family and Consumer Sciences,"Child, Family, and School Social Workers",47390,339800,0.085
 Master of Science in Family and Consumer Sciences,Marriage and Family Therapists,49610,55300,0.05
 Master of Science in Family and Consumer Sciences,"Home Economics Teachers, Postsecondary",76480,2500,0.085
 Master of Science in Family and Consumer Sciences,Farm and Home Management Advisors,49710,9600,0.11
-Doctor of Philosophy in Natural Resources,Park Naturalists,"62660",23800,0.05
+Doctor of Philosophy in Natural Resources,Park Naturalists,62660,23800,0.05
 Doctor of Philosophy in Natural Resources, Natural Sciences Managers,129100,63500,0.05
 Doctor of Philosophy in Natural Resources, Industrial Ecologists,71360,85000,0.085
-Master of Science in Natural Resources,Park Naturalists,"62660",23800,0.05
+Master of Science in Natural Resources,Park Naturalists,62660,23800,0.05
 Master of Science in Natural Resources, Natural Sciences Managers,129100,63500,0.05
 Master of Science in Natural Resources, Industrial Ecologists,71360,85000,0.085
-Major in Natural Resource,Park Naturalists,"62660",23800,0.05
+Major in Natural Resource,Park Naturalists,62660,23800,0.05
 Major in Natural Resource, Natural Sciences Managers,129100,63500,0.05
 Major in Natural Resource, Industrial Ecologists,71360,85000,0.085
-Geographic Information Science,Geographic Information Systems Technicians,88550,412800,0.085
-Geographic Information Science,Geographic Information Systems Technicians,88550,412800,0.085
-Professional Geographic Information Systems Technology,Geographic Information Systems Technicians,88550,412800,0.085
-Master of Science in Geographic Information Systems Technology,Geographic Information Systems Technicians,88550,412800,
-Geographic Information Systems Technology,Geographic Information Systems Technicians,88550,412800,
+Cybersecurity,Computer Systems Analysts,90920,633900,0.085
+Cybersecurity, Information Security Analysts,99730,112300,0.11
+Master of Science in Cybersecurity,Computer Systems Analysts,90920,633900,0.085
+Master of Science in Cybersecurity, Information Security Analysts,99730,112300,0.11
+Cyber Operations,Computer Systems Analysts,90920,633900,0.085
+Cyber Operations, Information Security Analysts,99730,112300,0.11
+Educational Specialist in School Psychology,Clinical Psychologists,78200,162000,0.11
+Educational Specialist in School Psychology,Psychologists,101790,18300,0.085
+Educational Specialist in School Psychology,Mental Health Counselors,46240,834000,0.11
+Doctor of Philosophy in School Psychology,Clinical Psychologists,78200,162000,0.11
+Doctor of Philosophy in School Psychology,Psychologists,101790,18300,0.085
+Doctor of Philosophy in School Psychology,Mental Health Counselors,46240,834000,0.11
+Doctor of Philosophy in Educational Psychology,Clinical Psychologists,78200,162000,0.11
+Doctor of Philosophy in Educational Psychology,Psychologists,101790,18300,0.085
+Doctor of Philosophy in Educational Psychology,Mental Health Counselors,46240,834000,0.11
+Master of Arts in Educational Psychology,Clinical Psychologists,78200,162000,0.11
+Master of Arts in Educational Psychology,Psychologists,101790,18300,0.085
+Master of Arts in Educational Psychology,Mental Health Counselors,46240,834000,0.11
+Doctor of Philosophy in Psychology,Clinical Psychologists,78200,162000,0.11
+Doctor of Philosophy in Psychology,Psychologists,101790,18300,0.085
+Doctor of Philosophy in Psychology,Mental Health Counselors,46240,834000,0.11
+Master of Arts in Psychology,Clinical Psychologists,78200,162000,0.11
+Master of Arts in Psychology,Psychologists,101790,18300,0.085
+Master of Arts in Psychology,Mental Health Counselors,46240,834000,0.11
+Major in Psychological Science,Clinical Psychologists,78200,162000,0.11
+Major in Psychological Science,Psychologists,101790,18300,0.085
+Major in Psychological Science,Mental Health Counselors,46240,834000,0.11
+Major in Psychology,Clinical Psychologists,78200,162000,0.11
+Major in Psychology,Psychologists,101790,18300,0.085
+Major in Psychology,Mental Health Counselors,46240,834000,0.11
+Major in Organizational Leadership and Regional Commerce,,184460,263200,-0.02
+Major in Organizational Leadership and Regional Commerce,,85260,876300,0.11
+Master of Education in Teaching and Teacher Education,,60800,11800,0.025
+Master of Education in Teaching and Teacher Education,,61710,76600,0.025
+Master of Education in Teaching and Teacher Education,,59660,615700,0.05
+Doctor of Philosophy in Teaching and Teacher Education,,60800,11800,0.025
+Doctor of Philosophy in Teaching and Teacher Education,,61710,76600,0.025
+Doctor of Philosophy in Teaching and Teacher Education,,59660,615700,0.05
+Master of Arts in Teaching and Teacher Education,,60800,11800,0.025
+Master of Arts in Teaching and Teacher Education,,61710,76600,0.025
+Master of Arts in Teaching and Teacher Education,,59660,615700,0.05
+Major in Early Childhood Education,,60800,11800,0.025
+Major in Early Childhood Education,,61710,76600,0.025
+Major in Early Childhood Education,,59660,615700,0.05
+Master of Science in Biosystems Engineering,,45490,17700,0.05
+Master of Science in Biosystems Engineering,,91410,19800,0.05
+Doctor of Philosophy in Biosystems Analytics & Technology,,45490,17700,0.05
+Doctor of Philosophy in Biosystems Analytics & Technology,,91410,19800,0.05
+Major in Biosystems Analytics & Technology,,45490,17700,0.05
+Major in Biosystems Analytics & Technology,,91410,19800,0.05
+Doctor of Philosophy in Biosystems Engineering,,45490,17700,0.05
+Doctor of Philosophy in Biosystems Engineering,,91410,19800,0.05
+Major in Biosystems Engineering,,45490,17700,0.05
+Major in Biosystems Engineering,,91410,19800,0.05
+Master of Science in Engineering Management,,62990,87100,0.025
+Master of Science in Engineering Management,,88020,284600,0.085
+Master of Science in Engineering Management,,110630,1079600,0.05
+Master of Science in Engineering Management,,74750,174900,0.05
+Major in Engineering Management,,62990,87100,0.025
+Major in Engineering Management,,88020,284600,0.085
+Major in Engineering Management,,110630,1079600,0.05
+Major in Engineering Management,,74750,174900,0.05
+Engineering Management,,62990,87100,0.025
+Engineering Management,,88020,284600,0.085
+Engineering Management,,110630,1079600,0.05
+Engineering Management,,74750,174900,0.05
+Major in Industrial Engineering,,88020,284600,0.085
+Major in Industrial Engineering,,99040,157800,0.05
+Major in Industrial Engineering,,91410,27500,0.05
+Doctor of Philosophy in Systems and Industrial Engineering,,88020,284600,0.085
+Doctor of Philosophy in Systems and Industrial Engineering,,99040,157800,0.05
+Doctor of Philosophy in Systems and Industrial Engineering,,91410,27500,0.05
+Master of Science in Industrial Engineering,,88020,284600,0.085
+Master of Science in Industrial Engineering,,99040,157800,0.05
+Master of Science in Industrial Engineering,,91410,27500,0.05
+Major in Nursing,,73300,3059800,0.11
+Major in Nursing,,73300,3059800,0.11
+Major in Nursing,,109820,189100,0.11
+Doctor of Philosophy in Nursing,,73300,3059800,0.11
+Doctor of Philosophy in Nursing,,73300,3059800,0.11
+Doctor of Philosophy in Nursing,,109820,189100,0.11
+Doctor of Nursing Practice in Nursing,,73300,3059800,0.11
+Doctor of Nursing Practice in Nursing,,73300,3059800,0.11
+Doctor of Nursing Practice in Nursing,,109820,189100,0.11
+Adult-Gerontology Acute Care Nurse Practitioner,,73300,3059800,0.11
+Adult-Gerontology Acute Care Nurse Practitioner,,73300,3059800,0.11
+Adult-Gerontology Acute Care Nurse Practitioner,,109820,189100,0.11
+Family Nurse Practitioner,,73300,3059800,0.11
+Family Nurse Practitioner,,73300,3059800,0.11
+Family Nurse Practitioner,,109820,189100,0.11
+Nursing Rural Telehealth,,73300,3059800,0.11
+Nursing Rural Telehealth,,73300,3059800,0.11
+Nursing Rural Telehealth,,109820,189100,0.11
+Pediatric Nurse Practitioner,,73300,3059800,0.11
+Pediatric Nurse Practitioner,,73300,3059800,0.11
+Pediatric Nurse Practitioner,,109820,189100,0.11
+Psychiatric Mental Health Nurse Practitioner,,73300,3059800,0.11
+Psychiatric Mental Health Nurse Practitioner,,73300,3059800,0.11
+Psychiatric Mental Health Nurse Practitioner,,109820,189100,0.11
+Master of Science in Nursing,,73300,3059800,0.11
+Master of Science in Nursing,,73300,3059800,0.11
+Master of Science in Nursing,,109820,189100,0.11
+Master of Public Health,,70990,7600,0.05
+Master of Public Health,,74100,98000,0.05
+Master of Public Health,,40360,61700,0.11
+Master of Science in Public Health in Health Behavior Health Promotion,,70990,7600,0.05
+Master of Science in Public Health in Health Behavior Health Promotion,,74100,98000,0.05
+Master of Science in Public Health in Health Behavior Health Promotion,,40360,61700,0.11
+Major in Public Health,,70990,7600,0.05
+Major in Public Health,,74100,98000,0.05
+Major in Public Health,,40360,61700,0.11
+Public Health,,70990,7600,0.05
+Public Health,,74100,98000,0.05
+Public Health,,40360,61700,0.11
+Major in Public Health,,70990,7600,0.05
+Major in Public Health,,74100,98000,0.05
+Major in Public Health,,40360,61700,0.11
+Major in Computer Science,,117220,64400,0.05
+Major in Computer Science,,107510,421300,0.085
+Major in Computer Science,,86550,250300,-0.02
+Major in Computer Science,,112690,159300,0.05
+Major in Computer Science,,83510,383900,0.05
+Major in Computer Science,,146360,414400,0.11
+Doctor of Philosophy in Computer Science,,117220,64400,0.05
+Doctor of Philosophy in Computer Science,,107510,421300,0.085
+Doctor of Philosophy in Computer Science,,86550,250300,-0.02
+Doctor of Philosophy in Computer Science,,112690,159300,0.05
+Doctor of Philosophy in Computer Science,,83510,383900,0.05
+Doctor of Philosophy in Computer Science,,146360,414400,0.11
+Master of Science in Computer Science,,117220,64400,0.05
+Master of Science in Computer Science,,107510,421300,0.085
+Master of Science in Computer Science,,86550,250300,-0.02
+Master of Science in Computer Science,,112690,159300,0.05
+Master of Science in Computer Science,,83510,383900,0.05
+Master of Science in Computer Science,,146360,414400,0.11
+Major in Business Administration,,73570,1135700,0.05
+Major in Business Administration,,88550,412800,0.085
+Major in Business Administration,,184460,263200,-0.02
+Master of Architecture,,56340,101200,0.025
+Master of Architecture,,69360,23500,0.05
+Master of Science in Architecture,,56340,101200,0.025
+Master of Science in Architecture,,69360,23500,0.05
+Major in Architecture,,56340,101200,0.025
+Major in Architecture,,69360,23500,0.05
+Major in Architectural Engineering,,56340,101200,0.025
+Major in Architectural Engineering,,69360,23500,0.05
+Major in Food Safety,,68970,14900,0.05
+Major in Food Safety,,41230,29200,0.05
+"Doctor of Philosophy in Soil, Water and Environmental Science",,46540,34800,0.085
+"Doctor of Philosophy in Soil, Water and Environmental Science",,62660,23800,0.05
+"Doctor of Philosophy in Soil, Water and Environmental Science",,71360,85000,0.085
+"Master of Science in Soil, Water and Environmental Science",,46540,34800,0.085
+"Master of Science in Soil, Water and Environmental Science",,62660,23800,0.05
+"Master of Science in Soil, Water and Environmental Science",,71360,85000,0.085
+"Master of Science in Water, Society & Policy",,129100,63500,0.05
+"Master of Science in Water, Society & Policy",,88860,55400,0.05
+International Environmental Conservation,,71360,85000,0.05
+International Environmental Conservation,,46540,34800,0.05
+International Environmental Conservation,,69050,319900,0.085
+Doctor of Philosophy in Plant Pathology,,45860,9800,0.05
+Doctor of Philosophy in Plant Pathology,,63200,18000,0.085
+Doctor of Philosophy in Plant Science,,45860,9800,0.05
+Doctor of Philosophy in Plant Science,,63200,18000,0.085
+Master of Science in Plant Pathology,,45860,9800,0.05
+Master of Science in Plant Pathology,,63200,18000,0.085
+Master of Science in Plant Science,,45860,9800,0.05
+Master of Science in Plant Science,,63200,18000,0.085
+Major in Plant Sciences,,45860,9800,0.05
+Major in Plant Sciences,,63200,18000,0.085
+Major in Retailing and Consumer Science,,64380,432300,-0.02
+Major in Retailing and Consumer Science,,25250,4510900,-0.02
+Major in Retailing and Consumer Science,,40350,1548300,-0.02
+Doctor of Philosophy in Counselor Education and Supervision,,65510,78600,0.085
+Doctor of Philosophy in Counselor Education and Supervision,,54350,67200,-0.02
+Doctor of Philosophy in Counselor Education and Supervision,,57040,324500,0.085
+Doctor of Philosophy in Counselor Education and Supervision,,85450,47400,0.085
+Doctor of Philosophy in Counselor Education and Supervision,,40310,118800,0.05
+Doctor of Philosophy in Special Education,,65510,78600,0.085
+Doctor of Philosophy in Special Education,,54350,67200,-0.02
+Doctor of Philosophy in Special Education,,57040,324500,0.085
+Doctor of Philosophy in Special Education,,85450,47400,0.085
+Doctor of Philosophy in Special Education,,40310,118800,0.05
+Master of Arts in Counseling,,78200,162000,0.11
+Master of Arts in Counseling,,46240,834000,0.11
+Major in Mild Moderate Disabilities,,25280,2421200,0.11
+Major in Mild Moderate Disabilities,,35950,119700,0.085
+Major in Mild Moderate Disabilities,,84950,133000,0.11
+Major in Rehabilitation Studies and Services,,25280,2421200,0.11
+Major in Rehabilitation Studies and Services,,35950,119700,0.085
+Major in Rehabilitation Studies and Services,,84950,133000,0.11
+Developmental Disabilities,,25280,2421200,0.11
+Developmental Disabilities,,35950,119700,0.085
+Developmental Disabilities,,84950,133000,0.11
+Doctor of Education in Educational Leadership,,48210,66700,0.085
+Doctor of Education in Educational Leadership,,96400,275400,0.085
+Doctor of Philosophy in Educational Leadership and Policy,,48210,66700,0.085
+Doctor of Philosophy in Educational Leadership and Policy,,96400,275400,0.085
+Doctor of Philosophy in Higher Education,,48210,66700,0.085
+Doctor of Philosophy in Higher Education,,96400,275400,0.085
+Master of Arts in Education Policy,,48210,66700,0.085
+Master of Arts in Education Policy,,96400,275400,0.085
+Master of Arts in Higher Education,,48210,66700,0.085
+Master of Arts in Higher Education,,96400,275400,0.085
+Master of Education in Educational Leadership,,48210,66700,0.085
+Master of Education in Educational Leadership,,96400,275400,0.085
+"Doctor of Philosophy in Language, Reading and Culture",,68490,83000,0.05
+"Doctor of Philosophy in Language, Reading and Culture",,77070,12600,0.085
+"Educational Specialist in Language, Reading and Culture",,68490,83000,0.05
+"Educational Specialist in Language, Reading and Culture",,77070,12600,0.085
+"Master of Arts in Language, Reading and Culture",,68490,83000,0.05
+"Master of Arts in Language, Reading and Culture",,77070,12600,0.085
+Doctor of Philosophy in Materials Science and Engineering,,93360,27700,0
+Doctor of Philosophy in Materials Science and Engineering,,96810,8100,0.025
+Major in Materials Science & Engineering,,93360,27700,0
+Major in Materials Science & Engineering,,96810,8100,0.025
+Master of Science in Materials Science and Engineering,,93360,27700,0
+Master of Science in Materials Science and Engineering,,96810,8100,0.025
+Doctor of Philosophy in Systems and Industrial Engineering,,88020,284600,0.085
+Doctor of Philosophy in Systems and Industrial Engineering,,99040,157800,0.05
+Doctor of Philosophy in Systems and Industrial Engineering,,91410,27500,0.05
+Doctor of Philosophy in Systems and Industrial Engineering,,98530,191900,0.05
+Master of Arts in Art Education,,48220,19800,0.085
+Master of Arts in Art Education,,69530,118900,0.085
+Master of Arts in Art and Visual Culture Education,,48220,19800,0.085
+Master of Arts in Art and Visual Culture Education,,69530,118900,0.085
+Major in Art Education,,48220,19800,0.085
+Major in Art Education,,69530,118900,0.085
+Major in Art and Visual Culture Education,,48220,19800,0.085
+Major in Art and Visual Culture Education,,69530,118900,0.085
+Major in Studio Art,,48220,19800,0.085
+Major in Studio Art,,69530,118900,0.085
+Master of Fine Arts in Dance,,36379.2,13900,0
+Master of Fine Arts in Dance,,46330,7200,-0.02
+Major in Dance,,36379.2,13900,0
+Major in Dance,,46330,7200,-0.02
+Doctor of Musical Arts in Music,,51670,64700,0
+Doctor of Musical Arts in Music,,63211.2,187600,0
+Doctor of Musical Arts in Music,,48220,19800,64500
+Doctor of Musical Arts in Music,,42494.4,64500,0
+Doctor of Philosophy in Music,,51670,64700,0
+Doctor of Philosophy in Music,,63211.2,187600,0
+Doctor of Philosophy in Music,,48220,19800,64500
+Doctor of Philosophy in Music,,42494.4,64500,0
+Master of Music in Music,,51670,64700,0
+Master of Music in Music,,63211.2,187600,0
+Master of Music in Music,,48220,19800,64500
+Master of Music in Music,,42494.4,64500,0
+Major in Music Education,,51670,64700,0
+Major in Music Education,,63211.2,187600,0
+Major in Music Education,,48220,19800,64500
+Major in Music Education,,42494.4,64500,0
+Major in Performance,,36379.2,13900,0
+Major in Performance,,63211.2,187600,0
+Doctor of Philosophy in Health Behavior Health Promotion,,46240,40360,0.11
+Doctor of Philosophy in Health Behavior Health Promotion,,834000,61700,0.11
+Applied Behavior Analysis,,46240,40360,0.11
+Applied Behavior Analysis,,834000,61700,0.11
+Behavior Support Specialist,,46240,40360,0.11
+Behavior Support Specialist,,834000,61700,0.11
+Major in Bioinformatics,,91160,44400,0.11
+Major in Bioinformatics,,82220,47100,0.05
+Major in Statistics and Data Science,,88550,412800,0.085
+Major in Statistics and Data Science,,91160,44400,0.11
+Major in Statistics and Data Science,,81590,144100,0.05
+Major in Statistics and Data Science,,84810,109700,0.05
+Major in Statistics,,88550,412800,0.085
+Major in Statistics,,91160,44400,0.11
+Major in Statistics,,81590,144100,0.05
+Major in Statistics,,84810,109700,0.05
+Major in Statistics and Data Science,,88550,412800,0.085
+Major in Statistics and Data Science,,91160,44400,0.11
+Major in Statistics and Data Science,,81590,144100,0.05
+Major in Statistics and Data Science,,84810,109700,0.05
+Statistics and Data Science,,88550,412800,0.085
+Statistics and Data Science,,91160,44400,0.11
+Statistics and Data Science,,81590,144100,0.05
+Statistics and Data Science,,84810,109700,0.05
+Master of Science in Statistics,,88550,412800,0.085
+Master of Science in Statistics,,91160,44400,0.11
+Master of Science in Statistics,,81590,144100,0.05
+Master of Science in Statistics,,84810,109700,0.05
+Master of Science in Statistics and Data Science,,88550,412800,0.085
+Master of Science in Statistics and Data Science,,91160,44400,0.11
+Master of Science in Statistics and Data Science,,81590,144100,0.05
+Master of Science in Statistics and Data Science,,84810,109700,0.05
+Statistics,,88550,412800,0.085
+Statistics,,91160,44400,0.11
+Statistics,,81590,144100,0.05
+Statistics,,84810,109700,0.05
+Doctor of Philosophy in Molecular and Cellular Biology,,82220,47100,0.05
+Doctor of Philosophy in Molecular and Cellular Biology,,79580,118400,0.05
+Master of Science in Molecular and Cellular Biology,,82220,47100,0.05
+Master of Science in Molecular and Cellular Biology,,79580,118400,0.05
+Major in Molecular and Cellular Biology,,82220,47100,0.05
+Major in Molecular and Cellular Biology,,79580,118400,0.05
+Doctor of Philosophy in Cancer Biology,,82220,47100,0.05
+Doctor of Philosophy in Cancer Biology,,79580,118400,0.05
+Doctor of Philosophy in Gender & Women's Studies,,49850,36600,0.085
+Doctor of Philosophy in Gender & Women's Studies,,63670,6500,0.085
+Doctor of Philosophy in Gender & Women's Studies,,77070,12600,0.085
+Gender & Women's Studies,,49850,36600,0.085
+Gender & Women's Studies,,63670,6500,0.085
+Gender & Women's Studies,,77070,12600,0.085
+Master of Arts in Gender & Women's Studies,,49850,36600,0.085
+Master of Arts in Gender & Women's Studies,,63670,6500,0.085
+Master of Arts in Gender & Women's Studies,,77070,12600,0.085
+Major in Gender & Women's Studies,,49850,36600,0.085
+Major in Gender & Women's Studies,,63670,6500,0.085
+Major in Gender & Women's Studies,,77070,12600,0.085
+Doctor of Philosophy in Government and Public Policy,,69050,319900,0.05
+Doctor of Philosophy in Government and Public Policy,,61150,270000,0.05
+Doctor of Philosophy in Government and Public Policy,,116180,81200,0.085
+Master of Arts in Government and Public Policy,,69050,319900,0.05
+Master of Arts in Government and Public Policy,,61150,270000,0.05
+Master of Arts in Government and Public Policy,,116180,81200,0.085
+Major in Indigenous Governance,,69050,319900,0.05
+Major in Indigenous Governance,,61150,270000,0.05
+Major in Indigenous Governance,,116180,81200,0.085
+Major in Government and Public Service,,69050,319900,0.05
+Major in Government and Public Service,,61150,270000,0.05
+Major in Government and Public Service,,116180,81200,0.085
+Master of Public Administration,,69050,319900,0.05
+Master of Public Administration,,61150,270000,0.05
+Master of Public Administration,,116180,81200,0.085
+Master of Public Policy,,69050,319900,0.05
+Master of Public Policy,,61150,270000,0.05
+Master of Public Policy,,116180,81200,0.085
+Major in Public Management and Policy,,69050,319900,0.05
+Major in Public Management and Policy,,61150,270000,0.05
+Major in Public Management and Policy,,116180,81200,0.085
+Computational Social Sciences,,83330,39400,0.05
+Computational Social Sciences,,47510,39600,0.05
+Master of Science in Finance,,81590,144100,0.05
+Master of Science in Finance,,87850,271800,0.085
+Master of Science in Finance,,129890,653600,0.085
+Master of Science in Finance,,81590,329500,0.05
+Major in Finance,,81590,144100,0.05
+Major in Finance,,87850,271800,0.085
+Major in Finance,,129890,653600,0.085
+Major in Finance,,81590,329500,0.05
+Finance,,81590,144100,0.05
+Finance,,87850,271800,0.085
+Finance,,129890,653600,0.085
+Finance,,81590,329500,0.05
+Major in Operations Management,,62990,87100,0.025
+Major in Operations Management,,88020,284600,0.085
+Major in Operations Management,,110630,1079600,0.05
+Major in Operations Management,,74750,174900,0.05
+Social Innovation,,83330,39400,0.05
+Social Innovation,,47510,39600,0.05
+Master of Science in Marketing,,136850,259200,0.085
+Master of Science in Marketing,,88550,35700,0.085
+Master of Science in Marketing,,63790,681900,0.11
+Major in Marketing,,136850,259200,0.085
+Major in Marketing,,88550,35700,0.085
+Major in Marketing,,63790,681900,0.11
+Master of Accounting,,76540,56900,0.05
+Master of Accounting,,71550,1424000,0.05
+Master of Accounting,,76540,56900,0.05
+Master of Accounting,,71550,1424000,0.05
+Doctor of Philosophy in Physiological Sciences,,49170,15800,0.085
+Doctor of Philosophy in Physiological Sciences,,75640,56800,0.11
+Master of Science in Physiological Sciences,,49170,15800,0.085
+Master of Science in Physiological Sciences,,75640,56800,0.11
+Doctor of Philosophy in Second Language Acquisition and Teaching,,69990,31900,0.085
+Doctor of Philosophy in Second Language Acquisition and Teaching,,79120,153700,0.11
+Doctor of Philosophy in Second Language Acquisition and Teaching,,51830,76100,0.11
+Master of Arts in Second Language Learning and Educational Technology,,69990,31900,0.085
+Master of Arts in Second Language Learning and Educational Technology,,79120,153700,0.11
+Master of Arts in Second Language Learning and Educational Technology,,51830,76100,0.11
+Teaching English as a Second or Foreign Language,,69990,31900,0.085
+Teaching English as a Second or Foreign Language,,79120,153700,0.11
+Teaching English as a Second or Foreign Language,,51830,76100,0.11
+Professional Science Masters in Applied Biosciences,,75910,7600,0.05
+Professional Science Masters in Applied Biosciences,,79580,118400,0.05
+"Major in Literacy, Learning and Leadership",,48210,66700,0.085
+"Major in Literacy, Learning and Leadership",,96400,275400,0.085
+Nursing Rural Telehealth,,73300,3059800,0.11
+Nursing Rural Telehealth,,73300,3059800,0.11
+Nursing Rural Telehealth,,109820,189100,0.11
+Master of Science in Nursing,,73300,3059800,0.11
+Master of Science in Nursing,,73300,3059800,0.11
+Master of Science in Nursing,,109820,189100,0.11
+Global Health & Development,,40360,61700,0.11
+Global Health & Development,,46240,834000,0.11
+Global Health & Development,,78200,162000,0.11
+Medical and Community Health Information,,42630,215500,0.11
+Medical and Community Health Information,,100980,406100,0.11
+Medical and Community Health Information,,40360,61700,0.11
+Major in Commerce,,184460,263200,-0.02
+Major in Commerce,,85260,876300,0.11
+Major in Nutritional Sciences,,61270,70900,0.11
+Major in Elementary Education,,1434400,59670,0.025
+Major in Mechanical Engineering,,312900,88430,0.05
+Major in Civil Engineering,,326800,87060,0.05
+Master of Science in Systems Engineering,,191900,98530,0.05
+Major in Systems Engineering,,191900,98530,0.05
+Major in General Studies,,0,0,0
+Major in Law,,823900,122960,0.05
+Major in General Studies,,0,0,0
+Heritage Conservation,,14400,44430,0.085
+Master of Science in Planning,,39100,74350,0.11
+Master of Science in Urban Planning,,39100,74350,0.11
+Master of Landscape Architecture,,23500,69360,0.05
+Master of Science in Agricultural and Resource Economics,,975400,71160,0
+Major in Agribusiness Economics and Management,,975400,71160,0
+Major in Environmental and Water Resource Economics,,21000,105020,0.085
+Adult Teaching,,67200,54350,0
+Agricultural Leadership,,55700,48280,0
+Doctor of Philosophy in Animal Sciences,,2700,60300,0.085
+Doctor of Philosophy in Microbiology,,21700,75650,0.05
+Master of Science in Animal Sciences,,2700,60300,0.085
+Master of Science in Microbiology,,21700,75650,0.05
+Major in Animal Sciences,,2700,60300,0.085
+Major in Microbiology,,21700,75650,0.05
+Major in Personal and Family Financial Planning,,271700,87850,0.085
+Geographic Information Science,,35700,88550,0.085
+Rangeland Management,,23800,62660,0.05
+Zoo and Aquarium Conservation,,285600,24780,0.11
+Doctor of Philosophy in Nutritional Sciences,,61270,70900,0.11
+Master of Science in Nutritional Sciences,,61270,70900,0.11
+Major in Nutrition and Food Systems,,61270,70900,0.11
+Major in Deaf Studies,,76100,51830,0.11
+Major in Special Education and Rehabilitation,,119700,35950,0.085
+Educational Research Methodology,,324500,57040,0.085
+Doctor of Philosophy in Aerospace Engineering,,67200,116500,0.025
+Doctor of Philosophy in Mechanical Engineering,,312900,88430,0.05
+Master of Science in Aerospace Engineering,,67200,116500,0.025
+Major in Aerospace Engineering,,67200,116500,0.025
+Doctor of Philosophy in Biomedical Engineering,,19800,91410,0.05
+Master of Science in Biomedical Engineering,,19800,91410,0.05
+Major in Biomedical Engineering,,19800,91410,0.05
+Doctor of Philosophy in Chemical Engineering,,33900,108770,0.05
+Doctor of Philosophy in Environmental Engineering,,55400,88860,0.05
+Master of Science in Chemical Engineering,,33900,108770,0.05
+Master of Science in Environmental Engineering,,55400,88860,0.05
+Major in Chemical Engineering,,33900,108770,0.05
+Major in Environmental Engineering,,55400,88860,0.05
+Doctor of Philosophy in Civil Engineering & Engineering Mechanics,,326800,87060,0.05
+Master of Science in Civil Engineering & Engineering Mechanics,,326800,87060,0.05
+Doctor of Philosophy in Electrical and Computer Engineering,,191900,98530,0.05
+"Doctor of Philosophy in Mining, Geological and Geophysical Engineering",,5900,91160,0.025
+"Master of Science in Mining, Geological and Geophysical Engineering",,5900,91160,0.025
+Major in Mining Engineering,,5900,91160,0.025
+Master of Arts in Art History,,3300,63680,0.05
+Major in Art History,,3300,63680,0.05
+Master of Fine Arts in Theatre Arts,,64500,42494.4,0
+Major in Film and Television,,29400,55160,0.05
+Major in Musical Theatre,,64500,42494.4,0
+Major in Theatre Arts,,64500,42494.4,0
+Major in Theatre Production,,64500,42494.4,0
+Doctor of Philosophy in Art History & Education,,118900,69530,0.085
+Museum Studies,,14400,44430,0.085
+Master of Fine Arts in Art,,28600,50550,0
+Major in Global Studies,,0,0,0
+Doctor of Philosophy in East Asian Studies,,31900,69990,0.085
+Master of Arts in East Asian Studies,,31900,69990,0.085
+Major in East Asian Studies,,31900,69990,0.085
+Master of Arts in French,,31900,69990,0.085
+Major in French,,31900,69990,0.085
+Major in Italian,,31900,69990,0.085
+Doctor of Philosophy in Transcultural German Studies,,31900,69990,0.085
+Master of Arts in German Studies,,31900,69990,0.085
+Major in German Studies,,31900,69990,0.085
+Major in Applied Humanities,,0,0,0
+Major in World Literature,,83500,68490,0.05
+Master of Arts in Classics,,3300,63680,0.05
+Major in Classics,,3300,63680,0.05
+Master of Arts in Russian,,31900,69990,0.085
+Major in Russian,,31900,69990,0.085
+Doctor of Philosophy in Spanish,,31900,69990,0.085
+Master of Arts in Spanish,,31900,69990,0.085
+Major in Spanish,,31900,69990,0.085
+Doctor of Philosophy in Cellular & Molecular Medicine,,433700,206500,0.085
+Biomedical Sciences,,19800,91410,0.05
+Master of Science in Cellular & Molecular Medicine,,433700,206500,0.085
+Master of Science in Genetic Counseling,,3000,81880,0.11
+Doctor of Philosophy in Clinical Translational Science,,63500,129100,0.05
+Foundations for Biomedical Science PhDs Serving Indigenous Cultures,,19800,91410,0.05
+Major in Medicine,,433700,206500,0.085
+Major in Emergency Medical Services,,262100,81880,0.085
+Doctor of Philosophy in Immunobiology,,433700,206500,0.085
+Doctor of Philosophy in Molecular Medicine,,433700,206500,0.085
+Microbiology and Immunity,,21700,75650,0.05
+Doctor of Philosophy in Medical Pharmacology,,314300,128090,0
+Master of Science in Medical Pharmacology,,314300,128090,0
+Major in Physiology,,433700,206500,0.085
+Major in Physiology and Medical Sciences,,433700,206500,0.085
+Major in Pharmacy,,314300,128090,0
+Doctor of Philosophy in Pharmaceutical Sciences,,314300,128090,0
+Master of Science in Pharmaceutical Sciences,,314300,128090,0
+Doctor of Philosophy in Pharmacology and Toxicology,,314300,128090,0
+Major in Pharmaceutical Sciences,,314300,128090,0
+Doctor of Philosophy in Biostatistics,,44400,91160,0.11
+Doctor of Philosophy in Environmental Health Sciences,,85000,71360,0.085
+Doctor of Philosophy in Epidemiology,,7600,70990,0.05
+Clinical and Translational Research,,63500,129100,0.05
+Health Administration,,63500,129100,0.05
+Master of Science in Biostatistics,,44400,91160,0.11
+Master of Science in Environmental Health Sciences,,85000,71360,0.085
+Master of Science in Epidemiology,,7600,70990,0.05
+Doctor of Philosophy in Astronomy and Astrophysics,,2400,114590,0.05
+Master of Science in Astronomy and Astrophysics,,2400,114590,0.05
+Major in Astronomy,,2400,114590,0.05
+Doctor of Philosophy in Chemistry,,87700,77630,0.05
+Master of Arts in Chemistry,,87700,77630,0.05
+Master of Science in Chemistry,,87700,77630,0.05
+Major in Chemistry,,87700,77630,0.05
+Doctor of Philosophy in Biochemistry,,30400,94490,0.05
+Master of Science in Biochemistry,,30400,94490,0.05
+Major in Biochemistry,,30400,94490,0.05
+Dendrochronology,,85000,71360,0.085
+Egyptian Archaeology,,6500,63670,0.085
+Science Communication,,55700,72850,0.085
+Doctor of Philosophy in Ecology and Evolutionary Biology,,118400,79580,0.05
+Master of Science in Ecology and Evolutionary Biology,,118400,79580,0.05
+Major in Biology,,118400,79580,0.05
+Major in Ecology and Evolutionary Biology,,118400,79580,0.05
+Doctor of Philosophy in Geosciences,,31000,92040,0.05
+Master of Science in Geosciences,,31000,92040,0.05
+Professional Science Masters in Economic Geology,,31000,92040,0.05
+Major in Geosciences,,31000,92040,0.05
+Doctor of Philosophy in Atmospheric Sciences,,10000,95380,0.085
+Doctor of Philosophy in Hydrology,,6700,81270,0.085
+Doctor of Philosophy in Hydrometeorology,,6700,81270,0.085
+Master of Science in Atmospheric Sciences,,10000,95380,0.085
+Master of Science in Hydrology,,6700,81270,0.085
+Master of Science in Hydrometeorology,,6700,81270,0.085
+Major in Environmental Hydrology and Water Resources,,6700,81270,0.085
+Major in Hydrology and Atmospheric Sciences,,6700,81270,0.085
+Groundwater,,63500,129100,0.05
+Hydrology and Water Resources,,6700,81270,0.085
+Doctor of Philosophy in Mathematics,,2900,105030,0.11
+Master of Science in Mathematics,,2900,105030,0.11
+Major in Mathematics,,2900,105030,0.11
+Doctor of Philosophy in Physics,,19200,122850,0.085
+Master of Science in Physics,,19200,122850,0.085
+Professional Science Masters in Medical Physics,,433700,206500,0.085
+Major in Applied Physics,,19200,122850,0.085
+Major in Physics,,19200,122850,0.085
+Doctor of Philosophy in Planetary Sciences,,19200,122850,0.085
+Master of Science in Planetary Sciences,,19200,122850,0.085
+Major in Neuroscience and Cognitive Science,,433700,206500,0.085
+Doctor of Audiology,,13600,77600,0.11
+"Doctor of Philosophy in Speech, Language and Hearing Sciences",,13600,77600,0.11
+Bilingual Audiology,,13600,77600,0.11
+Bilingual Speech-Language Pathology,,13600,77600,0.11
+"Master of Science in Speech, Language and Hearing Sciences",,13600,77600,0.11
+"Major in Speech, Language and Hearing Sciences",,13600,77600,0.11
+Major in Judaic Studies,,31900,69990,0.085
+Major in American Indian Studies,,31900,69990,0.085
+Major in Global Studies,,0,0,0
+Doctor of Philosophy in Communication,,55700,72850,0.085
+Master of Arts in Communication,,55700,72850,0.085
+Doctor of Philosophy in English,,83000,68490,0.05
+"Doctor of Philosophy in Rhetoric, Composition and Teaching of English",,83000,68490,0.05
+Master of Arts in English,,83000,68490,0.05
+"Master of Arts in Rhetoric, Composition and Teaching of English",,83000,68490,0.05
+Master of Arts in Teaching English as a Second Language,,83000,68490,0.05
+Master of Fine Arts in Creative Writing,,123200,63200,0
+Major in Creative Writing,,123200,63200,0
+Major in English,,83000,68490,0.05
+Doctor of Philosophy in History,,3300,63680,0.05
+Master of Arts in History,,3300,63680,0.05
+Major in History,,3300,63680,0.05
+Master of Arts in Journalism,,118300,61370,0
+Major in Journalism,,118300,61370,0
+Master of Arts in Latin American Studies,,31900,69990,0.085
+Major in Latin American Studies,,31900,69990,0.085
+Doctor of Philosophy in Anthropology and Linguistics,,6500,63670,0.085
+Doctor of Philosophy in Linguistics,,6500,63670,0.085
+Master of Arts in Linguistics,,6500,63670,0.085
+Master of Science in Human Language Technology,,6500,63670,0.085
+Major in Linguistics,,6500,63670,0.085
+Doctor of Philosophy in Mexican American Studies,,31900,69990,0.085
+Master of Science in Mexican American Studies,,31900,69990,0.085
+Major in Mexican American Studies,,31900,69990,0.085
+Doctor of Philosophy in Philosophy,,31700,75240,0.085
+Master of Arts in Philosophy,,31700,75240,0.085
+"Major in Philosophy, Politics, Economics and Law",,31700,75240,0.085
+Doctor of Philosophy in Geography,,1500,81540,0.025
+Geographic Information Science,,35700,88550,0.085
+Water Policy,,63500,129100,0.05
+Master of Arts in Geography,,1500,81540,0.025
+Major in Environmental Studies,,31900,69990,0.085
+Major in Geography,,1500,81540,0.025
+Major in Urban and Regional Development,,39100,74350,0.11
+Doctor of Philosophy in Middle Eastern and North African Studies,,31900,69990,0.085
+Doctor of Philosophy in Near Eastern Studies,,31900,69990,0.085
+Middle Eastern Culture and Pedagogy,,31900,69990,0.085
+Master of Arts in Middle Eastern and North African Studies,,31900,69990,0.085
+Major in Arabic,,31900,69990,0.085
+Major in Middle Eastern and North African Studies,,31900,69990,0.085
+Master of Arts in Anthropology,,6500,63670,0.085
+Masters in Development Practice,,6500,63670,0.085
+Major in Anthropology,,6500,63670,0.085
+Major in Political Science,,6200,122220,0.05
+Archival Studies,,412800,88550,0.05
+Law Librarianship,,823900,122960,0.05
+Master of Science in Information,,412800,88550,0.05
+Major in Information Science & eSociety,,412800,88550,0.05
+Major in Information Science and Arts,,412800,88550,0.05
+Major in Information Science and Technology,,412800,88550,0.05
+Doctor of Philosophy in Sociology,,3000,83420,0.085
+Master of Arts in Sociology,,3000,83420,0.085
+Major in Sociology,,3000,83420,0.085
+Doctor of Philosophy in Economics,,21000,105020,0.085
+Master of Arts in Economics,,21000,105020,0.085
+Master of Science in Econometrics and Quantitative Economics,,21000,105020,0.085
+Major in Business Economics,,21000,105020,0.085
+Major in Entrepreneurship,,0,0,0
+Business Intelligence and Analytics,,412800,88550,0.085
+Enterprise Information Security,,112300,99730,0.11
+Major in Business Management,,876300,85260,0.11
+Doctor of Philosophy in Applied Intercultural Arts Research,,39600,47510,0.085
+Doctor of Philosophy in Applied Mathematics,,2900,105030,0.11
+Doctor of Philosophy in Arid Lands Resource Sciences,,23800,62660,0.05
+Doctor of Philosophy in Genetics,,47100,82220,0.05
+Doctor of Philosophy in Neuroscience,,433700,206500,0.085
+Doctor of Philosophy in Persian and Iranian Studies,,31900,69990,0.085
+Doctor of Philosophy in Physiological Sciences,,49170,15800,0.085
+Master of Arts in Applied Intercultural Arts Research,,39600,47510,0.085
+Master of Arts in Persian and Iranian Studies,,31900,69990,0.085
+Master of Science in Applied Mathematics,,2900,105030,0.11
+Master of Science in Entomology & Insect Science,,19300,63270,0.05
+Master of Science in Neuroscience,,433700,206500,0.085
+Master of Science in Physiological Sciences,,49170,15800,0.085
+Doctor of Philosophy in Optical Sciences,,157800,99040,0.05
+Optical Sciences,,157800,99040,0.05
+Master of Science in Optical Sciences,,157800,99040,0.05
+Master of Science in Photonic Communications Engineering,,157800,99040,0.05
+Major in Optical Sciences & Engineering,,157800,99040,0.05
+Major in Environmental Science,,31900,69990,0.085
+Applied Nutrition,,61270,70900,0.11
+Professional Science Masters in Applied Nutrition,,61270,70900,0.11
+Instructional Design and Technology,,181600,66290,0.05
+Master of Science in Educational Technology,,181600,66290,0.05
+Major in Applied Science,,0,0,0
+"Major in Literacy, Learning and Leadership",,171050,87004.28822,0.085
+Advanced Transportation Engineering,,326800,87060,0.05
+Master of Engineering,,0,0,0
+Master of Science in Electrical and Computer Engineering,,191900,98530,0.05
+Major in Electrical and Computer Engineering,,191900,98530,0.05
+Mine Production and Information Technology,,5900,91160,0.025
+Mineral Processing and Extractive Metallurgy,,5900,91160,0.025
+Rock Mechanics,,5900,91160,0.025
+Systems Engineering,,191900,98530,0.05
+Master of Arts in Second Language Learning and Educational Technology,,87233.33333,70071.41001,0.05
+Master of Arts in Human Rights Practice,,319900,69050,0.05
+Major in Communication,,55700,72850,0.085
+Teaching English as a Second or Foreign Language,,87233.33333,70071.41001,0.05
+Major in Philosophy,,31700,75240,0.085
+Professional Geographic Information Systems Technology,,412800,88550,0.085
+Master of Science in Geographic Information Systems Technology,,412800,88550,0.085
+Geographic Information Systems Technology,,412800,88550,0.085
+International Security Studies,,112300,99730,0.05
+Master of Arts in International Security,,112300,99730,0.05
+Digital Information Management,,134800,59500,0.05
+Instruction and Teaching for Librarians and Information Professionals,,134800,59500,0.05
+Medical and Community Health Information,,227766.6667,77103.6953,0.11
+"Major in Care, Health and Society",,98000,74100,0.05
+Master of Science in Entrepreneurship,,0,0,0
+Enterprise Information Security,,112300,99730,0.11
+Master of Science in Management Information Systems,,876300,85260,0.11
+Masters in Healthcare Management,,406100,100980,0.11
+Sports Management,,876300,85260,0.11
+Accounting,,740450,71741.72868,0.05
+Master of Science in Optical Sciences,,157800,99040,0.05
+Master of Legal Studies,,823900,122960,0.05
+Master of Medical Studies,,0,0,0
+Major in Medicine,,433700,206500,0.085
+Master of Science in Clinical Translational Science,,63500,129100,0.05
+Master of Education in Secondary Education,,0,0,0
