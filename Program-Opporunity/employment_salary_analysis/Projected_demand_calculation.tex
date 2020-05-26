@@ -1,0 +1,102 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{grffile}
+\usepackage{mathtools}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{IEEEtrantools}
+\usepackage{adjustbox}
+\usepackage{hyperref}
+\usepackage{amsmath,amssymb}
+
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\usepackage{latexsym,amsmath,amssymb,amsfonts,epsfig,graphicx,cite,psfrag,varwidth}
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+            {-2.5ex\@plus -1ex \@minus -.25ex}%
+            {1.25ex \@plus .25ex}%
+            {\normalfont\normalsize\bfseries}}
+\setcounter{secnumdepth}{4} % how many sectioning levels to assign numbers to
+\setcounter{tocdepth}{4}    % how many sectioning levels to show in ToC
+
+\begin{document}
+\maketitle
+\section{Project Demand Evaluation Method}
+For the bubble chart, we need the projected demand data. The projected demand data can be collected from \href{https://www.onetonline.org/}{O*NET}. The CIP taxonomy is organized on two levels: 1) the first two-digit series, 2) the four-digit series. We can look for the CIP code for a perticular progrom from \href{https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55}{IPEDS}. The first two-digit series represent the most general groupings of related programs. The four-digit series represent intermediate groupings of programs that have comparable content and objectives. For example, the CIP code for the Computer Programmers is: 14.0901, where the digits ‘14’ represents Engineering in general, the last four digits ‘0901', together with the first two digits, represents Computer Engineering. From \href{https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55}{IPEDS} CIP code, we will have the program knowledge and current market demand of that program. From these information, we searched in \href{https://www.onetonline.org/}{O*NET} for the demand data for that program. Based on the CIP code, the projected demand data for any program can be collected from \href{https://www.onetonline.org/}{O*NET}. Say,
+\begin{align*}
+\text{the annual median/mean wages}= W,\\
+\text{the number of employments}=N,\\
+\text{the mean projected growth over the years in percentage} = i.
+\end{align*}
+We need to put all the information into the projected demand formulation. Missing any of the values can be problematic in getting the true information for the projected demand. For that, we come up with the following formulation.
+\begin{align*}
+\text{The current demand}, CD=W*N,\\
+\text{The Current demand with the projected growth},  FD=(1+i)*W*N\\
+\text{The projected growth in demand}, PD=FD-CD=i*W*N.  
+\end{align*}
+
+In this evaluation metrics, we include all the needed details to form the proper demand criteria. 
+For the illustration, lets assume the physics program’s demand. From \href{https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55}{IPEDS}, the CIP of the physics program 40.0801 tells us regarding the profession of physics program.From the \href{https://www.onetonline.org/}{O*NET} , we get the following data for a physicist:
+\begin{align*}
+\text{the annual median/mean wages}, W=\$122,850
+\\
+\text{the number of employments},N=\$19,200\\
+\text{the mean projected growth over the years in percentage},i =8.5\%.
+\end{align*}
+
+From these data,
+\begin{align*}
+\text{the current demand}, CD=W*N=\$2.35872\times10^9\\
+\text{the projected growth in demand}, PD=i*W*N=\$0.2\times10^9.
+\end{align*}
+
+\section{Programs with multiple opportunities}
+For some programs, there may be multiple opportunities in the market. For example, the computer science program has demand in software engineering, hardware engineering, database administrator, etc. For these cases, we are using a weighted average of all the avaiable opportunities to compute the overall demand for the program. The available opportunities for a program can be collected from the \href{https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55}{IPEDS}. And the demand data can be collected from the \href{https://www.onetonline.org/}{O*NET} for each opportunity.
+Let, for the $t$-th demand category,
+\begin{align*}
+\text{the annual median/mean wages}= W_t,\\
+\text{the number of employments}=N_t,\\
+\text{the mean projected growth over the year in percentage} = i_t.
+\end{align*}
+Then,
+\begin{align*}
+\text{the overall annual salary},
+W=\frac{\sum_{t=1}^n N_t*W_t}{\sum_{t=1}^n N_t}\\
+\text{the overall projected growth over the years in percentage},
+i=\frac{\sum_{t=1}^n N_t*i_t}{\sum_{t=1}^n N_t}\\
+\text{the average number of employees},\bar{N}=\frac{\sum_{t=1}^n N_t}{n}.\\
+\text{The current demand}, CD=\bar{N}*W,\\
+\text{The future demand},  FD=(1+i)*\bar{N}*W\\
+\text{The projected demand}, PD=FD-CD=i*\bar{N}*W,
+\end{align*}
+where, $t=1,2,...,n$
+For example, we are considering the Computer science program for the weighted average demand calculation. From the \href{https://nces.ed.gov/ipeds/cipcode/default.aspx?y=55}{IPEDS}  and \href{https://www.onetonline.org/}{O*NET} we get the following categories of demand:
+\newpage
+\begin{table}
+\resizebox{\textwidth}{30}{%
+  \begin{tabular}{c|c|c|c}
+Opportunity & Annual median wage & Number of employees & Mean percentage of growth  \\
+\hline
+Computer Hardware Engineers &117220
+         &64400 & 5\%\\
+Software Developers&107510&421300 &8.5\%\\
+Computer Programmers&86550&250300 &-2\%
+\\ Computer Network Architects&112690&159300
+ &5\%\\ Network and Computer Systems Administrators &83510&383900
+ &5\%\\Computer and Information Systems Managers &146360 &414400 &11\%
+
+    \end{tabular}}
+    \caption{Opportunities in Computer Science Program with demand data}
+    \label{tab:my_label}
+\end{table}
+From these data in Table 1, we get
+\begin{align*}
+\text{the current demand}, CD=W*N=\$30.86\times10^9\\
+\text{the projected growth in demand}, PD=i*W*N=\$0.019\times10^9
+\end{align*}
+\end{document}
