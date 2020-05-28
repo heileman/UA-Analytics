@@ -1,0 +1,591 @@
+college_name,college_code,college_division_name,college_division_code,department_name,department_code,major_name,major_code,program_name,program_code,cip_code,academic_period
+College of Agriculture and Life Sciences,CALS,,,,,Agribusiness Economics & Management,ABEM,Agribusiness Economics & Management - Bachelor of Science: Agribusiness Management Emphasis,AGRBMAN,1.0101,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,,,Agribusiness Economics & Management,ABEM,Agribusiness Economics & Management - Bachelor of Science: Agribusiness Management Emphasis,AGRBMAN,1.0101,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,,,Agribusiness Economics & Management,ABEM,Agribusiness Economics & Management - Bachelor of Science: Agricultural Economics Emphasis,ABEMECON,1.0101,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,,,Agribusiness Economics & Management,ABEM,Agribusiness Economics & Management - Bachelor of Science: Agricultural Economics Emphasis,ABEMECON,1.0101,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,Agricultural Education,,Agricultural Systems Management,AGSM,Agricultural Systems Management - Bachelor of Science,AGSM,1.0301,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,Agricultural Education,,Agricultural Systems Management,AGSM,Agricultural Systems Management - Bachelor of Science,AGSM,1.0301,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,Agricultural Education,,Agricultural Technology Management and Education,AGTE,Agricultural Technology Management and Education - Bachelor of Science: Agricultural Technology Management Emphasis,AGT,1.0106,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,Agricultural Education,,Agricultural Technology Management and Education,AGTE,Agricultural Technology Management and Education - Bachelor of Science: Agricultural Technology Management Emphasis,AGT,1.0106,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,Agricultural Education,,Agricultural Technology Management and Education,AGTE,Agricultural Technology Management and Education - Bachelor of Science: Leadership and Communication Emphasis,LCE,1.0106,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,Agricultural Education,,Agricultural Technology Management and Education,AGTE,Agricultural Technology Management and Education - Bachelor of Science: Leadership and Communication Emphasis,LCE,1.0106,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,Agricultural Education,,Agricultural Technology Management and Education,AGTE,Agricultural Technology Management and Education - Bachelor of Science: Teaching Emphasis,ATMED,1.0106,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,Agricultural Education,,Agricultural Technology Management and Education,AGTE,Agricultural Technology Management and Education - Bachelor of Science: Teaching Emphasis,ATMED,1.0106,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,,,Animal Science,ABI,Animal and Biomedical Industries - Bachelor of Science,ABIBS,26.9999,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,,,Animal Science,ABI,Animal and Biomedical Industries - Bachelor of Science,ABIBS,26.9999,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Animal Science,ASC,Animal Sciences - Bachelor of Science: Animal Industry Emphasis,ANIIND,1.0901,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Animal Science,ASC,Animal Sciences - Bachelor of Science: Animal Industry Emphasis,ANIIND,1.0901,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Animal Science,ASC,Animal Sciences - Bachelor of Science: Equine Emphasis,EQU,1.0901,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Animal Science,ASC,Animal Sciences - Bachelor of Science: Equine Emphasis,EQU,1.0901,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Animal Science,ASC,Animal Sciences - Bachelor of Science: Race Track Emphasis,RTI,1.0901,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Animal Science,ASC,Animal Sciences - Bachelor of Science: Race Track Emphasis,RTI,1.0901,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Animal Science,ASC,Animal Sciences - Bachelor of Science: Science Preprofessional Emphasis,SPP,1.0901,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Animal Science,ASC,Animal Sciences - Bachelor of Science: Science Preprofessional Emphasis,SPP,1.0901,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,Biosystems Engineering,,Biosystems Analytics and Technology,BAT,Biosystems Analytics and Technology - Bachelor of Science,BAT,15.1199,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,Biosystems Engineering,,Biosystems Analytics and Technology,BAT,Biosystems Analytics and Technology - Bachelor of Science,BAT,15.1199,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,Agricultural & Resource Econ,,Environmental Sciences,EWRE,Environmental and Water Resource Economics - Bachelor of Science,EWRE,45.0602,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,Agricultural & Resource Econ,,Environmental Sciences,EWRE,Environmental and Water Resource Economics - Bachelor of Science,EWRE,45.0602,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,Environmental  Science,,Environmental Sciences,ENVS,"Environmental Sciences - Bachelor of Science: Leader, Sustainablity, and Communication Emphasis",LSC,3.0104,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,Environmental  Science,,Environmental Sciences,ENVS,"Environmental Sciences - Bachelor of Science: Leader, Sustainablity, and Communication Emphasis",LSC,3.0104,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,Environmental  Science,,Environmental Sciences,ENVS,Environmental Sciences - Bachelor of Science: Physcial and Chemical Dynamics Emphasis,PCD,3.0104,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,Environmental  Science,,Environmental Sciences,ENVS,Environmental Sciences - Bachelor of Science: Physcial and Chemical Dynamics Emphasis,PCD,3.0104,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,Environmental  Science,,Environmental Sciences,ENVS,"Environmental Sciences - Bachelor of Science: Soil, Air, and Water Emphasis",SAW,3.0104,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,Environmental  Science,,Environmental Sciences,ENVS,"Environmental Sciences - Bachelor of Science: Soil, Air, and Water Emphasis",SAW,3.0104,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,Environmental  Science,,Environmental Sciences,ENVS,Environmental Sciences - Bachelor of Science: The Biosphere Emphasis,BIOS,3.0104,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,Environmental  Science,,Environmental Sciences,ENVS,Environmental Sciences - Bachelor of Science: The Biosphere Emphasis,BIOS,3.0104,Spring 2021
+College of Agriculture and Life Sciences,CALS,Norton School of Family and Consumer Sciences,,"Family & Consumer Sci, Sch",,Family Studies & Human Developmen,FSHD,Family Studies & Human Development - Bachelor of Science,FSHD,19.0701,Fall 2020
+College of Agriculture and Life Sciences,CALS,Norton School of Family and Consumer Sciences,,"Family & Consumer Sci, Sch",,Family Studies & Human Developmen,FSHD,Family Studies & Human Development - Bachelor of Science,FSHD,19.0701,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Food Safety,FDSF,Food Safety - Bachelor of Science,FDSF,1.1099,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Food Safety,FDSF,Food Safety - Bachelor of Science,FDSF,1.1099,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Microbiology,MICR,Microbiology - Bachelor of Science,MICR,26.0502,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Microbiology,MICR,Microbiology - Bachelor of Science,MICR,26.0502,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Natural Resources and The Environment,,"Nat Resources & Eviron, Sch",,Natural Resources,NTRS,Natural Resources - Bachelor of Science: Conservation Biology Emphasis,CBI,3.0101,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Natural Resources and The Environment,,"Nat Resources & Eviron, Sch",,Natural Resources,NTRS,Natural Resources - Bachelor of Science: Conservation Biology Emphasis,CBI,3.0101,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Natural Resources and The Environment,,"Nat Resources & Eviron, Sch",,Natural Resources,NTRS,"Natural Resources - Bachelor of Science: Ecology, Management, and Restoration of Rangelands",ECOLMRR,3.0101,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Natural Resources and The Environment,,"Nat Resources & Eviron, Sch",,Natural Resources,NTRS,"Natural Resources - Bachelor of Science: Ecology, Management, and Restoration of Rangelands",ECOLMRR,3.0101,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Natural Resources and The Environment,,"Nat Resources & Eviron, Sch",,Natural Resources,NTRS,Natural Resources - Bachelor of Science: Fisheries Conservation & Management Emphasis,FIC,3.0101,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Natural Resources and The Environment,,"Nat Resources & Eviron, Sch",,Natural Resources,NTRS,Natural Resources - Bachelor of Science: Fisheries Conservation & Management Emphasis,FIC,3.0101,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Natural Resources and The Environment,,"Nat Resources & Eviron, Sch",,Natural Resources,NTRS,Natural Resources - Bachelor of Science: Global Change Ecology and Management,GCEM,3.0101,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Natural Resources and The Environment,,"Nat Resources & Eviron, Sch",,Natural Resources,NTRS,Natural Resources - Bachelor of Science: Global Change Ecology and Management,GCEM,3.0101,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Natural Resources and The Environment,,"Nat Resources & Eviron, Sch",,Natural Resources,NTRS,Natural Resources - Bachelor of Science: Watershed Hydrology & Management Emphasis,WATHDM,3.0101,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Natural Resources and The Environment,,"Nat Resources & Eviron, Sch",,Natural Resources,NTRS,Natural Resources - Bachelor of Science: Watershed Hydrology & Management Emphasis,WATHDM,3.0101,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Natural Resources and The Environment,,"Nat Resources & Eviron, Sch",,Natural Resources,NTRS,Natural Resources - Bachelor of Science: Wildlife Conservation & Management Emphasis,WLC,3.0101,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Natural Resources and The Environment,,"Nat Resources & Eviron, Sch",,Natural Resources,NTRS,Natural Resources - Bachelor of Science: Wildlife Conservation & Management Emphasis,WLC,3.0101,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,Nutritional Sciences,,Nutrition and Food Systems,NFS,Nutrition and Food Systems - Bachelor of Science,NFS,30,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,Nutritional Sciences,,Nutrition and Food Systems,NFS,Nutrition and Food Systems - Bachelor of Science,NFS,30,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,Nutritional Sciences,,Nutritional Sciences,NUSC,Nutritional Sciences - Bachelor of Science: Dietetics Emphasis,DIET,30.1901,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,Nutritional Sciences,,Nutritional Sciences,NUSC,Nutritional Sciences - Bachelor of Science: Dietetics Emphasis,DIET,30.1901,Spring 2021
+College of Agriculture and Life Sciences,CALS,,,Nutritional Sciences,,Nutritional Sciences,NUSC,Nutritional Sciences - Bachelor of Science: Nutrition Emphasis,NUTR,30.1901,Fall 2020
+College of Agriculture and Life Sciences,CALS,,,Nutritional Sciences,,Nutritional Sciences,NUSC,Nutritional Sciences - Bachelor of Science: Nutrition Emphasis,NUTR,30.1901,Spring 2021
+College of Agriculture and Life Sciences,CALS,Norton School of Family and Consumer Sciences,,Family and Consumer Sciences,,Personal & Family Financial Planning,PFFP,Personal & Family Financial Planning - Bachelor of Science,PFFP,19.0401,Fall 2020
+College of Agriculture and Life Sciences,CALS,Norton School of Family and Consumer Sciences,,Family and Consumer Sciences,,Personal & Family Financial Planning,PFFP,Personal & Family Financial Planning - Bachelor of Science,PFFP,19.0401,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Plant Sciences,,School of Plant Sciences,,Plant Sciences,PLSC,Plant Sciences - Bachelor of Science,PLSC,1.1101,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Plant Sciences,,School of Plant Sciences,,Plant Sciences,PLSC,Plant Sciences - Bachelor of Science,PLSC,1.1101,Spring 2021
+College of Agriculture and Life Sciences,CALS,Norton School of Family and Consumer Sciences,,Retailing & Consumer Sciences,,Retailing & Consumer Sciences,RCSC,Retailing & Consumer Sciences - Bachelor of Science,RCSC,52.0212,Fall 2020
+College of Agriculture and Life Sciences,CALS,Norton School of Family and Consumer Sciences,,Retailing & Consumer Sciences,,Retailing & Consumer Sciences,RCSC,Retailing & Consumer Sciences - Bachelor of Science,RCSC,52.0212,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Plant Sciences,,Biosystems Engineering,,Sustainable Plant Systems,SPS,Sustainable Plant Systems - Bachelor of Science: Agronomy Emphasis,AGRON,1.9999,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Plant Sciences,,Biosystems Engineering,,Sustainable Plant Systems,SPS,Sustainable Plant Systems - Bachelor of Science: Agronomy Emphasis,AGRON,1.9999,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Plant Sciences,,Biosystems Engineering,,Sustainable Plant Systems,SPS,Sustainable Plant Systems - Bachelor of Science: Controlled Environment Agriculture Emphasis,CEAG,1.9999,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Plant Sciences,,Biosystems Engineering,,Sustainable Plant Systems,SPS,Sustainable Plant Systems - Bachelor of Science: Controlled Environment Agriculture Emphasis,CEAG,1.9999,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Plant Sciences,,Biosystems Engineering,,Sustainable Plant Systems,SPS,Sustainable Plant Systems - Bachelor of Science: Fresh Produce Safety Emphasis (Yuma),FOODS,1.9999,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Plant Sciences,,Biosystems Engineering,,Sustainable Plant Systems,SPS,Sustainable Plant Systems - Bachelor of Science: Fresh Produce Safety Emphasis (Yuma),FOODS,1.9999,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Plant Sciences,,Biosystems Engineering,,Sustainable Plant Systems,SPS,Sustainable Plant Systems - Bachelor of Science: Urban Horticulture Emphasis,UH,1.9999,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Plant Sciences,,Biosystems Engineering,,Sustainable Plant Systems,SPS,Sustainable Plant Systems - Bachelor of Science: Urban Horticulture Emphasis,UH,1.9999,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Veterinary Science,VSC,Veterinary Science - Bachelor of Science: Applied Animal Behavior Emphasis,AAB,51.1104,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Veterinary Science,VSC,Veterinary Science - Bachelor of Science: Applied Animal Behavior Emphasis,AAB,51.1104,Spring 2021
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Veterinary Science,VSC,Veterinary Science - Bachelor of Science: General Emphasis,GENVSC,51.1104,Fall 2020
+College of Agriculture and Life Sciences,CALS,School of Animal And Comparative Biomedical Sciences,,Animal&Biomedical Sciences-Ins,,Veterinary Science,VSC,Veterinary Science - Bachelor of Science: General Emphasis,GENVSC,51.1104,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Administration of Justice Emphasis,ADJS,41.9999,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Administration of Justice Emphasis,ADJS,41.9999,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Early Childhood Education Emphasis,ECH,41.9999,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Early Childhood Education Emphasis,ECH,41.9999,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Human Services Emphasis,HSV,41.9999,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Human Services Emphasis,HSV,41.9999,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Informatics Emphasis: Digital Design Track,INFOR,41.9999,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Informatics Emphasis: Digital Design Track,INFOR,41.9999,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Informatics Emphasis: Information Management Track,INFOR,41.9999,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Informatics Emphasis: Information Management Track,INFOR,41.9999,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Informatics Emphasis: Software Development Track,INFOR,41.9999,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Informatics Emphasis: Software Development Track,INFOR,41.9999,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Informatics Emphasis: System Administration Track,INFOR,41.9999,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Informatics Emphasis: System Administration Track,INFOR,41.9999,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Intelligence Studies Emphasis,IS,41.9999,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Intelligence Studies Emphasis,IS,41.9999,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Meteorology Emphasis,MET,41.9999,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Meteorology Emphasis,MET,41.9999,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Network Operations Emphasis,NOW,41.9999,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Applied Science,APS,Applied Science - Bachelor of Applied Science: Network Operations Emphasis,NOW,41.9999,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Cyber Operations,CYBR,Cyber Operations - Bachelor of Applied Science: Cyber Engineering Emphasis,ENGR,29.0207,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Cyber Operations,CYBR,Cyber Operations - Bachelor of Applied Science: Cyber Engineering Emphasis,ENGR,29.0207,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Cyber Operations,CYBR,Cyber Operations - Bachelor of Applied Science: Cyber Law and Policy Emphasis,LAP,29.0207,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Cyber Operations,CYBR,Cyber Operations - Bachelor of Applied Science: Cyber Law and Policy Emphasis,LAP,29.0207,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Cyber Operations,CYBR,Cyber Operations - Bachelor of Applied Science: Defense and Forensics Emphasis,DEF,29.0207,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Cyber Operations,CYBR,Cyber Operations - Bachelor of Applied Science: Defense and Forensics Emphasis,DEF,29.0207,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Elementary Education,ELEM,Elementary Education - Bachelor of Science,ELEMBS,13.1202,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Elementary Education,ELEM,Elementary Education - Bachelor of Science,ELEMBS,13.1202,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Government and Public Service,GPS,Government and Public Service - Bachelor of Arts,GPSBA,45.1001,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Government and Public Service,GPS,Government and Public Service - Bachelor of Arts,GPSBA,45.1001,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Organizational Leadership and Regional Commerce,OL,Organizational Leadership and Regional Commerce - Bachelor of Applied Science: Organizational Leadership Emphasis,OL,52.0213,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Organizational Leadership and Regional Commerce,OL,Organizational Leadership and Regional Commerce - Bachelor of Applied Science: Organizational Leadership Emphasis,OL,52.0213,Spring 2021
+College of Applied Sci & Tech,CAST,,,,,Organizational Leadership and Regional Commerce,OL,Organizational Leadership and Regional Commerce - Bachelor of Applied Science: Regional Commerce Emphasis,RGC,52.0213,Fall 2020
+College of Applied Sci & Tech,CAST,,,,,Organizational Leadership and Regional Commerce,OL,Organizational Leadership and Regional Commerce - Bachelor of Applied Science: Regional Commerce Emphasis,RGC,52.0213,Spring 2021
+College of Architecture and Planning and Landscape Architecture,CAPLA,School of Architecture,,School of Architecture,,Architecture,ARCH,Architecture - Bachelor of Architecture,ARCH,4.0902,Fall 2020
+College of Architecture and Planning and Landscape Architecture,CAPLA,School of Architecture,,School of Architecture,,Architecture,ARCH,Architecture - Bachelor of Architecture,ARCH,4.0902,Spring 2021
+College of Architecture and Planning and Landscape Architecture,CAPLA,School of Architecture,,Sch of Landscape Architecture,,Sustainable Built Environments,SBE,Sustainable Built Environments - BS in Sustainable Built Environments: General Emphasis,GENRL,4.9999,Fall 2020
+College of Architecture and Planning and Landscape Architecture,CAPLA,School of Architecture,,Sch of Landscape Architecture,,Sustainable Built Environments,SBE,Sustainable Built Environments - BS in Sustainable Built Environments: General Emphasis,GENRL,4.9999,Spring 2021
+College of Architecture and Planning and Landscape Architecture,CAPLA,School of Architecture,,Sch of Landscape Architecture,,Sustainable Built Environments,SBE,Sustainable Built Environments - BS in Sustainable Built Environments: Heritage Conservation Empashis,HCON,4.9999,Fall 2020
+College of Architecture and Planning and Landscape Architecture,CAPLA,School of Architecture,,Sch of Landscape Architecture,,Sustainable Built Environments,SBE,Sustainable Built Environments - BS in Sustainable Built Environments: Heritage Conservation Empashis,HCON,4.9999,Spring 2021
+College of Architecture and Planning and Landscape Architecture,CAPLA,School of Architecture,,Sch of Landscape Architecture,,Sustainable Built Environments,SBE,Sustainable Built Environments - BS in Sustainable Built Environments: Sustainable Buildings Emphasis,DPOSR,4.9999,Fall 2020
+College of Architecture and Planning and Landscape Architecture,CAPLA,School of Architecture,,Sch of Landscape Architecture,,Sustainable Built Environments,SBE,Sustainable Built Environments - BS in Sustainable Built Environments: Sustainable Buildings Emphasis,DPOSR,4.9999,Spring 2021
+College of Architecture and Planning and Landscape Architecture,CAPLA,School of Architecture,,Sch of Landscape Architecture,,Sustainable Built Environments,SBE,Sustainable Built Environments - BS in Sustainable Built Environments: Sustainable Communities Emphasis,SCH,4.9999,Fall 2020
+College of Architecture and Planning and Landscape Architecture,CAPLA,School of Architecture,,Sch of Landscape Architecture,,Sustainable Built Environments,SBE,Sustainable Built Environments - BS in Sustainable Built Environments: Sustainable Communities Emphasis,SCH,4.9999,Spring 2021
+College of Architecture and Planning and Landscape Architecture,CAPLA,School of Architecture,,Sch of Landscape Architecture,,Sustainable Built Environments,SBE,Sustainable Built Environments - BS in Sustainable Built Environments: Sustainable Landscapes Emphasis,SECO,4.9999,Fall 2020
+College of Architecture and Planning and Landscape Architecture,CAPLA,School of Architecture,,Sch of Landscape Architecture,,Sustainable Built Environments,SBE,Sustainable Built Environments - BS in Sustainable Built Environments: Sustainable Landscapes Emphasis,SECO,4.9999,Spring 2021
+College of Architecture and Planning and Landscape Architecture,CAPLA,School of Architecture,,Sch of Landscape Architecture,,Sustainable Built Environments,SBE,Sustainable Built Environments - BS in Sustainable Built Environments: Sustainable Real Estate Empashis,SRED,4.9999,Fall 2020
+College of Architecture and Planning and Landscape Architecture,CAPLA,School of Architecture,,Sch of Landscape Architecture,,Sustainable Built Environments,SBE,Sustainable Built Environments - BS in Sustainable Built Environments: Sustainable Real Estate Empashis,SRED,4.9999,Spring 2021
+College of Education,EDUC,,,Disability Psychoeduc Studies,,Deaf Studies,DFST,Deaf Studies - BS in Education: Educational Interpreting Emphasis,EI,13.9999,Fall 2020
+College of Education,EDUC,,,Disability Psychoeduc Studies,,Deaf Studies,DFST,Deaf Studies - BS in Education: Educational Interpreting Emphasis,EI,13.9999,Spring 2021
+College of Education,EDUC,,,Disability Psychoeduc Studies,,Deaf Studies,DFST,Deaf Studies - BS in Education: General Emphasis,GNR,13.9999,Fall 2020
+College of Education,EDUC,,,Disability Psychoeduc Studies,,Deaf Studies,DFST,Deaf Studies - BS in Education: General Emphasis,GNR,13.9999,Spring 2021
+College of Education,EDUC,,,Teachg Learning Sociocult Stds,,Early Childhood Education,ECED,Early Childhood Education - BA in Education,ECED,13.1209,Fall 2020
+College of Education,EDUC,,,Teachg Learning Sociocult Stds,,Early Childhood Education,ECED,Early Childhood Education - BA in Education,ECED,13.1209,Spring 2021
+College of Education,EDUC,,,College of Applied Sci & Tech,,Elementary Education,ELEM,Elementary Education - BA in Education: Bilingual Emphasis,BIL,13.1202,Fall 2020
+College of Education,EDUC,,,College of Applied Sci & Tech,,Elementary Education,ELEM,Elementary Education - BA in Education: Bilingual Emphasis,BIL,13.1202,Spring 2021
+College of Education,EDUC,,,College of Applied Sci & Tech,,Elementary Education,ELEM,Elementary Education - BA in Education: English as a Second Language Emphasis,ESLE,13.1202,Fall 2020
+College of Education,EDUC,,,College of Applied Sci & Tech,,Elementary Education,ELEM,Elementary Education - BA in Education: English as a Second Language Emphasis,ESLE,13.1202,Spring 2021
+College of Education,EDUC,,,Teachg Learning Sociocult Stds,,"Literacy, Learning and Leadership",LLL,"Literacy, Learning and Leadership - Bachelor of Science: Community Education Emphasis",COMMEDUC,13.0607,Fall 2020
+College of Education,EDUC,,,Teachg Learning Sociocult Stds,,"Literacy, Learning and Leadership",LLL,"Literacy, Learning and Leadership - Bachelor of Science: Community Education Emphasis",COMMEDUC,13.0607,Spring 2021
+College of Education,EDUC,,,Teachg Learning Sociocult Stds,,"Literacy, Learning and Leadership",LLL,"Literacy, Learning and Leadership - Bachelor of Science: Leadership for Equity, Access and Success in Education",LEAS,13.0607,Fall 2020
+College of Education,EDUC,,,Teachg Learning Sociocult Stds,,"Literacy, Learning and Leadership",LLL,"Literacy, Learning and Leadership - Bachelor of Science: Leadership for Equity, Access and Success in Education",LEAS,13.0607,Spring 2021
+College of Education,EDUC,,,Disability Psychoeduc Studies,,Mild Moderate Disabilities,MMDI,Mild Moderate Disabilities - BS in Education,MMDI,13.1001,Fall 2020
+College of Education,EDUC,,,Disability Psychoeduc Studies,,Mild Moderate Disabilities,MMDI,Mild Moderate Disabilities - BS in Education,MMDI,13.1001,Spring 2021
+College of Education,EDUC,,,Disability Psychoeduc Studies,,Rehabilitation Studies Services,RHSS,Rehabilitation Studies Services - BS in Education,RHSS,51.1599,Fall 2020
+College of Education,EDUC,,,Disability Psychoeduc Studies,,Rehabilitation Studies Services,RHSS,Rehabilitation Studies Services - BS in Education,RHSS,51.1599,Spring 2021
+College of Engineering,ENGR,,,Aerospace & Mechanical Engr,,Aerospace Engineering,AEE,Aerospace Engineering - BS in Aerospace Engineering,AEE,14.0201,Fall 2020
+College of Engineering,ENGR,,,Aerospace & Mechanical Engr,,Aerospace Engineering,AEE,Aerospace Engineering - BS in Aerospace Engineering,AEE,14.0201,Spring 2021
+College of Engineering,ENGR,,,Civil Arch Engr and Mechanics,,Architectural Engineering,ARE,Architectural Engineering - BS in Architectural Engineering,ARE,14.0401,Fall 2020
+College of Engineering,ENGR,,,Civil Arch Engr and Mechanics,,Architectural Engineering,ARE,Architectural Engineering - BS in Architectural Engineering,ARE,14.0401,Spring 2021
+College of Engineering,ENGR,,,Biomedical Engineering,,Biomedical Engineering,BME,Biomedical Engineering - BS in Biomedical Engineering,BME,14.0501,Fall 2020
+College of Engineering,ENGR,,,Biomedical Engineering,,Biomedical Engineering,BME,Biomedical Engineering - BS in Biomedical Engineering,BME,14.0501,Spring 2021
+College of Engineering,ENGR,,,Engineering Administration,,Biosystems Engineering,BE,Biosystems Engineering - BS in Biosystems Engineering,BE,14.4501,Fall 2020
+College of Engineering,ENGR,,,Engineering Administration,,Biosystems Engineering,BE,Biosystems Engineering - BS in Biosystems Engineering,BE,14.4501,Spring 2021
+College of Engineering,ENGR,,,Chemical & Environmental Engr,,Chemical Engineering,CHE,Chemical Engineering - BS in Chemical Engineering,CHE,14.0701,Fall 2020
+College of Engineering,ENGR,,,Chemical & Environmental Engr,,Chemical Engineering,CHE,Chemical Engineering - BS in Chemical Engineering,CHE,14.0701,Spring 2021
+College of Engineering,ENGR,,,Civil Arch Engr and Mechanics,,Civil Engineering,CVE,Civil Engineering - BS in Civil Engineering,CVE,14.0801,Fall 2020
+College of Engineering,ENGR,,,Civil Arch Engr and Mechanics,,Civil Engineering,CVE,Civil Engineering - BS in Civil Engineering,CVE,14.0801,Spring 2021
+College of Engineering,ENGR,,,Electrical and Computer Engr,,Electrical & Computer Engineering,ECE,Electrical & Computer Engineering - BS in Electrical & Computer Engineering: Computer Engineering Track,,14.1099,Fall 2020
+College of Engineering,ENGR,,,Electrical and Computer Engr,,Electrical & Computer Engineering,ECE,Electrical & Computer Engineering - BS in Electrical & Computer Engineering: Computer Engineering Track,,14.1099,Spring 2021
+College of Engineering,ENGR,,,Electrical and Computer Engr,,Electrical & Computer Engineering,ECE,Electrical & Computer Engineering - BS in Electrical & Computer Engineering: Electrical Engineering Track,,14.1099,Fall 2020
+College of Engineering,ENGR,,,Electrical and Computer Engr,,Electrical & Computer Engineering,ECE,Electrical & Computer Engineering - BS in Electrical & Computer Engineering: Electrical Engineering Track,,14.1099,Spring 2021
+College of Engineering,ENGR,,,Systems and Industrial Engr,,Engineering Management,EMG,Engineering Management - BS in Engineering Management,EMG,15.1501,Fall 2020
+College of Engineering,ENGR,,,Systems and Industrial Engr,,Engineering Management,EMG,Engineering Management - BS in Engineering Management,EMG,15.1501,Spring 2021
+College of Engineering,ENGR,,,Chemical & Environmental Engr,,Environmental Engineering,EEN,Environmental Engineering - BS in Enivornmental Engineering,EEN,14.1401,Fall 2020
+College of Engineering,ENGR,,,Chemical & Environmental Engr,,Environmental Engineering,EEN,Environmental Engineering - BS in Enivornmental Engineering,EEN,14.1401,Spring 2021
+College of Engineering,ENGR,,,Systems and Industrial Engr,,Industrial Engineering,INE,Industrial Engineering - BS in Industrial Engr,INE,14.3501,Fall 2020
+College of Engineering,ENGR,,,Systems and Industrial Engr,,Industrial Engineering,INE,Industrial Engineering - BS in Industrial Engr,INE,14.3501,Spring 2021
+College of Engineering,ENGR,,,Materials Science & Engr,,Materials Science and Engineering,MSE,Materials Science and Engineering - BS in Materials Science and Engineering,MSE,40.1001,Fall 2020
+College of Engineering,ENGR,,,Materials Science & Engr,,Materials Science and Engineering,MSE,Materials Science and Engineering - BS in Materials Science and Engineering,MSE,40.1001,Spring 2021
+College of Engineering,ENGR,,,Aerospace & Mechanical Engr,,Mechanical Engineering,MEE,Mechanical Engineering - BS in Mechanical Engineering,MEE,14.1901,Fall 2020
+College of Engineering,ENGR,,,Aerospace & Mechanical Engr,,Mechanical Engineering,MEE,Mechanical Engineering - BS in Mechanical Engineering,MEE,14.1901,Spring 2021
+College of Engineering,ENGR,,,Mining & Geological Engr,,Mining Engineering,MNE,Mining Engineering - BS in Mining Engineering: Geomechanics Track,MNE,14.2101,Fall 2020
+College of Engineering,ENGR,,,Mining & Geological Engr,,Mining Engineering,MNE,Mining Engineering - BS in Mining Engineering: Geomechanics Track,MNE,14.2101,Spring 2021
+College of Engineering,ENGR,,,Mining & Geological Engr,,Mining Engineering,MNE,Mining Engineering - BS in Mining Engineering: Mine Operations Track,MNE,14.2101,Fall 2020
+College of Engineering,ENGR,,,Mining & Geological Engr,,Mining Engineering,MNE,Mining Engineering - BS in Mining Engineering: Mine Operations Track,MNE,14.2101,Spring 2021
+College of Engineering,ENGR,,,Mining & Geological Engr,,Mining Engineering,MNE,Mining Engineering - BS in Mining Engineering: Mineral Processing Track,MNE,14.2101,Fall 2020
+College of Engineering,ENGR,,,Mining & Geological Engr,,Mining Engineering,MNE,Mining Engineering - BS in Mining Engineering: Mineral Processing Track,MNE,14.2101,Spring 2021
+College of Engineering,ENGR,,,Mining & Geological Engr,,Mining Engineering,MNE,Mining Engineering - BS in Mining Engineering: Sustainable Resource Dev Track,MNE,14.2101,Fall 2020
+College of Engineering,ENGR,,,Mining & Geological Engr,,Mining Engineering,MNE,Mining Engineering - BS in Mining Engineering: Sustainable Resource Dev Track,MNE,14.2101,Spring 2021
+College of Engineering,ENGR,,,Systems and Industrial Engr,,Systems Engineering,SYE,Systems Engineering - BS in Systems Engineering,SYE,14.2701,Fall 2020
+College of Engineering,ENGR,,,Systems and Industrial Engr,,Systems Engineering,SYE,Systems Engineering - BS in Systems Engineering,SYE,14.2701,Spring 2021
+College of Fine Arts,FNRT,School of Art,,,,Art and Visual Culture Education,ARVC,Art and Visual Culture Education - Bachelor of Fine Arts: Community Museums,COMU,13.1302,Fall 2020
+College of Fine Arts,FNRT,School of Art,,,,Art and Visual Culture Education,ARVC,Art and Visual Culture Education - Bachelor of Fine Arts: Community Museums,COMU,13.1302,Spring 2021
+College of Fine Arts,FNRT,School of Art,,,,Art and Visual Culture Education,ARVC,Art and Visual Culture Education - Bachelor of Fine Arts: Teaching Emphasis,TEACHNG,13.1302,Fall 2020
+College of Fine Arts,FNRT,School of Art,,,,Art and Visual Culture Education,ARVC,Art and Visual Culture Education - Bachelor of Fine Arts: Teaching Emphasis,TEACHNG,13.1302,Spring 2021
+College of Fine Arts,FNRT,School of Art,,,,Art History,ARH,Art History - Bachelor of Arts,ARH,50.0703,Fall 2020
+College of Fine Arts,FNRT,School of Art,,,,Art History,ARH,Art History - Bachelor of Arts,ARH,50.0703,Spring 2021
+College of Fine Arts,FNRT,School of Dance,,,,Dance,DNC,Dance - Bachelor of Fine Arts,DNC,50.0301,Fall 2020
+College of Fine Arts,FNRT,School of Dance,,,,Dance,DNC,Dance - Bachelor of Fine Arts,DNC,50.0301,Spring 2021
+College of Fine Arts,FNRT,"School of Theatre, Film And Television",,,,Film & Television,FTV,Film & Television - Bachelor of Arts,FTV,50.0601,Fall 2020
+College of Fine Arts,FNRT,"School of Theatre, Film And Television",,,,Film & Television,FTV,Film & Television - Bachelor of Arts,FTV,50.0601,Spring 2021
+College of Fine Arts,FNRT,"School of Theatre, Film And Television",,,,Film & Television,FTV,Film & Television - Bachelor of Fine Arts,FTV,50.0601,Fall 2020
+College of Fine Arts,FNRT,"School of Theatre, Film And Television",,,,Film & Television,FTV,Film & Television - Bachelor of Fine Arts,FTV,50.0601,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Music,MUS,Music - Bachelor of Arts: Creative Studies Emphasis,CRST,50.0901,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Music,MUS,Music - Bachelor of Arts: Creative Studies Emphasis,CRST,50.0901,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Music,MUS,Music - Bachelor of Arts: Integrated Studies Emphasis,INST,50.0901,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Music,MUS,Music - Bachelor of Arts: Integrated Studies Emphasis,INST,50.0901,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Music,MUS,"Music - Bachelor of Arts: Musicology, Ethnomusicology, and Theory Emphasis",MSET,50.0901,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Music,MUS,"Music - Bachelor of Arts: Musicology, Ethnomusicology, and Theory Emphasis",MSET,50.0901,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Music Education,MUED,Music Education - Bachelor of Music,MUED,50.0901,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Music Education,MUED,Music Education - Bachelor of Music,MUED,50.0901,Spring 2021
+College of Fine Arts,FNRT,"School of Theatre, Film And Television",,,,Musical Theatre,MTHR,Musical Theatre - Bachelor of Fine Arts,MTHR,50.0509,Fall 2020
+College of Fine Arts,FNRT,"School of Theatre, Film And Television",,,,Musical Theatre,MTHR,Musical Theatre - Bachelor of Fine Arts,MTHR,50.0509,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Bass Emphasis,STRBASS,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Bass Emphasis,STRBASS,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Bassoon Emphasis,BASSOON,50.0915,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Bassoon Emphasis,BASSOON,50.0915,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Cello Emphasis,CELLO,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Cello Emphasis,CELLO,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Clarinet Emphasis,CLARINET,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Clarinet Emphasis,CLARINET,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Composition Emphasis,COMPOS,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Composition Emphasis,COMPOS,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Euphonium Emphasis,EUPHONIUM,50.0914,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Euphonium Emphasis,EUPHONIUM,50.0914,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Flute Emphasis,FLUTE,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Flute Emphasis,FLUTE,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: French Horn Emphasis,FRENCHORN,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: French Horn Emphasis,FRENCHORN,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Guitar Emphasis,GUITAR,50.0911,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Guitar Emphasis,GUITAR,50.0911,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Harp Emphasis,HARP,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Harp Emphasis,HARP,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Harpsichord Emphasis,HARPSIC,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Harpsichord Emphasis,HARPSIC,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Jazz Studies Emphasis,JAZZST,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Jazz Studies Emphasis,JAZZST,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Oboe Emphasis,OBOE,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Oboe Emphasis,OBOE,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Organ Emphasis,ORGAN,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Organ Emphasis,ORGAN,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Percussion Emphasis,PERCUSS,50.0916,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Percussion Emphasis,PERCUSS,50.0916,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Piano Emphasis,PIANO,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Piano Emphasis,PIANO,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Trombone Emphasis,TROMBONE,50.0914,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Trombone Emphasis,TROMBONE,50.0914,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Trumpet Emphasis,TRUMPET,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Trumpet Emphasis,TRUMPET,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Tuba Emphasis,TUBA,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Tuba Emphasis,TUBA,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Viola Emphasis,VIOLA,50.0911,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Viola Emphasis,VIOLA,50.0911,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Violin Emphasis,VIOLIN,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Violin Emphasis,VIOLIN,50.0903,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Voice Emphasis,VOICE,50.0908,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Bachelor of Music: Voice Emphasis,VOICE,50.0908,Spring 2021
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Saxophone Emphasis,SAXOPHONE,50.0903,Fall 2020
+College of Fine Arts,FNRT,Fred Fox School of Music,,,,Performance,PERF,Performance - Saxophone Emphasis,SAXOPHONE,50.0903,Spring 2021
+College of Fine Arts,FNRT,School of Art,,,,Studio Art,STDO,Studio Art - Bachelor of Fine Arts: 2-Dimensional Emphasis,2D,50.0702,Fall 2020
+College of Fine Arts,FNRT,School of Art,,,,Studio Art,STDO,Studio Art - Bachelor of Fine Arts: 2-Dimensional Emphasis,2D,50.0702,Spring 2021
+College of Fine Arts,FNRT,School of Art,,,,Studio Art,STDO,Studio Art - Bachelor of Fine Arts: 3D and Extended Media Emphasis,3DXM,50.0702,Fall 2020
+College of Fine Arts,FNRT,School of Art,,,,Studio Art,STDO,Studio Art - Bachelor of Fine Arts: 3D and Extended Media Emphasis,3DXM,50.0702,Spring 2021
+College of Fine Arts,FNRT,School of Art,,,,Studio Art,STDO,Studio Art - Bachelor of Fine Arts: Illustration and Design,ID,50.0702,Fall 2020
+College of Fine Arts,FNRT,School of Art,,,,Studio Art,STDO,Studio Art - Bachelor of Fine Arts: Illustration and Design,ID,50.0702,Spring 2021
+College of Fine Arts,FNRT,School of Art,,,,Studio Art,STDO,"Studio Art - Bachelor of Fine Arts: Photography, Video, and Imaging Emphasis",PVI,50.0702,Fall 2020
+College of Fine Arts,FNRT,School of Art,,,,Studio Art,STDO,"Studio Art - Bachelor of Fine Arts: Photography, Video, and Imaging Emphasis",PVI,50.0702,Spring 2021
+College of Fine Arts,FNRT,School of Art,,,,Studio of Art,STDO,Studio of Art - Bachelor of Arts,STDO,50.0702,Fall 2020
+College of Fine Arts,FNRT,School of Art,,,,Studio of Art,STDO,Studio of Art - Bachelor of Arts,STDO,50.0702,Spring 2021
+College of Fine Arts,FNRT,"School of Theatre, Film And Television",,,,Theatre Arts,THAR,Theatre Arts - Bachelor of Arts,THAR,50.0501,Fall 2020
+College of Fine Arts,FNRT,"School of Theatre, Film And Television",,,,Theatre Arts,THAR,Theatre Arts - Bachelor of Arts,THAR,50.0501,Spring 2021
+College of Fine Arts,FNRT,"School of Theatre, Film And Television",,,,Theatre Arts,THPR,Theatre Arts - Bachelor of Fine Arts: Design & Technology Emphasis,DST,50.0501,Fall 2020
+College of Fine Arts,FNRT,"School of Theatre, Film And Television",,,,Theatre Arts,THPR,Theatre Arts - Bachelor of Fine Arts: Design & Technology Emphasis,DST,50.0501,Spring 2021
+College of Fine Arts,FNRT,"School of Theatre, Film And Television",,,,Theatre Arts,THPR,Theatre Arts - Bachelor of Fine Arts: Professional Actor Training Emphasis,PAT,50.0501,Fall 2020
+College of Fine Arts,FNRT,"School of Theatre, Film And Television",,,,Theatre Arts,THPR,Theatre Arts - Bachelor of Fine Arts: Professional Actor Training Emphasis,PAT,50.0501,Spring 2021
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",,,,Africana Studies,AFS,Africana Studies - Bachelor of Arts,AFS,5.0201,Fall 2020
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",,,,Africana Studies,AFS,Africana Studies - Bachelor of Arts,AFS,5.0201,Spring 2021
+College of Humanities,HMNT,,,Public & Applied Humanities,,Applied Humanities,APHM,Applied Humanities - Bachelor of Arts: Business Administration Emphasis,BA,24.0103,Fall 2020
+College of Humanities,HMNT,,,Public & Applied Humanities,,Applied Humanities,APHM,Applied Humanities - Bachelor of Arts: Business Administration Emphasis,BA,24.0103,Spring 2021
+College of Humanities,HMNT,,,Public & Applied Humanities,,Applied Humanities,APHM,Applied Humanities - Bachelor of Arts: Fashion Studies Emphasis,FST,24.0103,Fall 2020
+College of Humanities,HMNT,,,Public & Applied Humanities,,Applied Humanities,APHM,Applied Humanities - Bachelor of Arts: Fashion Studies Emphasis,FST,24.0103,Spring 2021
+College of Humanities,HMNT,,,Public & Applied Humanities,,Applied Humanities,APHM,Applied Humanities - Bachelor of Arts: Game Studies Emphasis,GS,24.0103,Fall 2020
+College of Humanities,HMNT,,,Public & Applied Humanities,,Applied Humanities,APHM,Applied Humanities - Bachelor of Arts: Game Studies Emphasis,GS,24.0103,Spring 2021
+College of Humanities,HMNT,,,Public & Applied Humanities,,Applied Humanities,APHM,Applied Humanities - Bachelor of Arts: Public Health Emphasis,PH,24.0103,Fall 2020
+College of Humanities,HMNT,,,Public & Applied Humanities,,Applied Humanities,APHM,Applied Humanities - Bachelor of Arts: Public Health Emphasis,PH,24.0103,Spring 2021
+College of Humanities,HMNT,,,Public & Applied Humanities,,Applied Humanities,APHM,Applied Humanities - Bachelor of Arts: Rural Leadership and Renewal Emphasis,RLR,24.0103,Fall 2020
+College of Humanities,HMNT,,,Public & Applied Humanities,,Applied Humanities,APHM,Applied Humanities - Bachelor of Arts: Rural Leadership and Renewal Emphasis,RLR,24.0103,Spring 2021
+College of Humanities,HMNT,,,Public & Applied Humanities,,Applied Humanities,APHM,Applied Humanities - Bachelor of Arts: Spatial Organization and Design Thinking Emphasis,SODT,24.0103,Fall 2020
+College of Humanities,HMNT,,,Public & Applied Humanities,,Applied Humanities,APHM,Applied Humanities - Bachelor of Arts: Spatial Organization and Design Thinking Emphasis,SODT,24.0103,Spring 2021
+College of Humanities,HMNT,,,Religious Studies and Classics,,Classics,CLAS,Classics - Bachelor of Arts: Classical Civilizations Emphasis,CLNG,16.12,Fall 2020
+College of Humanities,HMNT,,,Religious Studies and Classics,,Classics,CLAS,Classics - Bachelor of Arts: Classical Civilizations Emphasis,CLNG,16.12,Spring 2021
+College of Humanities,HMNT,,,Religious Studies and Classics,,Classics,CLAS,Classics - Bachelor of Arts: Greek Emphasis,CCV,16.12,Fall 2020
+College of Humanities,HMNT,,,Religious Studies and Classics,,Classics,CLAS,Classics - Bachelor of Arts: Greek Emphasis,CCV,16.12,Spring 2021
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,East Asian Studies,,East Asian Studies,EAS,East Asian Studies - Bachelor of Arts: Chinese Language Intensive Emphasis,CLGI,5.0104,Fall 2020
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,East Asian Studies,,East Asian Studies,EAS,East Asian Studies - Bachelor of Arts: Chinese Language Intensive Emphasis,CLGI,5.0104,Spring 2021
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,East Asian Studies,,East Asian Studies,EAS,East Asian Studies - Bachelor of Arts: East Asian Cultural Studies Emphasis,EACS,5.0104,Fall 2020
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,East Asian Studies,,East Asian Studies,EAS,East Asian Studies - Bachelor of Arts: East Asian Cultural Studies Emphasis,EACS,5.0104,Spring 2021
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,East Asian Studies,,East Asian Studies,EAS,East Asian Studies - Bachelor of Arts: Japanese Cultural Intensive,JCLI,5.0104,Fall 2020
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,East Asian Studies,,East Asian Studies,EAS,East Asian Studies - Bachelor of Arts: Japanese Cultural Intensive,JCLI,5.0104,Spring 2021
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,East Asian Studies,,East Asian Studies,EAS,East Asian Studies - Bachelor of Arts: Japanese Language Intensive,JLGI,5.0104,Fall 2020
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,East Asian Studies,,East Asian Studies,EAS,East Asian Studies - Bachelor of Arts: Japanese Language Intensive,JLGI,5.0104,Spring 2021
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,French and Italian,,French,FREN,French - Bachelor of Arts: French and Francophone Studies Track,FRANC,16.0901,Fall 2020
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,French and Italian,,French,FREN,French - Bachelor of Arts: French and Francophone Studies Track,FRANC,16.0901,Spring 2021
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,French and Italian,,French,FREN,"French - Bachelor of Arts: Language, Literatures, and Cultures Track",LANGLITC,16.0901,Fall 2020
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,French and Italian,,French,FREN,"French - Bachelor of Arts: Language, Literatures, and Cultures Track",LANGLITC,16.0901,Spring 2021
+College of Humanities,HMNT,,,,,General Studies,GNST,"General Studies - Bachelor of General Studies (BGS): Arts, Media and Entertainment Emphasis",ARMDET,30,Fall 2020
+College of Humanities,HMNT,,,,,General Studies,GNST,"General Studies - Bachelor of General Studies (BGS): Arts, Media and Entertainment Emphasis",ARMDET,30,Spring 2021
+College of Humanities,HMNT,,,,,General Studies,GNST,General Studies - Bachelor of General Studies (BGS): Economy and Industry Emphasis,ECONIND,30,Fall 2020
+College of Humanities,HMNT,,,,,General Studies,GNST,General Studies - Bachelor of General Studies (BGS): Economy and Industry Emphasis,ECONIND,30,Spring 2021
+College of Humanities,HMNT,,,,,General Studies,GNST,General Studies - Bachelor of General Studies (BGS): Global and Intercultural Understanding Emphasis,GLIC,30,Fall 2020
+College of Humanities,HMNT,,,,,General Studies,GNST,General Studies - Bachelor of General Studies (BGS): Global and Intercultural Understanding Emphasis,GLIC,30,Spring 2021
+College of Humanities,HMNT,,,,,General Studies,GNST,"General Studies - Bachelor of General Studies (BGS): Science, Technology, Health and Society Emphasis",STHSO,30,Fall 2020
+College of Humanities,HMNT,,,,,General Studies,GNST,"General Studies - Bachelor of General Studies (BGS): Science, Technology, Health and Society Emphasis",STHSO,30,Spring 2021
+College of Humanities,HMNT,,,,,General Studies,GNST,"General Studies - Bachelor of General Studies (BGS): Social, Behavioral and Human Understanding Emphasis",SBHHU,30,Fall 2020
+College of Humanities,HMNT,,,,,General Studies,GNST,"General Studies - Bachelor of General Studies (BGS): Social, Behavioral and Human Understanding Emphasis",SBHHU,30,Spring 2021
+College of Humanities,HMNT,,,,,General Studies,GNST,General Studies - Bachelor of General Studies (BGS): Sports and Society Emphasis,SPSO,30,Fall 2020
+College of Humanities,HMNT,,,,,General Studies,GNST,General Studies - Bachelor of General Studies (BGS): Sports and Society Emphasis,SPSO,30,Spring 2021
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,German Studies,,German Studies,GERS,German Studies - Bachelor of Arts,GERS,16.0501,Fall 2020
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,German Studies,,German Studies,GERS,German Studies - Bachelor of Arts,GERS,16.0501,Spring 2021
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,French and Italian,,Italian,ITAL,Italian - Bachelor of Arts: Italian Studies Emphasis,ITALST,16.0902,Fall 2020
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,French and Italian,,Italian,ITAL,Italian - Bachelor of Arts: Italian Studies Emphasis,ITALST,16.0902,Spring 2021
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,French and Italian,,Italian,ITAL,Italian - Bachelor of Arts: Language & Literature Emphasis,ITALLAL,16.0902,Fall 2020
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,French and Italian,,Italian,ITAL,Italian - Bachelor of Arts: Language & Literature Emphasis,ITALLAL,16.0902,Spring 2021
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,"Religious Studies, Cmt",,Religious Studies,RELI,Religious Studies - Bachelor of Arts,RELI,38.0201,Fall 2020
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,"Religious Studies, Cmt",,Religious Studies,RELI,Religious Studies - Bachelor of Arts,RELI,38.0201,Spring 2021
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,Russian and Slavic Studies,,Russian,RUSS,Russian - Bachelor of Arts: Culture-Intensive Emphasis,CULTINT,16.0402,Fall 2020
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,Russian and Slavic Studies,,Russian,RUSS,Russian - Bachelor of Arts: Culture-Intensive Emphasis,CULTINT,16.0402,Spring 2021
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,Russian and Slavic Studies,,Russian,RUSS,Russian - Bachelor of Arts: Language-Intensive Emphasis,LANGINT,16.0402,Fall 2020
+College of Humanities,HMNT,"School of International Languages, Literatures And Cultures",SILLC,Russian and Slavic Studies,,Russian,RUSS,Russian - Bachelor of Arts: Language-Intensive Emphasis,LANGINT,16.0402,Spring 2021
+College of Humanities,HMNT,,,Spanish and Portuguese,,Spanish,SPAN,Spanish - Bachelor of Arts: Hispanic Linguistics Emphasis,HISLIN,16.0905,Fall 2020
+College of Humanities,HMNT,,,Spanish and Portuguese,,Spanish,SPAN,Spanish - Bachelor of Arts: Hispanic Linguistics Emphasis,HISLIN,16.0905,Spring 2021
+College of Humanities,HMNT,,,Spanish and Portuguese,,Spanish,SPAN,Spanish - Bachelor of Arts: Hispanic Literature Emphasis,HISLIT,16.0905,Fall 2020
+College of Humanities,HMNT,,,Spanish and Portuguese,,Spanish,SPAN,Spanish - Bachelor of Arts: Hispanic Literature Emphasis,HISLIT,16.0905,Spring 2021
+College of Humanities,HMNT,,,Spanish and Portuguese,,Spanish,SPAN,Spanish - Bachelor of Arts: Spanish & Portuguese Emphasis,SPANPORT,16.0905,Fall 2020
+College of Humanities,HMNT,,,Spanish and Portuguese,,Spanish,SPAN,Spanish - Bachelor of Arts: Spanish & Portuguese Emphasis,SPANPORT,16.0905,Spring 2021
+College of Humanities,HMNT,,,Spanish and Portuguese,,Spanish,SPAN,Spanish - Bachelor of Arts: Translation & Interpretation Emphasis,TRINT,16.0905,Fall 2020
+College of Humanities,HMNT,,,Spanish and Portuguese,,Spanish,SPAN,Spanish - Bachelor of Arts: Translation & Interpretation Emphasis,TRINT,16.0905,Spring 2021
+College of Humanities,HMNT,,,Public & Applied Humanities,,World Literature,WLIT,World Literature - Bachelor of Art,WLIT,16.0104,Fall 2020
+College of Humanities,HMNT,,,Public & Applied Humanities,,World Literature,WLIT,World Literature - Bachelor of Art,WLIT,16.0104,Spring 2021
+College of Medicine,MD,,,Dept of Emergency Medicine,,Emergency Medical Services,EMS,Emergency Medical Services - Bachelor of Science,EMS,51.0904,Fall 2020
+College of Medicine,MD,,,Dept of Emergency Medicine,,Emergency Medical Services,EMS,Emergency Medical Services - Bachelor of Science,EMS,51.0904,Spring 2021
+College of Medicine,MD,,,Physiology-Undergraduate Prog,,Physiology and Medical Sciences,PSIOM,Physiology and Medical Sciences,PSIOM,26.0901,Fall 2020
+College of Medicine,MD,,,Physiology-Undergraduate Prog,,Physiology and Medical Sciences,PSIOM,Physiology and Medical Sciences,PSIOM,26.0901,Spring 2021
+College of Nursing,NURS,,,,,Nursing,NURS,Nursing - BS in Nursing: Conventional Emphasis,CONV,51.3801,Fall 2020
+College of Nursing,NURS,,,,,Nursing,NURS,Nursing - BS in Nursing: Conventional Emphasis,CONV,51.3801,Spring 2021
+College of Nursing,NURS,,,,,Nursing,NURS,Nursing - BS in Nursing: Integrative Health Emphasis,IH,51.3801,Fall 2020
+College of Nursing,NURS,,,,,Nursing,NURS,Nursing - BS in Nursing: Integrative Health Emphasis,IH,51.3801,Spring 2021
+College of Pharmacy,PHRM,,,Pharmacology and Toxicology,,Pharmaceutical Sciences,PHSC,Pharmaceutical Sciences - Bachelors of Science,PHSC,51.201,Fall 2020
+College of Pharmacy,PHRM,,,Pharmacology and Toxicology,,Pharmaceutical Sciences,PHSC,Pharmaceutical Sciences - Bachelors of Science,PHSC,51.201,Spring 2021
+College of Public Health,PBLH,,,Public Health Administration,,Public Health,PHL,Public Health - Bachelor of Science: Environmental and Occupational Health Emphasis,ENVOCCHLT,51.2201,Fall 2020
+College of Public Health,PBLH,,,Public Health Administration,,Public Health,PHL,Public Health - Bachelor of Science: Environmental and Occupational Health Emphasis,ENVOCCHLT,51.2201,Spring 2021
+College of Public Health,PBLH,,,Public Health Administration,,Public Health,PHL,Public Health - Bachelor of Science: Global Health Emphasis,GLHLT,51.2201,Fall 2020
+College of Public Health,PBLH,,,Public Health Administration,,Public Health,PHL,Public Health - Bachelor of Science: Global Health Emphasis,GLHLT,51.2201,Spring 2021
+College of Public Health,PBLH,,,Public Health Administration,,Public Health,PHL,Public Health - Bachelor of Science: Health Promotion Emphasis,HLPROMO,51.2201,Fall 2020
+College of Public Health,PBLH,,,Public Health Administration,,Public Health,PHL,Public Health - Bachelor of Science: Health Promotion Emphasis,HLPROMO,51.2201,Spring 2021
+College of Public Health,PBLH,,,Public Health Administration,,Public Health,PHL,Public Health - Bachelor of Science: Health Systems Theory and Practice Emphasis,HSTP,51.2201,Fall 2020
+College of Public Health,PBLH,,,Public Health Administration,,Public Health,PHL,Public Health - Bachelor of Science: Health Systems Theory and Practice Emphasis,HSTP,51.2201,Spring 2021
+College of Public Health,PBLH,,,Public Health Administration,,Public Health,PHL,Public Health - Bachelor of Science: Public Health Practice Emphasis,PHLPR,51.2201,Fall 2020
+College of Public Health,PBLH,,,Public Health Administration,,Public Health,PHL,Public Health - Bachelor of Science: Public Health Practice Emphasis,PHLPR,51.2201,Spring 2021
+College of Public Health,PBLH,,,Public Health Administration,,Public Health,PHL,Public Health - Bachelor of Science: Quantitative Methods in Public Health Emphasis,QNTMPH,51.2201,Fall 2020
+College of Public Health,PBLH,,,Public Health Administration,,Public Health,PHL,Public Health - Bachelor of Science: Quantitative Methods in Public Health Emphasis,QNTMPH,51.2201,Spring 2021
+College of Science,SCNC,,,Physics,,Applied Physics,APHYS,Applied Physics - Bachelor of Science,USCNC,14.1201,Fall 2020
+College of Science,SCNC,,,Physics,,Applied Physics,APHYS,Applied Physics - Bachelor of Science,USCNC,14.1201,Spring 2021
+College of Science,SCNC,,,Astronomy,,Astronomy,ASTR,Astronomy - Bachelor of Science,ASTR,40.0201,Fall 2020
+College of Science,SCNC,,,Astronomy,,Astronomy,ASTR,Astronomy - Bachelor of Science,ASTR,40.0201,Spring 2021
+College of Science,SCNC,,,Chemistry & Biochemistry - Sci,,Biochemistry,BIOC,Biochemistry - Bachelor of Arts,BIOC,26.0202,Fall 2020
+College of Science,SCNC,,,Chemistry & Biochemistry - Sci,,Biochemistry,BIOC,Biochemistry - Bachelor of Arts,BIOC,26.0202,Spring 2021
+College of Science,SCNC,,,Chemistry & Biochemistry - Sci,,Biochemistry,BIOC,Biochemistry - Bachelor of Science,BIOC,26.0202,Fall 2020
+College of Science,SCNC,,,Chemistry & Biochemistry - Sci,,Biochemistry,BIOC,Biochemistry - Bachelor of Science,BIOC,26.0202,Spring 2021
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Bioinformatics,BIOIN,Bioinformatics - Bachelor of Science: Computer Science Emphasis,CSCI,26.1103,Fall 2020
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Bioinformatics,BIOIN,Bioinformatics - Bachelor of Science: Computer Science Emphasis,CSCI,26.1103,Spring 2021
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Bioinformatics,BIOIN,Bioinformatics - Bachelor of Science: Ecology & Evolutionary Biology Emphasis,EEBIO,26.1103,Fall 2020
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Bioinformatics,BIOIN,Bioinformatics - Bachelor of Science: Ecology & Evolutionary Biology Emphasis,EEBIO,26.1103,Spring 2021
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Bioinformatics,BIOIN,Bioinformatics - Bachelor of Science: Molecular and Cellular Biology Emphasis,MCBIO,26.1103,Fall 2020
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Bioinformatics,BIOIN,Bioinformatics - Bachelor of Science: Molecular and Cellular Biology Emphasis,MCBIO,26.1103,Spring 2021
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Bioinformatics,BIOIN,Bioinformatics - Bachelor of Science: Systems Biology Emphasis,SYSBIO,26.1103,Fall 2020
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Bioinformatics,BIOIN,Bioinformatics - Bachelor of Science: Systems Biology Emphasis,SYSBIO,26.1103,Spring 2021
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Biology ,BIOL,Biology - Bachelor of Science: Biomedical Sciences Emphasis,BS,26.0101,Fall 2020
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Biology ,BIOL,Biology - Bachelor of Science: Biomedical Sciences Emphasis,BS,26.0101,Spring 2021
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Biology ,BIOL,Biology - Bachelor of Science: Organismal Biology Emphasis,OB,26.0101,Fall 2020
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Biology ,BIOL,Biology - Bachelor of Science: Organismal Biology Emphasis,OB,26.0101,Spring 2021
+College of Science,SCNC,,,Chemistry,,Chemistry,CHEM,Chemistry - Bachelor of Arts,CHEM,40.0501,Fall 2020
+College of Science,SCNC,,,Chemistry,,Chemistry,CHEM,Chemistry - Bachelor of Arts,CHEM,40.0501,Spring 2021
+College of Science,SCNC,,,Chemistry,,Chemistry,CHEM,Chemistry - Bachelor of Science,CHEM,40.0501,Fall 2020
+College of Science,SCNC,,,Chemistry,,Chemistry,CHEM,Chemistry - Bachelor of Science,CHEM,40.0501,Spring 2021
+College of Science,SCNC,,,Computer Science,,Computer Science,COSC,Computer Science - Bachelor of Arts,COSC,11.0701,Fall 2020
+College of Science,SCNC,,,Computer Science,,Computer Science,COSC,Computer Science - Bachelor of Arts,COSC,11.0701,Spring 2021
+College of Science,SCNC,,,Computer Science,,Computer Science,COSC,Computer Science - Bachelor of Science,COSC,11.0701,Fall 2020
+College of Science,SCNC,,,Computer Science,,Computer Science,COSC,Computer Science - Bachelor of Science,COSC,11.0701,Spring 2021
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Ecology & Evolutionary Biology,ECOL,Ecology & Evolutionary Biology - Bachelor of Arts,ECOL,26.131,Fall 2020
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Ecology & Evolutionary Biology,ECOL,Ecology & Evolutionary Biology - Bachelor of Arts,ECOL,26.131,Spring 2021
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Ecology & Evolutionary Biology,ECOL,Ecology & Evolutionary Biology - Bachelor of Science,ECOL,26.131,Fall 2020
+College of Science,SCNC,,,Ecology & Evolutionary Biology,,Ecology & Evolutionary Biology,ECOL,Ecology & Evolutionary Biology - Bachelor of Science,ECOL,26.131,Spring 2021
+College of Science,SCNC,School of Earth And Environmental Sciences,,Geosciences,,Geosciences,GEOS,"Geosciences - Bachelor of Science: Earth, Ocean, and Climate Emphasis",EOC,40.0601,Fall 2020
+College of Science,SCNC,School of Earth And Environmental Sciences,,Geosciences,,Geosciences,GEOS,"Geosciences - Bachelor of Science: Earth, Ocean, and Climate Emphasis",EOC,40.0601,Spring 2021
+College of Science,SCNC,School of Earth And Environmental Sciences,,Geosciences,,Geosciences,GEOS,Geosciences - Bachelor of Science: Geology Emphasis,GEO,40.0601,Fall 2020
+College of Science,SCNC,School of Earth And Environmental Sciences,,Geosciences,,Geosciences,GEOS,Geosciences - Bachelor of Science: Geology Emphasis,GEO,40.0601,Spring 2021
+College of Science,SCNC,School of Earth And Environmental Sciences,,Geosciences,,Geosciences,GEOS,Geosciences - Bachelor of Science: Geophysics Emphasis,GEOPHYS,40.0601,Fall 2020
+College of Science,SCNC,School of Earth And Environmental Sciences,,Geosciences,,Geosciences,GEOS,Geosciences - Bachelor of Science: Geophysics Emphasis,GEOPHYS,40.0601,Spring 2021
+College of Science,SCNC,School of Earth And Environmental Sciences,,Hydrology & Atmospheric Sci,,Hydrology and Atmospheric Sciences,HAS,Hydrology and Atmospheric Sciences - Bachelor of Science: Atmospheric Sciences Emphasis,ATMO,40.0605,Fall 2020
+College of Science,SCNC,School of Earth And Environmental Sciences,,Hydrology & Atmospheric Sci,,Hydrology and Atmospheric Sciences,HAS,Hydrology and Atmospheric Sciences - Bachelor of Science: Atmospheric Sciences Emphasis,ATMO,40.0605,Spring 2021
+College of Science,SCNC,School of Earth And Environmental Sciences,,Hydrology & Atmospheric Sci,,Hydrology and Atmospheric Sciences,HAS,Hydrology and Atmospheric Sciences - Bachelor of Science: Environmental Hydrology and Water Resources Emphasis,EHY,40.0605,Fall 2020
+College of Science,SCNC,School of Earth And Environmental Sciences,,Hydrology & Atmospheric Sci,,Hydrology and Atmospheric Sciences,HAS,Hydrology and Atmospheric Sciences - Bachelor of Science: Environmental Hydrology and Water Resources Emphasis,EHY,40.0605,Spring 2021
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Arts: Applied Emphasis,APPD,27.0101,Fall 2020
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Arts: Applied Emphasis,APPD,27.0101,Spring 2021
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Arts: Comprehensive Emphasis,COMPREH,27.0101,Fall 2020
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Arts: Comprehensive Emphasis,COMPREH,27.0101,Spring 2021
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Arts: Computer Science Emphasis,COMSCI,27.0101,Fall 2020
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Arts: Computer Science Emphasis,COMSCI,27.0101,Spring 2021
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Arts: Economics / Business Emphasis,ECBUS,27.0101,Fall 2020
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Arts: Economics / Business Emphasis,ECBUS,27.0101,Spring 2021
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Arts: Life Sciences Emphasis,LIFESC,27.0101,Fall 2020
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Arts: Life Sciences Emphasis,LIFESC,27.0101,Spring 2021
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Arts: Mathematics Education Emphasis,MATHTEACH,27.0101,Fall 2020
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Arts: Mathematics Education Emphasis,MATHTEACH,27.0101,Spring 2021
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Arts: Probability / Statistics Emphasis,PROBSTAT,27.0101,Fall 2020
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Arts: Probability / Statistics Emphasis,PROBSTAT,27.0101,Spring 2021
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Science: Applied Emphasis,APPL,27.0101,Fall 2020
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Science: Applied Emphasis,APPL,27.0101,Spring 2021
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Science: Comprehensive Emphasis,COMP,27.0101,Fall 2020
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Science: Comprehensive Emphasis,COMP,27.0101,Spring 2021
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Science: Computer Science Emphasis,COMPSCI,27.0101,Fall 2020
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Science: Computer Science Emphasis,COMPSCI,27.0101,Spring 2021
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Science: Economics / Business Emphasis,ECONBUS,27.0101,Fall 2020
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Science: Economics / Business Emphasis,ECONBUS,27.0101,Spring 2021
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Science: Life Sciences Emphasis,LIFESCI,27.0101,Fall 2020
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Science: Life Sciences Emphasis,LIFESCI,27.0101,Spring 2021
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Science: Mathematics Education Emphasis,MTEACH,27.0101,Fall 2020
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Science: Mathematics Education Emphasis,MTEACH,27.0101,Spring 2021
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Science: Probability / Statistics Emphasis,PROSTAT,27.0101,Fall 2020
+College of Science,SCNC,,,Mathematics,,Mathematics,MATH,Mathematics - Bachelor of Science: Probability / Statistics Emphasis,PROSTAT,27.0101,Spring 2021
+College of Science,SCNC,,,Molecular and Cellular Biology,,Molecular & Cellular Biology,MCB,Molecular & Cellular Biology - Bachelor of Science: Education and Communication Emphasis,EDC,26.0406,Fall 2020
+College of Science,SCNC,,,Molecular and Cellular Biology,,Molecular & Cellular Biology,MCB,Molecular & Cellular Biology - Bachelor of Science: Education and Communication Emphasis,EDC,26.0406,Spring 2021
+College of Science,SCNC,,,Molecular and Cellular Biology,,Molecular & Cellular Biology,MCB,Molecular & Cellular Biology - Bachelor of Science: Genetics and Human Health Emphasis,GHH,26.0406,Fall 2020
+College of Science,SCNC,,,Molecular and Cellular Biology,,Molecular & Cellular Biology,MCB,Molecular & Cellular Biology - Bachelor of Science: Genetics and Human Health Emphasis,GHH,26.0406,Spring 2021
+College of Science,SCNC,,,Molecular and Cellular Biology,,Molecular & Cellular Biology,MCB,Molecular & Cellular Biology - Bachelor of Science: Molecular and Cellular Biology Emphasis,MCBIOL,26.0406,Fall 2020
+College of Science,SCNC,,,Molecular and Cellular Biology,,Molecular & Cellular Biology,MCB,Molecular & Cellular Biology - Bachelor of Science: Molecular and Cellular Biology Emphasis,MCBIOL,26.0406,Spring 2021
+College of Science,SCNC,,,Molecular and Cellular Biology,,Molecular & Cellular Biology,MCB,Molecular & Cellular Biology - Bachelor of Science: Systems and Big Data Biology Emaphsis,SDB,26.0406,Fall 2020
+College of Science,SCNC,,,Molecular and Cellular Biology,,Molecular & Cellular Biology,MCB,Molecular & Cellular Biology - Bachelor of Science: Systems and Big Data Biology Emaphsis,SDB,26.0406,Spring 2021
+College of Science,SCNC,Sch of Mind Brain & Behavior,,,,Neuroscience and Cognitive Science,NCS,Neuroscience and Cognitive Science - Bachelor of Science: Cognition Emphasis,COGN,26.1501,Fall 2020
+College of Science,SCNC,Sch of Mind Brain & Behavior,,,,Neuroscience and Cognitive Science,NCS,Neuroscience and Cognitive Science - Bachelor of Science: Cognition Emphasis,COGN,26.1501,Spring 2021
+College of Science,SCNC,Sch of Mind Brain & Behavior,,,,Neuroscience and Cognitive Science,NCS,Neuroscience and Cognitive Science - Bachelor of Science: Computation Emphasis,CPT,26.1501,Fall 2020
+College of Science,SCNC,Sch of Mind Brain & Behavior,,,,Neuroscience and Cognitive Science,NCS,Neuroscience and Cognitive Science - Bachelor of Science: Computation Emphasis,CPT,26.1501,Spring 2021
+College of Science,SCNC,Sch of Mind Brain & Behavior,,,,Neuroscience and Cognitive Science,NCS,Neuroscience and Cognitive Science - Bachelor of Science: Development and Aging Emphasis,DEVAG,26.1501,Fall 2020
+College of Science,SCNC,Sch of Mind Brain & Behavior,,,,Neuroscience and Cognitive Science,NCS,Neuroscience and Cognitive Science - Bachelor of Science: Development and Aging Emphasis,DEVAG,26.1501,Spring 2021
+College of Science,SCNC,Sch of Mind Brain & Behavior,,,,Neuroscience and Cognitive Science,NCS,Neuroscience and Cognitive Science - Bachelor of Science: Neurobiology Emphasis,NBI,26.1501,Fall 2020
+College of Science,SCNC,Sch of Mind Brain & Behavior,,,,Neuroscience and Cognitive Science,NCS,Neuroscience and Cognitive Science - Bachelor of Science: Neurobiology Emphasis,NBI,26.1501,Spring 2021
+College of Science,SCNC,Sch of Mind Brain & Behavior,,,,Neuroscience and Cognitive Science,NCS,Neuroscience and Cognitive Science - Bachelor of Science: Philosophy of Mind Emphasis,PHILMIND,26.1501,Fall 2020
+College of Science,SCNC,Sch of Mind Brain & Behavior,,,,Neuroscience and Cognitive Science,NCS,Neuroscience and Cognitive Science - Bachelor of Science: Philosophy of Mind Emphasis,PHILMIND,26.1501,Spring 2021
+College of Science,SCNC,Sch of Mind Brain & Behavior,,,,Neuroscience and Cognitive Science,NCS,Neuroscience and Cognitive Science - Bachelor of Science: Science Language & Communication Science Emphasis,LCS,26.1501,Fall 2020
+College of Science,SCNC,Sch of Mind Brain & Behavior,,,,Neuroscience and Cognitive Science,NCS,Neuroscience and Cognitive Science - Bachelor of Science: Science Language & Communication Science Emphasis,LCS,26.1501,Spring 2021
+College of Science,SCNC,Sch of Mind Brain & Behavior,,,,Neuroscience and Cognitive Science,NCS,Neuroscience and Cognitive Science - Bachelor of Science: Thematic Emphasis,THM,26.1501,Fall 2020
+College of Science,SCNC,Sch of Mind Brain & Behavior,,,,Neuroscience and Cognitive Science,NCS,Neuroscience and Cognitive Science - Bachelor of Science: Thematic Emphasis,THM,26.1501,Spring 2021
+College of Science,SCNC,,,Physics,,Physics,PHYS,Physics - Bachelor of Arts,PHYS,40.0801,Fall 2020
+College of Science,SCNC,,,Physics,,Physics,PHYS,Physics - Bachelor of Arts,PHYS,40.0801,Spring 2021
+College of Science,SCNC,,,Physics,,Physics,PHYS,Physics - Bachelor of Science,PHYS,40.0801,Fall 2020
+College of Science,SCNC,,,Physics,,Physics,PHYS,Physics - Bachelor of Science,PHYS,40.0801,Spring 2021
+College of Science,SCNC,,,Psychology,,Psychological Sciences,PSYS,Psychological Sciences - Bachelor of Science,PSYS,42.2704,Fall 2020
+College of Science,SCNC,,,Psychology,,Psychological Sciences,PSYS,Psychological Sciences - Bachelor of Science,PSYS,42.2704,Spring 2021
+College of Science,SCNC,,,Psychology,,Psychology,PSYC,Psychology - Bachelor of Arts,PSYC,42.0101,Fall 2020
+College of Science,SCNC,,,Psychology,,Psychology,PSYC,Psychology - Bachelor of Arts,PSYC,42.0101,Spring 2021
+College of Science,SCNC,,,Speech Language & Hearing Sci,,"Speech, Language & Hearing Science",SLHS,"Speech, Language & Hearing Science - Bachelor of Science",SLHS,51.0201,Fall 2020
+College of Science,SCNC,,,Speech Language & Hearing Sci,,"Speech, Language & Hearing Science",SLHS,"Speech, Language & Hearing Science - Bachelor of Science",SLHS,51.0201,Spring 2021
+College of Science,SCNC,Mathematics and Computational Sciences,,,,Statistics and Data Science,STATDS,Statistics and Data Science - Bachelor of Arts,STATDS,27.0503,Fall 2020
+College of Science,SCNC,Mathematics and Computational Sciences,,,,Statistics and Data Science,STATDS,Statistics and Data Science - Bachelor of Arts,STATDS,27.0503,Spring 2021
+College of Science,SCNC,Mathematics and Computational Sciences,,,,Statistics and Data Science,STATDS,Statistics and Data Science - Bachelor of Science,STATDS,27.0503,Fall 2020
+College of Science,SCNC,Mathematics and Computational Sciences,,,,Statistics and Data Science,STATDS,Statistics and Data Science - Bachelor of Science,STATDS,27.0503,Spring 2021
+College of Social and Behavior Science,SBS,,,American Indian Studies Prog,,American Indian Studies,AIS,American Indian Studies - Bachelor of Arts,AIS,5.0202,Fall 2020
+College of Social and Behavior Science,SBS,,,American Indian Studies Prog,,American Indian Studies,AIS,American Indian Studies - Bachelor of Arts,AIS,5.0202,Spring 2021
+College of Social and Behavior Science,SBS,School of Anthropology,,,,Anthropology,ANTH,Anthropology - Bachelor of Arts,ANTH,45.0201,Fall 2020
+College of Social and Behavior Science,SBS,School of Anthropology,,,,Anthropology,ANTH,Anthropology - Bachelor of Arts,ANTH,45.0201,Spring 2021
+College of Social and Behavior Science,SBS,School of Anthropology,,,,Anthropology,ANTH,Anthropology - Bachelor of Science: Archeological Science Emphasis,ARS,45.0201,Fall 2020
+College of Social and Behavior Science,SBS,School of Anthropology,,,,Anthropology,ANTH,Anthropology - Bachelor of Science: Archeological Science Emphasis,ARS,45.0201,Spring 2021
+College of Social and Behavior Science,SBS,School of Anthropology,,,,Anthropology,ANTH,Anthropology - Bachelor of Science: Human Biology Emphasis,HBI,45.0201,Fall 2020
+College of Social and Behavior Science,SBS,School of Anthropology,,,,Anthropology,ANTH,Anthropology - Bachelor of Science: Human Biology Emphasis,HBI,45.0201,Spring 2021
+College of Social and Behavior Science,SBS,School of Middle Eastern And North African Studies,,,,Arabic,ARB,Arabic - Bachelor of Arts,ARB,16.1101,Fall 2020
+College of Social and Behavior Science,SBS,School of Middle Eastern And North African Studies,,,,Arabic,ARB,Arabic - Bachelor of Arts,ARB,16.1101,Spring 2021
+College of Social and Behavior Science,SBS,School of Sociology,,,,"Care, Health and Society",CHS,"Care, Health and Society - Bachelor of Science",CHS,51.1504,Fall 2020
+College of Social and Behavior Science,SBS,School of Sociology,,,,"Care, Health and Society",CHS,"Care, Health and Society - Bachelor of Science",CHS,51.1504,Spring 2021
+College of Social and Behavior Science,SBS,,,Communication,,Communication,COMM,Communication - Bachelor of Arts,COMM,9.0101,Fall 2020
+College of Social and Behavior Science,SBS,,,Communication,,Communication,COMM,Communication - Bachelor of Arts,COMM,9.0101,Spring 2021
+College of Social and Behavior Science,SBS,,,English,,Creative Writing,CRTV,Creative Writing - Bachelor of Arts,CRTV,23.1302,Fall 2020
+College of Social and Behavior Science,SBS,,,English,,Creative Writing,CRTV,Creative Writing - Bachelor of Arts,CRTV,23.1302,Spring 2021
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Criminal Justice Studies,CJS,Criminal Justice Studies - Bachelor of Science,CJS,43.0301,Fall 2020
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Criminal Justice Studies,CJS,Criminal Justice Studies - Bachelor of Science,CJS,43.0301,Spring 2021
+College of Social and Behavior Science,SBS,,,English,,English,ENGL,English - Bachelor of Arts,ENGL,23.0101,Fall 2020
+College of Social and Behavior Science,SBS,,,English,,English,ENGL,English - Bachelor of Arts,ENGL,23.0101,Spring 2021
+College of Social and Behavior Science,SBS,School of Geography And Development,,,,Environmental Studies,EVS,Environmental Studies - Bachelor of Arts,EVS,3.0103,Fall 2020
+College of Social and Behavior Science,SBS,School of Geography And Development,,,,Environmental Studies,EVS,Environmental Studies - Bachelor of Arts,EVS,3.0103,Spring 2021
+College of Social and Behavior Science,SBS,,,Social & Behavioral Sci Admin,,Food Studies,FOOD,Food Studies - Bachelor of Arts,FOOD,19.0599,Fall 2020
+College of Social and Behavior Science,SBS,,,Social & Behavioral Sci Admin,,Food Studies,FOOD,Food Studies - Bachelor of Arts,FOOD,19.0599,Spring 2021
+College of Social and Behavior Science,SBS,,,Gender and Womens Studies,,Gender and Women's Studies,GWS,Gender and Women's Studies - Bachelor of Arts: Chicana / Latina Studies Emphasis,CHL,5.0207,Fall 2020
+College of Social and Behavior Science,SBS,,,Gender and Womens Studies,,Gender and Women's Studies,GWS,Gender and Women's Studies - Bachelor of Arts: Chicana / Latina Studies Emphasis,CHL,5.0207,Spring 2021
+College of Social and Behavior Science,SBS,,,Gender and Womens Studies,,Gender and Women's Studies,GWS,Gender and Women's Studies - Bachelor of Arts: General Track,GENGWS,5.0207,Fall 2020
+College of Social and Behavior Science,SBS,,,Gender and Womens Studies,,Gender and Women's Studies,GWS,Gender and Women's Studies - Bachelor of Arts: General Track,GENGWS,5.0207,Spring 2021
+College of Social and Behavior Science,SBS,,,Gender and Womens Studies,,Gender and Women's Studies,GWS,"Gender and Women's Studies - Bachelor of Arts: Queer, Trans&Sexuality Studies",QTSS,5.0207,Fall 2020
+College of Social and Behavior Science,SBS,,,Gender and Womens Studies,,Gender and Women's Studies,GWS,"Gender and Women's Studies - Bachelor of Arts: Queer, Trans&Sexuality Studies",QTSS,5.0207,Spring 2021
+College of Social and Behavior Science,SBS,School of Geography And Development,,,,Geographic Information Systems Technology,GIST,Geographic Information Systems Technology - Bachelor of Science,GIST,45.0701,Fall 2020
+College of Social and Behavior Science,SBS,School of Geography And Development,,,,Geographic Information Systems Technology,GIST,Geographic Information Systems Technology - Bachelor of Science,GIST,45.0701,Spring 2021
+College of Social and Behavior Science,SBS,School of Geography And Development,,,,Geography,GEOG,Geography - Bachelor of Arts,GEOG,45.0701,Fall 2020
+College of Social and Behavior Science,SBS,School of Geography And Development,,,,Geography,GEOG,Geography - Bachelor of Arts,GEOG,45.0701,Spring 2021
+College of Social and Behavior Science,SBS,School of Geography And Development,,,,Geography,GEOG,Geography - Bachelor of Science: Geographic Information Science Emphasis,GIS,45.0701,Fall 2020
+College of Social and Behavior Science,SBS,School of Geography And Development,,,,Geography,GEOG,Geography - Bachelor of Science: Geographic Information Science Emphasis,GIS,45.0701,Spring 2021
+College of Social and Behavior Science,SBS,School of Geography And Development,,,,Geography,GEOG,Geography - Bachelor of Science: Physical Geography Emphasis,PHG,45.0701,Fall 2020
+College of Social and Behavior Science,SBS,School of Geography And Development,,,,Geography,GEOG,Geography - Bachelor of Science: Physical Geography Emphasis,PHG,45.0701,Spring 2021
+College of Social and Behavior Science,SBS,School of Geography And Development,,,,Geography,GEOG,"Geography - Bachelor of Science: Water, Environment & Society Emphasis",WES,45.0701,Fall 2020
+College of Social and Behavior Science,SBS,School of Geography And Development,,,,Geography,GEOG,"Geography - Bachelor of Science: Water, Environment & Society Emphasis",WES,45.0701,Spring 2021
+College of Social and Behavior Science,SBS,,,,,Global Studies,GLST,"Global Studies - Bachelor of Arts: Global Cultures - Literature, Arts, and Film Emphasis",GLCLAF,30.2001,Fall 2020
+College of Social and Behavior Science,SBS,,,,,Global Studies,GLST,"Global Studies - Bachelor of Arts: Global Cultures - Literature, Arts, and Film Emphasis",GLCLAF,30.2001,Spring 2021
+College of Social and Behavior Science,SBS,,,,,Global Studies,GLST,Global Studies - Bachelor of Arts: Global Health and Development Emphasis,GHLTHD,30.2001,Fall 2020
+College of Social and Behavior Science,SBS,,,,,Global Studies,GLST,Global Studies - Bachelor of Arts: Global Health and Development Emphasis,GHLTHD,30.2001,Spring 2021
+College of Social and Behavior Science,SBS,,,,,Global Studies,GLST,Global Studies - Bachelor of Arts: Global Political Economy and Institutions Emphasis,GLPEI,30.2001,Fall 2020
+College of Social and Behavior Science,SBS,,,,,Global Studies,GLST,Global Studies - Bachelor of Arts: Global Political Economy and Institutions Emphasis,GLPEI,30.2001,Spring 2021
+College of Social and Behavior Science,SBS,,,,,Global Studies,GLST,"Global Studies - Bachelor of Arts: Human Rights, Migrations, and Social Movement Emphasis",GLHRMS,30.2001,Fall 2020
+College of Social and Behavior Science,SBS,,,,,Global Studies,GLST,"Global Studies - Bachelor of Arts: Human Rights, Migrations, and Social Movement Emphasis",GLHRMS,30.2001,Spring 2021
+College of Social and Behavior Science,SBS,,,History,,History,HIST,History - Bachelor of Arts,HIST,54.0101,Fall 2020
+College of Social and Behavior Science,SBS,,,History,,History,HIST,History - Bachelor of Arts,HIST,54.0101,Spring 2021
+College of Social and Behavior Science,SBS,School of Information,,,,Information Science and Arts,ISEC,Information Science & eSociety - Bachelor of Arts,ISEC,11.0801,Fall 2020
+College of Social and Behavior Science,SBS,School of Information,,,,Information Science and Arts,ISEC,Information Science & eSociety - Bachelor of Arts,ISEC,11.0801,Spring 2021
+College of Social and Behavior Science,SBS,School of Information,,,,Information Science and Arts,ISA,Information Science and Arts - Bachelor of Arts,ISA,11.0101,Fall 2020
+College of Social and Behavior Science,SBS,School of Information,,,,Information Science and Arts,ISA,Information Science and Arts - Bachelor of Arts,ISA,11.0101,Spring 2021
+College of Social and Behavior Science,SBS,School of Information,,,,Information Science and Arts,IST,Information Science and Technology - Bachelor of Science,IST,11.0101,Fall 2020
+College of Social and Behavior Science,SBS,School of Information,,,,Information Science and Arts,IST,Information Science and Technology - Bachelor of Science,IST,11.0101,Spring 2021
+College of Social and Behavior Science,SBS,School of Journalism,,Journalism,,Journalism,JOUR,Journalism - Bachelor of Arts: Broadcast Journalism Emphasis,BRDCST,9.0401,Fall 2020
+College of Social and Behavior Science,SBS,School of Journalism,,Journalism,,Journalism,JOUR,Journalism - Bachelor of Arts: Broadcast Journalism Emphasis,BRDCST,9.0401,Spring 2021
+College of Social and Behavior Science,SBS,School of Journalism,,Journalism,,Journalism,JOUR,Journalism - Bachelor of Arts: Digital Journalism Emphasis,DIGITAL,9.0401,Fall 2020
+College of Social and Behavior Science,SBS,School of Journalism,,Journalism,,Journalism,JOUR,Journalism - Bachelor of Arts: Digital Journalism Emphasis,DIGITAL,9.0401,Spring 2021
+College of Social and Behavior Science,SBS,School of Journalism,,Journalism,,Journalism,JOUR,Journalism - Bachelor of Arts: General Journalism Emphasis,GNRAL,9.0401,Fall 2020
+College of Social and Behavior Science,SBS,School of Journalism,,Journalism,,Journalism,JOUR,Journalism - Bachelor of Arts: General Journalism Emphasis,GNRAL,9.0401,Spring 2021
+College of Social and Behavior Science,SBS,School of Journalism,,Journalism,,Journalism,JOUR,Journalism - Bachelor of Arts: Global Journalism Emphasis,GLBL,9.0401,Fall 2020
+College of Social and Behavior Science,SBS,School of Journalism,,Journalism,,Journalism,JOUR,Journalism - Bachelor of Arts: Global Journalism Emphasis,GLBL,9.0401,Spring 2021
+College of Social and Behavior Science,SBS,,,AZ Center for Judaic Studies,,Judaic Studies,JUS,Judaic Studies - Bachelor of Arts,JUS,38.0206,Fall 2020
+College of Social and Behavior Science,SBS,,,AZ Center for Judaic Studies,,Judaic Studies,JUS,Judaic Studies - Bachelor of Arts,JUS,38.0206,Spring 2021
+College of Social and Behavior Science,SBS,,,Latin American Area Center,,Latin American Studies,LAS,Latin American Studies - Bachelor of Arts,LAS,5.0107,Fall 2020
+College of Social and Behavior Science,SBS,,,Latin American Area Center,,Latin American Studies,LAS,Latin American Studies - Bachelor of Arts,LAS,5.0107,Spring 2021
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Law,LAW,Law - Bachelor of Arts,LAW,22.9999,Fall 2020
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Law,LAW,Law - Bachelor of Arts,LAW,22.9999,Spring 2021
+College of Social and Behavior Science,SBS,,,,,Linguistics,LING,Linguistics - Bachelor of Arts: Academic / Professional Linguistics Emphasis,APLI,16.0102,Fall 2020
+College of Social and Behavior Science,SBS,,,,,Linguistics,LING,Linguistics - Bachelor of Arts: Academic / Professional Linguistics Emphasis,APLI,16.0102,Spring 2021
+College of Social and Behavior Science,SBS,,,,,Linguistics,LING,Linguistics - Bachelor of Arts: General Linguistics Emphasis,GELE,16.0102,Fall 2020
+College of Social and Behavior Science,SBS,,,,,Linguistics,LING,Linguistics - Bachelor of Arts: General Linguistics Emphasis,GELE,16.0102,Spring 2021
+College of Social and Behavior Science,SBS,,,,,Linguistics,LING,Linguistics - Bachelor of Arts: Linguistics & Languages Emphasis,LILA,16.0102,Fall 2020
+College of Social and Behavior Science,SBS,,,,,Linguistics,LING,Linguistics - Bachelor of Arts: Linguistics & Languages Emphasis,LILA,16.0102,Spring 2021
+College of Social and Behavior Science,SBS,,,Mexican American Studies,,Mexican American Studies,MAS,Mexican American Studies - Bachelor of Arts,MAS,5.0203,Fall 2020
+College of Social and Behavior Science,SBS,,,Mexican American Studies,,Mexican American Studies,MAS,Mexican American Studies - Bachelor of Arts,MAS,5.0203,Spring 2021
+College of Social and Behavior Science,SBS,School of Middle Eastern And North African Studies,,,,Middle Eastern and North African Studies,MENAS,Middle Eastern and North African Studies - Bachelor of Arts,MENAS,5.0108,Fall 2020
+College of Social and Behavior Science,SBS,School of Middle Eastern And North African Studies,,,,Middle Eastern and North African Studies,MENAS,Middle Eastern and North African Studies - Bachelor of Arts,MENAS,5.0108,Spring 2021
+College of Social and Behavior Science,SBS,,,Philosophy,,Philosophy,PHIL,Philosophy - Bachelor of Arts: Ethics Emphasis,ETHICS,38.0101,Fall 2020
+College of Social and Behavior Science,SBS,,,Philosophy,,Philosophy,PHIL,Philosophy - Bachelor of Arts: Ethics Emphasis,ETHICS,38.0101,Spring 2021
+College of Social and Behavior Science,SBS,,,Philosophy,,Philosophy,PHIL,Philosophy - Bachelor of Arts: General Emphasis,PHILGEN,38.0101,Fall 2020
+College of Social and Behavior Science,SBS,,,Philosophy,,Philosophy,PHIL,Philosophy - Bachelor of Arts: General Emphasis,PHILGEN,38.0101,Spring 2021
+College of Social and Behavior Science,SBS,,,Political Economy & Moral Sci,,"Philosophy, Politics, Economics and Law",PPEL,"Philosophy, Politics, Economics and Law - BA",PPEL,38.0199,Fall 2020
+College of Social and Behavior Science,SBS,,,Political Economy & Moral Sci,,"Philosophy, Politics, Economics and Law",PPEL,"Philosophy, Politics, Economics and Law - BA",PPEL,38.0199,Spring 2021
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Political Science,POL,Political Science - Bachelor of Arts: American Politics Emphasis,AMPOL,45.1001,Fall 2020
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Political Science,POL,Political Science - Bachelor of Arts: American Politics Emphasis,AMPOL,45.1001,Spring 2021
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Political Science,POL,Political Science - Bachelor of Arts: Comparative Politics Emphasis,COMPOL,45.1001,Fall 2020
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Political Science,POL,Political Science - Bachelor of Arts: Comparative Politics Emphasis,COMPOL,45.1001,Spring 2021
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Political Science,POL,Political Science - Bachelor of Arts: Foreign Affairs Emphasis,FORAF,45.1001,Fall 2020
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Political Science,POL,Political Science - Bachelor of Arts: Foreign Affairs Emphasis,FORAF,45.1001,Spring 2021
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Political Science,POL,Political Science - Bachelor of Arts: General Track Emphasis,GNRL,45.1001,Fall 2020
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Political Science,POL,Political Science - Bachelor of Arts: General Track Emphasis,GNRL,45.1001,Spring 2021
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Political Science,POL,Political Science - Bachelor of Arts: Ideas and Methods Emphasis,IDMET,45.1001,Fall 2020
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Political Science,POL,Political Science - Bachelor of Arts: Ideas and Methods Emphasis,IDMET,45.1001,Spring 2021
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Political Science,POL,Political Science - Bachelor of Arts: International Relations Emphasis,INTREL,45.1001,Fall 2020
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Political Science,POL,Political Science - Bachelor of Arts: International Relations Emphasis,INTREL,45.1001,Spring 2021
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Political Science,POL,Political Science - Bachelor of Arts: Law and Public Policy Emphasis,LPP,45.1001,Fall 2020
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Political Science,POL,Political Science - Bachelor of Arts: Law and Public Policy Emphasis,LPP,45.1001,Spring 2021
+College of Social and Behavior Science,SBS,,,English,,Professional & Technical Writing,PTW,Professional & Technical Writing - Bachelor of Artis,PTW,23.1303,Fall 2020
+College of Social and Behavior Science,SBS,,,English,,Professional & Technical Writing,PTW,Professional & Technical Writing - Bachelor of Artis,PTW,23.1303,Spring 2021
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Public Management and Policy,PMPC,Public Management and Policy - Bachelor of Science,PMPC,44.0401,Fall 2020
+College of Social and Behavior Science,SBS,School of Government And Public Policy,SGPP,,,Public Management and Policy,PMPC,Public Management and Policy - Bachelor of Science,PMPC,44.0401,Spring 2021
+College of Social and Behavior Science,SBS,School of Sociology,,,,Sociology,SOC,Sociology - Bachelor of Arts,SOC,45.1101,Fall 2020
+College of Social and Behavior Science,SBS,School of Sociology,,,,Sociology,SOC,Sociology - Bachelor of Arts,SOC,45.1101,Spring 2021
+College of Social and Behavior Science,SBS,School of Geography And Development,,,,Urban & Regional Development,UREG,Urban & Regional Development - Bachelor of Science,UREG,4.0301,Fall 2020
+College of Social and Behavior Science,SBS,School of Geography And Development,,,,Urban & Regional Development,UREG,Urban & Regional Development - Bachelor of Science,UREG,4.0301,Spring 2021
+Eller College of Management,ELLER,School of Accountancy,,School of Accountancy,,Accounting,ACCT,Accounting - BS in Business Admin,ACCT,52.0301,Fall 2020
+Eller College of Management,ELLER,School of Accountancy,,School of Accountancy,,Accounting,ACCT,Accounting - BS in Business Admin,ACCT,52.0301,Spring 2021
+Eller College of Management,ELLER,,,Eller Administration,,Business Administration,BNAD,Business Administration - BS in Business Admin,BNAD,52.0201,Fall 2020
+Eller College of Management,ELLER,,,Eller Administration,,Business Administration,BNAD,Business Administration - BS in Business Admin,BNAD,52.0201,Spring 2021
+Eller College of Management,ELLER,,,Economics,,Business Economics,BNEC,Business Economics - BS in Business Admin,BNEC,52.0601,Fall 2020
+Eller College of Management,ELLER,,,Economics,,Business Economics,BNEC,Business Economics - BS in Business Admin,BNEC,52.0601,Spring 2021
+Eller College of Management,ELLER,,,Management and Organizations,,Business Management,BMGT,Business Management - BS in Business Admin,BMGT,52.1001,Fall 2020
+Eller College of Management,ELLER,,,Management and Organizations,,Business Management,BMGT,Business Management - BS in Business Admin,BMGT,52.1001,Spring 2021
+Eller College of Management,ELLER,,,Economics,,Economics,ECON,Economics - Bachelor of Arts,ECON,45.0601,Fall 2020
+Eller College of Management,ELLER,,,Economics,,Economics,ECON,Economics - Bachelor of Arts,ECON,45.0601,Spring 2021
+Eller College of Management,ELLER,,,Eller College of Management,,Entrepreneurship,ENTR,Entrepreneurship - BS in Business Admin,ENTR,52.0701,Fall 2020
+Eller College of Management,ELLER,,,Eller College of Management,,Entrepreneurship,ENTR,Entrepreneurship - BS in Business Admin,ENTR,52.0701,Spring 2021
+Eller College of Management,ELLER,,,Finance,,Finance,FIN,Finance - BS in Business Admin,FIN,52.0801,Fall 2020
+Eller College of Management,ELLER,,,Finance,,Finance,FIN,Finance - BS in Business Admin,FIN,52.0801,Spring 2021
+Eller College of Management,ELLER,,,Management Information Systems,,Management Info Systems,MIS,Management Info Systems - BS in Business Admin,MIS,52.1201,Fall 2020
+Eller College of Management,ELLER,,,Management Information Systems,,Management Info Systems,MIS,Management Info Systems - BS in Business Admin,MIS,52.1201,Spring 2021
+Eller College of Management,ELLER,,,Marketing,,Marketing,MKTG,Marketing - BS in Business Admin,MKTG,52.1401,Fall 2020
+Eller College of Management,ELLER,,,Marketing,,Marketing,MKTG,Marketing - BS in Business Admin,MKTG,52.1401,Spring 2021
+Eller College of Management,ELLER,,,Management Information Systems,,Operations Management,OPER,Operations Management - BS in Business Admin,OPER,52.0205,Fall 2020
+Eller College of Management,ELLER,,,Management Information Systems,,Operations Management,OPER,Operations Management - BS in Business Admin,OPER,52.0205,Spring 2021
+James C Wyant Coll Optical Sci,OPTI,,,James C Wyant Coll Optical Sci,,Optical Sciences & Engineering,OSE,Optical Sciences & Engineering - BS in Optical Sciences & Engr: Optical Materials Track,OSE,40.0807,Fall 2020
+James C Wyant Coll Optical Sci,OPTI,,,James C Wyant Coll Optical Sci,,Optical Sciences & Engineering,OSE,Optical Sciences & Engineering - BS in Optical Sciences & Engr: Optical Materials Track,OSE,40.0807,Spring 2021
+James C Wyant Coll Optical Sci,OPTI,,,James C Wyant Coll Optical Sci,,Optical Sciences & Engineering,OSE,Optical Sciences & Engineering - BS in Optical Sciences & Engr: Optical Mechanics Track,OSE,40.0807,Fall 2020
+James C Wyant Coll Optical Sci,OPTI,,,James C Wyant Coll Optical Sci,,Optical Sciences & Engineering,OSE,Optical Sciences & Engineering - BS in Optical Sciences & Engr: Optical Mechanics Track,OSE,40.0807,Spring 2021
+James C Wyant Coll Optical Sci,OPTI,,,James C Wyant Coll Optical Sci,,Optical Sciences & Engineering,OSE,Optical Sciences & Engineering - BS in Optical Sciences & Engr: Optics Track,OSE,40.0807,Fall 2020
+James C Wyant Coll Optical Sci,OPTI,,,James C Wyant Coll Optical Sci,,Optical Sciences & Engineering,OSE,Optical Sciences & Engineering - BS in Optical Sciences & Engr: Optics Track,OSE,40.0807,Spring 2021
+James C Wyant Coll Optical Sci,OPTI,,,James C Wyant Coll Optical Sci,,Optical Sciences & Engineering,OSE,Optical Sciences & Engineering - BS in Optical Sciences & Engr: Opto-Electronics Track,OSE,40.0807,Fall 2020
+James C Wyant Coll Optical Sci,OPTI,,,James C Wyant Coll Optical Sci,,Optical Sciences & Engineering,OSE,Optical Sciences & Engineering - BS in Optical Sciences & Engr: Opto-Electronics Track,OSE,40.0807,Spring 2021
