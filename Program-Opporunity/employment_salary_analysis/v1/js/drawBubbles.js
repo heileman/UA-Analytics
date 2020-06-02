@@ -44,7 +44,10 @@ const drawChartBubbles = (selection, chartBubbleData) => {
         .style("top", d3.event.pageY + "px");
     })
     .on("mouseout", function (d) {
-      d3.select(this).style("cursor", "default").style("opacity", 0.8).style("stroke-width", 1);
+      d3.select(this)
+        .style("cursor", "default")
+        .style("opacity", 0.8)
+        .style("stroke-width", 1);
       tooltip.transition().duration(500).style("opacity", 0);
     })
     .transition()
@@ -130,7 +133,8 @@ const tooltipHTML = (d) => {
   program = "";
   enrollment = "<br/>Enrollment: " + d.size;
   demand = "<br/>Weighted Average Salary: $" + d.averageSalary.toFixed(1);
-  percentage = "<br/>Average Number of Employees: " + d.averageNumEmployee.toFixed(0);
+  percentage =
+    "<br/>Average Number of Employees: " + d.averageNumEmployee.toFixed(0);
 
   if (d.level == "university") {
     program = "University: " + d.university;

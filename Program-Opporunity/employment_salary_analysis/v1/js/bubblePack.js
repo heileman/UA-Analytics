@@ -5,7 +5,7 @@ const margin = {
   top: 20,
   right: 20,
   bottom: 20,
-  left: 20
+  left: 20,
 };
 const container = document.querySelector("#bubble").getBoundingClientRect();
 
@@ -53,6 +53,9 @@ const colorScale = d3
     "James E Rogers College of Law",
     "Letters Arts & Sci Division",
     "Vice Provost Acad Affrs Div",
+    "Job with less good median salary and empolyment - don’t' have",
+    "Job with good median salary and empolyment - don’t' have",
+    "Job with good median salary and empolyment - have",
   ])
   .range([
     "#002147",
@@ -78,6 +81,9 @@ const colorScale = d3
     "#800080",
     "#000000",
     "#001540",
+    "#ffffff",
+    "#ff0000",
+    "#00ff00",
   ]);
 
 // the scaler for the circle size and enrollments
@@ -87,11 +93,10 @@ const sizeScale = d3
   .domain(padExtent([0, 50000]))
   .range(padExtent([5, 130]));
 
-let xScale = null
-let yScale = null
+let xScale = null;
+let yScale = null;
 
-getScales()
-
+getScales();
 
 // the end arrows of x and y axes
 const defs = view
@@ -269,7 +274,7 @@ function circleClicked(d) {
     chartBubbleData.splice(chartBubbleData.indexOf(d), 1);
     chartBubbleData = chartBubbleData.concat(children);
 
-    bubbleChartRescale()
+    bubbleChartRescale();
   }
 }
 
@@ -280,7 +285,7 @@ function splitedCircleClicked(d) {
   // drawChartBubbles(view, chartBubbleData);
   splitedBubbleData.splice(splitedBubbleData.indexOf(d), 1);
   drawSplitedBubbles(splited, splitedBubbleData);
-  bubbleChartRescale()
+  bubbleChartRescale();
 }
 
 function bubbleChartRescale() {
@@ -309,14 +314,13 @@ function deleteChildern(d) {
   }
 }
 
-
 function getScales() {
   const {
     salary_min,
     salary_max,
     employment_min,
-    employment_max
-  } = findMinMax()
+    employment_max,
+  } = findMinMax();
 
   xScale = d3
     .scaleLinear()
@@ -334,14 +338,18 @@ function findMinMax() {
     salary_max: chartBubbleData[0].averageSalary,
     employment_min: chartBubbleData[0].averageNumEmployee,
     employment_max: chartBubbleData[0].averageNumEmployee,
-  }
+  };
   for (element of chartBubbleData) {
     const salary = element.averageSalary;
     const employee = element.averageNumEmployee;
-    optimas.salary_max = salary > optimas.salary_max ? salary : optimas.salary_max;
-    optimas.salary_min = salary < optimas.salary_min ? salary : optimas.salary_min;
-    optimas.employment_max = employee > optimas.employment_max ? employee : optimas.employment_max;
-    optimas.employment_min = employee < optimas.employment_min ? employee : optimas.employment_min;
+    optimas.salary_max =
+      salary > optimas.salary_max ? salary : optimas.salary_max;
+    optimas.salary_min =
+      salary < optimas.salary_min ? salary : optimas.salary_min;
+    optimas.employment_max =
+      employee > optimas.employment_max ? employee : optimas.employment_max;
+    optimas.employment_min =
+      employee < optimas.employment_min ? employee : optimas.employment_min;
   }
   return optimas;
 }

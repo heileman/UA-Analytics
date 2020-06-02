@@ -280,28 +280,28 @@ Major in Art and Visual Culture Education,,48220,19800,0.085
 Major in Art and Visual Culture Education,,69530,118900,0.085
 Major in Studio Art,,48220,19800,0.085
 Major in Studio Art,,69530,118900,0.085
-Master of Fine Arts in Dance,,36379.2,13900,0
+Master of Fine Arts in Dance,,36379,13900,0
 Master of Fine Arts in Dance,,46330,7200,-0.02
-Major in Dance,,36379.2,13900,0
+Major in Dance,,36379,13900,0
 Major in Dance,,46330,7200,-0.02
 Doctor of Musical Arts in Music,,51670,64700,0
-Doctor of Musical Arts in Music,,63211.2,187600,0
+Doctor of Musical Arts in Music,,63211,187600,0
 Doctor of Musical Arts in Music,,48220,19800,64500
-Doctor of Musical Arts in Music,,42494.4,64500,0
+Doctor of Musical Arts in Music,,42494,64500,0
 Doctor of Philosophy in Music,,51670,64700,0
-Doctor of Philosophy in Music,,63211.2,187600,0
+Doctor of Philosophy in Music,,63211,187600,0
 Doctor of Philosophy in Music,,48220,19800,64500
-Doctor of Philosophy in Music,,42494.4,64500,0
+Doctor of Philosophy in Music,,42494,64500,0
 Master of Music in Music,,51670,64700,0
-Master of Music in Music,,63211.2,187600,0
+Master of Music in Music,,63211,187600,0
 Master of Music in Music,,48220,19800,64500
-Master of Music in Music,,42494.4,64500,0
+Master of Music in Music,,42494,64500,0
 Major in Music Education,,51670,64700,0
-Major in Music Education,,63211.2,187600,0
+Major in Music Education,,63211,187600,0
 Major in Music Education,,48220,19800,64500
-Major in Music Education,,42494.4,64500,0
-Major in Performance,,36379.2,13900,0
-Major in Performance,,63211.2,187600,0
+Major in Music Education,,42494,64500,0
+Major in Performance,,36379,13900,0
+Major in Performance,,63211,187600,0
 Doctor of Philosophy in Health Behavior Health Promotion,,46240,40360,0.11
 Doctor of Philosophy in Health Behavior Health Promotion,,834000,61700,0.11
 Applied Behavior Analysis,,46240,40360,0.11
@@ -495,11 +495,11 @@ Doctor of Philosophy in Electrical and Computer Engineering,,98530,191900,0.05
 Major in Mining Engineering,,91160,5900,0.025
 Master of Arts in Art History,,63680,3300,0.05
 Major in Art History,,63680,3300,0.05
-Master of Fine Arts in Theatre Arts,,42494.4,64500,0
+Master of Fine Arts in Theatre Arts,,42494,64500,0
 Major in Film and Television,,55160,29400,0.05
-Major in Musical Theatre,,42494.4,64500,0
-Major in Theatre Arts,,42494.4,64500,0
-Major in Theatre Production,,42494.4,64500,0
+Major in Musical Theatre,,42494,64500,0
+Major in Theatre Arts,,42494,64500,0
+Major in Theatre Production,,42494,64500,0
 Doctor of Philosophy in Art History & Education,,69530,118900,0.085
 Museum Studies,,44430,14400,0.085
 Master of Fine Arts in Art,,50550,28600,0
@@ -687,7 +687,7 @@ Professional Science Masters in Applied Nutrition,,70900,61270,0.11
 Instructional Design and Technology,,66290,181600,0.05
 Master of Science in Educational Technology,,66290,181600,0.05
 Major in Applied Science,,0,0,0
-"Major in Literacy, Learning and Leadership",,87004.28822,171050,0.085
+"Major in Literacy, Learning and Leadership",,87004,171050,0.085
 Advanced Transportation Engineering,,87060,326800,0.05
 Master of Engineering,,0,0,0
 Master of Science in Electrical and Computer Engineering,,98530,191900,0.05
@@ -696,10 +696,10 @@ Mine Production and Information Technology,,91160,5900,0.025
 Mineral Processing and Extractive Metallurgy,,91160,5900,0.025
 Rock Mechanics,,91160,5900,0.025
 Systems Engineering,,98530,191900,0.05
-Master of Arts in Second Language Learning and Educational Technology,,70071.41001,87233.33333,0.05
+Master of Arts in Second Language Learning and Educational Technology,,70071,87233,0.05
 Master of Arts in Human Rights Practice,,69050,319900,0.05
 Major in Communication,,72850,55700,0.085
-Teaching English as a Second or Foreign Language,,70071.41001,87233.33333,0.05
+Teaching English as a Second or Foreign Language,,70071,87233,0.05
 Major in Philosophy,,75240,31700,0.085
 Professional Geographic Information Systems Technology,,88550,412800,0.085
 Master of Science in Geographic Information Systems Technology,,88550,412800,0.085
@@ -708,17 +708,41 @@ International Security Studies,,99730,112300,0.05
 Master of Arts in International Security,,99730,112300,0.05
 Digital Information Management,,59500,134800,0.05
 Instruction and Teaching for Librarians and Information Professionals,,59500,134800,0.05
-Medical and Community Health Information,,77103.6953,227766.6667,0.11
+Medical and Community Health Information,,77103,227766,0.11
 "Major in Care, Health and Society",,74100,98000,0.05
 Master of Science in Entrepreneurship,,0,0,0
 Enterprise Information Security,,99730,112300,0.11
 Master of Science in Management Information Systems,,85260,876300,0.11
 Masters in Healthcare Management,,100980,406100,0.11
 Sports Management,,85260,876300,0.11
-Accounting,,71741.72868,740450,0.05
+Accounting,,71741,740450,0.05
 Master of Science in Optical Sciences,,99040,157800,0.05
 Master of Legal Studies,,122960,823900,0.05
 Master of Medical Studies,,0,0,0
 Major in Medicine,,206500,433700,0.085
 Master of Science in Clinical Translational Science,,129100,63500,0.05
 Master of Education in Secondary Education,,0,0,0
+Solar photovoltaic installers,,"44890","9700",0.63
+Wind Turbine Technicians,,"52910","6600",0.57
+Home Health Aides and Personal Care Aides,,"24060","3253000",0.36
+Occupational Therapy Assistants and Aides,,"59200","51700",0.31
+Physician Assistants,,"112260","118800",0.31
+Mathematicians and Statisticians/Data Science,,"92030","47300",0.3
+Speech-Language Pathologists,,"79120","153700",0.27
+Physical Therapist Assistants and Aides,,"48990","148200",0.26
+Genetic Counselors,,"81880","3000",0.27
+Fire Inspectors,,"60230","15200",0.08
+Postsecondary Teachers,,"79540","1350700",0.11
+Phlebotomists,,"35510","128300",0.23
+Medical Assistants,,"34800","686600",0.23
+Information Security Analysts,,99730,112300,0.32
+"Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners",,115800,240700,0.26
+Operations Research Analysts,,84810,109700,0.26
+Software Developers,,105590,1365500,0.21
+Petroleum Engineers,,"137720","33500",0.03
+Art Directors,,"94220","101000",0.01
+Industrial Designers,,"68890","43900",0.03
+Multimedia Artists and Animators,,"75270","71600",0.04
+Probation Officers and Correctional Treatment Specialists,,"54290","91600",0.03
+Dentists,,"159200","155000",0.07
+Sales Engineers,,103900,"66700",0.06
