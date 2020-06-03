@@ -187,7 +187,6 @@ gY = svg.append("g").attr("class", "axis axis--y").call(yAxis);
 //     size: textLocations.size,
 //   },
 // ];
-
 const drawAxes = (selection, axes, texts) => {
   const twoAxes = selection.selectAll("line").data(axes, (d) => d.id);
   twoAxes
@@ -296,6 +295,7 @@ function bubbleChartRescale() {
     gY.transition().duration(100).call(yAxis.scale(yScale));
   }
   drawChartBubbles(view, chartBubbleData);
+  drawSquares(view, potentialProgramData);
 }
 
 // helper functions
