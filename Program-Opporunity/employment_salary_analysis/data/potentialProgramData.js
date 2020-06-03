@@ -248,7 +248,7 @@ var potentialProgramData = [
     color: "white",
   },
   {
-    Job: "PRINTER-FRIENDLY Print",
+    Job: "Petroleum engineering",
     degreeRequired: "Bachelor's",
     medianSalary: 137720,
     numberEmployee: 33500,
