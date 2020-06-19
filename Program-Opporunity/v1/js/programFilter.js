@@ -59,21 +59,6 @@ function isVisible(program) {
   return true;
 }
 
-function handleCheckBoxOnChange(e) {
-  const id = e.id.replace("-checkbox", "");
-
-  if (e.checked) {
-    document.getElementById(id).style.visibility = "visible";
-    const index = hiddenObjects.indexOf(id);
-    if (index > -1) {
-      hiddenObjects.splice(index, 1);
-    }
-  } else {
-    document.getElementById(id).style.visibility = "hidden";
-    hiddenObjects.push(id);
-  }
-}
-
 function constructCheckBoxID(id) {
   return id + "-checkbox";
 }

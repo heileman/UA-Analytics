@@ -18,20 +18,20 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row justify-content-center">
+      <div class="bubble-chart row justify-content-center">
         <!-- Popped Bubbles -->
         <div class="popped-bubbles-section col col-md-2">
           <h2><span class="badge badge-default">Popped Bubbles</span></h2>
-          <div id="splited"></div>
+          <div id="popped-bubbles"></div>
         </div>
-        <!-- Quad Chart -->
+        <!-- Chart Bubbles -->
         <div class="col col-md-8 mx-auto">
           <h2>
             <span class="quad-chart badge badge-default">Quad Chart</span>
           </h2>
           <div class="row">
             <span class="y-label">Jobs</span>
-            <div id="bubble"></div>
+            <div id="chart-bubbles"></div>
             <!-- <div class="col col-md-10">
 
             </div> -->
@@ -51,15 +51,16 @@
         </div>
 
         <!-- Filters -->
-
         <div class="program-filters col col-md-2">
+          <!-- Potential Jobs Filters -->
           <div class="potential-programs-section">
+            <!-- Potential Jobs Filter Buttons -->
             <div class="buttons">
               <button
                 type="button"
                 class="btn btn-success btn-sm"
                 id="green"
-                onclick="greenButtonOnClick()"
+                onclick="handleColoredPotentialButtonOnClick('green')"
               >
                 Show Green Potential Jobs
               </button>
@@ -67,7 +68,7 @@
                 type="button"
                 class="btn btn-danger btn-sm"
                 id="red"
-                onclick="redButtonOnClick()"
+                onclick="handleColoredPotentialButtonOnClick('red')"
               >
                 Show Red Potential Jobs
               </button>
@@ -75,7 +76,7 @@
                 type="button"
                 class="btn btn-light btn-sm"
                 id="white"
-                onclick="whiteButtonOnClick()"
+                onclick="handleColoredPotentialButtonOnClick('white')"
               >
                 Show White Potential Jobs
               </button>
@@ -83,13 +84,13 @@
                 type="button"
                 class="btn btn-dark btn-sm"
                 id="all"
-                onclick="buttonOnClick()"
+                onclick="handleShowAllPotentialButtonOnClick()"
               >
                 Show All Potential Jobs
               </button>
             </div>
 
-            <!-- Potential Programs Info -->
+            <!-- Potential Jobs Filter Info -->
             <div id="click-before-splited">
               Please split the bubble first
             </div>
@@ -115,6 +116,8 @@
               </div>
             </div>
           </div>
+
+          <!-- University Programs Checkbox Filters -->
           <div class="existing-program-filters" id="existing-program-filters">
             <div class="university-programs-filter-button">
               <button class="btn" onclick="handleFilterButtonOnClick(this)">
@@ -126,14 +129,34 @@
         </div>
       </div>
     </div>
-    <script src="./js/filterButtonHanlder.js"></script>
+
+    <!-- D3.js Library -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="../data/data.js"></script>
-    <script src="../data/potentialProgramData.js"></script>
-    <script src="./js/programFilter.js"></script>
-    <script src="./js/drawBubbles.js"></script>
+
+    <!-- Data -->
+    <script src="./js/data/data.js"></script>
+    <script src="./js/data/potentialProgramData.js"></script>
+
+    <!-- Helper Functions -->
+    <script src="./js/bubbleChartHelpers.js"></script>
+    <script src="./js/potentialProgramButtonHelpers.js"></script>
+
+    <!-- Event Handlers -->
+    <script src="./js/handlers.js"></script>
+
+    <!-- Tooltip -->
+    <script src="./js/tooltips.js"></script>
+    <script src="./js/scales.js"></script>
+
+    <!-- Draw SVG Elements -->
+    <script src="./js/drawChartBubbles.js"></script>
+    <script src="./js/drawPoppedBubbles.js"></script>
     <script src="./js/drawPotential.js"></script>
-    <script src="./js/bubblePack.js"></script>
-    <script src="./js/potentialOnClickHandler.js"></script>
+
+    <!-- Program Filters -->
+    <script src="./js/programFilter.js"></script>
+
+    <!-- Index -->
+    <script src="./js/index.js"></script>
   </body>
 </html>

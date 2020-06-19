@@ -10,16 +10,15 @@
 }
 
 .x-label {
-  /* float: right; */
   position: absolute;
   right: 0;
   bottom: 0;
 }
 
 svg,
-#bubble {
+#chart-bubbles {
   width: 100%;
-  height: 88vh;
+  height: 86vh;
 }
 
 div.tooltip {
@@ -52,13 +51,6 @@ h4 {
 
 input[type="range"] {
   width: 80%;
-}
-
-.program-filters {
-  /* margin-top: 65px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; */
 }
 
 .potential-programs-section {
@@ -104,7 +96,6 @@ input[type="range"] {
   transition-property: right;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
-  /* transition: width 2s; */
 }
 
 .university-programs-filter-button {
@@ -151,8 +142,3 @@ input[type="range"] {
   margin-bottom: -12px;
   border-top: solid 0.01px white;
 }
-
-/* .small-gap {
-  margin-top: -18px !important;
-  margin-bottom: -20px !important;
-} */
