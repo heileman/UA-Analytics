@@ -16,14 +16,14 @@
 			// .select('.sankey-chart')
 			// .width($(window).width())
 			// .height($(window).height())
-			.xFormat({siPrefixed:true,separateThousands:false,units:{before:"$"},precision:4});
+			.xFormat({siPrefixed:true,separateThousands:false,units:{before:""},precision:7});
 
 		data = {
 						labels:{source:"Institutions",destination:" "},
-						columnHeaders:["Term 1","Term 2","Term 3"],
+						columnHeaders:["2017","2018","2019"],
 
 						nodes:[
-							//Term 1
+							// 2017
 							{id:0,name:"Univ. of Arizona",shortName:"Univ. of Arizona",colorKey:"Univ. of Arizona"},
 							{id:1,name:"Arizona Western",shortName:"Arizona Western",colorKey:"Arizona Western"},
 							{id:2,name:"Central Arizona",shortName:"Central Arizona",colorKey:"Central Arizona"},
@@ -38,7 +38,7 @@
 							{id:11,name:"Tohono O'odham",shortName:"Tohono O'odham",colorKey:"Tohono O'odham"},
 							{id:12,name:"Yavapai",shortName:"Yavapai",colorKey:"Yavapai"},
 
-							//Term 2
+							// 2018
 							{id:13,name:"Univ. of Arizona",shortName:"Univ. of Arizona",colorKey:"Univ. of Arizona"},
 							{id:14,name:"Arizona Western",shortName:"Arizona Western",colorKey:"Arizona Western"},
 							{id:15,name:"Central Arizona",shortName:"Central Arizona",colorKey:"Central Arizona"},
@@ -53,7 +53,7 @@
 							{id:24,name:"Tohono O'odham",shortName:"Tohono O'odham",colorKey:"Tohono O'odham"},
 							{id:25,name:"Yavapai",shortName:"Yavapai",colorKey:"Yavapai"},
 
-							//Term 3
+							// 2019
 							{id:26,name:"Univ. of Arizona",shortName:"Univ. of Arizona",colorKey:"Univ. of Arizona"},
 							{id:27,name:"Arizona Western",shortName:"Arizona Western",colorKey:"Arizona Western"},
 							{id:28,name:"Central Arizona",shortName:"Central Arizona",colorKey:"Central Arizona"},
@@ -67,11 +67,10 @@
 							{id:36,name:"Pima",shortName:"Pima",colorKey:"Pima"},
 							{id:37,name:"Tohono O'odham",shortName:"Tohono O'odham",colorKey:"Tohono O'odham"},
 							{id:38,name:"Yavapai",shortName:"Yavapai",colorKey:"Yavapai"},
-							
 						],
 
 						links:[
-							//Term 1 -> Term 2
+							//Term 1 -> Term 2 (TO UA)
 							{source:1, target:13, value:34, colorBy:"source"},
 							{source:2, target:13, value:22, colorBy:"source"},
 							{source:3, target:13, value:82, colorBy:"source"},
@@ -85,6 +84,7 @@
 							{source:11, target:13, value:1, colorBy:"source"},
 							{source:12, target:13, value:20, colorBy:"source"},
 
+							// Term 1 -> Term 2 (FROM UA)
 							{source:0, target:13, value:34, colorBy:"source"},
 							{source:0, target:14, value:22, colorBy:"source"},
 							{source:0, target:15, value:82, colorBy:"source"},
@@ -99,7 +99,7 @@
 							{source:0, target:24, value:20, colorBy:"source"},
 							{source:0, target:25, value:20, colorBy:"source"},
 
-							//Term 2 -> Term 3
+							//Term 2 -> Term 3 (TO UA)
 							{source:13, target:26, value:400, colorBy:"source"},
 							{source:14, target:26, value:22, colorBy:"source"},
 							{source:15, target:26, value:82, colorBy:"source"},
@@ -113,6 +113,20 @@
 							{source:23, target:26, value:1, colorBy:"source"},
 							{source:24, target:26, value:20, colorBy:"source"},
 							{source:25, target:26, value:20, colorBy:"source"},
+
+							// Term 2 -> Term 3 (FROM UA)
+							{source:13, target:27, value:82, colorBy:"source"},
+							{source:13, target:28, value:5, colorBy:"source"},
+							{source:13, target:29, value:2, colorBy:"source"},
+							{source:13, target:30, value:11, colorBy:"source"},
+							{source:13, target:31, value:225, colorBy:"source"},
+							{source:13, target:32, value:1, colorBy:"source"},
+							{source:13, target:33, value:4, colorBy:"source"},
+							{source:13, target:34, value:843, colorBy:"source"},
+							{source:13, target:35, value:1, colorBy:"source"},
+							{source:13, target:36, value:20, colorBy:"source"},
+							{source:13, target:37, value:20, colorBy:"source"},
+							{source:13, target:38, value:20, colorBy:"source"},
 
 						]
 				};
