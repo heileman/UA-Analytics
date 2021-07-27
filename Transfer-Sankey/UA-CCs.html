@@ -6,289 +6,144 @@
 <script src="./ad.min.js"></script>
 <link rel="stylesheet" type="text/css" href="./ad.css" />
 <script>
-    $(document).ready(function() {
+	$(document).ready(function(){
 
-        var sankeyChart = new AD.CHARTS.sankeyChart();
+		var sankeyChart = new AD.CHARTS.sankeyChart();
 
-        sankeyChart
-            .nodePadding(20)
-            .layout(0)
-            // .select('.sankey-chart')
-            // .width($(window).width())
-            // .height($(window).height())
-            .xFormat({
-                siPrefixed: true,
-                separateThousands: false,
-                units: {
-                    before: "$"
-                },
-                precision: 4
-            });
+		sankeyChart
+			.nodePadding(20)
+			.layout(0)
+			// .select('.sankey-chart')
+			// .width($(window).width())
+			// .height($(window).height())
+			.xFormat({siPrefixed:true,separateThousands:false,units:{before:"$"},precision:4});
 
-        data = {
-            labels: {
-                source: "Income = $2.58B ",
-                destination: "Expenditures = $2.58B"
-            },
-            columnHeaders: ["Source of Funds", "Use of Funds"],
+		data = {
+						labels:{source:"Institutions",destination:" "},
+						columnHeaders:["Term 1","Term 2","Term 3"],
 
-            nodes: [
-                //Term 1
-                {
-                    id: 0,
-                    name: "Univ. of Arizona",
-                    shortName: "Univ. of Arizona",
-                    colorKey: "Univ. of Arizona"
-                }, {
-                    id: 1,
-                    name: "Arizona Western",
-                    shortName: "Arizona Western",
-                    colorKey: "Arizona Western"
-                }, {
-                    id: 2,
-                    name: "Central Arizona",
-                    shortName: "Central Arizona",
-                    colorKey: "Central Arizona"
-                }, {
-                    id: 3,
-                    name: "Cochise",
-                    shortName: "Cochise",
-                    colorKey: "Cochise"
-                }, {
-                    id: 4,
-                    name: "Coconino",
-                    shortName: "Coconino",
-                    colorKey: "Coconino"
-                }, {
-                    id: 5,
-                    name: "Dine",
-                    shortName: "Dine",
-                    colorKey: "Dine"
-                }, {
-                    id: 6,
-                    name: "Eastern",
-                    shortName: "Eastern",
-                    colorKey: "Eastern"
-                }, {
-                    id: 7,
-                    name: "Maricopa",
-                    shortName: "Maricopa",
-                    colorKey: "Maricopa"
-                }, {
-                    id: 8,
-                    name: "Mohave",
-                    shortName: "Mohave",
-                    colorKey: "Mohave"
-                }, {
-                    id: 9,
-                    name: "Northland Pioneer",
-                    shortName: "Northland Pioneer",
-                    colorKey: "Northland Pioneer"
-                }, {
-                    id: 10,
-                    name: "Pima",
-                    shortName: "Pima",
-                    colorKey: "Pima"
-                }, {
-                    id: 11,
-                    name: "Tohono O'odham",
-                    shortName: "Tohono O'odham",
-                    colorKey: "Tohono O'odham"
-                }, {
-                    id: 12,
-                    name: "Yavapai",
-                    shortName: "Yavapai",
-                    colorKey: "Yavapai"
-                },
+						nodes:[
+							//Term 1
+							{id:0,name:"Univ. of Arizona",shortName:"Univ. of Arizona",colorKey:"Univ. of Arizona"},
+							{id:1,name:"Arizona Western",shortName:"Arizona Western",colorKey:"Arizona Western"},
+							{id:2,name:"Central Arizona",shortName:"Central Arizona",colorKey:"Central Arizona"},
+							{id:3,name:"Cochise",shortName:"Cochise",colorKey:"Cochise"},
+							{id:4,name:"Coconino",shortName:"Coconino",colorKey:"Coconino"},
+							{id:5,name:"Dine",shortName:"Dine",colorKey:"Dine"},
+							{id:6,name:"Eastern",shortName:"Eastern",colorKey:"Eastern"},
+							{id:7,name:"Maricopa",shortName:"Maricopa",colorKey:"Maricopa"},
+							{id:8,name:"Mohave",shortName:"Mohave",colorKey:"Mohave"},
+							{id:9,name:"Northland Pioneer",shortName:"Northland Pioneer",colorKey:"Northland Pioneer"},
+							{id:10,name:"Pima",shortName:"Pima",colorKey:"Pima"},
+							{id:11,name:"Tohono O'odham",shortName:"Tohono O'odham",colorKey:"Tohono O'odham"},
+							{id:12,name:"Yavapai",shortName:"Yavapai",colorKey:"Yavapai"},
 
-                //Term 2
-                {
-                    id: 13,
-                    name: "Univ. of Arizona",
-                    shortName: "Univ. of Arizona",
-                    colorKey: "Univ. of Arizona"
-                }, {
-                    id: 14,
-                    name: "Arizona Western",
-                    shortName: "Arizona Western",
-                    colorKey: "Arizona Western"
-                }, {
-                    id: 15,
-                    name: "Central Arizona",
-                    shortName: "Central Arizona",
-                    colorKey: "Central Arizona"
-                }, {
-                    id: 16,
-                    name: "Cochise",
-                    shortName: "Cochise",
-                    colorKey: "Cochise"
-                }, {
-                    id: 17,
-                    name: "Coconino",
-                    shortName: "Coconino",
-                    colorKey: "Coconino"
-                }, {
-                    id: 18,
-                    name: "Dine",
-                    shortName: "Dine",
-                    colorKey: "Dine"
-                }, {
-                    id: 19,
-                    name: "Eastern",
-                    shortName: "Eastern",
-                    colorKey: "Eastern"
-                }, {
-                    id: 20,
-                    name: "Maricopa",
-                    shortName: "Maricopa",
-                    colorKey: "Maricopa"
-                }, {
-                    id: 21,
-                    name: "Mohave",
-                    shortName: "Mohave",
-                    colorKey: "Mohave"
-                }, {
-                    id: 22,
-                    name: "Northland Pioneer",
-                    shortName: "Northland Pioneer",
-                    colorKey: "Northland Pioneer"
-                }, {
-                    id: 23,
-                    name: "Pima",
-                    shortName: "Pima",
-                    colorKey: "Pima"
-                }, {
-                    id: 24,
-                    name: "Tohono O'odham",
-                    shortName: "Tohono O'odham",
-                    colorKey: "Tohono O'odham"
-                }, {
-                    id: 25,
-                    name: "Yavapai",
-                    shortName: "Yavapai",
-                    colorKey: "Yavapai"
-                },
+							//Term 2
+							{id:13,name:"Univ. of Arizona",shortName:"Univ. of Arizona",colorKey:"Univ. of Arizona"},
+							{id:14,name:"Arizona Western",shortName:"Arizona Western",colorKey:"Arizona Western"},
+							{id:15,name:"Central Arizona",shortName:"Central Arizona",colorKey:"Central Arizona"},
+							{id:16,name:"Cochise",shortName:"Cochise",colorKey:"Cochise"},
+							{id:17,name:"Coconino",shortName:"Coconino",colorKey:"Coconino"},
+							{id:18,name:"Dine",shortName:"Dine",colorKey:"Dine"},
+							{id:19,name:"Eastern",shortName:"Eastern",colorKey:"Eastern"},
+							{id:20,name:"Maricopa",shortName:"Maricopa",colorKey:"Maricopa"},
+							{id:21,name:"Mohave",shortName:"Mohave",colorKey:"Mohave"},
+							{id:22,name:"Northland Pioneer",shortName:"Northland Pioneer",colorKey:"Northland Pioneer"},
+							{id:23,name:"Pima",shortName:"Pima",colorKey:"Pima"},
+							{id:24,name:"Tohono O'odham",shortName:"Tohono O'odham",colorKey:"Tohono O'odham"},
+							{id:25,name:"Yavapai",shortName:"Yavapai",colorKey:"Yavapai"},
 
-            ],
+							//Term 3
+							{id:26,name:"Univ. of Arizona",shortName:"Univ. of Arizona",colorKey:"Univ. of Arizona"},
+							{id:27,name:"Arizona Western",shortName:"Arizona Western",colorKey:"Arizona Western"},
+							{id:28,name:"Central Arizona",shortName:"Central Arizona",colorKey:"Central Arizona"},
+							{id:29,name:"Cochise",shortName:"Cochise",colorKey:"Cochise"},
+							{id:30,name:"Coconino",shortName:"Coconino",colorKey:"Coconino"},
+							{id:31,name:"Dine",shortName:"Dine",colorKey:"Dine"},
+							{id:32,name:"Eastern",shortName:"Eastern",colorKey:"Eastern"},
+							{id:33,name:"Maricopa",shortName:"Maricopa",colorKey:"Maricopa"},
+							{id:34,name:"Mohave",shortName:"Mohave",colorKey:"Mohave"},
+							{id:35,name:"Northland Pioneer",shortName:"Northland Pioneer",colorKey:"Northland Pioneer"},
+							{id:36,name:"Pima",shortName:"Pima",colorKey:"Pima"},
+							{id:37,name:"Tohono O'odham",shortName:"Tohono O'odham",colorKey:"Tohono O'odham"},
+							{id:38,name:"Yavapai",shortName:"Yavapai",colorKey:"Yavapai"},
+							
+						],
 
-            links: [
-                //Term 1
-                {
-                    source: 1,
-                    target: 13,
-                    value: 34,
-                    colorBy: "source"
-                }, {
-                    source: 2,
-                    target: 13,
-                    value: 22,
-                    colorBy: "source"
-                }, {
-                    source: 3,
-                    target: 13,
-                    value: 82,
-                    colorBy: "source"
-                }, {
-                    source: 4,
-                    target: 13,
-                    value: 5,
-                    colorBy: "source"
-                }, {
-                    source: 5,
-                    target: 13,
-                    value: 2,
-                    colorBy: "source"
-                }, {
-                    source: 6,
-                    target: 13,
-                    value: 11,
-                    colorBy: "source"
-                }, {
-                    source: 7,
-                    target: 13,
-                    value: 225,
-                    colorBy: "source"
-                }, {
-                    source: 8,
-                    target: 13,
-                    value: 1,
-                    colorBy: "source"
-                }, {
-                    source: 9,
-                    target: 13,
-                    value: 4,
-                    colorBy: "source"
-                }, {
-                    source: 10,
-                    target: 13,
-                    value: 843,
-                    colorBy: "source"
-                }, {
-                    source: 11,
-                    target: 13,
-                    value: 1,
-                    colorBy: "source"
-                }, {
-                    source: 12,
-                    target: 13,
-                    value: 20,
-                    colorBy: "source"
-                },
+						links:[
+							//Term 1 -> Term 2
+							{source:1, target:13, value:34, colorBy:"source"},
+							{source:2, target:13, value:22, colorBy:"source"},
+							{source:3, target:13, value:82, colorBy:"source"},
+							{source:4, target:13, value:5, colorBy:"source"},
+							{source:5, target:13, value:2, colorBy:"source"},
+							{source:6, target:13, value:11, colorBy:"source"},
+							{source:7, target:13, value:225, colorBy:"source"},
+							{source:8, target:13, value:1, colorBy:"source"},
+							{source:9, target:13, value:4, colorBy:"source"},
+							{source:10, target:13, value:843, colorBy:"source"},
+							{source:11, target:13, value:1, colorBy:"source"},
+							{source:12, target:13, value:20, colorBy:"source"},
 
-                //Term 2
+							//Term 2 -> Term 3
+							{source:13, target:26, value:400, colorBy:"source"},
+							{source:14, target:26, value:22, colorBy:"source"},
+							{source:15, target:26, value:82, colorBy:"source"},
+							{source:16, target:26, value:5, colorBy:"source"},
+							{source:17, target:26, value:2, colorBy:"source"},
+							{source:18, target:26, value:11, colorBy:"source"},
+							{source:19, target:26, value:225, colorBy:"source"},
+							{source:20, target:26, value:1, colorBy:"source"},
+							{source:21, target:26, value:4, colorBy:"source"},
+							{source:22, target:26, value:843, colorBy:"source"},
+							{source:23, target:26, value:1, colorBy:"source"},
+							{source:24, target:26, value:20, colorBy:"source"},
+							{source:25, target:26, value:20, colorBy:"source"},
 
-            ]
-        };
+						]
+				};
 
-        var chartLayoutData = {
-            chartLayout: {
-                title: "University of Arizona - Transfer Flows"
-            },
-            // chartData:{data:data}
-        }
-        sankeyChart.data({
-            data: data
-        })
-        var chartLayout = new AD.UTILS.CHARTPAGE.chartLayout();
+		var chartLayoutData = {
+			chartLayout:{
+				title:"University of Arizona - Transfer Flows"
+			},
+			// chartData:{data:data}
+		}
+		sankeyChart.data({data:data})
+		var chartLayout = new AD.UTILS.CHARTPAGE.chartLayout();
 
-        chartLayout
-            .select('.sankey-chart')
-            //.width($(window).width())
-            // .height($(window).height())
-            .height(1000)
-            .width(1500)
-            .data({
-                data: chartLayoutData
-            })
-            .chart(sankeyChart);
+		chartLayout
+			.select('.sankey-chart')
+			//.width($(window).width())
+			// .height($(window).height())
+			.height(1000)
+			.width(1500)
+			.data({data:chartLayoutData})
+			.chart(sankeyChart);
 
 
-        chartLayout.update();
+		chartLayout.update();
 
-        // $(window).resize(function(){
-        // 	chartLayout.height($(window).height()).width($(window).width()).update();
-        // });
+		// $(window).resize(function(){
+		// 	chartLayout.height($(window).height()).width($(window).width()).update();
+		// });
 
-    })
+	})
 </script>
 <style>
-    .ad-general-tooltip {
-        /*display:none !important;*/
-    }
-    
-    .tab {
-        margin-left: 40px;
-    }
+	.ad-general-tooltip{
+		/*display:none !important;*/
+	}
+	.tab { margin-left: 40px; }
 </style>
 
 <body style='margin:0px;'>
-    <div class='sankey-chart'></div>
-    <div>
-        <p class="tab">
-            Note: Data presented is a budgeted funds flow representation of university sources and uses and does not reflect Comprehensive Annual Financial Report (CAFR)
-        </p>
-    </div>
+<div class = 'sankey-chart'></div>
+<div>
+<p class="tab">
+	Note: Data presented is a budgeted funds flow representation of university sources and uses and does not reflect Comprehensive Annual Financial Report (CAFR)
+</p>
+</div>
 
 </body>
-
 </html>
