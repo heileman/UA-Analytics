@@ -1,0 +1,50 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[tworuled, vlined, linesnumbered]{algorithm2e}
+\usepackage[crop=pdfcrop,process=all,cleanup={.tex,.dvi,.ps,.pdf,.log}]{pstool}
+\usepackage{enumitem}
+
+\usepackage{amsthm}
+\theoremstyle{definition}% upright text, extra space above and below
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{example}{Example}[section]
+\newtheorem{lemma}{Lemma}[section]
+
+
+%----------------------------------------------------------------------------------------
+\title{Program Opportunities at the University of Arizona}
+\author{ }
+
+\date{} 
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\maketitle
+\section{Introduction}
+
+\subsection{Projecting Program Demand}
+In order to project program demand, we used data made available through the U.S. Department of Labor's ONET website (\url{https://www.onetonline.org/}), where 
+national and state-level wage and employment data and trends are provided.  This information is available according to the Classification of Instructional Programs (CIP) taxonomy.  For a given CIP code $x$, 
+
+For the current demand associated with program $x$, denoted $\Alpha(x)$, we used 2018 ONET data
+
+$w(x)$ is the median annual wage for graduates from CIP $x$, and $n(x)$ is the number of people employed in this area in 2018.
+
+For the bubble chart, we need the projected demand and the number of enrolled students in the x and y axis, respectively. The projected demand data can be collected from ONET (https://www.onetonline.org/). The CIP taxonomy is organized on two levels: 1) the first two-digit series, 2) the four-digit series. The first two-digit series represent the most general groupings of related programs. The four-digit series represent intermediate groupings of programs that have comparable content and objectives. For example, the CIP code for the Computer Programmers is: 15-1131.00., where the digits ?15? represents ENGINEERING TECHNOLOGIES/TECHNICIANS, the last six digits ?1131.00 represents program for the Computer Programmers. Based on the CIP code, the projected demand data for any program can be collected from ONET. Say,
+the median/mean wages= W,
+the number of employments=N,
+projected growth over the years in percentage = i.
+We need to put all the information into the projectile demand formulation. Missing any of the values can be problematic in getting the true information for the projectile demand. For that, we come up with the following formulation. 
+The current demand, CD=W*N,
+The future demand  FD=(1+i)*W*N,
+ The projectile demand, PD=FD-CD=i*W*N.
+In this evaluation metrics, we include all the needed details to form the proper demand criteria. 
+For example, we can consider the CIP code: 15-1131.00, which is for the Computer Programmers. From ONET, we get the following value: current median wage, W= $84290, current employment, N=250000 and the projected growth over the years in percentage, i=-2%.Thus, projectile demand, PD=0.98*84290*250000= $2.065*10^10
+
+ 
+ \end{document}
